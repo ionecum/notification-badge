@@ -1,0 +1,1 @@
+The Django project is just a Demo, it does not use a database. The notification_filtered.json will be the json file from which Vue will consume the data from the Django endpoints using axios.
