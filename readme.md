@@ -1,0 +1,1 @@
+This project aims to become a Vue reactive notification Facebook like badge. It is under development.
