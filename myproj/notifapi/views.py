@@ -1,5 +1,6 @@
 from django.conf import settings
 from django.http import HttpResponse
+from django.views import View
 from django.shortcuts import render
 import os, json
 
@@ -18,4 +19,9 @@ def process_json(request):
 
 def show_results(request):
     return render(request, "notifapi/demo.html")
+
+
+class SimpleWebSocketTestView(View):
+    def get(self, request, *args, **kwargs):
+        return render(request, 'notifapi/simple_ws_test.html')
 

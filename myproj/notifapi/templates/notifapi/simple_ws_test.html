@@ -1,0 +1,27 @@
+<!-- simple_ws_test.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple WebSocket Test</title>
+</head>
+<body>
+Web Socket simple test
+<script>
+    const socket = new WebSocket('ws://127.0.0.1:8001/websocket/ws/simple/');
+
+    socket.onopen = function(event) {
+        console.log('WebSocket connection opened');
+        socket.send('Hello, WebSocket!');
+    };
+
+    socket.onmessage = function(event) {
+        console.log('Message received: ' + event.data);
+    };
+
+    socket.onclose = function(event) {
+        console.log('WebSocket connection closed');
+    };
+</script>
+</body>
+</html>

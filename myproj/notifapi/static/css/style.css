@@ -1,0 +1,40 @@
+._gray{
+    /*color:#636466 !important;*/
+    color:#5F5F5F;
+}
+
+.fancy-container, .col2{
+    display: none;
+}
+
+a {
+    text-decoration:none;
+}
+
+.my-text {
+    display: block;
+    font-size:smaller;
+}
+
+.my-text-inline {
+    display: inline;
+    font-size:smaller;
+}
+
+.btnLnk { 
+    color:#636466 !important; 
+    opacity:.9
+}
+
+._reduced {
+    font-size:.50em;
+}
+
+
+@media screen and (min-width: 960px) {
+    .fancy-container{
+        display: inline-block;
+        padding: 0 10px;
+        text-align: center;
+    }
+}
