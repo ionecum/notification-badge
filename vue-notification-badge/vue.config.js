@@ -9,8 +9,16 @@ module.exports = defineConfig({
   filenameHashing: false, // Django will hash file names, not webpack
   runtimeCompiler: true,
   devServer: {
+    hot:false,
     devMiddleware: {
       writeToDisk: true, // Write files to disk in dev mode, so Django can serve the assets
+    },
+    proxy: {
+      '/websocket': {
+        target: 'http://127.0.0.1:8001',
+        ws: true,
+        changeOrigin: true
+      }
     }
   },
   configureWebpack: {

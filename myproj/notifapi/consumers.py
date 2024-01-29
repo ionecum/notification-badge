@@ -17,16 +17,31 @@ class SimpleConsumer(AsyncWebsocketConsumer):
 class NotificationConsumer(AsyncWebsocketConsumer):
     async def connect(self):
         # Allow all connections
+        await self.channel_layer.group_add(
+            "public_room",
+            self.channel_name
+        )
         await self.accept()
         # Fetch data from the api
-        url = 'http://127.0.0.1:8000/api/process-json/'
-        response = urllib.request.urlopen(url)
-        data = json.loads(response.read())
-        await self.send(text_data=json.dumps(data))
+        
 
     async def disconnect(self, close_code):
-        pass
+        # Remove the channel from the public_room group when the WebSocket connection is closed
+        await self.channel_layer.group_discard(
+            "public_room",
+            self.channel_name
+        )
+    
+
+    async def send_notification_update(self, event):
+        # Method for handling new notification updates sent by the signal
+        # Send the new notification data to the WebSocket client
+        await self.send(text_data=json.dumps({
+            "type": "notification.update",
+            "message": event["message"]
+        }))
 
     async def receive(self, text_data):
         # Handle incoming messages (if any)
         pass
+
