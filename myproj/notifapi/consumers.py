@@ -1,31 +1,38 @@
 from channels.generic.websocket import AsyncWebsocketConsumer
-from django.http import JsonResponse
-import urllib.request
+from django.apps import apps
+from django.core.serializers import serialize
 import json
-
-class SimpleConsumer(AsyncWebsocketConsumer):
-    async def connect(self):
-        await self.accept()
-
-    async def disconnect(self, close_code):
-        pass
-
-    async def receive(self, text_data):
-        await self.send(text_data=text_data)
-
+import logging
+logger = logging.getLogger(__name__)
 
 class NotificationConsumer(AsyncWebsocketConsumer):
     async def connect(self):
+        print("connect method called") 
         # Allow all connections
-        await self.channel_layer.group_add(
-            "public_room",
-            self.channel_name
-        )
         await self.accept()
-        # Fetch data from the api
+        await self.channel_layer.group_send(
+            "public_room",
+            {
+                "type": "update_notification_count",
+                "event": "notification.update"
+            }
+        )
+    
+    async def update_notification_count(self, event):
+        print("update_notification_count called")  # Check if method is called
+        await self.send(text_data="Notification count updated")
+        notification_count = apps.NotifyModel.objects.all().count()
         
-
+        print(f"Notification count is {notification_count}")
+        # Send the updated count to the WebSocket client
+        await self.send(text_data=json.dumps({
+            "type": "notification.update",
+            "event": "notification.update",
+            "count": notification_count
+    }))
+        
     async def disconnect(self, close_code):
+        print("Consumer disconnected")
         # Remove the channel from the public_room group when the WebSocket connection is closed
         await self.channel_layer.group_discard(
             "public_room",
@@ -36,12 +43,20 @@ class NotificationConsumer(AsyncWebsocketConsumer):
     async def send_notification_update(self, event):
         # Method for handling new notification updates sent by the signal
         # Send the new notification data to the WebSocket client
+        notification_count = apps.NotifyModel.objects.all().count()
+        
+        print(f"Notification count is {notification_count}")
+        
         await self.send(text_data=json.dumps({
             "type": "notification.update",
-            "message": event["message"]
+            "event": "notification.update",
+            "count": notification_count
         }))
 
     async def receive(self, text_data):
         # Handle incoming messages (if any)
-        pass
-
+        print(f"Received event: {text_data}")
+        data = json.loads(text_data)
+        if data['type'] == 'update.notification.count':
+            await self.update_notification_count(data)
+    

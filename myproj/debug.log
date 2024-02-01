@@ -1,0 +1,56 @@
+Watching for file changes with StatReloader
+This is a test error log.
+Watching for file changes with StatReloader
+This is a test error log.
+Watching for file changes with StatReloader
+This is a test error log.
+Watching for file changes with StatReloader
+This is a test error log.
+Consumer connected
+Consumer disconnected
+Consumer connected
+Using proactor: IocpProactor
+Using proactor: IocpProactor
+This is a test error log.
+Using selector: SelectSelector
+Using selector: SelectSelector
+This is a test error log.
+Using selector: SelectSelector
+Using selector: SelectSelector
+This is a test error log.
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+This is a test error log.
+Using selector: SelectSelector
+Consumer disconnected
+Consumer connected
+Consumer disconnected
+Using selector: SelectSelector
+Using selector: SelectSelector
+This is a test error log.
+Using selector: SelectSelector
+Consumer connected
+Consumer disconnected
+Consumer connected
+Consumer disconnected
+Consumer connected
+Consumer disconnected
+Consumer connected
+Consumer disconnected
+Consumer connected
+Consumer disconnected
+Consumer connected
+Consumer disconnected
+Consumer connected
+Consumer disconnected
+Consumer connected
+Consumer disconnected
+Consumer connected
+Consumer disconnected
+Consumer connected
+Consumer disconnected
+Consumer connected
+Received event: {"type":"update.notification.count"}
+Watching for file changes with StatReloader
+This is a test error log.
