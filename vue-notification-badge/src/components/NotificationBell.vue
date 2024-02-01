@@ -34,20 +34,32 @@ export default {
             
             this.webSocket.onopen = () => {
                 console.log('WebSocket connection established!');
+                this.updateNotificationCount();
             };
-        
+            
             this.webSocket.onmessage = (event) => {
-                const newNotification = JSON.parse(event.data);
-                // Update the notification array with the new notification
-                this.notifications.push(newNotification);
-                
-                console.log('Updated Notifications:', this.notifications);
+                console.log("We are inside onmessage")
+                const message = JSON.parse(event.data);
+                if(message.event === 'notification.update'){
+                    this.notifications = Array(message.count).fill({ fields: { is_read: false } });
+                }else{
+                    console.log("Notification count was not updated!")
+                }
+
             };
 
             this.webSocket.onclose = () => {
                 console.log('WebSocket connection closed.');
             // implement reconnect logic if desired
             };
+        },
+        updateNotificationCount() {
+            console.log('updateNotificationCount called!');
+            // Send a message to the WebSocket server to request updated notification count
+            this.webSocket.send(JSON.stringify({
+                "type": "update.notification.count"  // Define a custom type to trigger the count update
+            }));
+
         },
     },
 };
