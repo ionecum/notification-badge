@@ -54,3 +54,47 @@ Consumer connected
 Received event: {"type":"update.notification.count"}
 Watching for file changes with StatReloader
 This is a test error log.
+Consumer disconnected
+Consumer connected
+Received event: {"type":"update.notification.count"}
+Consumer disconnected
+Consumer connected
+Received event: {"type":"update.notification.count"}
+Consumer disconnected
+Consumer connected
+Received event: {"type":"update.notification.count"}
+Consumer disconnected
+Consumer connected
+Received event: {"type":"update.notification.count"}
+Consumer disconnected
+Consumer connected
+Received event: {"type":"update.notification.count"}
+Consumer disconnected
+Watching for file changes with StatReloader
+This is a test error log.
+Consumer connected
+Received event: {"type":"update.notification.count"}
+Consumer disconnected
+Consumer connected
+Received event: {"type":"update.notification.count"}
+Consumer disconnected
+Consumer connected
+Received event: {"type":"update_notification_count"}
+Consumer disconnected
+Consumer connected
+Received event: {"type":"update_notification_count"}
+Consumer disconnected
+Consumer connected
+Received event: {"type":"update.notification.count"}
+Consumer disconnected
+Consumer connected
+Received event: {"type":"update.notification.count"}
+Consumer disconnected
+Watching for file changes with StatReloader
+This is a test error log.
+Consumer connected
+Consumer disconnected
+Consumer connected
+Consumer disconnected
+Consumer connected
+Consumer disconnected
