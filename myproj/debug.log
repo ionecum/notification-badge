@@ -98,3 +98,5 @@ Consumer connected
 Consumer disconnected
 Consumer connected
 Consumer disconnected
+Watching for file changes with StatReloader
+This is a test error log.
