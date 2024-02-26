@@ -4,3 +4,8 @@ uvicorn myproj.asgi:application --port 8001 --reload
 
 In production:
 uvicorn myproj.asgi:application --port 8001 --host 127.0.0.113
+
+To test:
+wscat -c ws://127.0.0.1:8001/websocket/ws/notifications/
+        
+wscat should be installed as npm module
