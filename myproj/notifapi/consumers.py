@@ -4,7 +4,6 @@ from django.core.serializers import serialize
 from asgiref.sync import sync_to_async
 import json
 import logging
-logger = logging.getLogger(__name__)
 
 """
 LESSON TO TAKE HOME:
@@ -14,21 +13,34 @@ module allows to convert synchronous database operations into asynchronous ones,
 class NotificationConsumer(AsyncWebsocketConsumer):
     async def connect(self):
         # Allow all connections
+        await self.channel_layer.group_add("public_room", self.channel_name)
         await self.accept()
         await self.update_notification_count()
 
     
-    async def update_notification_count(self):
-        """
-        Using apps.get_model ensures that we are accessing the model without encountering import issues within the consumer. Importing a model directly within a consumer may result in circular imports, leading to potential issues within the Django Channels application.
-        """
+    async def update_notification_count(self, event=None):
+        print("update_notification_count method called with event:", event)
+        # you can't use a model directly from a consumer
         NotifyModel = apps.get_model('notifapi', 'NotifyModel')
-        notification_count = await sync_to_async(NotifyModel.objects.all().count)()
-        # Send the updated count to the WebSocket client
+        notifications = await sync_to_async(list)(NotifyModel.objects.all().values('is_read'))
+        messages = await sync_to_async(list)(NotifyModel.objects.all().values('message'))
+        # Get the notification count asynchronously using a custom utility method
+        notification_count = len(notifications)
+        
+        
+        #print(f"Notification count is {notification_count}")
+        # Extracting is_read values from notifications
+        is_read_values = [notification['is_read'] for notification in notifications]
+        messages_values = [notification['message'] for notification in messages]
+        #print("Am I here?")
+        print(f"Messages values are: {messages_values}")
         await self.send(text_data=json.dumps({
             "type": "notification.update",
-            "count": notification_count
-    }))
+            "count": notification_count,
+            "is_read_values": is_read_values,
+            "messages_values": messages_values
+        }))
+
         
     async def disconnect(self, close_code):
         print("Consumer disconnected")
@@ -37,27 +49,9 @@ class NotificationConsumer(AsyncWebsocketConsumer):
             "public_room",
             self.channel_name
         )
-    
-    """
-    The following method is necessary because it is called by a signal
-    """
-    async def send_notification_update(self):
-        # Method for handling new notification updates sent by the signal
-        # Send the new notification data to the WebSocket client
-        NotifyModel = apps.get_model('notifapi', 'NotifyModel')
-        notification_count = NotifyModel.objects.all().count()
-        
-        print(f"Notification count is {notification_count}")
-        
-        await self.send(text_data=json.dumps({
-            "type": "notification.update",
-            "count": notification_count
-        }))
 
     async def receive(self, text_data):
         # Handle incoming messages (if any)
-        print(f"Received event: {text_data}")
         data = json.loads(text_data)
         if data['type'] == 'update.notification.count':
-            await self.update_notification_count(data)
-    
+            await self.update_notification_count()

@@ -134,6 +134,10 @@ ASGI_APPLICATION = 'myproj.asgi.application'
 CHANNEL_LAYERS = {
         'default': {
         'BACKEND': 'channels.layers.InMemoryChannelLayer',
+        'CONFIG': {
+            'capacity': 1000,
+            'expiry': 60,
+        },
     }
 }
 

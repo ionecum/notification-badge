@@ -38,10 +38,11 @@ export default {
             };
             
             this.webSocket.onmessage = (event) => {
-                console.log("We are inside onmessage")
+                console.log("Message received:", event.data);
                 const message = JSON.parse(event.data);
-                if(message.event === 'notification.update'){
-                    this.notifications = Array(message.count).fill({ fields: { is_read: false } });
+                console.log("Received type:", message.type);  // Log the type field to identify the message type
+                if(message.type === 'notification.update'){
+                    this.notifications = message.is_read_values.map(is_read => ({ fields: { is_read } }));
                 }else{
                     console.log("Notification count was not updated!")
                 }

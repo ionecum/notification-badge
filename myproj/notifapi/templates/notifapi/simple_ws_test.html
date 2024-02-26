@@ -1,4 +1,3 @@
-<!-- simple_ws_test.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,21 +5,28 @@
     <title>Simple WebSocket Test</title>
 </head>
 <body>
+<div id="notification-counter"></div>
 Web Socket simple test
 <script>
-    const socket = new WebSocket('ws://127.0.0.1:8001/websocket/ws/simple/');
+    const websocket = new WebSocket('ws://127.0.0.1:8001/websocket/ws/notifications/', 'echo-protocol');
 
-    socket.onopen = function(event) {
-        console.log('WebSocket connection opened');
-        socket.send('Hello, WebSocket!');
+    websocket.onmessage = function (event) {
+        const eventData = JSON.parse(event.data);
+        if (eventData.type === 'notification.update') {
+            const notificationCount = eventData.count;
+            const isReadValues = eventData.is_read_values;
+            const messagesValues = eventData.messages_values;
+
+            // Update notification counter display on the front-end
+            document.getElementById('notification-counter').innerText = notificationCount;
+
+            // You can also handle isReadValues and messagesValues as needed
+            // For example, update message lists, styles, etc.
+        }
     };
 
-    socket.onmessage = function(event) {
-        console.log('Message received: ' + event.data);
-    };
-
-    socket.onclose = function(event) {
-        console.log('WebSocket connection closed');
+    websocket.onopen = function (event) {
+        websocket.send(JSON.stringify({ type: 'update.notification.count' }));
     };
 </script>
 </body>
