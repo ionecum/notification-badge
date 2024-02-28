@@ -10,9 +10,16 @@ Web Socket simple test
 <script>
     const websocket = new WebSocket('ws://127.0.0.1:8001/websocket/ws/notifications/', 'echo-protocol');
 
+    websocket.onopen = function (event) {
+        console.log("WebSocket connection established.");
+        websocket.send(JSON.stringify({ type: 'update.notification.count' }));
+    };
+
     websocket.onmessage = function (event) {
         const eventData = JSON.parse(event.data);
+        console.log("Received event data from server:", eventData); // Log the received event data
         if (eventData.type === 'notification.update') {
+            console.log("Hey gays, we are updating the thing!");
             const notificationCount = eventData.count;
             const isReadValues = eventData.is_read_values;
             const messagesValues = eventData.messages_values;
@@ -22,11 +29,17 @@ Web Socket simple test
 
             // You can also handle isReadValues and messagesValues as needed
             // For example, update message lists, styles, etc.
+        }else{
+            console.log("Event data type is another thing of stull: "+eventData.type);
         }
     };
 
-    websocket.onopen = function (event) {
-        websocket.send(JSON.stringify({ type: 'update.notification.count' }));
+    websocket.onerror = function (error) {
+        console.error("WebSocket error:", error);
+    };
+
+    websocket.onclose = function () {
+        console.log("WebSocket connection closed.");
     };
 </script>
 </body>

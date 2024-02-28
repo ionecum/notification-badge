@@ -1,9 +1,9 @@
 from channels.generic.websocket import AsyncWebsocketConsumer
 from django.apps import apps
-from django.core.serializers import serialize
-from asgiref.sync import sync_to_async
+from asgiref.sync import sync_to_async, async_to_sync
 import json
-import logging
+from channels.layers import get_channel_layer
+import asyncio
 
 """
 LESSON TO TAKE HOME:
@@ -55,3 +55,21 @@ class NotificationConsumer(AsyncWebsocketConsumer):
         data = json.loads(text_data)
         if data['type'] == 'update.notification.count':
             await self.update_notification_count()
+
+
+# this function is just for test, but it does not work
+def send_notification_update_to_clients():
+    channel_layer = get_channel_layer()
+    notification_count = 10  # Example notification count
+    is_read_values = [False, True, False]  # Example list of read statuses
+    messages_values = ["New message 1", "New message 2", "New message 3"]  # Example list of messages
+
+    async_to_sync(channel_layer.group_send)(
+        "public_room",
+        {
+            "type": "send.notification.update",
+            "count": notification_count,
+            "is_read_values": is_read_values,
+            "messages_values": messages_values
+        }
+    )

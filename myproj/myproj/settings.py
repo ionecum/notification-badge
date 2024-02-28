@@ -70,8 +70,18 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'myproj.wsgi.application'
+CHANNEL_LAYERS = {
+        'default': {
+        'BACKEND': 'channels.layers.InMemoryChannelLayer',
+        'CONFIG': {
+            'capacity': 1000,
+            'expiry': 60,
+        },
+    }
+}
 
+WSGI_APPLICATION = 'myproj.wsgi.application'
+ASGI_APPLICATION = 'myproj.asgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
@@ -129,17 +139,6 @@ STATICFILES_DIRS = [
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-ASGI_APPLICATION = 'myproj.asgi.application'
-
-CHANNEL_LAYERS = {
-        'default': {
-        'BACKEND': 'channels.layers.InMemoryChannelLayer',
-        'CONFIG': {
-            'capacity': 1000,
-            'expiry': 60,
-        },
-    }
-}
 
 CSP_DEFAULT_SRC = ("'self'",)
 CSP_SCRIPT_SRC = ("'self'",)
