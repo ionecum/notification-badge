@@ -8,7 +8,7 @@
 <div id="notification-counter"></div>
 Web Socket simple test
 <script>
-    const websocket = new WebSocket('ws://127.0.0.1:8001/websocket/ws/notifications/', 'echo-protocol');
+    const websocket = new WebSocket('ws://127.0.0.1:8001/websocket/ws/notifications/');
 
     websocket.onopen = function (event) {
         console.log("WebSocket connection established.");

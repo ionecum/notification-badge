@@ -1,0 +1,1 @@
+This project works equally well using Daphne or using Uvicorn in production. To use it with Redis, you also need to install the channels_redis package.

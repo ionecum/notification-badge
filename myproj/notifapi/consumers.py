@@ -5,11 +5,7 @@ import json
 from channels.layers import get_channel_layer
 import asyncio
 
-"""
-LESSON TO TAKE HOME:
-Asynchronous Context: When working with Django Channels or any asynchronous framework, be mindful of the context in which your code is executing. Synchronous database operations should be handled appropriately within asynchronous code.The sync_to_async utility provided by Django's django.db 
-module allows to convert synchronous database operations into asynchronous ones, enabling smooth integration with asynchronous code.
-"""
+
 class NotificationConsumer(AsyncWebsocketConsumer):
     async def connect(self):
         # Allow all connections
@@ -34,6 +30,7 @@ class NotificationConsumer(AsyncWebsocketConsumer):
         messages_values = [notification['message'] for notification in messages]
         #print("Am I here?")
         print(f"Messages values are: {messages_values}")
+        """ Sends a notification to the client by converting the event data (a dictionary) to a JSON string and sending it as text data through the WebSocket connection. """
         await self.send(text_data=json.dumps({
             "type": "notification.update",
             "count": notification_count,
@@ -53,8 +50,7 @@ class NotificationConsumer(AsyncWebsocketConsumer):
     async def receive(self, text_data):
         # Handle incoming messages (if any)
         data = json.loads(text_data)
-        if data['type'] == 'update.notification.count':
-            await self.update_notification_count()
+        await self.update_notification_count(data)
 
 
 # this function is just for test, but it does not work
@@ -64,7 +60,7 @@ def send_notification_update_to_clients():
     is_read_values = [False, True, False]  # Example list of read statuses
     messages_values = ["New message 1", "New message 2", "New message 3"]  # Example list of messages
 
-    async_to_sync(channel_layer.group_send)(
+    async_to_sync(channel_layer.send)(
         "public_room",
         {
             "type": "send.notification.update",

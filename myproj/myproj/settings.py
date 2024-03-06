@@ -32,6 +32,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'daphne',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -70,7 +71,14 @@ TEMPLATES = [
     },
 ]
 
-CHANNEL_LAYERS = {
+""" CACHES = {
+    'default': {
+        'BACKEND': 'django.core.cache.backends.memcached.PyMemcacheCache',
+        'LOCATION': '127.0.0.1:11211',
+    }
+} """
+
+""" CHANNEL_LAYERS = {
         'default': {
         'BACKEND': 'channels.layers.InMemoryChannelLayer',
         'CONFIG': {
@@ -78,6 +86,37 @@ CHANNEL_LAYERS = {
             'expiry': 60,
         },
     }
+} """
+
+""" CHANNEL_LAYERS = {
+       'default': {
+           'BACKEND': 'channels.layers.DatabaseLayer',
+       },
+   } """
+""" CHANNEL_LAYERS = {
+         'default': {
+             'BACKEND': 'channels_memcached.core.CacheLayer',
+             'LOCATION': '127.0.0.1:11211',  # Memcached server address
+         },
+     },
+} """
+
+""" CHANNEL_LAYERS = {
+    'default': {
+        'BACKEND': 'channels_memurai.core.RedisChannelLayer',
+        'CONFIG': {
+            'hosts': [('127.0.0.1', 6379)],
+        },
+    },
+} """
+
+CHANNEL_LAYERS = {
+    "default": {
+        "BACKEND": "channels_redis.core.RedisChannelLayer",
+        "CONFIG": {
+            "hosts": [("127.0.0.1", 6379)],
+        },
+    },
 }
 
 WSGI_APPLICATION = 'myproj.wsgi.application'

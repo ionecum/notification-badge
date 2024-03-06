@@ -362,3 +362,2143 @@ This is a test error log.
 This is a test error log.
 This is a test error log.
 Using proactor: IocpProactor
+Watching for file changes with StatReloader
+This is a test error log.
+Using proactor: IocpProactor
+Using proactor: IocpProactor
+Using proactor: IocpProactor
+D:\pages_perso\Websites\Practices\python\django\notifications-badge\myproj\notifapi\signals.py changed, reloading.
+Watching for file changes with StatReloader
+This is a test error log.
+Watching for file changes with StatReloader
+This is a test error log.
+Using proactor: IocpProactor
+D:\pages_perso\Websites\Practices\python\django\notifications-badge\myproj\notifapi\signals.py changed, reloading.
+Watching for file changes with StatReloader
+This is a test error log.
+D:\pages_perso\Websites\Practices\python\django\notifications-badge\myproj\notifapi\signals.py changed, reloading.
+Watching for file changes with StatReloader
+This is a test error log.
+Using proactor: IocpProactor
+Watching for file changes with StatReloader
+This is a test error log.
+Not Found: /favicon.ico
+Using proactor: IocpProactor
+Not Found: /favicon.ico
+Using proactor: IocpProactor
+Using proactor: IocpProactor
+D:\pages_perso\Websites\Practices\python\django\notifications-badge\myproj\myproj\settings.py changed, reloading.
+Using selector: SelectSelector
+Watching for file changes with StatReloader
+This is a test error log.
+HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+Configuring endpoint tcp:port=8000:interface=127.0.0.1
+Listening on TCP address 127.0.0.1:8000
+HTTP b'GET' request for ['127.0.0.1', 63082]
+HTTP 200 response started for ['127.0.0.1', 63082]
+HTTP close for ['127.0.0.1', 63082]
+HTTP response complete for ['127.0.0.1', 63082]
+[mHTTP GET /ws/wstest/ 200 [0.02, 127.0.0.1:63082][0m
+HTTP b'GET' request for ['127.0.0.1', 63082]
+HTTP 200 response started for ['127.0.0.1', 63082]
+HTTP close for ['127.0.0.1', 63082]
+HTTP response complete for ['127.0.0.1', 63082]
+[mHTTP GET / 200 [0.00, 127.0.0.1:63082][0m
+HTTP b'GET' request for ['127.0.0.1', 63087]
+HTTP 200 response started for ['127.0.0.1', 63087]
+HTTP response chunk for ['127.0.0.1', 63087]
+HTTP close for ['127.0.0.1', 63087]
+HTTP response complete for ['127.0.0.1', 63087]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js.map 200 [0.33, 127.0.0.1:63087][0m
+Using selector: SelectSelector
+Using selector: SelectSelector
+Watching for file changes with StatReloader
+This is a test error log.
+HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+Configuring endpoint tcp:port=8000:interface=127.0.0.1
+Listening on TCP address 127.0.0.1:8000
+HTTP b'GET' request for ['127.0.0.1', 63096]
+HTTP 200 response started for ['127.0.0.1', 63096]
+HTTP close for ['127.0.0.1', 63096]
+HTTP response complete for ['127.0.0.1', 63096]
+[mHTTP GET / 200 [0.02, 127.0.0.1:63096][0m
+HTTP b'GET' request for ['127.0.0.1', 63099]
+HTTP 304 response started for ['127.0.0.1', 63099]
+HTTP close for ['127.0.0.1', 63099]
+HTTP response complete for ['127.0.0.1', 63099]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/app.js.map 304 [0.00, 127.0.0.1:63099][0m
+HTTP b'GET' request for ['127.0.0.1', 63096]
+HTTP 200 response started for ['127.0.0.1', 63096]
+HTTP close for ['127.0.0.1', 63096]
+HTTP response complete for ['127.0.0.1', 63096]
+[mHTTP GET /ws/wstest/ 200 [0.02, 127.0.0.1:63096][0m
+HTTP b'GET' request for ['127.0.0.1', 63249]
+HTTP 200 response started for ['127.0.0.1', 63249]
+HTTP close for ['127.0.0.1', 63249]
+HTTP response complete for ['127.0.0.1', 63249]
+[mHTTP GET /ws/wstest/ 200 [0.02, 127.0.0.1:63249][0m
+WebSocket HANDSHAKING /websocket/ws/notifications/ [127.0.0.1:63250]
+Upgraded connection ['127.0.0.1', 63250] to WebSocket
+WebSocket ['127.0.0.1', 63250] open and established
+WebSocket CONNECT /websocket/ws/notifications/ [127.0.0.1:63250]
+WebSocket ['127.0.0.1', 63250] accepted by application
+Sent WebSocket packet to client for ['127.0.0.1', 63250]
+WebSocket incoming frame on ['127.0.0.1', 63250]
+Sent WebSocket packet to client for ['127.0.0.1', 63250]
+HTTP b'POST' request for ['127.0.0.1', 63249]
+Sent WebSocket packet to client for ['127.0.0.1', 63250]
+HTTP 302 response started for ['127.0.0.1', 63249]
+HTTP close for ['127.0.0.1', 63249]
+HTTP response complete for ['127.0.0.1', 63249]
+[32mHTTP POST /admin/notifapi/notifymodel/add/ 302 [0.13, 127.0.0.1:63249][0m
+HTTP b'GET' request for ['127.0.0.1', 63249]
+HTTP 200 response started for ['127.0.0.1', 63249]
+HTTP close for ['127.0.0.1', 63249]
+HTTP response complete for ['127.0.0.1', 63249]
+[mHTTP GET /admin/notifapi/notifymodel/add/ 200 [0.13, 127.0.0.1:63249][0m
+HTTP b'GET' request for ['127.0.0.1', 63249]
+HTTP 200 response started for ['127.0.0.1', 63249]
+HTTP close for ['127.0.0.1', 63249]
+HTTP response complete for ['127.0.0.1', 63249]
+[mHTTP GET /admin/jsi18n/ 200 [0.02, 127.0.0.1:63249][0m
+HTTP b'GET' request for ['127.0.0.1', 63249]
+HTTP disconnect for ['127.0.0.1', 63249]
+Not Found: /favicon.ico
+WebSocket closed for ['127.0.0.1', 63250]
+WebSocket DISCONNECT /websocket/ws/notifications/ [127.0.0.1:63250]
+HTTP b'GET' request for ['127.0.0.1', 63252]
+HTTP 200 response started for ['127.0.0.1', 63252]
+HTTP close for ['127.0.0.1', 63252]
+HTTP response complete for ['127.0.0.1', 63252]
+[mHTTP GET /ws/wstest/ 200 [0.00, 127.0.0.1:63252][0m
+WebSocket HANDSHAKING /websocket/ws/notifications/ [127.0.0.1:63253]
+Upgraded connection ['127.0.0.1', 63253] to WebSocket
+WebSocket ['127.0.0.1', 63253] open and established
+WebSocket CONNECT /websocket/ws/notifications/ [127.0.0.1:63253]
+WebSocket ['127.0.0.1', 63253] accepted by application
+Sent WebSocket packet to client for ['127.0.0.1', 63253]
+WebSocket incoming frame on ['127.0.0.1', 63253]
+Sent WebSocket packet to client for ['127.0.0.1', 63253]
+HTTP b'POST' request for ['127.0.0.1', 63252]
+Sent WebSocket packet to client for ['127.0.0.1', 63253]
+HTTP 302 response started for ['127.0.0.1', 63252]
+HTTP close for ['127.0.0.1', 63252]
+HTTP response complete for ['127.0.0.1', 63252]
+[32mHTTP POST /admin/notifapi/notifymodel/add/ 302 [0.09, 127.0.0.1:63252][0m
+HTTP b'GET' request for ['127.0.0.1', 63252]
+HTTP 200 response started for ['127.0.0.1', 63252]
+HTTP close for ['127.0.0.1', 63252]
+HTTP response complete for ['127.0.0.1', 63252]
+[mHTTP GET /admin/notifapi/notifymodel/add/ 200 [0.05, 127.0.0.1:63252][0m
+HTTP b'GET' request for ['127.0.0.1', 63252]
+HTTP 200 response started for ['127.0.0.1', 63252]
+HTTP close for ['127.0.0.1', 63252]
+HTTP response complete for ['127.0.0.1', 63252]
+[mHTTP GET /admin/jsi18n/ 200 [0.00, 127.0.0.1:63252][0m
+WebSocket closed for ['127.0.0.1', 63253]
+WebSocket DISCONNECT /websocket/ws/notifications/ [127.0.0.1:63253]
+HTTP b'GET' request for ['127.0.0.1', 63252]
+HTTP 200 response started for ['127.0.0.1', 63252]
+HTTP close for ['127.0.0.1', 63252]
+HTTP response complete for ['127.0.0.1', 63252]
+[mHTTP GET /ws/wstest/ 200 [0.00, 127.0.0.1:63252][0m
+WebSocket HANDSHAKING /websocket/ws/notifications/ [127.0.0.1:63260]
+Upgraded connection ['127.0.0.1', 63260] to WebSocket
+WebSocket ['127.0.0.1', 63260] open and established
+WebSocket CONNECT /websocket/ws/notifications/ [127.0.0.1:63260]
+WebSocket ['127.0.0.1', 63260] accepted by application
+Sent WebSocket packet to client for ['127.0.0.1', 63260]
+WebSocket incoming frame on ['127.0.0.1', 63260]
+Sent WebSocket packet to client for ['127.0.0.1', 63260]
+WebSocket closed for ['127.0.0.1', 63260]
+WebSocket DISCONNECT /websocket/ws/notifications/ [127.0.0.1:63260]
+HTTP b'GET' request for ['127.0.0.1', 63252]
+HTTP 200 response started for ['127.0.0.1', 63252]
+HTTP close for ['127.0.0.1', 63252]
+HTTP response complete for ['127.0.0.1', 63252]
+[mHTTP GET /ws/wstest/ 200 [0.01, 127.0.0.1:63252][0m
+WebSocket HANDSHAKING /websocket/ws/notifications/ [127.0.0.1:63261]
+Upgraded connection ['127.0.0.1', 63261] to WebSocket
+WebSocket ['127.0.0.1', 63261] open and established
+WebSocket CONNECT /websocket/ws/notifications/ [127.0.0.1:63261]
+WebSocket ['127.0.0.1', 63261] accepted by application
+WebSocket incoming frame on ['127.0.0.1', 63261]
+Sent WebSocket packet to client for ['127.0.0.1', 63261]
+Sent WebSocket packet to client for ['127.0.0.1', 63261]
+HTTP b'POST' request for ['127.0.0.1', 63252]
+HTTP 302 response started for ['127.0.0.1', 63252]
+HTTP close for ['127.0.0.1', 63252]
+HTTP response complete for ['127.0.0.1', 63252]
+[32mHTTP POST /admin/notifapi/notifymodel/add/ 302 [0.10, 127.0.0.1:63252][0m
+Sent WebSocket packet to client for ['127.0.0.1', 63261]
+HTTP b'GET' request for ['127.0.0.1', 63252]
+HTTP 200 response started for ['127.0.0.1', 63252]
+HTTP close for ['127.0.0.1', 63252]
+HTTP response complete for ['127.0.0.1', 63252]
+[mHTTP GET /admin/notifapi/notifymodel/add/ 200 [0.05, 127.0.0.1:63252][0m
+HTTP b'GET' request for ['127.0.0.1', 63252]
+HTTP 200 response started for ['127.0.0.1', 63252]
+HTTP close for ['127.0.0.1', 63252]
+HTTP response complete for ['127.0.0.1', 63252]
+[mHTTP GET /admin/jsi18n/ 200 [0.01, 127.0.0.1:63252][0m
+WebSocket closed for ['127.0.0.1', 63261]
+WebSocket DISCONNECT /websocket/ws/notifications/ [127.0.0.1:63261]
+HTTP b'GET' request for ['127.0.0.1', 63252]
+HTTP 200 response started for ['127.0.0.1', 63252]
+HTTP close for ['127.0.0.1', 63252]
+HTTP response complete for ['127.0.0.1', 63252]
+[mHTTP GET /ws/wstest/ 200 [0.01, 127.0.0.1:63252][0m
+WebSocket HANDSHAKING /websocket/ws/notifications/ [127.0.0.1:63267]
+Upgraded connection ['127.0.0.1', 63267] to WebSocket
+WebSocket ['127.0.0.1', 63267] open and established
+WebSocket CONNECT /websocket/ws/notifications/ [127.0.0.1:63267]
+WebSocket ['127.0.0.1', 63267] accepted by application
+Sent WebSocket packet to client for ['127.0.0.1', 63267]
+WebSocket incoming frame on ['127.0.0.1', 63267]
+Sent WebSocket packet to client for ['127.0.0.1', 63267]
+HTTP b'POST' request for ['127.0.0.1', 63252]
+Sent WebSocket packet to client for ['127.0.0.1', 63267]
+HTTP 302 response started for ['127.0.0.1', 63252]
+HTTP close for ['127.0.0.1', 63252]
+HTTP response complete for ['127.0.0.1', 63252]
+[32mHTTP POST /admin/notifapi/notifymodel/add/ 302 [0.09, 127.0.0.1:63252][0m
+HTTP b'GET' request for ['127.0.0.1', 63252]
+HTTP 200 response started for ['127.0.0.1', 63252]
+HTTP close for ['127.0.0.1', 63252]
+HTTP response complete for ['127.0.0.1', 63252]
+[mHTTP GET /admin/notifapi/notifymodel/add/ 200 [0.05, 127.0.0.1:63252][0m
+HTTP b'GET' request for ['127.0.0.1', 63252]
+HTTP 200 response started for ['127.0.0.1', 63252]
+HTTP close for ['127.0.0.1', 63252]
+HTTP response complete for ['127.0.0.1', 63252]
+[mHTTP GET /admin/jsi18n/ 200 [0.02, 127.0.0.1:63252][0m
+Starting server at tcp:port=8001:interface=127.0.0.1
+HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+Configuring endpoint tcp:port=8001:interface=127.0.0.1
+Listening on TCP address 127.0.0.1:8001
+HTTP b'GET' request for ['127.0.0.1', 63315]
+HTTP 200 response started for ['127.0.0.1', 63315]
+HTTP close for ['127.0.0.1', 63315]
+HTTP response complete for ['127.0.0.1', 63315]
+[mHTTP GET / 200 [0.02, 127.0.0.1:63315][0m
+Upgraded connection ['127.0.0.1', 63316] to WebSocket
+WebSocket ['127.0.0.1', 63316] open and established
+WebSocket ['127.0.0.1', 63316] accepted by application
+Sent WebSocket packet to client for ['127.0.0.1', 63316]
+WebSocket incoming frame on ['127.0.0.1', 63316]
+Sent WebSocket packet to client for ['127.0.0.1', 63316]
+HTTP b'GET' request for ['127.0.0.1', 63317]
+HTTP 304 response started for ['127.0.0.1', 63317]
+HTTP close for ['127.0.0.1', 63317]
+HTTP response complete for ['127.0.0.1', 63317]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/app.js.map 304 [0.00, 127.0.0.1:63317][0m
+HTTP b'POST' request for ['127.0.0.1', 63315]
+HTTP 302 response started for ['127.0.0.1', 63315]
+HTTP close for ['127.0.0.1', 63315]
+HTTP response complete for ['127.0.0.1', 63315]
+[32mHTTP POST /admin/notifapi/notifymodel/add/ 302 [0.19, 127.0.0.1:63315][0m
+Sent WebSocket packet to client for ['127.0.0.1', 63267]
+HTTP b'GET' request for ['127.0.0.1', 63315]
+HTTP 200 response started for ['127.0.0.1', 63315]
+HTTP close for ['127.0.0.1', 63315]
+HTTP response complete for ['127.0.0.1', 63315]
+[mHTTP GET /admin/notifapi/notifymodel/add/ 200 [0.05, 127.0.0.1:63315][0m
+HTTP b'GET' request for ['127.0.0.1', 63315]
+HTTP 200 response started for ['127.0.0.1', 63315]
+HTTP close for ['127.0.0.1', 63315]
+HTTP response complete for ['127.0.0.1', 63315]
+[mHTTP GET /admin/jsi18n/ 200 [0.02, 127.0.0.1:63315][0m
+WebSocket closed for ['127.0.0.1', 63316]
+HTTP b'GET' request for ['127.0.0.1', 63315]
+HTTP 200 response started for ['127.0.0.1', 63315]
+HTTP close for ['127.0.0.1', 63315]
+HTTP response complete for ['127.0.0.1', 63315]
+[mHTTP GET / 200 [0.02, 127.0.0.1:63315][0m
+Upgraded connection ['127.0.0.1', 63321] to WebSocket
+WebSocket ['127.0.0.1', 63321] open and established
+WebSocket ['127.0.0.1', 63321] accepted by application
+Sent WebSocket packet to client for ['127.0.0.1', 63321]
+WebSocket incoming frame on ['127.0.0.1', 63321]
+Sent WebSocket packet to client for ['127.0.0.1', 63321]
+HTTP b'GET' request for ['127.0.0.1', 63317]
+HTTP 304 response started for ['127.0.0.1', 63317]
+HTTP close for ['127.0.0.1', 63317]
+HTTP response complete for ['127.0.0.1', 63317]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/app.js.map 304 [0.00, 127.0.0.1:63317][0m
+WebSocket closed for ['127.0.0.1', 63267]
+WebSocket DISCONNECT /websocket/ws/notifications/ [127.0.0.1:63267]
+HTTP b'GET' request for ['127.0.0.1', 63315]
+HTTP 200 response started for ['127.0.0.1', 63315]
+HTTP close for ['127.0.0.1', 63315]
+HTTP response complete for ['127.0.0.1', 63315]
+[mHTTP GET /ws/wstest/ 200 [0.01, 127.0.0.1:63315][0m
+WebSocket HANDSHAKING /websocket/ws/notifications/ [127.0.0.1:63322]
+Upgraded connection ['127.0.0.1', 63322] to WebSocket
+WebSocket ['127.0.0.1', 63322] open and established
+WebSocket CONNECT /websocket/ws/notifications/ [127.0.0.1:63322]
+WebSocket ['127.0.0.1', 63322] accepted by application
+Sent WebSocket packet to client for ['127.0.0.1', 63322]
+WebSocket incoming frame on ['127.0.0.1', 63322]
+Sent WebSocket packet to client for ['127.0.0.1', 63322]
+HTTP b'POST' request for ['127.0.0.1', 63315]
+Sent WebSocket packet to client for ['127.0.0.1', 63322]
+HTTP 302 response started for ['127.0.0.1', 63315]
+HTTP close for ['127.0.0.1', 63315]
+HTTP response complete for ['127.0.0.1', 63315]
+[32mHTTP POST /admin/notifapi/notifymodel/add/ 302 [0.10, 127.0.0.1:63315][0m
+HTTP b'GET' request for ['127.0.0.1', 63315]
+HTTP 200 response started for ['127.0.0.1', 63315]
+HTTP close for ['127.0.0.1', 63315]
+HTTP response complete for ['127.0.0.1', 63315]
+[mHTTP GET /admin/notifapi/notifymodel/add/ 200 [0.04, 127.0.0.1:63315][0m
+HTTP b'GET' request for ['127.0.0.1', 63315]
+HTTP 200 response started for ['127.0.0.1', 63315]
+HTTP close for ['127.0.0.1', 63315]
+HTTP response complete for ['127.0.0.1', 63315]
+[mHTTP GET /admin/jsi18n/ 200 [0.01, 127.0.0.1:63315][0m
+WebSocket closed for ['127.0.0.1', 63321]
+HTTP b'GET' request for ['127.0.0.1', 63315]
+HTTP 200 response started for ['127.0.0.1', 63315]
+HTTP close for ['127.0.0.1', 63315]
+HTTP response complete for ['127.0.0.1', 63315]
+[mHTTP GET / 200 [0.00, 127.0.0.1:63315][0m
+Upgraded connection ['127.0.0.1', 63328] to WebSocket
+WebSocket ['127.0.0.1', 63328] open and established
+WebSocket ['127.0.0.1', 63328] accepted by application
+Sent WebSocket packet to client for ['127.0.0.1', 63328]
+WebSocket incoming frame on ['127.0.0.1', 63328]
+Sent WebSocket packet to client for ['127.0.0.1', 63328]
+HTTP b'GET' request for ['127.0.0.1', 63317]
+HTTP 304 response started for ['127.0.0.1', 63317]
+HTTP close for ['127.0.0.1', 63317]
+HTTP response complete for ['127.0.0.1', 63317]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/app.js.map 304 [0.02, 127.0.0.1:63317][0m
+Using selector: SelectSelector
+Using selector: SelectSelector
+Watching for file changes with StatReloader
+This is a test error log.
+HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+Configuring endpoint tcp:port=8000:interface=127.0.0.1
+Listening on TCP address 127.0.0.1:8000
+HTTP b'GET' request for ['127.0.0.1', 63342]
+HTTP 200 response started for ['127.0.0.1', 63342]
+HTTP close for ['127.0.0.1', 63342]
+HTTP response complete for ['127.0.0.1', 63342]
+[mHTTP GET /ws/wstest/ 200 [0.03, 127.0.0.1:63342][0m
+Upgraded connection ['127.0.0.1', 63343] to WebSocket
+WebSocket ['127.0.0.1', 63343] open and established
+WebSocket ['127.0.0.1', 63343] accepted by application
+Sent WebSocket packet to client for ['127.0.0.1', 63343]
+WebSocket incoming frame on ['127.0.0.1', 63343]
+Sent WebSocket packet to client for ['127.0.0.1', 63343]
+WebSocket closed for ['127.0.0.1', 63343]
+HTTP b'GET' request for ['127.0.0.1', 63342]
+HTTP 200 response started for ['127.0.0.1', 63342]
+HTTP close for ['127.0.0.1', 63342]
+HTTP response complete for ['127.0.0.1', 63342]
+[mHTTP GET /ws/wstest/ 200 [0.01, 127.0.0.1:63342][0m
+Upgraded connection ['127.0.0.1', 63344] to WebSocket
+WebSocket ['127.0.0.1', 63344] open and established
+WebSocket ['127.0.0.1', 63344] accepted by application
+Sent WebSocket packet to client for ['127.0.0.1', 63344]
+WebSocket incoming frame on ['127.0.0.1', 63344]
+Sent WebSocket packet to client for ['127.0.0.1', 63344]
+HTTP b'POST' request for ['127.0.0.1', 63342]
+HTTP 302 response started for ['127.0.0.1', 63342]
+HTTP close for ['127.0.0.1', 63342]
+HTTP response complete for ['127.0.0.1', 63342]
+[32mHTTP POST /admin/notifapi/notifymodel/add/ 302 [0.12, 127.0.0.1:63342][0m
+HTTP b'GET' request for ['127.0.0.1', 63342]
+HTTP 200 response started for ['127.0.0.1', 63342]
+HTTP close for ['127.0.0.1', 63342]
+HTTP response complete for ['127.0.0.1', 63342]
+[mHTTP GET /admin/notifapi/notifymodel/add/ 200 [0.08, 127.0.0.1:63342][0m
+HTTP b'GET' request for ['127.0.0.1', 63342]
+HTTP 200 response started for ['127.0.0.1', 63342]
+HTTP close for ['127.0.0.1', 63342]
+HTTP response complete for ['127.0.0.1', 63342]
+[mHTTP GET /admin/jsi18n/ 200 [0.01, 127.0.0.1:63342][0m
+WebSocket closed for ['127.0.0.1', 63344]
+HTTP b'GET' request for ['127.0.0.1', 63342]
+HTTP 200 response started for ['127.0.0.1', 63342]
+HTTP close for ['127.0.0.1', 63342]
+HTTP response complete for ['127.0.0.1', 63342]
+[mHTTP GET /ws/wstest/ 200 [0.00, 127.0.0.1:63342][0m
+Upgraded connection ['127.0.0.1', 63352] to WebSocket
+WebSocket ['127.0.0.1', 63352] open and established
+WebSocket ['127.0.0.1', 63352] accepted by application
+Sent WebSocket packet to client for ['127.0.0.1', 63352]
+WebSocket incoming frame on ['127.0.0.1', 63352]
+Sent WebSocket packet to client for ['127.0.0.1', 63352]
+WebSocket closed for ['127.0.0.1', 63328]
+HTTP b'GET' request for ['127.0.0.1', 63342]
+HTTP 200 response started for ['127.0.0.1', 63342]
+HTTP close for ['127.0.0.1', 63342]
+HTTP response complete for ['127.0.0.1', 63342]
+[mHTTP GET / 200 [0.00, 127.0.0.1:63342][0m
+Upgraded connection ['127.0.0.1', 63353] to WebSocket
+WebSocket ['127.0.0.1', 63353] open and established
+WebSocket ['127.0.0.1', 63353] accepted by application
+Sent WebSocket packet to client for ['127.0.0.1', 63353]
+WebSocket incoming frame on ['127.0.0.1', 63353]
+Sent WebSocket packet to client for ['127.0.0.1', 63353]
+HTTP b'GET' request for ['127.0.0.1', 63354]
+HTTP 304 response started for ['127.0.0.1', 63354]
+HTTP close for ['127.0.0.1', 63354]
+HTTP response complete for ['127.0.0.1', 63354]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/app.js.map 304 [0.01, 127.0.0.1:63354][0m
+WebSocket closed for ['127.0.0.1', 63353]
+HTTP b'GET' request for ['127.0.0.1', 63342]
+HTTP 200 response started for ['127.0.0.1', 63342]
+HTTP close for ['127.0.0.1', 63342]
+HTTP response complete for ['127.0.0.1', 63342]
+[mHTTP GET / 200 [0.02, 127.0.0.1:63342][0m
+Upgraded connection ['127.0.0.1', 63355] to WebSocket
+WebSocket ['127.0.0.1', 63355] open and established
+WebSocket ['127.0.0.1', 63355] accepted by application
+Sent WebSocket packet to client for ['127.0.0.1', 63355]
+WebSocket incoming frame on ['127.0.0.1', 63355]
+Sent WebSocket packet to client for ['127.0.0.1', 63355]
+HTTP b'GET' request for ['127.0.0.1', 63354]
+HTTP 304 response started for ['127.0.0.1', 63354]
+HTTP close for ['127.0.0.1', 63354]
+HTTP response complete for ['127.0.0.1', 63354]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/app.js.map 304 [0.00, 127.0.0.1:63354][0m
+HTTP b'POST' request for ['127.0.0.1', 63342]
+HTTP 302 response started for ['127.0.0.1', 63342]
+HTTP close for ['127.0.0.1', 63342]
+HTTP response complete for ['127.0.0.1', 63342]
+[32mHTTP POST /admin/notifapi/notifymodel/add/ 302 [0.09, 127.0.0.1:63342][0m
+HTTP b'GET' request for ['127.0.0.1', 63342]
+HTTP 200 response started for ['127.0.0.1', 63342]
+HTTP close for ['127.0.0.1', 63342]
+HTTP response complete for ['127.0.0.1', 63342]
+[mHTTP GET /admin/notifapi/notifymodel/add/ 200 [0.05, 127.0.0.1:63342][0m
+HTTP b'GET' request for ['127.0.0.1', 63342]
+HTTP 200 response started for ['127.0.0.1', 63342]
+HTTP close for ['127.0.0.1', 63342]
+HTTP response complete for ['127.0.0.1', 63342]
+[mHTTP GET /admin/jsi18n/ 200 [0.02, 127.0.0.1:63342][0m
+WebSocket closed for ['127.0.0.1', 63355]
+HTTP b'GET' request for ['127.0.0.1', 63342]
+HTTP 200 response started for ['127.0.0.1', 63342]
+HTTP close for ['127.0.0.1', 63342]
+HTTP response complete for ['127.0.0.1', 63342]
+[mHTTP GET / 200 [0.00, 127.0.0.1:63342][0m
+Upgraded connection ['127.0.0.1', 63360] to WebSocket
+WebSocket ['127.0.0.1', 63360] open and established
+WebSocket ['127.0.0.1', 63360] accepted by application
+Sent WebSocket packet to client for ['127.0.0.1', 63360]
+WebSocket incoming frame on ['127.0.0.1', 63360]
+Sent WebSocket packet to client for ['127.0.0.1', 63360]
+HTTP b'GET' request for ['127.0.0.1', 63354]
+HTTP 304 response started for ['127.0.0.1', 63354]
+HTTP close for ['127.0.0.1', 63354]
+HTTP response complete for ['127.0.0.1', 63354]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/app.js.map 304 [0.02, 127.0.0.1:63354][0m
+WebSocket closed for ['127.0.0.1', 63352]
+HTTP b'GET' request for ['127.0.0.1', 63342]
+HTTP 200 response started for ['127.0.0.1', 63342]
+HTTP close for ['127.0.0.1', 63342]
+HTTP response complete for ['127.0.0.1', 63342]
+[mHTTP GET /ws/wstest/ 200 [0.00, 127.0.0.1:63342][0m
+Upgraded connection ['127.0.0.1', 63361] to WebSocket
+WebSocket ['127.0.0.1', 63361] open and established
+WebSocket ['127.0.0.1', 63361] accepted by application
+Sent WebSocket packet to client for ['127.0.0.1', 63361]
+WebSocket incoming frame on ['127.0.0.1', 63361]
+Sent WebSocket packet to client for ['127.0.0.1', 63361]
+HTTP b'POST' request for ['127.0.0.1', 63363]
+HTTP 302 response started for ['127.0.0.1', 63363]
+HTTP close for ['127.0.0.1', 63363]
+HTTP response complete for ['127.0.0.1', 63363]
+[32mHTTP POST /admin/notifapi/notifymodel/add/ 302 [0.46, 127.0.0.1:63363][0m
+HTTP b'GET' request for ['127.0.0.1', 63363]
+HTTP 200 response started for ['127.0.0.1', 63363]
+HTTP close for ['127.0.0.1', 63363]
+HTTP response complete for ['127.0.0.1', 63363]
+[mHTTP GET /admin/notifapi/notifymodel/add/ 200 [0.03, 127.0.0.1:63363][0m
+HTTP b'GET' request for ['127.0.0.1', 63363]
+HTTP 200 response started for ['127.0.0.1', 63363]
+HTTP close for ['127.0.0.1', 63363]
+HTTP response complete for ['127.0.0.1', 63363]
+[mHTTP GET /admin/jsi18n/ 200 [0.01, 127.0.0.1:63363][0m
+D:\pages_perso\Websites\Practices\python\django\notifications-badge\myproj\myproj\settings.py changed, reloading.
+Using selector: SelectSelector
+Watching for file changes with StatReloader
+This is a test error log.
+HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+Configuring endpoint tcp:port=8000:interface=127.0.0.1
+Listening on TCP address 127.0.0.1:8000
+Killed 2 pending application instances
+WebSocket closed for ['127.0.0.1', 63361]
+WebSocket closed for ['127.0.0.1', 63360]
+Starting server at tcp:port=8001:interface=127.0.0.1
+HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+Configuring endpoint tcp:port=8001:interface=127.0.0.1
+Listening on TCP address 127.0.0.1:8001
+HTTP b'POST' request for ['127.0.0.1', 63421]
+Internal Server Error: /admin/notifapi/notifymodel/add/
+Traceback (most recent call last):
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\utils\module_loading.py", line 30, in import_string
+    return cached_import(module_path, class_name)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\utils\module_loading.py", line 16, in cached_import
+    return getattr(module, class_name)
+AttributeError: module 'asgiref.local' has no attribute 'LocalMemoryChannelLayer'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\layers.py", line 65, in _make_backend
+    backend_class = import_string(self.configs[name]["BACKEND"])
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\utils\module_loading.py", line 32, in import_string
+    raise ImportError(
+ImportError: Module "asgiref.local" does not define a "LocalMemoryChannelLayer" attribute/class
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+  File "C:\Program Files\Python39\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\contrib\admin\options.py", line 1886, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\contrib\admin\options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\contrib\admin\options.py", line 1798, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\contrib\admin\options.py", line 1227, in save_model
+    obj.save()
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\db\models\base.py", line 892, in save_base
+    post_save.send(
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\dispatch\dispatcher.py", line 176, in send
+    return [
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\dispatch\dispatcher.py", line 177, in <listcomp>
+    (receiver, receiver(signal=self, sender=sender, **named))
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\myproj\notifapi\signals.py", line 13, in notification_created
+    channel_layer = get_channel_layer()
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\layers.py", line 357, in get_channel_layer
+    return channel_layers[alias]
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\layers.py", line 78, in __getitem__
+    self.backends[key] = self.make_backend(key)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\layers.py", line 44, in make_backend
+    return self._make_backend(name, config)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\layers.py", line 69, in _make_backend
+    raise InvalidChannelLayerError(
+channels.exceptions.InvalidChannelLayerError: Cannot import BACKEND 'asgiref.local.LocalMemoryChannelLayer' specified for default
+HTTP 500 response started for ['127.0.0.1', 63421]
+HTTP response chunk for ['127.0.0.1', 63421]
+HTTP response chunk for ['127.0.0.1', 63421]
+HTTP close for ['127.0.0.1', 63421]
+HTTP response complete for ['127.0.0.1', 63421]
+[35;1mHTTP POST /admin/notifapi/notifymodel/add/ 500 [0.32, 127.0.0.1:63421][0m
+D:\pages_perso\Websites\Practices\python\django\notifications-badge\myproj\myproj\settings.py changed, reloading.
+Using selector: SelectSelector
+Watching for file changes with StatReloader
+This is a test error log.
+HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+Configuring endpoint tcp:port=8000:interface=127.0.0.1
+Listening on TCP address 127.0.0.1:8000
+HTTP b'POST' request for ['127.0.0.1', 63438]
+HTTP 302 response started for ['127.0.0.1', 63438]
+HTTP close for ['127.0.0.1', 63438]
+HTTP response complete for ['127.0.0.1', 63438]
+[32mHTTP POST /admin/notifapi/notifymodel/add/ 302 [0.46, 127.0.0.1:63438][0m
+HTTP b'GET' request for ['127.0.0.1', 63438]
+HTTP 200 response started for ['127.0.0.1', 63438]
+HTTP close for ['127.0.0.1', 63438]
+HTTP response complete for ['127.0.0.1', 63438]
+[mHTTP GET /admin/notifapi/notifymodel/add/ 200 [0.08, 127.0.0.1:63438][0m
+HTTP b'GET' request for ['127.0.0.1', 63438]
+HTTP 200 response started for ['127.0.0.1', 63438]
+HTTP close for ['127.0.0.1', 63438]
+HTTP response complete for ['127.0.0.1', 63438]
+[mHTTP GET /admin/jsi18n/ 200 [0.02, 127.0.0.1:63438][0m
+HTTP b'GET' request for ['127.0.0.1', 63438]
+HTTP 200 response started for ['127.0.0.1', 63438]
+HTTP close for ['127.0.0.1', 63438]
+HTTP response complete for ['127.0.0.1', 63438]
+[mHTTP GET /ws/wstest/ 200 [0.02, 127.0.0.1:63438][0m
+Upgraded connection ['127.0.0.1', 63443] to WebSocket
+Exception inside application: Cannot import BACKEND 'asgiref.local.LocalMemoryChannelLayer' specified for default
+Traceback (most recent call last):
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\utils\module_loading.py", line 30, in import_string
+    return cached_import(module_path, class_name)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\utils\module_loading.py", line 16, in cached_import
+    return getattr(module, class_name)
+AttributeError: module 'asgiref.local' has no attribute 'LocalMemoryChannelLayer'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\layers.py", line 65, in _make_backend
+    backend_class = import_string(self.configs[name]["BACKEND"])
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\utils\module_loading.py", line 32, in import_string
+    raise ImportError(
+ImportError: Module "asgiref.local" does not define a "LocalMemoryChannelLayer" attribute/class
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\routing.py", line 62, in __call__
+    return await application(scope, receive, send)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\routing.py", line 116, in __call__
+    return await application(
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\consumer.py", line 94, in app
+    return await consumer(scope, receive, send)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\consumer.py", line 44, in __call__
+    self.channel_layer = get_channel_layer(self.channel_layer_alias)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\layers.py", line 357, in get_channel_layer
+    return channel_layers[alias]
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\layers.py", line 78, in __getitem__
+    self.backends[key] = self.make_backend(key)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\layers.py", line 44, in make_backend
+    return self._make_backend(name, config)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\layers.py", line 69, in _make_backend
+    raise InvalidChannelLayerError(
+channels.exceptions.InvalidChannelLayerError: Cannot import BACKEND 'asgiref.local.LocalMemoryChannelLayer' specified for default
+WebSocket closed for ['127.0.0.1', 63443]
+HTTP b'GET' request for ['127.0.0.1', 63438]
+HTTP 200 response started for ['127.0.0.1', 63438]
+HTTP close for ['127.0.0.1', 63438]
+HTTP response complete for ['127.0.0.1', 63438]
+[mHTTP GET /ws/wstest/ 200 [0.01, 127.0.0.1:63438][0m
+Upgraded connection ['127.0.0.1', 63445] to WebSocket
+Exception inside application: Cannot import BACKEND 'asgiref.local.LocalMemoryChannelLayer' specified for default
+Traceback (most recent call last):
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\utils\module_loading.py", line 30, in import_string
+    return cached_import(module_path, class_name)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\utils\module_loading.py", line 16, in cached_import
+    return getattr(module, class_name)
+AttributeError: module 'asgiref.local' has no attribute 'LocalMemoryChannelLayer'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\layers.py", line 65, in _make_backend
+    backend_class = import_string(self.configs[name]["BACKEND"])
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\utils\module_loading.py", line 32, in import_string
+    raise ImportError(
+ImportError: Module "asgiref.local" does not define a "LocalMemoryChannelLayer" attribute/class
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\routing.py", line 62, in __call__
+    return await application(scope, receive, send)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\routing.py", line 116, in __call__
+    return await application(
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\consumer.py", line 94, in app
+    return await consumer(scope, receive, send)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\consumer.py", line 44, in __call__
+    self.channel_layer = get_channel_layer(self.channel_layer_alias)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\layers.py", line 357, in get_channel_layer
+    return channel_layers[alias]
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\layers.py", line 78, in __getitem__
+    self.backends[key] = self.make_backend(key)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\layers.py", line 44, in make_backend
+    return self._make_backend(name, config)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\layers.py", line 69, in _make_backend
+    raise InvalidChannelLayerError(
+channels.exceptions.InvalidChannelLayerError: Cannot import BACKEND 'asgiref.local.LocalMemoryChannelLayer' specified for default
+WebSocket closed for ['127.0.0.1', 63445]
+HTTP b'GET' request for ['127.0.0.1', 63438]
+HTTP 200 response started for ['127.0.0.1', 63438]
+HTTP close for ['127.0.0.1', 63438]
+HTTP response complete for ['127.0.0.1', 63438]
+[mHTTP GET / 200 [0.01, 127.0.0.1:63438][0m
+Upgraded connection ['127.0.0.1', 63446] to WebSocket
+Exception inside application: Cannot import BACKEND 'asgiref.local.LocalMemoryChannelLayer' specified for default
+Traceback (most recent call last):
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\utils\module_loading.py", line 30, in import_string
+    return cached_import(module_path, class_name)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\utils\module_loading.py", line 16, in cached_import
+    return getattr(module, class_name)
+AttributeError: module 'asgiref.local' has no attribute 'LocalMemoryChannelLayer'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\layers.py", line 65, in _make_backend
+    backend_class = import_string(self.configs[name]["BACKEND"])
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\utils\module_loading.py", line 32, in import_string
+    raise ImportError(
+ImportError: Module "asgiref.local" does not define a "LocalMemoryChannelLayer" attribute/class
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\routing.py", line 62, in __call__
+    return await application(scope, receive, send)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\routing.py", line 116, in __call__
+    return await application(
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\consumer.py", line 94, in app
+    return await consumer(scope, receive, send)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\consumer.py", line 44, in __call__
+    self.channel_layer = get_channel_layer(self.channel_layer_alias)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\layers.py", line 357, in get_channel_layer
+    return channel_layers[alias]
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\layers.py", line 78, in __getitem__
+    self.backends[key] = self.make_backend(key)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\layers.py", line 44, in make_backend
+    return self._make_backend(name, config)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\layers.py", line 69, in _make_backend
+    raise InvalidChannelLayerError(
+channels.exceptions.InvalidChannelLayerError: Cannot import BACKEND 'asgiref.local.LocalMemoryChannelLayer' specified for default
+WebSocket closed for ['127.0.0.1', 63446]
+HTTP b'GET' request for ['127.0.0.1', 63447]
+HTTP 304 response started for ['127.0.0.1', 63447]
+HTTP close for ['127.0.0.1', 63447]
+HTTP response complete for ['127.0.0.1', 63447]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/app.js.map 304 [0.00, 127.0.0.1:63447][0m
+Using selector: SelectSelector
+Using selector: SelectSelector
+Watching for file changes with StatReloader
+This is a test error log.
+HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+Configuring endpoint tcp:port=8000:interface=127.0.0.1
+Listening on TCP address 127.0.0.1:8000
+HTTP b'GET' request for ['127.0.0.1', 63458]
+HTTP 200 response started for ['127.0.0.1', 63458]
+HTTP close for ['127.0.0.1', 63458]
+HTTP response complete for ['127.0.0.1', 63458]
+[mHTTP GET / 200 [0.02, 127.0.0.1:63458][0m
+Upgraded connection ['127.0.0.1', 63459] to WebSocket
+Exception inside application: Cannot import BACKEND 'asgiref.local.LocalMemoryChannelLayer' specified for default
+Traceback (most recent call last):
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\utils\module_loading.py", line 30, in import_string
+    return cached_import(module_path, class_name)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\utils\module_loading.py", line 16, in cached_import
+    return getattr(module, class_name)
+AttributeError: module 'asgiref.local' has no attribute 'LocalMemoryChannelLayer'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\layers.py", line 65, in _make_backend
+    backend_class = import_string(self.configs[name]["BACKEND"])
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\utils\module_loading.py", line 32, in import_string
+    raise ImportError(
+ImportError: Module "asgiref.local" does not define a "LocalMemoryChannelLayer" attribute/class
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\routing.py", line 62, in __call__
+    return await application(scope, receive, send)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\routing.py", line 116, in __call__
+    return await application(
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\consumer.py", line 94, in app
+    return await consumer(scope, receive, send)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\consumer.py", line 44, in __call__
+    self.channel_layer = get_channel_layer(self.channel_layer_alias)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\layers.py", line 357, in get_channel_layer
+    return channel_layers[alias]
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\layers.py", line 78, in __getitem__
+    self.backends[key] = self.make_backend(key)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\layers.py", line 44, in make_backend
+    return self._make_backend(name, config)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\layers.py", line 69, in _make_backend
+    raise InvalidChannelLayerError(
+channels.exceptions.InvalidChannelLayerError: Cannot import BACKEND 'asgiref.local.LocalMemoryChannelLayer' specified for default
+WebSocket closed for ['127.0.0.1', 63459]
+HTTP b'GET' request for ['127.0.0.1', 63460]
+HTTP 304 response started for ['127.0.0.1', 63460]
+HTTP close for ['127.0.0.1', 63460]
+HTTP response complete for ['127.0.0.1', 63460]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/app.js.map 304 [0.02, 127.0.0.1:63460][0m
+Killed 0 pending application instances
+Starting server at tcp:port=8001:interface=127.0.0.1
+HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+Configuring endpoint tcp:port=8001:interface=127.0.0.1
+Listening on TCP address 127.0.0.1:8001
+HTTP b'GET' request for ['127.0.0.1', 63458]
+HTTP 200 response started for ['127.0.0.1', 63458]
+HTTP close for ['127.0.0.1', 63458]
+HTTP response complete for ['127.0.0.1', 63458]
+[mHTTP GET / 200 [0.00, 127.0.0.1:63458][0m
+Upgraded connection ['127.0.0.1', 63465] to WebSocket
+WebSocket ['127.0.0.1', 63465] open and established
+WebSocket ['127.0.0.1', 63465] accepted by application
+Sent WebSocket packet to client for ['127.0.0.1', 63465]
+WebSocket incoming frame on ['127.0.0.1', 63465]
+Sent WebSocket packet to client for ['127.0.0.1', 63465]
+HTTP b'GET' request for ['127.0.0.1', 63460]
+HTTP 304 response started for ['127.0.0.1', 63460]
+HTTP close for ['127.0.0.1', 63460]
+HTTP response complete for ['127.0.0.1', 63460]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/app.js.map 304 [0.00, 127.0.0.1:63460][0m
+HTTP b'GET' request for ['127.0.0.1', 63458]
+HTTP 200 response started for ['127.0.0.1', 63458]
+HTTP close for ['127.0.0.1', 63458]
+HTTP response complete for ['127.0.0.1', 63458]
+[mHTTP GET /ws/wstest/ 200 [0.02, 127.0.0.1:63458][0m
+Upgraded connection ['127.0.0.1', 63466] to WebSocket
+WebSocket ['127.0.0.1', 63466] open and established
+WebSocket ['127.0.0.1', 63466] accepted by application
+Sent WebSocket packet to client for ['127.0.0.1', 63466]
+WebSocket incoming frame on ['127.0.0.1', 63466]
+Sent WebSocket packet to client for ['127.0.0.1', 63466]
+D:\pages_perso\Websites\Practices\python\django\notifications-badge\myproj\myproj\settings.py changed, reloading.
+Using selector: SelectSelector
+Watching for file changes with StatReloader
+This is a test error log.
+HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+Configuring endpoint tcp:port=8000:interface=127.0.0.1
+Listening on TCP address 127.0.0.1:8000
+WebSocket closed for ['127.0.0.1', 63465]
+HTTP b'GET' request for ['127.0.0.1', 58102]
+HTTP 200 response started for ['127.0.0.1', 58102]
+HTTP close for ['127.0.0.1', 58102]
+HTTP response complete for ['127.0.0.1', 58102]
+[mHTTP GET / 200 [0.02, 127.0.0.1:58102][0m
+Upgraded connection ['127.0.0.1', 58103] to WebSocket
+WebSocket ['127.0.0.1', 58103] open and established
+WebSocket ['127.0.0.1', 58103] accepted by application
+Sent WebSocket packet to client for ['127.0.0.1', 58103]
+WebSocket incoming frame on ['127.0.0.1', 58103]
+Sent WebSocket packet to client for ['127.0.0.1', 58103]
+HTTP b'GET' request for ['127.0.0.1', 58104]
+HTTP 304 response started for ['127.0.0.1', 58104]
+HTTP close for ['127.0.0.1', 58104]
+HTTP response complete for ['127.0.0.1', 58104]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/app.js.map 304 [0.00, 127.0.0.1:58104][0m
+HTTP b'POST' request for ['127.0.0.1', 58102]
+HTTP 200 response started for ['127.0.0.1', 58102]
+HTTP close for ['127.0.0.1', 58102]
+HTTP response complete for ['127.0.0.1', 58102]
+[mHTTP POST /admin/notifapi/notifymodel/add/ 200 [0.12, 127.0.0.1:58102][0m
+HTTP b'GET' request for ['127.0.0.1', 58102]
+HTTP 200 response started for ['127.0.0.1', 58102]
+HTTP close for ['127.0.0.1', 58102]
+HTTP response complete for ['127.0.0.1', 58102]
+[mHTTP GET /admin/jsi18n/ 200 [0.02, 127.0.0.1:58102][0m
+HTTP b'GET' request for ['127.0.0.1', 58102]
+HTTP disconnect for ['127.0.0.1', 58102]
+Not Found: /favicon.ico
+HTTP b'POST' request for ['127.0.0.1', 58107]
+Internal Server Error: /admin/notifapi/notifymodel/add/
+Traceback (most recent call last):
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\layers.py", line 65, in _make_backend
+    backend_class = import_string(self.configs[name]["BACKEND"])
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\utils\module_loading.py", line 30, in import_string
+    return cached_import(module_path, class_name)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\utils\module_loading.py", line 15, in cached_import
+    module = import_module(module_path)
+  File "C:\Program Files\Python39\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 972, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 984, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'channels_memcached'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+  File "C:\Program Files\Python39\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\contrib\admin\options.py", line 1886, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\contrib\admin\options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\contrib\admin\options.py", line 1798, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\contrib\admin\options.py", line 1227, in save_model
+    obj.save()
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\db\models\base.py", line 892, in save_base
+    post_save.send(
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\dispatch\dispatcher.py", line 176, in send
+    return [
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\dispatch\dispatcher.py", line 177, in <listcomp>
+    (receiver, receiver(signal=self, sender=sender, **named))
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\myproj\notifapi\signals.py", line 13, in notification_created
+    channel_layer = get_channel_layer()
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\layers.py", line 357, in get_channel_layer
+    return channel_layers[alias]
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\layers.py", line 78, in __getitem__
+    self.backends[key] = self.make_backend(key)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\layers.py", line 44, in make_backend
+    return self._make_backend(name, config)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\layers.py", line 69, in _make_backend
+    raise InvalidChannelLayerError(
+channels.exceptions.InvalidChannelLayerError: Cannot import BACKEND 'channels_memcached.core.MemcachedChannelLayer' specified for default
+HTTP 500 response started for ['127.0.0.1', 58107]
+HTTP response chunk for ['127.0.0.1', 58107]
+HTTP response chunk for ['127.0.0.1', 58107]
+HTTP close for ['127.0.0.1', 58107]
+HTTP response complete for ['127.0.0.1', 58107]
+[35;1mHTTP POST /admin/notifapi/notifymodel/add/ 500 [0.16, 127.0.0.1:58107][0m
+D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\Lib\site-packages\asgiref\__init__.py changed, reloading.
+Killed 2 pending application instances
+WebSocket closed for ['127.0.0.1', 63466]
+WebSocket closed for ['127.0.0.1', 58103]
+Using selector: SelectSelector
+Using selector: SelectSelector
+Watching for file changes with StatReloader
+This is a test error log.
+HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+Configuring endpoint tcp:port=8000:interface=127.0.0.1
+Listening on TCP address 127.0.0.1:8000
+Starting server at tcp:port=8001:interface=127.0.0.1
+HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+Configuring endpoint tcp:port=8001:interface=127.0.0.1
+Listening on TCP address 127.0.0.1:8001
+HTTP b'POST' request for ['127.0.0.1', 58374]
+Internal Server Error: /admin/notifapi/notifymodel/add/
+Traceback (most recent call last):
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+  File "C:\Program Files\Python39\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\contrib\admin\options.py", line 1886, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\contrib\admin\options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\contrib\admin\options.py", line 1798, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\contrib\admin\options.py", line 1227, in save_model
+    obj.save()
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\db\models\base.py", line 892, in save_base
+    post_save.send(
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\dispatch\dispatcher.py", line 176, in send
+    return [
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\dispatch\dispatcher.py", line 177, in <listcomp>
+    (receiver, receiver(signal=self, sender=sender, **named))
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\myproj\notifapi\signals.py", line 13, in notification_created
+    channel_layer = get_channel_layer()
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\layers.py", line 357, in get_channel_layer
+    return channel_layers[alias]
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\layers.py", line 78, in __getitem__
+    self.backends[key] = self.make_backend(key)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\layers.py", line 44, in make_backend
+    return self._make_backend(name, config)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\layers.py", line 59, in _make_backend
+    raise InvalidChannelLayerError(
+channels.exceptions.InvalidChannelLayerError: ROUTING key found for default - this is no longer needed in Channels 2.
+HTTP 500 response started for ['127.0.0.1', 58374]
+HTTP response chunk for ['127.0.0.1', 58374]
+HTTP response chunk for ['127.0.0.1', 58374]
+HTTP close for ['127.0.0.1', 58374]
+HTTP response complete for ['127.0.0.1', 58374]
+[35;1mHTTP POST /admin/notifapi/notifymodel/add/ 500 [0.13, 127.0.0.1:58374][0m
+D:\pages_perso\Websites\Practices\python\django\notifications-badge\myproj\myproj\settings.py changed, reloading.
+Using selector: SelectSelector
+Watching for file changes with StatReloader
+This is a test error log.
+HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+Configuring endpoint tcp:port=8000:interface=127.0.0.1
+Listening on TCP address 127.0.0.1:8000
+HTTP b'POST' request for ['127.0.0.1', 58388]
+Internal Server Error: /admin/notifapi/notifymodel/add/
+Traceback (most recent call last):
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\utils\module_loading.py", line 30, in import_string
+    return cached_import(module_path, class_name)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\utils\module_loading.py", line 16, in cached_import
+    return getattr(module, class_name)
+AttributeError: module 'channels.layers' has no attribute 'DatabaseChannelLayer'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\layers.py", line 65, in _make_backend
+    backend_class = import_string(self.configs[name]["BACKEND"])
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\utils\module_loading.py", line 32, in import_string
+    raise ImportError(
+ImportError: Module "channels.layers" does not define a "DatabaseChannelLayer" attribute/class
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+  File "C:\Program Files\Python39\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\contrib\admin\options.py", line 1886, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\contrib\admin\options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\contrib\admin\options.py", line 1798, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\contrib\admin\options.py", line 1227, in save_model
+    obj.save()
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\db\models\base.py", line 892, in save_base
+    post_save.send(
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\dispatch\dispatcher.py", line 176, in send
+    return [
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\dispatch\dispatcher.py", line 177, in <listcomp>
+    (receiver, receiver(signal=self, sender=sender, **named))
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\myproj\notifapi\signals.py", line 13, in notification_created
+    channel_layer = get_channel_layer()
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\layers.py", line 357, in get_channel_layer
+    return channel_layers[alias]
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\layers.py", line 78, in __getitem__
+    self.backends[key] = self.make_backend(key)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\layers.py", line 44, in make_backend
+    return self._make_backend(name, config)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\layers.py", line 69, in _make_backend
+    raise InvalidChannelLayerError(
+channels.exceptions.InvalidChannelLayerError: Cannot import BACKEND 'channels.layers.DatabaseChannelLayer' specified for default
+HTTP 500 response started for ['127.0.0.1', 58388]
+HTTP response chunk for ['127.0.0.1', 58388]
+HTTP response chunk for ['127.0.0.1', 58388]
+HTTP close for ['127.0.0.1', 58388]
+HTTP response complete for ['127.0.0.1', 58388]
+[35;1mHTTP POST /admin/notifapi/notifymodel/add/ 500 [0.05, 127.0.0.1:58388][0m
+Using selector: SelectSelector
+This is a test error log.
+Using selector: SelectSelector
+This is a test error log.
+D:\pages_perso\Websites\Practices\python\django\notifications-badge\myproj\myproj\settings.py changed, reloading.
+Using selector: SelectSelector
+Watching for file changes with StatReloader
+This is a test error log.
+HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+Configuring endpoint tcp:port=8000:interface=127.0.0.1
+Listening on TCP address 127.0.0.1:8000
+HTTP b'POST' request for ['127.0.0.1', 54872]
+Internal Server Error: /admin/notifapi/notifymodel/add/
+Traceback (most recent call last):
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\utils\module_loading.py", line 30, in import_string
+    return cached_import(module_path, class_name)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\utils\module_loading.py", line 16, in cached_import
+    return getattr(module, class_name)
+AttributeError: module 'channels.layers' has no attribute 'MemcachedChannelLayer'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\layers.py", line 65, in _make_backend
+    backend_class = import_string(self.configs[name]["BACKEND"])
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\utils\module_loading.py", line 32, in import_string
+    raise ImportError(
+ImportError: Module "channels.layers" does not define a "MemcachedChannelLayer" attribute/class
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+  File "C:\Program Files\Python39\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\contrib\admin\options.py", line 1886, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\contrib\admin\options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\contrib\admin\options.py", line 1798, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\contrib\admin\options.py", line 1227, in save_model
+    obj.save()
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\db\models\base.py", line 892, in save_base
+    post_save.send(
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\dispatch\dispatcher.py", line 176, in send
+    return [
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\dispatch\dispatcher.py", line 177, in <listcomp>
+    (receiver, receiver(signal=self, sender=sender, **named))
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\myproj\notifapi\signals.py", line 13, in notification_created
+    channel_layer = get_channel_layer()
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\layers.py", line 357, in get_channel_layer
+    return channel_layers[alias]
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\layers.py", line 78, in __getitem__
+    self.backends[key] = self.make_backend(key)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\layers.py", line 44, in make_backend
+    return self._make_backend(name, config)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\layers.py", line 69, in _make_backend
+    raise InvalidChannelLayerError(
+channels.exceptions.InvalidChannelLayerError: Cannot import BACKEND 'channels.layers.MemcachedChannelLayer' specified for default
+HTTP 500 response started for ['127.0.0.1', 54872]
+HTTP response chunk for ['127.0.0.1', 54872]
+HTTP response chunk for ['127.0.0.1', 54872]
+HTTP close for ['127.0.0.1', 54872]
+HTTP response complete for ['127.0.0.1', 54872]
+[35;1mHTTP POST /admin/notifapi/notifymodel/add/ 500 [0.13, 127.0.0.1:54872][0m
+HTTP b'GET' request for ['127.0.0.1', 54872]
+HTTP disconnect for ['127.0.0.1', 54872]
+Not Found: /favicon.ico
+D:\pages_perso\Websites\Practices\python\django\notifications-badge\myproj\myproj\settings.py changed, reloading.
+Using selector: SelectSelector
+Watching for file changes with StatReloader
+D:\pages_perso\Websites\Practices\python\django\notifications-badge\myproj\myproj\settings.py changed, reloading.
+Using selector: SelectSelector
+Watching for file changes with StatReloader
+This is a test error log.
+Using selector: SelectSelector
+Using selector: SelectSelector
+Watching for file changes with StatReloader
+This is a test error log.
+D:\pages_perso\Websites\Practices\python\django\notifications-badge\myproj\myproj\settings.py changed, reloading.
+Using selector: SelectSelector
+Watching for file changes with StatReloader
+This is a test error log.
+Using selector: SelectSelector
+Using selector: SelectSelector
+Watching for file changes with StatReloader
+This is a test error log.
+HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+Configuring endpoint tcp:port=8000:interface=127.0.0.1
+Listening on TCP address 127.0.0.1:8000
+HTTP b'POST' request for ['127.0.0.1', 55305]
+Internal Server Error: /admin/notifapi/notifymodel/add/
+Traceback (most recent call last):
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\utils\module_loading.py", line 30, in import_string
+    return cached_import(module_path, class_name)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\utils\module_loading.py", line 16, in cached_import
+    return getattr(module, class_name)
+AttributeError: module 'channels.layers' has no attribute 'MemcachedChannelLayer'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\layers.py", line 65, in _make_backend
+    backend_class = import_string(self.configs[name]["BACKEND"])
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\utils\module_loading.py", line 32, in import_string
+    raise ImportError(
+ImportError: Module "channels.layers" does not define a "MemcachedChannelLayer" attribute/class
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+  File "C:\Program Files\Python39\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\contrib\admin\options.py", line 1886, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\contrib\admin\options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\contrib\admin\options.py", line 1798, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\contrib\admin\options.py", line 1227, in save_model
+    obj.save()
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\db\models\base.py", line 892, in save_base
+    post_save.send(
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\dispatch\dispatcher.py", line 176, in send
+    return [
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\dispatch\dispatcher.py", line 177, in <listcomp>
+    (receiver, receiver(signal=self, sender=sender, **named))
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\myproj\notifapi\signals.py", line 13, in notification_created
+    channel_layer = get_channel_layer()
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\layers.py", line 357, in get_channel_layer
+    return channel_layers[alias]
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\layers.py", line 78, in __getitem__
+    self.backends[key] = self.make_backend(key)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\layers.py", line 44, in make_backend
+    return self._make_backend(name, config)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\layers.py", line 69, in _make_backend
+    raise InvalidChannelLayerError(
+channels.exceptions.InvalidChannelLayerError: Cannot import BACKEND 'channels.layers.MemcachedChannelLayer' specified for default
+HTTP 500 response started for ['127.0.0.1', 55305]
+HTTP response chunk for ['127.0.0.1', 55305]
+HTTP response chunk for ['127.0.0.1', 55305]
+HTTP close for ['127.0.0.1', 55305]
+HTTP response complete for ['127.0.0.1', 55305]
+[35;1mHTTP POST /admin/notifapi/notifymodel/add/ 500 [0.13, 127.0.0.1:55305][0m
+D:\pages_perso\Websites\Practices\python\django\notifications-badge\myproj\myproj\settings.py changed, reloading.
+Using selector: SelectSelector
+Watching for file changes with StatReloader
+This is a test error log.
+HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+Configuring endpoint tcp:port=8000:interface=127.0.0.1
+Listening on TCP address 127.0.0.1:8000
+HTTP b'POST' request for ['127.0.0.1', 64406]
+Internal Server Error: /admin/notifapi/notifymodel/add/
+Traceback (most recent call last):
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\utils\module_loading.py", line 30, in import_string
+    return cached_import(module_path, class_name)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\utils\module_loading.py", line 16, in cached_import
+    return getattr(module, class_name)
+AttributeError: module 'channels.layers' has no attribute 'DatabaseChannelLayer'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\layers.py", line 65, in _make_backend
+    backend_class = import_string(self.configs[name]["BACKEND"])
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\utils\module_loading.py", line 32, in import_string
+    raise ImportError(
+ImportError: Module "channels.layers" does not define a "DatabaseChannelLayer" attribute/class
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+  File "C:\Program Files\Python39\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\contrib\admin\options.py", line 1886, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\contrib\admin\options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\contrib\admin\options.py", line 1798, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\contrib\admin\options.py", line 1227, in save_model
+    obj.save()
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\db\models\base.py", line 892, in save_base
+    post_save.send(
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\dispatch\dispatcher.py", line 176, in send
+    return [
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\dispatch\dispatcher.py", line 177, in <listcomp>
+    (receiver, receiver(signal=self, sender=sender, **named))
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\myproj\notifapi\signals.py", line 13, in notification_created
+    channel_layer = get_channel_layer()
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\layers.py", line 357, in get_channel_layer
+    return channel_layers[alias]
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\layers.py", line 78, in __getitem__
+    self.backends[key] = self.make_backend(key)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\layers.py", line 44, in make_backend
+    return self._make_backend(name, config)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\layers.py", line 69, in _make_backend
+    raise InvalidChannelLayerError(
+channels.exceptions.InvalidChannelLayerError: Cannot import BACKEND 'channels.layers.DatabaseChannelLayer' specified for default
+HTTP 500 response started for ['127.0.0.1', 64406]
+HTTP response chunk for ['127.0.0.1', 64406]
+HTTP response chunk for ['127.0.0.1', 64406]
+HTTP close for ['127.0.0.1', 64406]
+HTTP response complete for ['127.0.0.1', 64406]
+[35;1mHTTP POST /admin/notifapi/notifymodel/add/ 500 [0.13, 127.0.0.1:64406][0m
+HTTP b'GET' request for ['127.0.0.1', 64406]
+HTTP disconnect for ['127.0.0.1', 64406]
+Not Found: /favicon.ico
+D:\pages_perso\Websites\Practices\python\django\notifications-badge\myproj\myproj\settings.py changed, reloading.
+Using selector: SelectSelector
+Watching for file changes with StatReloader
+This is a test error log.
+HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+Configuring endpoint tcp:port=8000:interface=127.0.0.1
+Listening on TCP address 127.0.0.1:8000
+HTTP b'POST' request for ['127.0.0.1', 64422]
+Internal Server Error: /admin/notifapi/notifymodel/add/
+Traceback (most recent call last):
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\utils\module_loading.py", line 30, in import_string
+    return cached_import(module_path, class_name)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\utils\module_loading.py", line 16, in cached_import
+    return getattr(module, class_name)
+AttributeError: module 'channels.layers' has no attribute 'DatabaseLayer'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\layers.py", line 65, in _make_backend
+    backend_class = import_string(self.configs[name]["BACKEND"])
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\utils\module_loading.py", line 32, in import_string
+    raise ImportError(
+ImportError: Module "channels.layers" does not define a "DatabaseLayer" attribute/class
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+  File "C:\Program Files\Python39\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\contrib\admin\options.py", line 1886, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\contrib\admin\options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\contrib\admin\options.py", line 1798, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\contrib\admin\options.py", line 1227, in save_model
+    obj.save()
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\db\models\base.py", line 892, in save_base
+    post_save.send(
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\dispatch\dispatcher.py", line 176, in send
+    return [
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\dispatch\dispatcher.py", line 177, in <listcomp>
+    (receiver, receiver(signal=self, sender=sender, **named))
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\myproj\notifapi\signals.py", line 13, in notification_created
+    channel_layer = get_channel_layer()
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\layers.py", line 357, in get_channel_layer
+    return channel_layers[alias]
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\layers.py", line 78, in __getitem__
+    self.backends[key] = self.make_backend(key)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\layers.py", line 44, in make_backend
+    return self._make_backend(name, config)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\layers.py", line 69, in _make_backend
+    raise InvalidChannelLayerError(
+channels.exceptions.InvalidChannelLayerError: Cannot import BACKEND 'channels.layers.DatabaseLayer' specified for default
+HTTP 500 response started for ['127.0.0.1', 64422]
+HTTP response chunk for ['127.0.0.1', 64422]
+HTTP response chunk for ['127.0.0.1', 64422]
+HTTP close for ['127.0.0.1', 64422]
+HTTP response complete for ['127.0.0.1', 64422]
+[35;1mHTTP POST /admin/notifapi/notifymodel/add/ 500 [0.05, 127.0.0.1:64422][0m
+HTTP b'GET' request for ['127.0.0.1', 64560]
+HTTP 200 response started for ['127.0.0.1', 64560]
+HTTP close for ['127.0.0.1', 64560]
+HTTP response complete for ['127.0.0.1', 64560]
+[mHTTP GET / 200 [0.33, 127.0.0.1:64560][0m
+Upgraded connection ['127.0.0.1', 64562] to WebSocket
+Exception inside application: ROUTING key found for default - this is no longer needed in Channels 2.
+Traceback (most recent call last):
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\routing.py", line 62, in __call__
+    return await application(scope, receive, send)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\routing.py", line 116, in __call__
+    return await application(
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\consumer.py", line 94, in app
+    return await consumer(scope, receive, send)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\consumer.py", line 44, in __call__
+    self.channel_layer = get_channel_layer(self.channel_layer_alias)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\layers.py", line 357, in get_channel_layer
+    return channel_layers[alias]
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\layers.py", line 78, in __getitem__
+    self.backends[key] = self.make_backend(key)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\layers.py", line 44, in make_backend
+    return self._make_backend(name, config)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\layers.py", line 59, in _make_backend
+    raise InvalidChannelLayerError(
+channels.exceptions.InvalidChannelLayerError: ROUTING key found for default - this is no longer needed in Channels 2.
+WebSocket closed for ['127.0.0.1', 64562]
+HTTP b'GET' request for ['127.0.0.1', 64564]
+HTTP 304 response started for ['127.0.0.1', 64564]
+HTTP close for ['127.0.0.1', 64564]
+HTTP response complete for ['127.0.0.1', 64564]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/app.js.map 304 [0.01, 127.0.0.1:64564][0m
+D:\pages_perso\Websites\Practices\python\django\notifications-badge\myproj\myproj\settings.py changed, reloading.
+Using selector: SelectSelector
+Watching for file changes with StatReloader
+This is a test error log.
+HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+Configuring endpoint tcp:port=8000:interface=127.0.0.1
+Listening on TCP address 127.0.0.1:8000
+HTTP b'GET' request for ['127.0.0.1', 64618]
+Internal Server Error: /profiles/leduan
+Traceback (most recent call last):
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\db\models\fields\__init__.py", line 2053, in get_prep_value
+    return int(value)
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'SimpleLazyObject'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+  File "C:\Program Files\Python39\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\myproj\profiles\views.py", line 12, in load_profile
+    trigger_visit_notification(request,user)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\myproj\profiles\views.py", line 7, in trigger_visit_notification
+    Notifier.objects.addNotification(5, request.user, visitor, '',message)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\myproj\notifapi\models.py", line 8, in addNotification
+    (notification, created) = NotifyModel.objects.get_or_create(
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\db\models\query.py", line 916, in get_or_create
+    return self.get(**kwargs), False
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\db\models\query.py", line 623, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\db\models\sql\query.py", line 1546, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\db\models\sql\query.py", line 1577, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\db\models\sql\query.py", line 1492, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\db\models\sql\query.py", line 1319, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\db\models\lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\db\models\fields\related_lookups.py", line 166, in get_prep_lookup
+    self.rhs = target_field.get_prep_value(self.rhs)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\db\models\fields\__init__.py", line 2055, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got <SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x0000012D04D7BA90>>.
+HTTP 500 response started for ['127.0.0.1', 64618]
+HTTP response chunk for ['127.0.0.1', 64618]
+HTTP response chunk for ['127.0.0.1', 64618]
+HTTP close for ['127.0.0.1', 64618]
+HTTP response complete for ['127.0.0.1', 64618]
+[35;1mHTTP GET /profiles/leduan 500 [0.11, 127.0.0.1:64618][0m
+HTTP b'POST' request for ['127.0.0.1', 59066]
+HTTP 302 response started for ['127.0.0.1', 59066]
+HTTP close for ['127.0.0.1', 59066]
+HTTP response complete for ['127.0.0.1', 59066]
+[32mHTTP POST /admin/notifapi/notifymodel/add/ 302 [0.66, 127.0.0.1:59066][0m
+HTTP b'GET' request for ['127.0.0.1', 59066]
+HTTP 200 response started for ['127.0.0.1', 59066]
+HTTP close for ['127.0.0.1', 59066]
+HTTP response complete for ['127.0.0.1', 59066]
+[mHTTP GET /admin/notifapi/notifymodel/add/ 200 [0.25, 127.0.0.1:59066][0m
+HTTP b'GET' request for ['127.0.0.1', 59066]
+HTTP b'GET' request for ['127.0.0.1', 59067]
+HTTP disconnect for ['127.0.0.1', 59067]
+HTTP b'GET' request for ['127.0.0.1', 59068]
+HTTP b'GET' request for ['127.0.0.1', 59069]
+HTTP disconnect for ['127.0.0.1', 59068]
+HTTP disconnect for ['127.0.0.1', 59069]
+HTTP 200 response started for ['127.0.0.1', 59066]
+HTTP close for ['127.0.0.1', 59066]
+HTTP response complete for ['127.0.0.1', 59066]
+[mHTTP GET /admin/jsi18n/ 200 [0.07, 127.0.0.1:59066][0m
+HTTP b'GET' request for ['127.0.0.1', 59066]
+HTTP disconnect for ['127.0.0.1', 59066]
+Not Found: /favicon.ico
+D:\pages_perso\Websites\Practices\python\django\notifications-badge\myproj\myproj\settings.py changed, reloading.
+Using selector: SelectSelector
+Watching for file changes with StatReloader
+This is a test error log.
+HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+Configuring endpoint tcp:port=8000:interface=127.0.0.1
+Listening on TCP address 127.0.0.1:8000
+Killed 0 pending application instances
+Using selector: SelectSelector
+Using selector: SelectSelector
+Watching for file changes with StatReloader
+This is a test error log.
+HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+Configuring endpoint tcp:port=8000:interface=127.0.0.1
+Listening on TCP address 127.0.0.1:8000
+D:\pages_perso\Websites\Practices\python\django\notifications-badge\myproj\myproj\settings.py changed, reloading.
+Using selector: SelectSelector
+Watching for file changes with StatReloader
+This is a test error log.
+HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+Configuring endpoint tcp:port=8000:interface=127.0.0.1
+Listening on TCP address 127.0.0.1:8000
+Starting server at tcp:port=8001:interface=127.0.0.1
+HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+Configuring endpoint tcp:port=8001:interface=127.0.0.1
+Listening on TCP address 127.0.0.1:8001
+HTTP b'GET' request for ['127.0.0.1', 54016]
+HTTP 200 response started for ['127.0.0.1', 54016]
+HTTP close for ['127.0.0.1', 54016]
+HTTP response complete for ['127.0.0.1', 54016]
+[mHTTP GET / 200 [0.14, 127.0.0.1:54016][0m
+HTTP b'GET' request for ['127.0.0.1', 54016]
+HTTP b'GET' request for ['127.0.0.1', 54017]
+HTTP b'GET' request for ['127.0.0.1', 54018]
+HTTP 304 response started for ['127.0.0.1', 54017]
+HTTP close for ['127.0.0.1', 54017]
+HTTP response complete for ['127.0.0.1', 54017]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 304 [0.01, 127.0.0.1:54017][0m
+HTTP 304 response started for ['127.0.0.1', 54018]
+HTTP close for ['127.0.0.1', 54018]
+HTTP response complete for ['127.0.0.1', 54018]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 304 [0.01, 127.0.0.1:54018][0m
+HTTP 200 response started for ['127.0.0.1', 54016]
+HTTP response chunk for ['127.0.0.1', 54016]
+HTTP close for ['127.0.0.1', 54016]
+HTTP response complete for ['127.0.0.1', 54016]
+[mHTTP GET /static/css/style.css 200 [0.21, 127.0.0.1:54016][0m
+HTTP b'GET' request for ['127.0.0.1', 54017]
+HTTP disconnect for ['127.0.0.1', 54017]
+Upgraded connection ['127.0.0.1', 54022] to WebSocket
+Exception inside application: Cannot import BACKEND 'channels_memurai.core.RedisChannelLayer' specified for default
+Traceback (most recent call last):
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\layers.py", line 65, in _make_backend
+    backend_class = import_string(self.configs[name]["BACKEND"])
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\utils\module_loading.py", line 30, in import_string
+    return cached_import(module_path, class_name)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\utils\module_loading.py", line 15, in cached_import
+    module = import_module(module_path)
+  File "C:\Program Files\Python39\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 972, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 984, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'channels_memurai'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\routing.py", line 62, in __call__
+    return await application(scope, receive, send)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\routing.py", line 116, in __call__
+    return await application(
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\consumer.py", line 94, in app
+    return await consumer(scope, receive, send)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\consumer.py", line 44, in __call__
+    self.channel_layer = get_channel_layer(self.channel_layer_alias)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\layers.py", line 357, in get_channel_layer
+    return channel_layers[alias]
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\layers.py", line 78, in __getitem__
+    self.backends[key] = self.make_backend(key)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\layers.py", line 44, in make_backend
+    return self._make_backend(name, config)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\layers.py", line 69, in _make_backend
+    raise InvalidChannelLayerError(
+channels.exceptions.InvalidChannelLayerError: Cannot import BACKEND 'channels_memurai.core.RedisChannelLayer' specified for default
+WebSocket closed for ['127.0.0.1', 54022]
+HTTP b'GET' request for ['127.0.0.1', 54016]
+HTTP 200 response started for ['127.0.0.1', 54016]
+HTTP close for ['127.0.0.1', 54016]
+HTTP response complete for ['127.0.0.1', 54016]
+[mHTTP GET /ws/wstest/ 200 [0.04, 127.0.0.1:54016][0m
+Upgraded connection ['127.0.0.1', 54024] to WebSocket
+Exception inside application: Cannot import BACKEND 'channels_memurai.core.RedisChannelLayer' specified for default
+Traceback (most recent call last):
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\layers.py", line 65, in _make_backend
+    backend_class = import_string(self.configs[name]["BACKEND"])
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\utils\module_loading.py", line 30, in import_string
+    return cached_import(module_path, class_name)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\utils\module_loading.py", line 15, in cached_import
+    module = import_module(module_path)
+  File "C:\Program Files\Python39\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 972, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 984, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'channels_memurai'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\routing.py", line 62, in __call__
+    return await application(scope, receive, send)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\routing.py", line 116, in __call__
+    return await application(
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\consumer.py", line 94, in app
+    return await consumer(scope, receive, send)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\consumer.py", line 44, in __call__
+    self.channel_layer = get_channel_layer(self.channel_layer_alias)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\layers.py", line 357, in get_channel_layer
+    return channel_layers[alias]
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\layers.py", line 78, in __getitem__
+    self.backends[key] = self.make_backend(key)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\layers.py", line 44, in make_backend
+    return self._make_backend(name, config)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\layers.py", line 69, in _make_backend
+    raise InvalidChannelLayerError(
+channels.exceptions.InvalidChannelLayerError: Cannot import BACKEND 'channels_memurai.core.RedisChannelLayer' specified for default
+WebSocket closed for ['127.0.0.1', 54024]
+HTTP b'GET' request for ['127.0.0.1', 54033]
+HTTP 200 response started for ['127.0.0.1', 54033]
+HTTP close for ['127.0.0.1', 54033]
+HTTP response complete for ['127.0.0.1', 54033]
+[mHTTP GET /ws/wstest/ 200 [0.00, 127.0.0.1:54033][0m
+D:\pages_perso\Websites\Practices\python\django\notifications-badge\myproj\myproj\settings.py changed, reloading.
+Using selector: SelectSelector
+Watching for file changes with StatReloader
+This is a test error log.
+HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+Configuring endpoint tcp:port=8000:interface=127.0.0.1
+Listening on TCP address 127.0.0.1:8000
+HTTP b'GET' request for ['127.0.0.1', 54065]
+HTTP 200 response started for ['127.0.0.1', 54065]
+HTTP close for ['127.0.0.1', 54065]
+HTTP response complete for ['127.0.0.1', 54065]
+[mHTTP GET /ws/wstest/ 200 [0.02, 127.0.0.1:54065][0m
+Upgraded connection ['127.0.0.1', 54066] to WebSocket
+Exception inside application: Cannot import BACKEND 'channels_memurai.core.RedisChannelLayer' specified for default
+Traceback (most recent call last):
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\layers.py", line 65, in _make_backend
+    backend_class = import_string(self.configs[name]["BACKEND"])
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\utils\module_loading.py", line 30, in import_string
+    return cached_import(module_path, class_name)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\django\utils\module_loading.py", line 15, in cached_import
+    module = import_module(module_path)
+  File "C:\Program Files\Python39\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 972, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 984, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'channels_memurai'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\routing.py", line 62, in __call__
+    return await application(scope, receive, send)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\routing.py", line 116, in __call__
+    return await application(
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\consumer.py", line 94, in app
+    return await consumer(scope, receive, send)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\consumer.py", line 44, in __call__
+    self.channel_layer = get_channel_layer(self.channel_layer_alias)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\layers.py", line 357, in get_channel_layer
+    return channel_layers[alias]
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\layers.py", line 78, in __getitem__
+    self.backends[key] = self.make_backend(key)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\layers.py", line 44, in make_backend
+    return self._make_backend(name, config)
+  File "D:\pages_perso\Websites\Practices\python\django\notifications-badge\mvenv\lib\site-packages\channels\layers.py", line 69, in _make_backend
+    raise InvalidChannelLayerError(
+channels.exceptions.InvalidChannelLayerError: Cannot import BACKEND 'channels_memurai.core.RedisChannelLayer' specified for default
+WebSocket closed for ['127.0.0.1', 54066]
+Killed 0 pending application instances
+Using selector: SelectSelector
+HTTP b'GET' request for ['127.0.0.1', 54065]
+HTTP 200 response started for ['127.0.0.1', 54065]
+HTTP close for ['127.0.0.1', 54065]
+HTTP response complete for ['127.0.0.1', 54065]
+[mHTTP GET /ws/wstest/ 200 [0.00, 127.0.0.1:54065][0m
+D:\pages_perso\Websites\Practices\python\django\notifications-badge\myproj\myproj\settings.py changed, reloading.
+Using selector: SelectSelector
+Watching for file changes with StatReloader
+This is a test error log.
+HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+Configuring endpoint tcp:port=8000:interface=127.0.0.1
+Listening on TCP address 127.0.0.1:8000
+Using selector: SelectSelector
+HTTP b'GET' request for ['127.0.0.1', 54091]
+HTTP 200 response started for ['127.0.0.1', 54091]
+HTTP close for ['127.0.0.1', 54091]
+HTTP response complete for ['127.0.0.1', 54091]
+[mHTTP GET /ws/wstest/ 200 [0.02, 127.0.0.1:54091][0m
+D:\pages_perso\Websites\Practices\python\django\notifications-badge\myproj\myproj\settings.py changed, reloading.
+Using selector: SelectSelector
+Watching for file changes with StatReloader
+This is a test error log.
+HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+Configuring endpoint tcp:port=8000:interface=127.0.0.1
+Listening on TCP address 127.0.0.1:8000
+Using selector: SelectSelector
+HTTP b'GET' request for ['127.0.0.1', 54243]
+HTTP 200 response started for ['127.0.0.1', 54243]
+HTTP close for ['127.0.0.1', 54243]
+HTTP response complete for ['127.0.0.1', 54243]
+[mHTTP GET /ws/wstest/ 200 [0.01, 127.0.0.1:54243][0m
+HTTP b'GET' request for ['127.0.0.1', 54243]
+HTTP disconnect for ['127.0.0.1', 54243]
+Not Found: /favicon.ico
+Using selector: SelectSelector
+Using selector: SelectSelector
+Watching for file changes with StatReloader
+This is a test error log.
+HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+Configuring endpoint tcp:port=8000:interface=127.0.0.1
+Listening on TCP address 127.0.0.1:8000
+Using selector: SelectSelector
+HTTP b'GET' request for ['127.0.0.1', 54302]
+HTTP 200 response started for ['127.0.0.1', 54302]
+HTTP close for ['127.0.0.1', 54302]
+HTTP response complete for ['127.0.0.1', 54302]
+[mHTTP GET /ws/wstest/ 200 [0.00, 127.0.0.1:54302][0m
+Using selector: SelectSelector
+HTTP b'GET' request for ['127.0.0.1', 54334]
+HTTP 200 response started for ['127.0.0.1', 54334]
+HTTP close for ['127.0.0.1', 54334]
+HTTP response complete for ['127.0.0.1', 54334]
+[mHTTP GET /ws/wstest/ 200 [0.02, 127.0.0.1:54334][0m
+HTTP b'GET' request for ['127.0.0.1', 54346]
+HTTP 200 response started for ['127.0.0.1', 54346]
+HTTP close for ['127.0.0.1', 54346]
+HTTP response complete for ['127.0.0.1', 54346]
+[mHTTP GET /admin/ 200 [0.48, 127.0.0.1:54346][0m
+HTTP b'GET' request for ['127.0.0.1', 54346]
+HTTP b'GET' request for ['127.0.0.1', 54347]
+HTTP b'GET' request for ['127.0.0.1', 54348]
+HTTP b'GET' request for ['127.0.0.1', 54349]
+HTTP b'GET' request for ['127.0.0.1', 54350]
+HTTP b'GET' request for ['127.0.0.1', 54351]
+HTTP 200 response started for ['127.0.0.1', 54350]
+HTTP response chunk for ['127.0.0.1', 54350]
+HTTP close for ['127.0.0.1', 54350]
+HTTP response complete for ['127.0.0.1', 54350]
+[mHTTP GET /static/admin/css/responsive.css 200 [1.27, 127.0.0.1:54350][0m
+HTTP b'GET' request for ['127.0.0.1', 54350]
+HTTP 200 response started for ['127.0.0.1', 54350]
+HTTP 200 response started for ['127.0.0.1', 54351]
+HTTP response chunk for ['127.0.0.1', 54350]
+HTTP close for ['127.0.0.1', 54350]
+HTTP response complete for ['127.0.0.1', 54350]
+[mHTTP GET /static/admin/js/nav_sidebar.js 200 [0.02, 127.0.0.1:54350][0m
+HTTP response chunk for ['127.0.0.1', 54351]
+HTTP close for ['127.0.0.1', 54351]
+HTTP response complete for ['127.0.0.1', 54351]
+[mHTTP GET /static/admin/js/theme.js 200 [1.29, 127.0.0.1:54351][0m
+HTTP 200 response started for ['127.0.0.1', 54347]
+HTTP response chunk for ['127.0.0.1', 54347]
+HTTP close for ['127.0.0.1', 54347]
+HTTP response complete for ['127.0.0.1', 54347]
+[mHTTP GET /static/admin/css/dark_mode.css 200 [1.37, 127.0.0.1:54347][0m
+HTTP 200 response started for ['127.0.0.1', 54349]
+HTTP response chunk for ['127.0.0.1', 54349]
+HTTP close for ['127.0.0.1', 54349]
+HTTP response complete for ['127.0.0.1', 54349]
+[mHTTP GET /static/admin/css/dashboard.css 200 [1.40, 127.0.0.1:54349][0m
+HTTP 200 response started for ['127.0.0.1', 54348]
+HTTP response chunk for ['127.0.0.1', 54348]
+HTTP close for ['127.0.0.1', 54348]
+HTTP response complete for ['127.0.0.1', 54348]
+[mHTTP GET /static/admin/css/nav_sidebar.css 200 [1.42, 127.0.0.1:54348][0m
+HTTP 200 response started for ['127.0.0.1', 54346]
+HTTP response chunk for ['127.0.0.1', 54346]
+HTTP close for ['127.0.0.1', 54346]
+HTTP response complete for ['127.0.0.1', 54346]
+[mHTTP GET /static/admin/css/base.css 200 [1.45, 127.0.0.1:54346][0m
+HTTP b'GET' request for ['127.0.0.1', 54350]
+HTTP b'GET' request for ['127.0.0.1', 54347]
+HTTP 200 response started for ['127.0.0.1', 54347]
+HTTP 200 response started for ['127.0.0.1', 54350]
+HTTP response chunk for ['127.0.0.1', 54350]
+HTTP close for ['127.0.0.1', 54350]
+HTTP response complete for ['127.0.0.1', 54350]
+[mHTTP GET /static/admin/img/icon-addlink.svg 200 [0.01, 127.0.0.1:54350][0m
+HTTP response chunk for ['127.0.0.1', 54347]
+HTTP close for ['127.0.0.1', 54347]
+HTTP response complete for ['127.0.0.1', 54347]
+[mHTTP GET /static/admin/img/icon-changelink.svg 200 [0.01, 127.0.0.1:54347][0m
+HTTP b'GET' request for ['127.0.0.1', 54346]
+HTTP 200 response started for ['127.0.0.1', 54346]
+HTTP close for ['127.0.0.1', 54346]
+HTTP response complete for ['127.0.0.1', 54346]
+[mHTTP GET /admin/notifapi/notifymodel/ 200 [0.20, 127.0.0.1:54346][0m
+HTTP b'GET' request for ['127.0.0.1', 54350]
+HTTP b'GET' request for ['127.0.0.1', 54347]
+HTTP b'GET' request for ['127.0.0.1', 54348]
+HTTP b'GET' request for ['127.0.0.1', 54351]
+HTTP b'GET' request for ['127.0.0.1', 54349]
+HTTP b'GET' request for ['127.0.0.1', 54346]
+HTTP 200 response started for ['127.0.0.1', 54350]
+HTTP 200 response started for ['127.0.0.1', 54348]
+HTTP 200 response started for ['127.0.0.1', 54347]
+HTTP close for ['127.0.0.1', 54347]
+HTTP response complete for ['127.0.0.1', 54347]
+[mHTTP GET /admin/jsi18n/ 200 [0.06, 127.0.0.1:54347][0m
+HTTP b'GET' request for ['127.0.0.1', 54347]
+HTTP response chunk for ['127.0.0.1', 54350]
+HTTP close for ['127.0.0.1', 54350]
+HTTP response complete for ['127.0.0.1', 54350]
+[mHTTP GET /static/admin/css/changelists.css 200 [0.07, 127.0.0.1:54350][0m
+HTTP b'GET' request for ['127.0.0.1', 54350]
+HTTP 200 response started for ['127.0.0.1', 54347]
+HTTP 200 response started for ['127.0.0.1', 54351]
+HTTP 200 response started for ['127.0.0.1', 54346]
+HTTP 200 response started for ['127.0.0.1', 54349]
+HTTP 200 response started for ['127.0.0.1', 54350]
+HTTP response chunk for ['127.0.0.1', 54351]
+HTTP close for ['127.0.0.1', 54351]
+HTTP response complete for ['127.0.0.1', 54351]
+[mHTTP GET /static/admin/js/filters.js 200 [0.08, 127.0.0.1:54351][0m
+HTTP response chunk for ['127.0.0.1', 54349]
+HTTP close for ['127.0.0.1', 54349]
+HTTP response complete for ['127.0.0.1', 54349]
+[mHTTP GET /static/admin/js/jquery.init.js 200 [0.08, 127.0.0.1:54349][0m
+HTTP b'GET' request for ['127.0.0.1', 54351]
+HTTP b'GET' request for ['127.0.0.1', 54349]
+HTTP 200 response started for ['127.0.0.1', 54349]
+HTTP 200 response started for ['127.0.0.1', 54351]
+HTTP response chunk for ['127.0.0.1', 54349]
+HTTP close for ['127.0.0.1', 54349]
+HTTP response complete for ['127.0.0.1', 54349]
+[mHTTP GET /static/admin/js/prepopulate.js 200 [0.01, 127.0.0.1:54349][0m
+HTTP b'GET' request for ['127.0.0.1', 54349]
+HTTP response chunk for ['127.0.0.1', 54348]
+HTTP response chunk for ['127.0.0.1', 54348]
+HTTP response chunk for ['127.0.0.1', 54348]
+HTTP response chunk for ['127.0.0.1', 54348]
+HTTP response chunk for ['127.0.0.1', 54348]
+HTTP close for ['127.0.0.1', 54348]
+HTTP response complete for ['127.0.0.1', 54348]
+[mHTTP GET /static/admin/js/vendor/jquery/jquery.js 200 [0.11, 127.0.0.1:54348][0m
+HTTP 200 response started for ['127.0.0.1', 54349]
+HTTP response chunk for ['127.0.0.1', 54347]
+HTTP close for ['127.0.0.1', 54347]
+HTTP response complete for ['127.0.0.1', 54347]
+[mHTTP GET /static/admin/js/admin/RelatedObjectLookups.js 200 [0.05, 127.0.0.1:54347][0m
+HTTP response chunk for ['127.0.0.1', 54350]
+HTTP close for ['127.0.0.1', 54350]
+HTTP response complete for ['127.0.0.1', 54350]
+[mHTTP GET /static/admin/js/actions.js 200 [0.06, 127.0.0.1:54350][0m
+HTTP response chunk for ['127.0.0.1', 54346]
+HTTP close for ['127.0.0.1', 54346]
+HTTP response complete for ['127.0.0.1', 54346]
+[mHTTP GET /static/admin/js/core.js 200 [0.10, 127.0.0.1:54346][0m
+HTTP response chunk for ['127.0.0.1', 54351]
+HTTP close for ['127.0.0.1', 54351]
+HTTP response complete for ['127.0.0.1', 54351]
+[mHTTP GET /static/admin/js/urlify.js 200 [0.06, 127.0.0.1:54351][0m
+HTTP response chunk for ['127.0.0.1', 54349]
+HTTP response chunk for ['127.0.0.1', 54349]
+HTTP response chunk for ['127.0.0.1', 54349]
+HTTP response chunk for ['127.0.0.1', 54349]
+HTTP close for ['127.0.0.1', 54349]
+HTTP response complete for ['127.0.0.1', 54349]
+[mHTTP GET /static/admin/js/vendor/xregexp/xregexp.js 200 [0.07, 127.0.0.1:54349][0m
+HTTP b'GET' request for ['127.0.0.1', 54348]
+HTTP 200 response started for ['127.0.0.1', 54348]
+HTTP response chunk for ['127.0.0.1', 54348]
+HTTP close for ['127.0.0.1', 54348]
+HTTP response complete for ['127.0.0.1', 54348]
+[mHTTP GET /static/admin/img/tooltag-add.svg 200 [0.00, 127.0.0.1:54348][0m
+HTTP b'GET' request for ['127.0.0.1', 54348]
+HTTP 200 response started for ['127.0.0.1', 54348]
+HTTP close for ['127.0.0.1', 54348]
+HTTP response complete for ['127.0.0.1', 54348]
+[mHTTP GET /admin/ 200 [0.03, 127.0.0.1:54348][0m
+HTTP b'GET' request for ['127.0.0.1', 54348]
+HTTP 200 response started for ['127.0.0.1', 54348]
+HTTP close for ['127.0.0.1', 54348]
+HTTP response complete for ['127.0.0.1', 54348]
+[mHTTP GET /admin/notifapi/notifymodel/add/ 200 [0.09, 127.0.0.1:54348][0m
+HTTP b'GET' request for ['127.0.0.1', 54348]
+HTTP 200 response started for ['127.0.0.1', 54348]
+HTTP response chunk for ['127.0.0.1', 54348]
+HTTP close for ['127.0.0.1', 54348]
+HTTP response complete for ['127.0.0.1', 54348]
+[mHTTP GET /static/admin/img/icon-viewlink.svg 200 [0.01, 127.0.0.1:54348][0m
+HTTP b'GET' request for ['127.0.0.1', 54348]
+HTTP b'GET' request for ['127.0.0.1', 54349]
+HTTP 200 response started for ['127.0.0.1', 54348]
+HTTP b'GET' request for ['127.0.0.1', 54350]
+HTTP b'GET' request for ['127.0.0.1', 54347]
+HTTP 200 response started for ['127.0.0.1', 54350]
+HTTP 200 response started for ['127.0.0.1', 54347]
+HTTP response chunk for ['127.0.0.1', 54347]
+HTTP close for ['127.0.0.1', 54347]
+HTTP response complete for ['127.0.0.1', 54347]
+[mHTTP GET /static/admin/js/prepopulate_init.js 200 [0.01, 127.0.0.1:54347][0m
+HTTP response chunk for ['127.0.0.1', 54350]
+HTTP close for ['127.0.0.1', 54350]
+HTTP response complete for ['127.0.0.1', 54350]
+[mHTTP GET /static/admin/js/change_form.js 200 [0.01, 127.0.0.1:54350][0m
+HTTP 200 response started for ['127.0.0.1', 54349]
+HTTP close for ['127.0.0.1', 54349]
+HTTP response complete for ['127.0.0.1', 54349]
+[mHTTP GET /admin/jsi18n/ 200 [0.02, 127.0.0.1:54349][0m
+HTTP response chunk for ['127.0.0.1', 54348]
+HTTP close for ['127.0.0.1', 54348]
+HTTP response complete for ['127.0.0.1', 54348]
+[mHTTP GET /static/admin/css/forms.css 200 [0.04, 127.0.0.1:54348][0m
+HTTP b'GET' request for ['127.0.0.1', 54348]
+HTTP 200 response started for ['127.0.0.1', 54348]
+HTTP response chunk for ['127.0.0.1', 54348]
+HTTP close for ['127.0.0.1', 54348]
+HTTP response complete for ['127.0.0.1', 54348]
+[mHTTP GET /static/admin/css/widgets.css 200 [0.01, 127.0.0.1:54348][0m
+HTTP b'POST' request for ['127.0.0.1', 54348]
+HTTP 302 response started for ['127.0.0.1', 54348]
+HTTP close for ['127.0.0.1', 54348]
+HTTP response complete for ['127.0.0.1', 54348]
+[32mHTTP POST /admin/notifapi/notifymodel/add/ 302 [0.16, 127.0.0.1:54348][0m
+HTTP b'GET' request for ['127.0.0.1', 54348]
+HTTP 200 response started for ['127.0.0.1', 54348]
+HTTP close for ['127.0.0.1', 54348]
+HTTP response complete for ['127.0.0.1', 54348]
+[mHTTP GET /admin/notifapi/notifymodel/add/ 200 [0.05, 127.0.0.1:54348][0m
+HTTP b'GET' request for ['127.0.0.1', 54348]
+HTTP 200 response started for ['127.0.0.1', 54348]
+HTTP close for ['127.0.0.1', 54348]
+HTTP response complete for ['127.0.0.1', 54348]
+[mHTTP GET /admin/jsi18n/ 200 [0.02, 127.0.0.1:54348][0m
+HTTP b'GET' request for ['127.0.0.1', 54348]
+HTTP 200 response started for ['127.0.0.1', 54348]
+HTTP response chunk for ['127.0.0.1', 54348]
+HTTP close for ['127.0.0.1', 54348]
+HTTP response complete for ['127.0.0.1', 54348]
+[mHTTP GET /static/admin/img/icon-yes.svg 200 [0.01, 127.0.0.1:54348][0m
+HTTP b'GET' request for ['127.0.0.1', 54348]
+HTTP 200 response started for ['127.0.0.1', 54348]
+HTTP close for ['127.0.0.1', 54348]
+HTTP response complete for ['127.0.0.1', 54348]
+[mHTTP GET /ws/wstest/ 200 [0.02, 127.0.0.1:54348][0m
+HTTP b'GET' request for ['127.0.0.1', 54356]
+HTTP 200 response started for ['127.0.0.1', 54356]
+HTTP close for ['127.0.0.1', 54356]
+HTTP response complete for ['127.0.0.1', 54356]
+[mHTTP GET /ws/wstest/ 200 [0.01, 127.0.0.1:54356][0m
+HTTP b'GET' request for ['127.0.0.1', 54356]
+Not Found: /favicon.ico
+HTTP 404 response started for ['127.0.0.1', 54356]
+HTTP close for ['127.0.0.1', 54356]
+HTTP response complete for ['127.0.0.1', 54356]
+[33mHTTP GET /favicon.ico 404 [0.02, 127.0.0.1:54356][0m
+HTTP b'POST' request for ['127.0.0.1', 54356]
+HTTP 302 response started for ['127.0.0.1', 54356]
+HTTP close for ['127.0.0.1', 54356]
+HTTP response complete for ['127.0.0.1', 54356]
+[32mHTTP POST /admin/notifapi/notifymodel/add/ 302 [0.48, 127.0.0.1:54356][0m
+HTTP b'GET' request for ['127.0.0.1', 54356]
+HTTP 200 response started for ['127.0.0.1', 54356]
+HTTP close for ['127.0.0.1', 54356]
+HTTP response complete for ['127.0.0.1', 54356]
+[mHTTP GET /admin/notifapi/notifymodel/add/ 200 [0.02, 127.0.0.1:54356][0m
+HTTP b'GET' request for ['127.0.0.1', 54356]
+HTTP 200 response started for ['127.0.0.1', 54356]
+HTTP close for ['127.0.0.1', 54356]
+HTTP response complete for ['127.0.0.1', 54356]
+[mHTTP GET /admin/jsi18n/ 200 [0.02, 127.0.0.1:54356][0m
+HTTP b'GET' request for ['127.0.0.1', 54356]
+HTTP 200 response started for ['127.0.0.1', 54356]
+HTTP close for ['127.0.0.1', 54356]
+HTTP response complete for ['127.0.0.1', 54356]
+[mHTTP GET /ws/wstest/ 200 [0.00, 127.0.0.1:54356][0m
+HTTP b'GET' request for ['127.0.0.1', 54356]
+HTTP 200 response started for ['127.0.0.1', 54356]
+HTTP close for ['127.0.0.1', 54356]
+HTTP response complete for ['127.0.0.1', 54356]
+[mHTTP GET / 200 [0.02, 127.0.0.1:54356][0m
+HTTP b'GET' request for ['127.0.0.1', 54356]
+HTTP disconnect for ['127.0.0.1', 54356]
+HTTP b'GET' request for ['127.0.0.1', 54370]
+HTTP b'GET' request for ['127.0.0.1', 54371]
+HTTP 304 response started for ['127.0.0.1', 54370]
+HTTP close for ['127.0.0.1', 54370]
+HTTP response complete for ['127.0.0.1', 54370]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 304 [0.02, 127.0.0.1:54370][0m
+HTTP 304 response started for ['127.0.0.1', 54371]
+HTTP close for ['127.0.0.1', 54371]
+HTTP response complete for ['127.0.0.1', 54371]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 304 [0.00, 127.0.0.1:54371][0m
+HTTP b'GET' request for ['127.0.0.1', 54370]
+HTTP 200 response started for ['127.0.0.1', 54370]
+HTTP close for ['127.0.0.1', 54370]
+HTTP response complete for ['127.0.0.1', 54370]
+[mHTTP GET / 200 [0.01, 127.0.0.1:54370][0m
+HTTP b'GET' request for ['127.0.0.1', 54370]
+HTTP b'GET' request for ['127.0.0.1', 54371]
+HTTP 304 response started for ['127.0.0.1', 54370]
+HTTP close for ['127.0.0.1', 54370]
+HTTP response complete for ['127.0.0.1', 54370]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 304 [0.01, 127.0.0.1:54370][0m
+HTTP 304 response started for ['127.0.0.1', 54371]
+HTTP close for ['127.0.0.1', 54371]
+HTTP response complete for ['127.0.0.1', 54371]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 304 [0.00, 127.0.0.1:54371][0m
+HTTP b'POST' request for ['127.0.0.1', 54370]
+HTTP 302 response started for ['127.0.0.1', 54370]
+HTTP close for ['127.0.0.1', 54370]
+HTTP response complete for ['127.0.0.1', 54370]
+[32mHTTP POST /admin/notifapi/notifymodel/add/ 302 [0.10, 127.0.0.1:54370][0m
+HTTP b'GET' request for ['127.0.0.1', 54370]
+HTTP 200 response started for ['127.0.0.1', 54370]
+HTTP close for ['127.0.0.1', 54370]
+HTTP response complete for ['127.0.0.1', 54370]
+[mHTTP GET /admin/notifapi/notifymodel/add/ 200 [0.06, 127.0.0.1:54370][0m
+HTTP b'GET' request for ['127.0.0.1', 54370]
+HTTP 200 response started for ['127.0.0.1', 54370]
+HTTP close for ['127.0.0.1', 54370]
+HTTP response complete for ['127.0.0.1', 54370]
+[mHTTP GET /admin/jsi18n/ 200 [0.02, 127.0.0.1:54370][0m
+HTTP b'POST' request for ['127.0.0.1', 54370]
+HTTP 302 response started for ['127.0.0.1', 54370]
+HTTP close for ['127.0.0.1', 54370]
+HTTP response complete for ['127.0.0.1', 54370]
+[32mHTTP POST /admin/notifapi/notifymodel/add/ 302 [0.13, 127.0.0.1:54370][0m
+HTTP b'GET' request for ['127.0.0.1', 54370]
+HTTP 200 response started for ['127.0.0.1', 54370]
+HTTP close for ['127.0.0.1', 54370]
+HTTP response complete for ['127.0.0.1', 54370]
+[mHTTP GET /admin/notifapi/notifymodel/add/ 200 [0.04, 127.0.0.1:54370][0m
+HTTP b'GET' request for ['127.0.0.1', 54370]
+HTTP 200 response started for ['127.0.0.1', 54370]
+HTTP close for ['127.0.0.1', 54370]
+HTTP response complete for ['127.0.0.1', 54370]
+[mHTTP GET /admin/jsi18n/ 200 [0.02, 127.0.0.1:54370][0m
+HTTP b'GET' request for ['127.0.0.1', 54370]
+HTTP 200 response started for ['127.0.0.1', 54370]
+HTTP close for ['127.0.0.1', 54370]
+HTTP response complete for ['127.0.0.1', 54370]
+[mHTTP GET /ws/wstest/ 200 [0.02, 127.0.0.1:54370][0m
+HTTP b'POST' request for ['127.0.0.1', 54370]
+HTTP 302 response started for ['127.0.0.1', 54370]
+HTTP close for ['127.0.0.1', 54370]
+HTTP response complete for ['127.0.0.1', 54370]
+[32mHTTP POST /admin/notifapi/notifymodel/add/ 302 [0.10, 127.0.0.1:54370][0m
+HTTP b'GET' request for ['127.0.0.1', 54370]
+HTTP 200 response started for ['127.0.0.1', 54370]
+HTTP close for ['127.0.0.1', 54370]
+HTTP response complete for ['127.0.0.1', 54370]
+[mHTTP GET /admin/notifapi/notifymodel/add/ 200 [0.06, 127.0.0.1:54370][0m
+HTTP b'GET' request for ['127.0.0.1', 54370]
+HTTP 200 response started for ['127.0.0.1', 54370]
+HTTP close for ['127.0.0.1', 54370]
+HTTP response complete for ['127.0.0.1', 54370]
+[mHTTP GET /admin/jsi18n/ 200 [0.02, 127.0.0.1:54370][0m

@@ -30,7 +30,7 @@ export default {
     },
     methods: {
         async establishWebSocketConnection() {
-            this.webSocket = new WebSocket('ws://127.0.0.1:8001/websocket/ws/notifications/', 'echo-protocol');
+            this.webSocket = new WebSocket('ws://127.0.0.1:8001/websocket/ws/notifications/');
             
             this.webSocket.onopen = () => {
                 console.log('WebSocket connection established!');
