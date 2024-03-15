@@ -2502,3 +2502,635 @@ HTTP 200 response started for ['127.0.0.1', 54370]
 HTTP close for ['127.0.0.1', 54370]
 HTTP response complete for ['127.0.0.1', 54370]
 [mHTTP GET /admin/jsi18n/ 200 [0.02, 127.0.0.1:54370][0m
+Using selector: SelectSelector
+Using selector: SelectSelector
+Watching for file changes with StatReloader
+This is a test error log.
+HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+Configuring endpoint tcp:port=8000:interface=127.0.0.1
+Listening on TCP address 127.0.0.1:8000
+Using selector: SelectSelector
+HTTP b'GET' request for ['127.0.0.1', 52169]
+HTTP 200 response started for ['127.0.0.1', 52169]
+HTTP close for ['127.0.0.1', 52169]
+HTTP response complete for ['127.0.0.1', 52169]
+[mHTTP GET / 200 [0.42, 127.0.0.1:52169][0m
+HTTP b'GET' request for ['127.0.0.1', 52169]
+HTTP disconnect for ['127.0.0.1', 52169]
+HTTP b'GET' request for ['127.0.0.1', 52171]
+HTTP b'GET' request for ['127.0.0.1', 52172]
+HTTP 200 response started for ['127.0.0.1', 52172]
+HTTP 200 response started for ['127.0.0.1', 52171]
+HTTP response chunk for ['127.0.0.1', 52172]
+HTTP close for ['127.0.0.1', 52172]
+HTTP response complete for ['127.0.0.1', 52172]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.58, 127.0.0.1:52172][0m
+HTTP response chunk for ['127.0.0.1', 52171]
+HTTP response chunk for ['127.0.0.1', 52171]
+HTTP response chunk for ['127.0.0.1', 52171]
+HTTP response chunk for ['127.0.0.1', 52171]
+HTTP response chunk for ['127.0.0.1', 52171]
+HTTP response chunk for ['127.0.0.1', 52171]
+HTTP response chunk for ['127.0.0.1', 52171]
+HTTP response chunk for ['127.0.0.1', 52171]
+HTTP response chunk for ['127.0.0.1', 52171]
+HTTP response chunk for ['127.0.0.1', 52171]
+HTTP response chunk for ['127.0.0.1', 52171]
+HTTP response chunk for ['127.0.0.1', 52171]
+HTTP response chunk for ['127.0.0.1', 52171]
+HTTP response chunk for ['127.0.0.1', 52171]
+HTTP response chunk for ['127.0.0.1', 52171]
+HTTP response chunk for ['127.0.0.1', 52171]
+HTTP response chunk for ['127.0.0.1', 52171]
+HTTP response chunk for ['127.0.0.1', 52171]
+HTTP response chunk for ['127.0.0.1', 52171]
+HTTP response chunk for ['127.0.0.1', 52171]
+HTTP response chunk for ['127.0.0.1', 52171]
+HTTP response chunk for ['127.0.0.1', 52171]
+HTTP response chunk for ['127.0.0.1', 52171]
+HTTP response chunk for ['127.0.0.1', 52171]
+HTTP response chunk for ['127.0.0.1', 52171]
+HTTP response chunk for ['127.0.0.1', 52171]
+HTTP response chunk for ['127.0.0.1', 52171]
+HTTP response chunk for ['127.0.0.1', 52171]
+HTTP response chunk for ['127.0.0.1', 52171]
+HTTP response chunk for ['127.0.0.1', 52171]
+HTTP response chunk for ['127.0.0.1', 52171]
+HTTP response chunk for ['127.0.0.1', 52171]
+HTTP response chunk for ['127.0.0.1', 52171]
+HTTP response chunk for ['127.0.0.1', 52171]
+HTTP response chunk for ['127.0.0.1', 52171]
+HTTP close for ['127.0.0.1', 52171]
+HTTP response complete for ['127.0.0.1', 52171]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 200 [0.58, 127.0.0.1:52171][0m
+HTTP b'GET' request for ['127.0.0.1', 52171]
+HTTP disconnect for ['127.0.0.1', 52171]
+HTTP b'GET' request for ['127.0.0.1', 52275]
+HTTP 200 response started for ['127.0.0.1', 52275]
+HTTP close for ['127.0.0.1', 52275]
+HTTP response complete for ['127.0.0.1', 52275]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52275][0m
+HTTP b'GET' request for ['127.0.0.1', 52275]
+HTTP b'GET' request for ['127.0.0.1', 52276]
+HTTP 304 response started for ['127.0.0.1', 52275]
+HTTP close for ['127.0.0.1', 52275]
+HTTP response complete for ['127.0.0.1', 52275]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 304 [0.00, 127.0.0.1:52275][0m
+HTTP 304 response started for ['127.0.0.1', 52276]
+HTTP close for ['127.0.0.1', 52276]
+HTTP response complete for ['127.0.0.1', 52276]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 304 [0.01, 127.0.0.1:52276][0m
+Using selector: SelectSelector
+This is a test error log.
+Using selector: SelectSelector
+This is a test error log.
+Using selector: SelectSelector
+Using selector: SelectSelector
+Watching for file changes with StatReloader
+This is a test error log.
+HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+Configuring endpoint tcp:port=8000:interface=127.0.0.1
+Listening on TCP address 127.0.0.1:8000
+Using selector: SelectSelector
+HTTP b'GET' request for ['127.0.0.1', 52312]
+HTTP 200 response started for ['127.0.0.1', 52312]
+HTTP close for ['127.0.0.1', 52312]
+HTTP response complete for ['127.0.0.1', 52312]
+[mHTTP GET / 200 [0.02, 127.0.0.1:52312][0m
+D:\pages_perso\Websites\Practices\python\django\notifications-badge\myproj\notifapi\consumers.py changed, reloading.
+Using selector: SelectSelector
+Watching for file changes with StatReloader
+This is a test error log.
+HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+Configuring endpoint tcp:port=8000:interface=127.0.0.1
+Listening on TCP address 127.0.0.1:8000
+Using selector: SelectSelector
+HTTP b'GET' request for ['127.0.0.1', 52334]
+HTTP 200 response started for ['127.0.0.1', 52334]
+HTTP close for ['127.0.0.1', 52334]
+HTTP response complete for ['127.0.0.1', 52334]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52334][0m
+HTTP b'GET' request for ['127.0.0.1', 52334]
+HTTP b'GET' request for ['127.0.0.1', 52335]
+HTTP 304 response started for ['127.0.0.1', 52334]
+HTTP close for ['127.0.0.1', 52334]
+HTTP response complete for ['127.0.0.1', 52334]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 304 [0.01, 127.0.0.1:52334][0m
+HTTP 304 response started for ['127.0.0.1', 52335]
+HTTP close for ['127.0.0.1', 52335]
+HTTP response complete for ['127.0.0.1', 52335]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 304 [0.00, 127.0.0.1:52335][0m
+D:\pages_perso\Websites\Practices\python\django\notifications-badge\myproj\notifapi\consumers.py changed, reloading.
+Using selector: SelectSelector
+Watching for file changes with StatReloader
+This is a test error log.
+HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+Configuring endpoint tcp:port=8000:interface=127.0.0.1
+Listening on TCP address 127.0.0.1:8000
+Using selector: SelectSelector
+HTTP b'GET' request for ['127.0.0.1', 52353]
+HTTP 200 response started for ['127.0.0.1', 52353]
+HTTP close for ['127.0.0.1', 52353]
+HTTP response complete for ['127.0.0.1', 52353]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52353][0m
+HTTP b'GET' request for ['127.0.0.1', 52353]
+HTTP 302 response started for ['127.0.0.1', 52353]
+HTTP close for ['127.0.0.1', 52353]
+HTTP response complete for ['127.0.0.1', 52353]
+[32mHTTP GET /admin/ 302 [0.07, 127.0.0.1:52353][0m
+HTTP b'GET' request for ['127.0.0.1', 52353]
+HTTP 200 response started for ['127.0.0.1', 52353]
+HTTP close for ['127.0.0.1', 52353]
+HTTP response complete for ['127.0.0.1', 52353]
+[mHTTP GET /admin/login/?next=/admin/ 200 [0.18, 127.0.0.1:52353][0m
+HTTP b'GET' request for ['127.0.0.1', 52358]
+HTTP b'GET' request for ['127.0.0.1', 52353]
+HTTP b'GET' request for ['127.0.0.1', 52359]
+HTTP b'GET' request for ['127.0.0.1', 52360]
+HTTP b'GET' request for ['127.0.0.1', 52361]
+HTTP 304 response started for ['127.0.0.1', 52358]
+HTTP close for ['127.0.0.1', 52358]
+HTTP response complete for ['127.0.0.1', 52358]
+[36mHTTP GET /static/admin/css/base.css 304 [0.01, 127.0.0.1:52358][0m
+HTTP b'GET' request for ['127.0.0.1', 52362]
+HTTP 304 response started for ['127.0.0.1', 52359]
+HTTP close for ['127.0.0.1', 52359]
+HTTP response complete for ['127.0.0.1', 52359]
+[36mHTTP GET /static/admin/css/nav_sidebar.css 304 [0.02, 127.0.0.1:52359][0m
+HTTP 304 response started for ['127.0.0.1', 52353]
+HTTP close for ['127.0.0.1', 52353]
+HTTP response complete for ['127.0.0.1', 52353]
+[36mHTTP GET /static/admin/css/dark_mode.css 304 [0.02, 127.0.0.1:52353][0m
+HTTP 304 response started for ['127.0.0.1', 52360]
+HTTP close for ['127.0.0.1', 52360]
+HTTP response complete for ['127.0.0.1', 52360]
+[36mHTTP GET /static/admin/css/login.css 304 [0.01, 127.0.0.1:52360][0m
+HTTP b'GET' request for ['127.0.0.1', 52358]
+HTTP 304 response started for ['127.0.0.1', 52361]
+HTTP close for ['127.0.0.1', 52361]
+HTTP response complete for ['127.0.0.1', 52361]
+[36mHTTP GET /static/admin/css/responsive.css 304 [0.01, 127.0.0.1:52361][0m
+HTTP 304 response started for ['127.0.0.1', 52362]
+HTTP close for ['127.0.0.1', 52362]
+HTTP response complete for ['127.0.0.1', 52362]
+[36mHTTP GET /static/admin/js/theme.js 304 [0.01, 127.0.0.1:52362][0m
+HTTP 304 response started for ['127.0.0.1', 52358]
+HTTP close for ['127.0.0.1', 52358]
+HTTP response complete for ['127.0.0.1', 52358]
+[36mHTTP GET /static/admin/js/nav_sidebar.js 304 [0.02, 127.0.0.1:52358][0m
+HTTP b'POST' request for ['127.0.0.1', 52353]
+HTTP 302 response started for ['127.0.0.1', 52353]
+HTTP close for ['127.0.0.1', 52353]
+HTTP response complete for ['127.0.0.1', 52353]
+[32mHTTP POST /admin/login/?next=/admin/ 302 [0.33, 127.0.0.1:52353][0m
+HTTP b'GET' request for ['127.0.0.1', 52353]
+HTTP 200 response started for ['127.0.0.1', 52353]
+HTTP close for ['127.0.0.1', 52353]
+HTTP response complete for ['127.0.0.1', 52353]
+[mHTTP GET /admin/ 200 [0.05, 127.0.0.1:52353][0m
+HTTP b'GET' request for ['127.0.0.1', 52359]
+HTTP b'GET' request for ['127.0.0.1', 52361]
+HTTP b'GET' request for ['127.0.0.1', 52360]
+HTTP b'GET' request for ['127.0.0.1', 52358]
+HTTP b'GET' request for ['127.0.0.1', 52353]
+HTTP b'GET' request for ['127.0.0.1', 52362]
+HTTP 304 response started for ['127.0.0.1', 52359]
+HTTP close for ['127.0.0.1', 52359]
+HTTP response complete for ['127.0.0.1', 52359]
+[36mHTTP GET /static/admin/css/base.css 304 [0.01, 127.0.0.1:52359][0m
+HTTP 304 response started for ['127.0.0.1', 52361]
+HTTP close for ['127.0.0.1', 52361]
+HTTP response complete for ['127.0.0.1', 52361]
+[36mHTTP GET /static/admin/js/theme.js 304 [0.01, 127.0.0.1:52361][0m
+HTTP 304 response started for ['127.0.0.1', 52358]
+HTTP close for ['127.0.0.1', 52358]
+HTTP response complete for ['127.0.0.1', 52358]
+[36mHTTP GET /static/admin/js/nav_sidebar.js 304 [0.01, 127.0.0.1:52358][0m
+HTTP 304 response started for ['127.0.0.1', 52360]
+HTTP close for ['127.0.0.1', 52360]
+HTTP response complete for ['127.0.0.1', 52360]
+[36mHTTP GET /static/admin/css/dark_mode.css 304 [0.02, 127.0.0.1:52360][0m
+HTTP b'GET' request for ['127.0.0.1', 52359]
+HTTP 304 response started for ['127.0.0.1', 52362]
+HTTP close for ['127.0.0.1', 52362]
+HTTP response complete for ['127.0.0.1', 52362]
+[36mHTTP GET /static/admin/css/nav_sidebar.css 304 [0.02, 127.0.0.1:52362][0m
+HTTP 304 response started for ['127.0.0.1', 52353]
+HTTP close for ['127.0.0.1', 52353]
+HTTP response complete for ['127.0.0.1', 52353]
+[36mHTTP GET /static/admin/css/responsive.css 304 [0.02, 127.0.0.1:52353][0m
+HTTP 304 response started for ['127.0.0.1', 52359]
+HTTP close for ['127.0.0.1', 52359]
+HTTP response complete for ['127.0.0.1', 52359]
+[36mHTTP GET /static/admin/css/dashboard.css 304 [0.01, 127.0.0.1:52359][0m
+HTTP b'GET' request for ['127.0.0.1', 52358]
+HTTP b'GET' request for ['127.0.0.1', 52361]
+HTTP 200 response started for ['127.0.0.1', 52358]
+HTTP response chunk for ['127.0.0.1', 52358]
+HTTP close for ['127.0.0.1', 52358]
+HTTP response complete for ['127.0.0.1', 52358]
+[mHTTP GET /static/admin/img/icon-addlink.svg 200 [0.38, 127.0.0.1:52358][0m
+HTTP 200 response started for ['127.0.0.1', 52361]
+HTTP response chunk for ['127.0.0.1', 52361]
+HTTP close for ['127.0.0.1', 52361]
+HTTP response complete for ['127.0.0.1', 52361]
+[mHTTP GET /static/admin/img/icon-changelink.svg 200 [0.38, 127.0.0.1:52361][0m
+HTTP b'GET' request for ['127.0.0.1', 52353]
+HTTP 200 response started for ['127.0.0.1', 52353]
+HTTP close for ['127.0.0.1', 52353]
+HTTP response complete for ['127.0.0.1', 52353]
+[mHTTP GET /admin/notifapi/notifymodel/ 200 [0.16, 127.0.0.1:52353][0m
+HTTP b'GET' request for ['127.0.0.1', 52361]
+HTTP b'GET' request for ['127.0.0.1', 52358]
+HTTP b'GET' request for ['127.0.0.1', 52359]
+HTTP b'GET' request for ['127.0.0.1', 52360]
+HTTP b'GET' request for ['127.0.0.1', 52362]
+HTTP b'GET' request for ['127.0.0.1', 52353]
+HTTP 304 response started for ['127.0.0.1', 52360]
+HTTP close for ['127.0.0.1', 52360]
+HTTP response complete for ['127.0.0.1', 52360]
+[36mHTTP GET /static/admin/js/theme.js 304 [0.01, 127.0.0.1:52360][0m
+HTTP 304 response started for ['127.0.0.1', 52358]
+HTTP close for ['127.0.0.1', 52358]
+HTTP response complete for ['127.0.0.1', 52358]
+[36mHTTP GET /static/admin/css/dark_mode.css 304 [0.01, 127.0.0.1:52358][0m
+HTTP 304 response started for ['127.0.0.1', 52359]
+HTTP close for ['127.0.0.1', 52359]
+HTTP response complete for ['127.0.0.1', 52359]
+[36mHTTP GET /static/admin/js/nav_sidebar.js 304 [0.01, 127.0.0.1:52359][0m
+HTTP 304 response started for ['127.0.0.1', 52361]
+HTTP close for ['127.0.0.1', 52361]
+HTTP response complete for ['127.0.0.1', 52361]
+[36mHTTP GET /static/admin/css/base.css 304 [0.02, 127.0.0.1:52361][0m
+HTTP 304 response started for ['127.0.0.1', 52353]
+HTTP close for ['127.0.0.1', 52353]
+HTTP response complete for ['127.0.0.1', 52353]
+[36mHTTP GET /static/admin/css/responsive.css 304 [0.01, 127.0.0.1:52353][0m
+HTTP 304 response started for ['127.0.0.1', 52362]
+HTTP close for ['127.0.0.1', 52362]
+HTTP response complete for ['127.0.0.1', 52362]
+[36mHTTP GET /static/admin/css/nav_sidebar.css 304 [0.01, 127.0.0.1:52362][0m
+HTTP b'GET' request for ['127.0.0.1', 52358]
+HTTP b'GET' request for ['127.0.0.1', 52359]
+HTTP b'GET' request for ['127.0.0.1', 52353]
+HTTP b'GET' request for ['127.0.0.1', 52361]
+HTTP b'GET' request for ['127.0.0.1', 52360]
+HTTP b'GET' request for ['127.0.0.1', 52362]
+HTTP 304 response started for ['127.0.0.1', 52358]
+HTTP close for ['127.0.0.1', 52358]
+HTTP response complete for ['127.0.0.1', 52358]
+[36mHTTP GET /static/admin/css/changelists.css 304 [0.01, 127.0.0.1:52358][0m
+HTTP 304 response started for ['127.0.0.1', 52359]
+HTTP close for ['127.0.0.1', 52359]
+HTTP response complete for ['127.0.0.1', 52359]
+[36mHTTP GET /static/admin/js/vendor/jquery/jquery.js 304 [0.01, 127.0.0.1:52359][0m
+HTTP 304 response started for ['127.0.0.1', 52361]
+HTTP close for ['127.0.0.1', 52361]
+HTTP response complete for ['127.0.0.1', 52361]
+[36mHTTP GET /static/admin/js/jquery.init.js 304 [0.01, 127.0.0.1:52361][0m
+HTTP 304 response started for ['127.0.0.1', 52360]
+HTTP close for ['127.0.0.1', 52360]
+HTTP response complete for ['127.0.0.1', 52360]
+[36mHTTP GET /static/admin/js/core.js 304 [0.01, 127.0.0.1:52360][0m
+HTTP b'GET' request for ['127.0.0.1', 52358]
+HTTP b'GET' request for ['127.0.0.1', 52359]
+HTTP 304 response started for ['127.0.0.1', 52362]
+HTTP close for ['127.0.0.1', 52362]
+HTTP response complete for ['127.0.0.1', 52362]
+[36mHTTP GET /static/admin/js/admin/RelatedObjectLookups.js 304 [0.01, 127.0.0.1:52362][0m
+HTTP b'GET' request for ['127.0.0.1', 52361]
+HTTP b'GET' request for ['127.0.0.1', 52360]
+HTTP b'GET' request for ['127.0.0.1', 52362]
+HTTP 304 response started for ['127.0.0.1', 52359]
+HTTP close for ['127.0.0.1', 52359]
+HTTP response complete for ['127.0.0.1', 52359]
+[36mHTTP GET /static/admin/js/urlify.js 304 [0.01, 127.0.0.1:52359][0m
+HTTP 304 response started for ['127.0.0.1', 52358]
+HTTP close for ['127.0.0.1', 52358]
+HTTP response complete for ['127.0.0.1', 52358]
+[36mHTTP GET /static/admin/js/actions.js 304 [0.01, 127.0.0.1:52358][0m
+HTTP 304 response started for ['127.0.0.1', 52361]
+HTTP close for ['127.0.0.1', 52361]
+HTTP response complete for ['127.0.0.1', 52361]
+[36mHTTP GET /static/admin/js/prepopulate.js 304 [0.01, 127.0.0.1:52361][0m
+HTTP 304 response started for ['127.0.0.1', 52360]
+HTTP close for ['127.0.0.1', 52360]
+HTTP response complete for ['127.0.0.1', 52360]
+[36mHTTP GET /static/admin/js/vendor/xregexp/xregexp.js 304 [0.01, 127.0.0.1:52360][0m
+HTTP 304 response started for ['127.0.0.1', 52362]
+HTTP close for ['127.0.0.1', 52362]
+HTTP response complete for ['127.0.0.1', 52362]
+[36mHTTP GET /static/admin/js/filters.js 304 [0.01, 127.0.0.1:52362][0m
+HTTP 200 response started for ['127.0.0.1', 52353]
+HTTP close for ['127.0.0.1', 52353]
+HTTP response complete for ['127.0.0.1', 52353]
+[mHTTP GET /admin/jsi18n/ 200 [0.04, 127.0.0.1:52353][0m
+HTTP b'GET' request for ['127.0.0.1', 52361]
+HTTP 200 response started for ['127.0.0.1', 52361]
+HTTP response chunk for ['127.0.0.1', 52361]
+HTTP close for ['127.0.0.1', 52361]
+HTTP response complete for ['127.0.0.1', 52361]
+[mHTTP GET /static/admin/img/tooltag-add.svg 200 [0.00, 127.0.0.1:52361][0m
+HTTP b'GET' request for ['127.0.0.1', 52353]
+HTTP 200 response started for ['127.0.0.1', 52353]
+HTTP close for ['127.0.0.1', 52353]
+HTTP response complete for ['127.0.0.1', 52353]
+[mHTTP GET /admin/notifapi/notifymodel/add/ 200 [0.14, 127.0.0.1:52353][0m
+HTTP b'GET' request for ['127.0.0.1', 52361]
+HTTP 200 response started for ['127.0.0.1', 52361]
+HTTP response chunk for ['127.0.0.1', 52361]
+HTTP close for ['127.0.0.1', 52361]
+HTTP response complete for ['127.0.0.1', 52361]
+[mHTTP GET /static/admin/img/icon-viewlink.svg 200 [0.00, 127.0.0.1:52361][0m
+HTTP b'GET' request for ['127.0.0.1', 52361]
+HTTP b'GET' request for ['127.0.0.1', 52358]
+HTTP b'GET' request for ['127.0.0.1', 52359]
+HTTP b'GET' request for ['127.0.0.1', 52362]
+HTTP b'GET' request for ['127.0.0.1', 52353]
+HTTP b'GET' request for ['127.0.0.1', 52360]
+HTTP 304 response started for ['127.0.0.1', 52361]
+HTTP close for ['127.0.0.1', 52361]
+HTTP response complete for ['127.0.0.1', 52361]
+[36mHTTP GET /static/admin/css/base.css 304 [0.01, 127.0.0.1:52361][0m
+HTTP 304 response started for ['127.0.0.1', 52358]
+HTTP close for ['127.0.0.1', 52358]
+HTTP response complete for ['127.0.0.1', 52358]
+[36mHTTP GET /static/admin/css/dark_mode.css 304 [0.01, 127.0.0.1:52358][0m
+HTTP 304 response started for ['127.0.0.1', 52359]
+HTTP close for ['127.0.0.1', 52359]
+HTTP response complete for ['127.0.0.1', 52359]
+[36mHTTP GET /static/admin/js/theme.js 304 [0.01, 127.0.0.1:52359][0m
+HTTP 304 response started for ['127.0.0.1', 52362]
+HTTP close for ['127.0.0.1', 52362]
+HTTP response complete for ['127.0.0.1', 52362]
+[36mHTTP GET /static/admin/css/nav_sidebar.css 304 [0.01, 127.0.0.1:52362][0m
+HTTP 304 response started for ['127.0.0.1', 52360]
+HTTP close for ['127.0.0.1', 52360]
+HTTP response complete for ['127.0.0.1', 52360]
+[36mHTTP GET /static/admin/js/nav_sidebar.js 304 [0.01, 127.0.0.1:52360][0m
+HTTP b'GET' request for ['127.0.0.1', 52361]
+HTTP b'GET' request for ['127.0.0.1', 52358]
+HTTP b'GET' request for ['127.0.0.1', 52359]
+HTTP b'GET' request for ['127.0.0.1', 52362]
+HTTP 304 response started for ['127.0.0.1', 52361]
+HTTP close for ['127.0.0.1', 52361]
+HTTP response complete for ['127.0.0.1', 52361]
+[36mHTTP GET /static/admin/css/responsive.css 304 [0.01, 127.0.0.1:52361][0m
+HTTP 200 response started for ['127.0.0.1', 52358]
+HTTP 200 response started for ['127.0.0.1', 52362]
+HTTP 200 response started for ['127.0.0.1', 52359]
+HTTP response chunk for ['127.0.0.1', 52362]
+HTTP close for ['127.0.0.1', 52362]
+HTTP response complete for ['127.0.0.1', 52362]
+[mHTTP GET /static/admin/js/prepopulate_init.js 200 [0.01, 127.0.0.1:52362][0m
+HTTP response chunk for ['127.0.0.1', 52359]
+HTTP close for ['127.0.0.1', 52359]
+HTTP response complete for ['127.0.0.1', 52359]
+[mHTTP GET /static/admin/js/change_form.js 200 [0.01, 127.0.0.1:52359][0m
+HTTP 200 response started for ['127.0.0.1', 52353]
+HTTP close for ['127.0.0.1', 52353]
+HTTP response complete for ['127.0.0.1', 52353]
+[mHTTP GET /admin/jsi18n/ 200 [0.03, 127.0.0.1:52353][0m
+HTTP response chunk for ['127.0.0.1', 52358]
+HTTP close for ['127.0.0.1', 52358]
+HTTP response complete for ['127.0.0.1', 52358]
+[mHTTP GET /static/admin/css/forms.css 200 [0.03, 127.0.0.1:52358][0m
+HTTP b'GET' request for ['127.0.0.1', 52358]
+HTTP 200 response started for ['127.0.0.1', 52358]
+HTTP response chunk for ['127.0.0.1', 52358]
+HTTP close for ['127.0.0.1', 52358]
+HTTP response complete for ['127.0.0.1', 52358]
+[mHTTP GET /static/admin/css/widgets.css 200 [0.01, 127.0.0.1:52358][0m
+HTTP b'POST' request for ['127.0.0.1', 52353]
+Using selector: SelectSelector
+HTTP 302 response started for ['127.0.0.1', 52353]
+HTTP close for ['127.0.0.1', 52353]
+HTTP response complete for ['127.0.0.1', 52353]
+[32mHTTP POST /admin/notifapi/notifymodel/add/ 302 [0.16, 127.0.0.1:52353][0m
+HTTP b'GET' request for ['127.0.0.1', 52353]
+HTTP 200 response started for ['127.0.0.1', 52353]
+HTTP close for ['127.0.0.1', 52353]
+HTTP response complete for ['127.0.0.1', 52353]
+[mHTTP GET /admin/notifapi/notifymodel/add/ 200 [0.02, 127.0.0.1:52353][0m
+HTTP b'GET' request for ['127.0.0.1', 52358]
+HTTP b'GET' request for ['127.0.0.1', 52359]
+HTTP b'GET' request for ['127.0.0.1', 52362]
+HTTP b'GET' request for ['127.0.0.1', 52353]
+HTTP b'GET' request for ['127.0.0.1', 52361]
+HTTP b'GET' request for ['127.0.0.1', 52360]
+HTTP 304 response started for ['127.0.0.1', 52358]
+HTTP close for ['127.0.0.1', 52358]
+HTTP response complete for ['127.0.0.1', 52358]
+[36mHTTP GET /static/admin/css/base.css 304 [0.01, 127.0.0.1:52358][0m
+HTTP 304 response started for ['127.0.0.1', 52362]
+HTTP close for ['127.0.0.1', 52362]
+HTTP response complete for ['127.0.0.1', 52362]
+[36mHTTP GET /static/admin/js/theme.js 304 [0.01, 127.0.0.1:52362][0m
+HTTP b'GET' request for ['127.0.0.1', 52358]
+HTTP 304 response started for ['127.0.0.1', 52359]
+HTTP close for ['127.0.0.1', 52359]
+HTTP response complete for ['127.0.0.1', 52359]
+[36mHTTP GET /static/admin/css/dark_mode.css 304 [0.02, 127.0.0.1:52359][0m
+HTTP 304 response started for ['127.0.0.1', 52361]
+HTTP close for ['127.0.0.1', 52361]
+HTTP response complete for ['127.0.0.1', 52361]
+[36mHTTP GET /static/admin/css/nav_sidebar.css 304 [0.02, 127.0.0.1:52361][0m
+HTTP 304 response started for ['127.0.0.1', 52360]
+HTTP close for ['127.0.0.1', 52360]
+HTTP response complete for ['127.0.0.1', 52360]
+[36mHTTP GET /static/admin/js/nav_sidebar.js 304 [0.02, 127.0.0.1:52360][0m
+HTTP 304 response started for ['127.0.0.1', 52358]
+HTTP close for ['127.0.0.1', 52358]
+HTTP response complete for ['127.0.0.1', 52358]
+[36mHTTP GET /static/admin/css/responsive.css 304 [0.01, 127.0.0.1:52358][0m
+HTTP 200 response started for ['127.0.0.1', 52353]
+HTTP close for ['127.0.0.1', 52353]
+HTTP response complete for ['127.0.0.1', 52353]
+[mHTTP GET /admin/jsi18n/ 200 [0.03, 127.0.0.1:52353][0m
+HTTP b'GET' request for ['127.0.0.1', 52358]
+HTTP 200 response started for ['127.0.0.1', 52358]
+HTTP response chunk for ['127.0.0.1', 52358]
+HTTP close for ['127.0.0.1', 52358]
+HTTP response complete for ['127.0.0.1', 52358]
+[mHTTP GET /static/admin/img/icon-yes.svg 200 [0.00, 127.0.0.1:52358][0m
+D:\pages_perso\Websites\Practices\python\django\notifications-badge\myproj\notifapi\consumers.py changed, reloading.
+Using selector: SelectSelector
+Watching for file changes with StatReloader
+This is a test error log.
+HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+Configuring endpoint tcp:port=8000:interface=127.0.0.1
+Listening on TCP address 127.0.0.1:8000
+Using selector: SelectSelector
+HTTP b'GET' request for ['127.0.0.1', 52389]
+HTTP 200 response started for ['127.0.0.1', 52389]
+HTTP close for ['127.0.0.1', 52389]
+HTTP response complete for ['127.0.0.1', 52389]
+[mHTTP GET / 200 [0.02, 127.0.0.1:52389][0m
+HTTP b'GET' request for ['127.0.0.1', 52389]
+HTTP b'GET' request for ['127.0.0.1', 52390]
+HTTP 304 response started for ['127.0.0.1', 52389]
+HTTP close for ['127.0.0.1', 52389]
+HTTP response complete for ['127.0.0.1', 52389]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 304 [0.01, 127.0.0.1:52389][0m
+HTTP 304 response started for ['127.0.0.1', 52390]
+HTTP close for ['127.0.0.1', 52390]
+HTTP response complete for ['127.0.0.1', 52390]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 304 [0.01, 127.0.0.1:52390][0m
+HTTP b'POST' request for ['127.0.0.1', 52403]
+Using selector: SelectSelector
+HTTP 302 response started for ['127.0.0.1', 52403]
+HTTP close for ['127.0.0.1', 52403]
+HTTP response complete for ['127.0.0.1', 52403]
+[32mHTTP POST /admin/notifapi/notifymodel/add/ 302 [0.47, 127.0.0.1:52403][0m
+HTTP b'GET' request for ['127.0.0.1', 52403]
+HTTP 200 response started for ['127.0.0.1', 52403]
+HTTP close for ['127.0.0.1', 52403]
+HTTP response complete for ['127.0.0.1', 52403]
+[mHTTP GET /admin/notifapi/notifymodel/add/ 200 [0.08, 127.0.0.1:52403][0m
+HTTP b'GET' request for ['127.0.0.1', 52403]
+HTTP b'GET' request for ['127.0.0.1', 52408]
+HTTP b'GET' request for ['127.0.0.1', 52409]
+HTTP b'GET' request for ['127.0.0.1', 52410]
+HTTP 304 response started for ['127.0.0.1', 52403]
+HTTP close for ['127.0.0.1', 52403]
+HTTP response complete for ['127.0.0.1', 52403]
+[36mHTTP GET /static/admin/css/base.css 304 [0.01, 127.0.0.1:52403][0m
+HTTP b'GET' request for ['127.0.0.1', 52411]
+HTTP b'GET' request for ['127.0.0.1', 52412]
+HTTP 304 response started for ['127.0.0.1', 52408]
+HTTP close for ['127.0.0.1', 52408]
+HTTP response complete for ['127.0.0.1', 52408]
+[36mHTTP GET /static/admin/css/dark_mode.css 304 [0.01, 127.0.0.1:52408][0m
+HTTP b'GET' request for ['127.0.0.1', 52403]
+HTTP 304 response started for ['127.0.0.1', 52409]
+HTTP close for ['127.0.0.1', 52409]
+HTTP response complete for ['127.0.0.1', 52409]
+[36mHTTP GET /static/admin/css/nav_sidebar.css 304 [0.01, 127.0.0.1:52409][0m
+HTTP 304 response started for ['127.0.0.1', 52410]
+HTTP close for ['127.0.0.1', 52410]
+HTTP response complete for ['127.0.0.1', 52410]
+[36mHTTP GET /static/admin/js/theme.js 304 [0.01, 127.0.0.1:52410][0m
+HTTP 304 response started for ['127.0.0.1', 52411]
+HTTP close for ['127.0.0.1', 52411]
+HTTP response complete for ['127.0.0.1', 52411]
+[36mHTTP GET /static/admin/js/nav_sidebar.js 304 [0.01, 127.0.0.1:52411][0m
+HTTP 304 response started for ['127.0.0.1', 52403]
+HTTP close for ['127.0.0.1', 52403]
+HTTP response complete for ['127.0.0.1', 52403]
+[36mHTTP GET /static/admin/css/responsive.css 304 [0.01, 127.0.0.1:52403][0m
+HTTP 200 response started for ['127.0.0.1', 52412]
+HTTP close for ['127.0.0.1', 52412]
+HTTP response complete for ['127.0.0.1', 52412]
+[mHTTP GET /admin/jsi18n/ 200 [0.03, 127.0.0.1:52412][0m
+HTTP b'GET' request for ['127.0.0.1', 52403]
+HTTP 200 response started for ['127.0.0.1', 52403]
+HTTP close for ['127.0.0.1', 52403]
+HTTP response complete for ['127.0.0.1', 52403]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52403][0m
+HTTP b'POST' request for ['127.0.0.1', 52403]
+Using selector: SelectSelector
+HTTP 302 response started for ['127.0.0.1', 52403]
+HTTP close for ['127.0.0.1', 52403]
+HTTP response complete for ['127.0.0.1', 52403]
+[32mHTTP POST /admin/notifapi/notifymodel/add/ 302 [0.10, 127.0.0.1:52403][0m
+HTTP b'GET' request for ['127.0.0.1', 52403]
+HTTP 200 response started for ['127.0.0.1', 52403]
+HTTP close for ['127.0.0.1', 52403]
+HTTP response complete for ['127.0.0.1', 52403]
+[mHTTP GET /admin/notifapi/notifymodel/add/ 200 [0.03, 127.0.0.1:52403][0m
+HTTP b'GET' request for ['127.0.0.1', 52412]
+HTTP b'GET' request for ['127.0.0.1', 52408]
+HTTP b'GET' request for ['127.0.0.1', 52409]
+HTTP b'GET' request for ['127.0.0.1', 52410]
+HTTP b'GET' request for ['127.0.0.1', 52411]
+HTTP b'GET' request for ['127.0.0.1', 52403]
+HTTP 304 response started for ['127.0.0.1', 52412]
+HTTP close for ['127.0.0.1', 52412]
+HTTP response complete for ['127.0.0.1', 52412]
+[36mHTTP GET /static/admin/css/base.css 304 [0.01, 127.0.0.1:52412][0m
+HTTP 304 response started for ['127.0.0.1', 52408]
+HTTP close for ['127.0.0.1', 52408]
+HTTP response complete for ['127.0.0.1', 52408]
+[36mHTTP GET /static/admin/css/dark_mode.css 304 [0.01, 127.0.0.1:52408][0m
+HTTP 304 response started for ['127.0.0.1', 52409]
+HTTP close for ['127.0.0.1', 52409]
+HTTP response complete for ['127.0.0.1', 52409]
+[36mHTTP GET /static/admin/js/theme.js 304 [0.01, 127.0.0.1:52409][0m
+HTTP 304 response started for ['127.0.0.1', 52410]
+HTTP close for ['127.0.0.1', 52410]
+HTTP response complete for ['127.0.0.1', 52410]
+[36mHTTP GET /static/admin/js/nav_sidebar.js 304 [0.01, 127.0.0.1:52410][0m
+HTTP b'GET' request for ['127.0.0.1', 52412]
+HTTP 304 response started for ['127.0.0.1', 52411]
+HTTP close for ['127.0.0.1', 52411]
+HTTP response complete for ['127.0.0.1', 52411]
+[36mHTTP GET /static/admin/css/nav_sidebar.css 304 [0.01, 127.0.0.1:52411][0m
+HTTP 304 response started for ['127.0.0.1', 52412]
+HTTP close for ['127.0.0.1', 52412]
+HTTP response complete for ['127.0.0.1', 52412]
+[36mHTTP GET /static/admin/css/responsive.css 304 [0.01, 127.0.0.1:52412][0m
+HTTP 200 response started for ['127.0.0.1', 52403]
+HTTP close for ['127.0.0.1', 52403]
+HTTP response complete for ['127.0.0.1', 52403]
+[mHTTP GET /admin/jsi18n/ 200 [0.03, 127.0.0.1:52403][0m
+HTTP b'GET' request for ['127.0.0.1', 52403]
+HTTP 200 response started for ['127.0.0.1', 52403]
+HTTP close for ['127.0.0.1', 52403]
+HTTP response complete for ['127.0.0.1', 52403]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52403][0m
+HTTP b'GET' request for ['127.0.0.1', 52412]
+HTTP b'GET' request for ['127.0.0.1', 52410]
+HTTP 304 response started for ['127.0.0.1', 52412]
+HTTP close for ['127.0.0.1', 52412]
+HTTP response complete for ['127.0.0.1', 52412]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 304 [0.01, 127.0.0.1:52412][0m
+HTTP 304 response started for ['127.0.0.1', 52410]
+HTTP close for ['127.0.0.1', 52410]
+HTTP response complete for ['127.0.0.1', 52410]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 304 [0.01, 127.0.0.1:52410][0m
+HTTP b'POST' request for ['127.0.0.1', 52403]
+Using selector: SelectSelector
+HTTP 302 response started for ['127.0.0.1', 52403]
+HTTP close for ['127.0.0.1', 52403]
+HTTP response complete for ['127.0.0.1', 52403]
+[32mHTTP POST /admin/notifapi/notifymodel/add/ 302 [0.44, 127.0.0.1:52403][0m
+HTTP b'GET' request for ['127.0.0.1', 52403]
+HTTP 200 response started for ['127.0.0.1', 52403]
+HTTP close for ['127.0.0.1', 52403]
+HTTP response complete for ['127.0.0.1', 52403]
+[mHTTP GET /admin/notifapi/notifymodel/add/ 200 [0.03, 127.0.0.1:52403][0m
+HTTP b'GET' request for ['127.0.0.1', 52412]
+HTTP b'GET' request for ['127.0.0.1', 52408]
+HTTP b'GET' request for ['127.0.0.1', 52410]
+HTTP b'GET' request for ['127.0.0.1', 52409]
+HTTP b'GET' request for ['127.0.0.1', 52411]
+HTTP b'GET' request for ['127.0.0.1', 52403]
+HTTP 304 response started for ['127.0.0.1', 52412]
+HTTP close for ['127.0.0.1', 52412]
+HTTP response complete for ['127.0.0.1', 52412]
+[36mHTTP GET /static/admin/css/base.css 304 [0.01, 127.0.0.1:52412][0m
+HTTP 304 response started for ['127.0.0.1', 52408]
+HTTP close for ['127.0.0.1', 52408]
+HTTP response complete for ['127.0.0.1', 52408]
+[36mHTTP GET /static/admin/css/dark_mode.css 304 [0.01, 127.0.0.1:52408][0m
+HTTP 304 response started for ['127.0.0.1', 52409]
+HTTP close for ['127.0.0.1', 52409]
+HTTP response complete for ['127.0.0.1', 52409]
+[36mHTTP GET /static/admin/js/theme.js 304 [0.01, 127.0.0.1:52409][0m
+HTTP 304 response started for ['127.0.0.1', 52410]
+HTTP close for ['127.0.0.1', 52410]
+HTTP response complete for ['127.0.0.1', 52410]
+[36mHTTP GET /static/admin/js/nav_sidebar.js 304 [0.01, 127.0.0.1:52410][0m
+HTTP 304 response started for ['127.0.0.1', 52411]
+HTTP close for ['127.0.0.1', 52411]
+HTTP response complete for ['127.0.0.1', 52411]
+[36mHTTP GET /static/admin/css/nav_sidebar.css 304 [0.01, 127.0.0.1:52411][0m
+HTTP b'GET' request for ['127.0.0.1', 52412]
+HTTP 304 response started for ['127.0.0.1', 52412]
+HTTP close for ['127.0.0.1', 52412]
+HTTP response complete for ['127.0.0.1', 52412]
+[36mHTTP GET /static/admin/css/responsive.css 304 [0.00, 127.0.0.1:52412][0m
+HTTP 200 response started for ['127.0.0.1', 52403]
+HTTP close for ['127.0.0.1', 52403]
+HTTP response complete for ['127.0.0.1', 52403]
+[mHTTP GET /admin/jsi18n/ 200 [0.02, 127.0.0.1:52403][0m
