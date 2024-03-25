@@ -1,22 +1,27 @@
 <template>
     <div class="fancy-container">
-        <a href="#" class="position-relative">
+        <a href="#" class="position-relative" @click="toggleNotificationMenu">
             <i class="fa fa-bell _gray" style="font-size:24px"></i>
             <span class="my-text btnLnk">Visits</span>
             <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger _reduced">
                 {{ notificationCount }}
             </span>
+
         </a>
+        <!-- Dynamic component to display notifications list -->
+        <component :is="showNotifications ? 'NotificationsList' : 'div'" :notifications="notifications" v-if="notifications.length > 0" @close="closeNotificationMenu" />
     </div>
 </template>
 <script>
 //import Axios from 'axios';
-
+import NotificationsList from './NotificationList.vue';
 export default {
     data() {
         return {
             notifications: [],
-            webSocket: null
+            
+            webSocket: null,
+            showNotifications: false, // Flag to toggle showing notifications list
         };
     },
     computed: {
@@ -29,6 +34,14 @@ export default {
         this.establishWebSocketConnection();
     },
     methods: {
+        toggleNotificationMenu() {
+            console.log('Notifications data in parent component:', this.notifications);
+            this.showNotifications = !this.showNotifications;
+            },
+        closeNotificationMenu() {
+            this.showNotifications = false; // Hide the notifications list
+        },
+
         async establishWebSocketConnection() {
             this.webSocket = new WebSocket('ws://127.0.0.1:8001/websocket/ws/notifications/');
             
@@ -39,10 +52,16 @@ export default {
             
             this.webSocket.onmessage = (event) => {
                 console.log("Message received:", event.data);
+                
                 const message = JSON.parse(event.data);
-                console.log("Received type:", message.type);  // Log the type field to identify the message type
+                //console.log("Event is:", event);  // Log the type field to identify the message type
                 if(message.type === 'notification.update'){
-                    this.notifications = message.is_read_values.map(is_read => ({ fields: { is_read } }));
+                    this.notifications = message.is_read_values.map(
+                        (is_read, index) => ({ 
+                            fields: { is_read },
+                            message: message.messages_values[index]
+                            
+                        }))
                 }else{
                     console.log("Notification count was not updated!")
                 }
@@ -62,6 +81,9 @@ export default {
             }));
 
         },
+    },
+    components: {
+        NotificationsList, // Register the NotificationsList component
     },
 };
 </script>
