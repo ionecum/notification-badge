@@ -15,3 +15,14 @@ To test:
 wscat -c ws://127.0.0.1:8001/websocket/ws/notifications/
         
 wscat should be installed as npm module
+
+Test memurai:
+   tasklist | findstr memurai
+   
+This command will display the list of running tasks and services containing "memurai". Check if the Memurai service is listed as running in the output.
+
+   memurai-cli
+   
+   SET testkey testvalue
+   GET testkey
+   

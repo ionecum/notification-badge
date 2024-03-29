@@ -3134,3 +3134,3665 @@ HTTP 200 response started for ['127.0.0.1', 52403]
 HTTP close for ['127.0.0.1', 52403]
 HTTP response complete for ['127.0.0.1', 52403]
 [mHTTP GET /admin/jsi18n/ 200 [0.02, 127.0.0.1:52403][0m
+Using selector: SelectSelector
+Using selector: SelectSelector
+Watching for file changes with StatReloader
+This is a test error log.
+HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+Configuring endpoint tcp:port=8000:interface=127.0.0.1
+Listening on TCP address 127.0.0.1:8000
+Using selector: SelectSelector
+HTTP b'GET' request for ['127.0.0.1', 52421]
+HTTP 200 response started for ['127.0.0.1', 52421]
+HTTP close for ['127.0.0.1', 52421]
+HTTP response complete for ['127.0.0.1', 52421]
+[mHTTP GET / 200 [0.15, 127.0.0.1:52421][0m
+HTTP b'GET' request for ['127.0.0.1', 52421]
+HTTP b'GET' request for ['127.0.0.1', 52422]
+HTTP b'GET' request for ['127.0.0.1', 52423]
+HTTP 200 response started for ['127.0.0.1', 52422]
+HTTP response chunk for ['127.0.0.1', 52422]
+HTTP response chunk for ['127.0.0.1', 52422]
+HTTP close for ['127.0.0.1', 52422]
+HTTP response complete for ['127.0.0.1', 52422]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.58, 127.0.0.1:52422][0m
+HTTP 200 response started for ['127.0.0.1', 52423]
+HTTP 200 response started for ['127.0.0.1', 52421]
+HTTP response chunk for ['127.0.0.1', 52421]
+HTTP close for ['127.0.0.1', 52421]
+HTTP response complete for ['127.0.0.1', 52421]
+[mHTTP GET /static/css/style.css 200 [0.59, 127.0.0.1:52421][0m
+HTTP response chunk for ['127.0.0.1', 52423]
+HTTP response chunk for ['127.0.0.1', 52423]
+HTTP response chunk for ['127.0.0.1', 52423]
+HTTP response chunk for ['127.0.0.1', 52423]
+HTTP response chunk for ['127.0.0.1', 52423]
+HTTP response chunk for ['127.0.0.1', 52423]
+HTTP response chunk for ['127.0.0.1', 52423]
+HTTP response chunk for ['127.0.0.1', 52423]
+HTTP response chunk for ['127.0.0.1', 52423]
+HTTP response chunk for ['127.0.0.1', 52423]
+HTTP response chunk for ['127.0.0.1', 52423]
+HTTP response chunk for ['127.0.0.1', 52423]
+HTTP response chunk for ['127.0.0.1', 52423]
+HTTP response chunk for ['127.0.0.1', 52423]
+HTTP response chunk for ['127.0.0.1', 52423]
+HTTP response chunk for ['127.0.0.1', 52423]
+HTTP response chunk for ['127.0.0.1', 52423]
+HTTP response chunk for ['127.0.0.1', 52423]
+HTTP response chunk for ['127.0.0.1', 52423]
+HTTP response chunk for ['127.0.0.1', 52423]
+HTTP response chunk for ['127.0.0.1', 52423]
+HTTP response chunk for ['127.0.0.1', 52423]
+HTTP response chunk for ['127.0.0.1', 52423]
+HTTP response chunk for ['127.0.0.1', 52423]
+HTTP response chunk for ['127.0.0.1', 52423]
+HTTP response chunk for ['127.0.0.1', 52423]
+HTTP response chunk for ['127.0.0.1', 52423]
+HTTP response chunk for ['127.0.0.1', 52423]
+HTTP response chunk for ['127.0.0.1', 52423]
+HTTP response chunk for ['127.0.0.1', 52423]
+HTTP response chunk for ['127.0.0.1', 52423]
+HTTP response chunk for ['127.0.0.1', 52423]
+HTTP response chunk for ['127.0.0.1', 52423]
+HTTP response chunk for ['127.0.0.1', 52423]
+HTTP response chunk for ['127.0.0.1', 52423]
+HTTP close for ['127.0.0.1', 52423]
+HTTP response complete for ['127.0.0.1', 52423]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 200 [0.60, 127.0.0.1:52423][0m
+HTTP b'GET' request for ['127.0.0.1', 52423]
+HTTP 200 response started for ['127.0.0.1', 52423]
+HTTP response chunk for ['127.0.0.1', 52423]
+HTTP close for ['127.0.0.1', 52423]
+HTTP response complete for ['127.0.0.1', 52423]
+[mHTTP GET /static/favicon.ico 200 [0.02, 127.0.0.1:52423][0m
+HTTP b'GET' request for ['127.0.0.1', 52423]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52423]
+HTTP close for ['127.0.0.1', 52423]
+HTTP response complete for ['127.0.0.1', 52423]
+[33mHTTP GET /serviceworker.js 404 [0.17, 127.0.0.1:52423][0m
+HTTP b'GET' request for ['127.0.0.1', 52423]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52423]
+HTTP close for ['127.0.0.1', 52423]
+HTTP response complete for ['127.0.0.1', 52423]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:52423][0m
+Using selector: SelectSelector
+Using selector: SelectSelector
+Watching for file changes with StatReloader
+This is a test error log.
+HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+Configuring endpoint tcp:port=8000:interface=127.0.0.1
+Listening on TCP address 127.0.0.1:8000
+Using selector: SelectSelector
+HTTP b'GET' request for ['127.0.0.1', 51880]
+HTTP 200 response started for ['127.0.0.1', 51880]
+HTTP close for ['127.0.0.1', 51880]
+HTTP response complete for ['127.0.0.1', 51880]
+[mHTTP GET / 200 [0.14, 127.0.0.1:51880][0m
+HTTP b'GET' request for ['127.0.0.1', 51880]
+HTTP b'GET' request for ['127.0.0.1', 51881]
+HTTP b'GET' request for ['127.0.0.1', 51882]
+HTTP 200 response started for ['127.0.0.1', 51882]
+HTTP 200 response started for ['127.0.0.1', 51881]
+HTTP 200 response started for ['127.0.0.1', 51880]
+HTTP response chunk for ['127.0.0.1', 51882]
+HTTP response chunk for ['127.0.0.1', 51882]
+HTTP close for ['127.0.0.1', 51882]
+HTTP response complete for ['127.0.0.1', 51882]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.43, 127.0.0.1:51882][0m
+HTTP response chunk for ['127.0.0.1', 51880]
+HTTP close for ['127.0.0.1', 51880]
+HTTP response complete for ['127.0.0.1', 51880]
+[mHTTP GET /static/css/style.css 200 [0.44, 127.0.0.1:51880][0m
+HTTP response chunk for ['127.0.0.1', 51881]
+HTTP response chunk for ['127.0.0.1', 51881]
+HTTP response chunk for ['127.0.0.1', 51881]
+HTTP response chunk for ['127.0.0.1', 51881]
+HTTP response chunk for ['127.0.0.1', 51881]
+HTTP response chunk for ['127.0.0.1', 51881]
+HTTP response chunk for ['127.0.0.1', 51881]
+HTTP response chunk for ['127.0.0.1', 51881]
+HTTP response chunk for ['127.0.0.1', 51881]
+HTTP response chunk for ['127.0.0.1', 51881]
+HTTP response chunk for ['127.0.0.1', 51881]
+HTTP response chunk for ['127.0.0.1', 51881]
+HTTP response chunk for ['127.0.0.1', 51881]
+HTTP response chunk for ['127.0.0.1', 51881]
+HTTP response chunk for ['127.0.0.1', 51881]
+HTTP response chunk for ['127.0.0.1', 51881]
+HTTP response chunk for ['127.0.0.1', 51881]
+HTTP response chunk for ['127.0.0.1', 51881]
+HTTP response chunk for ['127.0.0.1', 51881]
+HTTP response chunk for ['127.0.0.1', 51881]
+HTTP response chunk for ['127.0.0.1', 51881]
+HTTP response chunk for ['127.0.0.1', 51881]
+HTTP response chunk for ['127.0.0.1', 51881]
+HTTP response chunk for ['127.0.0.1', 51881]
+HTTP response chunk for ['127.0.0.1', 51881]
+HTTP response chunk for ['127.0.0.1', 51881]
+HTTP response chunk for ['127.0.0.1', 51881]
+HTTP response chunk for ['127.0.0.1', 51881]
+HTTP response chunk for ['127.0.0.1', 51881]
+HTTP response chunk for ['127.0.0.1', 51881]
+HTTP response chunk for ['127.0.0.1', 51881]
+HTTP response chunk for ['127.0.0.1', 51881]
+HTTP response chunk for ['127.0.0.1', 51881]
+HTTP response chunk for ['127.0.0.1', 51881]
+HTTP response chunk for ['127.0.0.1', 51881]
+HTTP close for ['127.0.0.1', 51881]
+HTTP response complete for ['127.0.0.1', 51881]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 200 [0.44, 127.0.0.1:51881][0m
+HTTP b'GET' request for ['127.0.0.1', 51881]
+HTTP 200 response started for ['127.0.0.1', 51881]
+HTTP response chunk for ['127.0.0.1', 51881]
+HTTP close for ['127.0.0.1', 51881]
+HTTP response complete for ['127.0.0.1', 51881]
+[mHTTP GET /static/favicon.ico 200 [0.03, 127.0.0.1:51881][0m
+HTTP b'GET' request for ['127.0.0.1', 51881]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 51881]
+HTTP close for ['127.0.0.1', 51881]
+HTTP response complete for ['127.0.0.1', 51881]
+[33mHTTP GET /serviceworker.js 404 [0.16, 127.0.0.1:51881][0m
+HTTP b'GET' request for ['127.0.0.1', 51881]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 51881]
+HTTP close for ['127.0.0.1', 51881]
+HTTP response complete for ['127.0.0.1', 51881]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:51881][0m
+HTTP b'GET' request for ['127.0.0.1', 51905]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 51905]
+HTTP close for ['127.0.0.1', 51905]
+HTTP response complete for ['127.0.0.1', 51905]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:51905][0m
+HTTP b'GET' request for ['127.0.0.1', 51905]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 51905]
+HTTP close for ['127.0.0.1', 51905]
+HTTP response complete for ['127.0.0.1', 51905]
+[33mHTTP GET /serviceworker.js 404 [0.02, 127.0.0.1:51905][0m
+HTTP b'GET' request for ['127.0.0.1', 51905]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 51905]
+HTTP close for ['127.0.0.1', 51905]
+HTTP response complete for ['127.0.0.1', 51905]
+[33mHTTP GET /serviceworker.js 404 [0.02, 127.0.0.1:51905][0m
+HTTP b'GET' request for ['127.0.0.1', 51905]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 51905]
+HTTP close for ['127.0.0.1', 51905]
+HTTP response complete for ['127.0.0.1', 51905]
+[33mHTTP GET /serviceworker.js 404 [0.02, 127.0.0.1:51905][0m
+HTTP b'GET' request for ['127.0.0.1', 51905]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 51905]
+HTTP close for ['127.0.0.1', 51905]
+HTTP response complete for ['127.0.0.1', 51905]
+[33mHTTP GET /serviceworker.js 404 [0.02, 127.0.0.1:51905][0m
+HTTP b'GET' request for ['127.0.0.1', 51905]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 51905]
+HTTP close for ['127.0.0.1', 51905]
+HTTP response complete for ['127.0.0.1', 51905]
+[33mHTTP GET /serviceworker.js 404 [0.02, 127.0.0.1:51905][0m
+HTTP b'GET' request for ['127.0.0.1', 51905]
+HTTP 200 response started for ['127.0.0.1', 51905]
+HTTP close for ['127.0.0.1', 51905]
+HTTP response complete for ['127.0.0.1', 51905]
+[mHTTP GET / 200 [0.01, 127.0.0.1:51905][0m
+HTTP b'GET' request for ['127.0.0.1', 51905]
+HTTP disconnect for ['127.0.0.1', 51905]
+HTTP b'GET' request for ['127.0.0.1', 51909]
+HTTP b'GET' request for ['127.0.0.1', 51910]
+HTTP 304 response started for ['127.0.0.1', 51909]
+HTTP close for ['127.0.0.1', 51909]
+HTTP response complete for ['127.0.0.1', 51909]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 304 [0.01, 127.0.0.1:51909][0m
+HTTP 200 response started for ['127.0.0.1', 51910]
+HTTP response chunk for ['127.0.0.1', 51910]
+HTTP response chunk for ['127.0.0.1', 51910]
+HTTP close for ['127.0.0.1', 51910]
+HTTP response complete for ['127.0.0.1', 51910]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.01, 127.0.0.1:51910][0m
+HTTP b'GET' request for ['127.0.0.1', 51910]
+HTTP disconnect for ['127.0.0.1', 51910]
+HTTP b'GET' request for ['127.0.0.1', 51909]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 51909]
+HTTP close for ['127.0.0.1', 51909]
+HTTP response complete for ['127.0.0.1', 51909]
+[33mHTTP GET /serviceworker.js 404 [0.03, 127.0.0.1:51909][0m
+HTTP b'GET' request for ['127.0.0.1', 51946]
+HTTP 200 response started for ['127.0.0.1', 51946]
+HTTP close for ['127.0.0.1', 51946]
+HTTP response complete for ['127.0.0.1', 51946]
+[mHTTP GET / 200 [0.01, 127.0.0.1:51946][0m
+HTTP b'GET' request for ['127.0.0.1', 51946]
+HTTP b'GET' request for ['127.0.0.1', 51947]
+HTTP 304 response started for ['127.0.0.1', 51946]
+HTTP close for ['127.0.0.1', 51946]
+HTTP response complete for ['127.0.0.1', 51946]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 304 [0.00, 127.0.0.1:51946][0m
+HTTP 200 response started for ['127.0.0.1', 51947]
+HTTP response chunk for ['127.0.0.1', 51947]
+HTTP response chunk for ['127.0.0.1', 51947]
+HTTP close for ['127.0.0.1', 51947]
+HTTP response complete for ['127.0.0.1', 51947]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.00, 127.0.0.1:51947][0m
+HTTP b'GET' request for ['127.0.0.1', 51947]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 51947]
+HTTP close for ['127.0.0.1', 51947]
+HTTP response complete for ['127.0.0.1', 51947]
+[33mHTTP GET /serviceworker.js 404 [0.02, 127.0.0.1:51947][0m
+HTTP b'GET' request for ['127.0.0.1', 51960]
+HTTP 200 response started for ['127.0.0.1', 51960]
+HTTP close for ['127.0.0.1', 51960]
+HTTP response complete for ['127.0.0.1', 51960]
+[mHTTP GET / 200 [0.01, 127.0.0.1:51960][0m
+HTTP b'GET' request for ['127.0.0.1', 51960]
+HTTP b'GET' request for ['127.0.0.1', 51961]
+HTTP 304 response started for ['127.0.0.1', 51960]
+HTTP close for ['127.0.0.1', 51960]
+HTTP response complete for ['127.0.0.1', 51960]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 304 [0.01, 127.0.0.1:51960][0m
+HTTP 200 response started for ['127.0.0.1', 51961]
+HTTP response chunk for ['127.0.0.1', 51961]
+HTTP response chunk for ['127.0.0.1', 51961]
+HTTP close for ['127.0.0.1', 51961]
+HTTP response complete for ['127.0.0.1', 51961]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.01, 127.0.0.1:51961][0m
+HTTP b'GET' request for ['127.0.0.1', 51961]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 51961]
+HTTP close for ['127.0.0.1', 51961]
+HTTP response complete for ['127.0.0.1', 51961]
+[33mHTTP GET /serviceworker.js 404 [0.02, 127.0.0.1:51961][0m
+HTTP b'GET' request for ['127.0.0.1', 51961]
+HTTP 200 response started for ['127.0.0.1', 51961]
+HTTP close for ['127.0.0.1', 51961]
+HTTP response complete for ['127.0.0.1', 51961]
+[mHTTP GET / 200 [0.01, 127.0.0.1:51961][0m
+HTTP b'GET' request for ['127.0.0.1', 51961]
+HTTP 304 response started for ['127.0.0.1', 51961]
+HTTP close for ['127.0.0.1', 51961]
+HTTP response complete for ['127.0.0.1', 51961]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 304 [0.00, 127.0.0.1:51961][0m
+HTTP b'GET' request for ['127.0.0.1', 51961]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 51961]
+HTTP close for ['127.0.0.1', 51961]
+HTTP response complete for ['127.0.0.1', 51961]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:51961][0m
+HTTP b'GET' request for ['127.0.0.1', 51971]
+HTTP 200 response started for ['127.0.0.1', 51971]
+HTTP close for ['127.0.0.1', 51971]
+HTTP response complete for ['127.0.0.1', 51971]
+[mHTTP GET / 200 [0.01, 127.0.0.1:51971][0m
+HTTP b'GET' request for ['127.0.0.1', 51971]
+HTTP b'GET' request for ['127.0.0.1', 51974]
+HTTP 304 response started for ['127.0.0.1', 51971]
+HTTP close for ['127.0.0.1', 51971]
+HTTP response complete for ['127.0.0.1', 51971]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 304 [0.01, 127.0.0.1:51971][0m
+HTTP 200 response started for ['127.0.0.1', 51974]
+HTTP response chunk for ['127.0.0.1', 51974]
+HTTP response chunk for ['127.0.0.1', 51974]
+HTTP close for ['127.0.0.1', 51974]
+HTTP response complete for ['127.0.0.1', 51974]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.01, 127.0.0.1:51974][0m
+HTTP b'GET' request for ['127.0.0.1', 51974]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 51974]
+HTTP close for ['127.0.0.1', 51974]
+HTTP response complete for ['127.0.0.1', 51974]
+[33mHTTP GET /serviceworker.js 404 [0.02, 127.0.0.1:51974][0m
+HTTP b'GET' request for ['127.0.0.1', 51990]
+HTTP 200 response started for ['127.0.0.1', 51990]
+HTTP close for ['127.0.0.1', 51990]
+HTTP response complete for ['127.0.0.1', 51990]
+[mHTTP GET / 200 [0.01, 127.0.0.1:51990][0m
+HTTP b'GET' request for ['127.0.0.1', 51990]
+HTTP b'GET' request for ['127.0.0.1', 51993]
+HTTP 304 response started for ['127.0.0.1', 51990]
+HTTP close for ['127.0.0.1', 51990]
+HTTP response complete for ['127.0.0.1', 51990]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 304 [0.01, 127.0.0.1:51990][0m
+HTTP 200 response started for ['127.0.0.1', 51993]
+HTTP response chunk for ['127.0.0.1', 51993]
+HTTP response chunk for ['127.0.0.1', 51993]
+HTTP close for ['127.0.0.1', 51993]
+HTTP response complete for ['127.0.0.1', 51993]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.01, 127.0.0.1:51993][0m
+HTTP b'GET' request for ['127.0.0.1', 51993]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 51993]
+HTTP close for ['127.0.0.1', 51993]
+HTTP response complete for ['127.0.0.1', 51993]
+[33mHTTP GET /serviceworker.js 404 [0.02, 127.0.0.1:51993][0m
+D:\pages_perso\Websites\Practices\python\django\notifications-badge\myproj\notifapi\consumers.py changed, reloading.
+Using selector: SelectSelector
+Watching for file changes with StatReloader
+This is a test error log.
+HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+Configuring endpoint tcp:port=8000:interface=127.0.0.1
+Listening on TCP address 127.0.0.1:8000
+HTTP b'GET' request for ['127.0.0.1', 52005]
+HTTP 200 response started for ['127.0.0.1', 52005]
+HTTP close for ['127.0.0.1', 52005]
+HTTP response complete for ['127.0.0.1', 52005]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52005][0m
+HTTP b'GET' request for ['127.0.0.1', 52005]
+HTTP b'GET' request for ['127.0.0.1', 52006]
+HTTP 304 response started for ['127.0.0.1', 52005]
+HTTP close for ['127.0.0.1', 52005]
+HTTP response complete for ['127.0.0.1', 52005]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 304 [0.01, 127.0.0.1:52005][0m
+HTTP 304 response started for ['127.0.0.1', 52006]
+HTTP close for ['127.0.0.1', 52006]
+HTTP response complete for ['127.0.0.1', 52006]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 304 [0.01, 127.0.0.1:52006][0m
+Using selector: SelectSelector
+HTTP b'GET' request for ['127.0.0.1', 52005]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52005]
+HTTP close for ['127.0.0.1', 52005]
+HTTP response complete for ['127.0.0.1', 52005]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:52005][0m
+D:\pages_perso\Websites\Practices\python\django\notifications-badge\myproj\notifapi\consumers.py changed, reloading.
+Using selector: SelectSelector
+Watching for file changes with StatReloader
+This is a test error log.
+HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+Configuring endpoint tcp:port=8000:interface=127.0.0.1
+Listening on TCP address 127.0.0.1:8000
+HTTP b'GET' request for ['127.0.0.1', 52033]
+HTTP 200 response started for ['127.0.0.1', 52033]
+HTTP close for ['127.0.0.1', 52033]
+HTTP response complete for ['127.0.0.1', 52033]
+[mHTTP GET / 200 [0.03, 127.0.0.1:52033][0m
+HTTP b'GET' request for ['127.0.0.1', 52033]
+HTTP 304 response started for ['127.0.0.1', 52033]
+HTTP close for ['127.0.0.1', 52033]
+HTTP response complete for ['127.0.0.1', 52033]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 304 [0.00, 127.0.0.1:52033][0m
+Using selector: SelectSelector
+HTTP b'GET' request for ['127.0.0.1', 52033]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52033]
+HTTP close for ['127.0.0.1', 52033]
+HTTP response complete for ['127.0.0.1', 52033]
+[33mHTTP GET /serviceworker.js 404 [0.02, 127.0.0.1:52033][0m
+HTTP b'GET' request for ['127.0.0.1', 52033]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52033]
+HTTP close for ['127.0.0.1', 52033]
+HTTP response complete for ['127.0.0.1', 52033]
+[33mHTTP GET /serviceworker.js 404 [0.02, 127.0.0.1:52033][0m
+HTTP b'GET' request for ['127.0.0.1', 52033]
+HTTP 200 response started for ['127.0.0.1', 52033]
+HTTP close for ['127.0.0.1', 52033]
+HTTP response complete for ['127.0.0.1', 52033]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52033][0m
+HTTP b'GET' request for ['127.0.0.1', 52033]
+HTTP 200 response started for ['127.0.0.1', 52033]
+HTTP response chunk for ['127.0.0.1', 52033]
+HTTP response chunk for ['127.0.0.1', 52033]
+HTTP close for ['127.0.0.1', 52033]
+HTTP response complete for ['127.0.0.1', 52033]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.37, 127.0.0.1:52033][0m
+HTTP b'GET' request for ['127.0.0.1', 52033]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52033]
+HTTP close for ['127.0.0.1', 52033]
+HTTP response complete for ['127.0.0.1', 52033]
+[33mHTTP GET /serviceworker.js 404 [0.02, 127.0.0.1:52033][0m
+HTTP b'GET' request for ['127.0.0.1', 52053]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52053]
+HTTP close for ['127.0.0.1', 52053]
+HTTP response complete for ['127.0.0.1', 52053]
+[33mHTTP GET /serviceworker.js 404 [0.02, 127.0.0.1:52053][0m
+HTTP b'GET' request for ['127.0.0.1', 52053]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52053]
+HTTP close for ['127.0.0.1', 52053]
+HTTP response complete for ['127.0.0.1', 52053]
+[33mHTTP GET /serviceworker.js 404 [0.02, 127.0.0.1:52053][0m
+HTTP b'GET' request for ['127.0.0.1', 52053]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52053]
+HTTP close for ['127.0.0.1', 52053]
+HTTP response complete for ['127.0.0.1', 52053]
+[33mHTTP GET /serviceworker.js 404 [0.02, 127.0.0.1:52053][0m
+HTTP b'GET' request for ['127.0.0.1', 52056]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52056]
+HTTP close for ['127.0.0.1', 52056]
+HTTP response complete for ['127.0.0.1', 52056]
+[33mHTTP GET /serviceworker.js 404 [0.02, 127.0.0.1:52056][0m
+HTTP b'GET' request for ['127.0.0.1', 52061]
+HTTP 200 response started for ['127.0.0.1', 52061]
+HTTP close for ['127.0.0.1', 52061]
+HTTP response complete for ['127.0.0.1', 52061]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52061][0m
+HTTP b'GET' request for ['127.0.0.1', 52061]
+HTTP b'GET' request for ['127.0.0.1', 52064]
+HTTP 200 response started for ['127.0.0.1', 52061]
+HTTP 200 response started for ['127.0.0.1', 52064]
+HTTP response chunk for ['127.0.0.1', 52064]
+HTTP response chunk for ['127.0.0.1', 52064]
+HTTP close for ['127.0.0.1', 52064]
+HTTP response complete for ['127.0.0.1', 52064]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.01, 127.0.0.1:52064][0m
+HTTP response chunk for ['127.0.0.1', 52061]
+HTTP response chunk for ['127.0.0.1', 52061]
+HTTP response chunk for ['127.0.0.1', 52061]
+HTTP response chunk for ['127.0.0.1', 52061]
+HTTP response chunk for ['127.0.0.1', 52061]
+HTTP response chunk for ['127.0.0.1', 52061]
+HTTP response chunk for ['127.0.0.1', 52061]
+HTTP response chunk for ['127.0.0.1', 52061]
+HTTP response chunk for ['127.0.0.1', 52061]
+HTTP response chunk for ['127.0.0.1', 52061]
+HTTP response chunk for ['127.0.0.1', 52061]
+HTTP response chunk for ['127.0.0.1', 52061]
+HTTP response chunk for ['127.0.0.1', 52061]
+HTTP response chunk for ['127.0.0.1', 52061]
+HTTP response chunk for ['127.0.0.1', 52061]
+HTTP response chunk for ['127.0.0.1', 52061]
+HTTP response chunk for ['127.0.0.1', 52061]
+HTTP response chunk for ['127.0.0.1', 52061]
+HTTP response chunk for ['127.0.0.1', 52061]
+HTTP response chunk for ['127.0.0.1', 52061]
+HTTP response chunk for ['127.0.0.1', 52061]
+HTTP response chunk for ['127.0.0.1', 52061]
+HTTP response chunk for ['127.0.0.1', 52061]
+HTTP response chunk for ['127.0.0.1', 52061]
+HTTP response chunk for ['127.0.0.1', 52061]
+HTTP response chunk for ['127.0.0.1', 52061]
+HTTP response chunk for ['127.0.0.1', 52061]
+HTTP response chunk for ['127.0.0.1', 52061]
+HTTP response chunk for ['127.0.0.1', 52061]
+HTTP response chunk for ['127.0.0.1', 52061]
+HTTP response chunk for ['127.0.0.1', 52061]
+HTTP response chunk for ['127.0.0.1', 52061]
+HTTP response chunk for ['127.0.0.1', 52061]
+HTTP response chunk for ['127.0.0.1', 52061]
+HTTP response chunk for ['127.0.0.1', 52061]
+HTTP close for ['127.0.0.1', 52061]
+HTTP response complete for ['127.0.0.1', 52061]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 200 [0.01, 127.0.0.1:52061][0m
+HTTP b'GET' request for ['127.0.0.1', 52061]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52061]
+HTTP close for ['127.0.0.1', 52061]
+HTTP response complete for ['127.0.0.1', 52061]
+[33mHTTP GET /serviceworker.js 404 [0.02, 127.0.0.1:52061][0m
+HTTP b'GET' request for ['127.0.0.1', 52061]
+HTTP 200 response started for ['127.0.0.1', 52061]
+HTTP close for ['127.0.0.1', 52061]
+HTTP response complete for ['127.0.0.1', 52061]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52061][0m
+HTTP b'GET' request for ['127.0.0.1', 52061]
+HTTP b'GET' request for ['127.0.0.1', 52064]
+HTTP 304 response started for ['127.0.0.1', 52061]
+HTTP close for ['127.0.0.1', 52061]
+HTTP response complete for ['127.0.0.1', 52061]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 304 [0.00, 127.0.0.1:52061][0m
+HTTP 200 response started for ['127.0.0.1', 52064]
+HTTP response chunk for ['127.0.0.1', 52064]
+HTTP response chunk for ['127.0.0.1', 52064]
+HTTP close for ['127.0.0.1', 52064]
+HTTP response complete for ['127.0.0.1', 52064]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.01, 127.0.0.1:52064][0m
+HTTP b'GET' request for ['127.0.0.1', 52061]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52061]
+HTTP close for ['127.0.0.1', 52061]
+HTTP response complete for ['127.0.0.1', 52061]
+[33mHTTP GET /serviceworker.js 404 [0.02, 127.0.0.1:52061][0m
+HTTP b'GET' request for ['127.0.0.1', 52061]
+HTTP 200 response started for ['127.0.0.1', 52061]
+HTTP close for ['127.0.0.1', 52061]
+HTTP response complete for ['127.0.0.1', 52061]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52061][0m
+HTTP b'GET' request for ['127.0.0.1', 52061]
+HTTP b'GET' request for ['127.0.0.1', 52064]
+HTTP 304 response started for ['127.0.0.1', 52061]
+HTTP close for ['127.0.0.1', 52061]
+HTTP response complete for ['127.0.0.1', 52061]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 304 [0.00, 127.0.0.1:52061][0m
+HTTP 200 response started for ['127.0.0.1', 52064]
+HTTP response chunk for ['127.0.0.1', 52064]
+HTTP response chunk for ['127.0.0.1', 52064]
+HTTP close for ['127.0.0.1', 52064]
+HTTP response complete for ['127.0.0.1', 52064]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.00, 127.0.0.1:52064][0m
+HTTP b'GET' request for ['127.0.0.1', 52061]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52061]
+HTTP close for ['127.0.0.1', 52061]
+HTTP response complete for ['127.0.0.1', 52061]
+[33mHTTP GET /serviceworker.js 404 [0.02, 127.0.0.1:52061][0m
+HTTP b'GET' request for ['127.0.0.1', 52078]
+HTTP 200 response started for ['127.0.0.1', 52078]
+HTTP close for ['127.0.0.1', 52078]
+HTTP response complete for ['127.0.0.1', 52078]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52078][0m
+HTTP b'GET' request for ['127.0.0.1', 52078]
+HTTP b'GET' request for ['127.0.0.1', 52080]
+HTTP 304 response started for ['127.0.0.1', 52078]
+HTTP close for ['127.0.0.1', 52078]
+HTTP response complete for ['127.0.0.1', 52078]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 304 [0.01, 127.0.0.1:52078][0m
+HTTP 200 response started for ['127.0.0.1', 52080]
+HTTP response chunk for ['127.0.0.1', 52080]
+HTTP response chunk for ['127.0.0.1', 52080]
+HTTP close for ['127.0.0.1', 52080]
+HTTP response complete for ['127.0.0.1', 52080]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.01, 127.0.0.1:52080][0m
+HTTP b'GET' request for ['127.0.0.1', 52080]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52080]
+HTTP close for ['127.0.0.1', 52080]
+HTTP response complete for ['127.0.0.1', 52080]
+[33mHTTP GET /serviceworker.js 404 [0.02, 127.0.0.1:52080][0m
+HTTP b'GET' request for ['127.0.0.1', 52088]
+HTTP 200 response started for ['127.0.0.1', 52088]
+HTTP close for ['127.0.0.1', 52088]
+HTTP response complete for ['127.0.0.1', 52088]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52088][0m
+HTTP b'GET' request for ['127.0.0.1', 52088]
+HTTP b'GET' request for ['127.0.0.1', 52089]
+HTTP 304 response started for ['127.0.0.1', 52088]
+HTTP close for ['127.0.0.1', 52088]
+HTTP response complete for ['127.0.0.1', 52088]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 304 [0.01, 127.0.0.1:52088][0m
+HTTP 200 response started for ['127.0.0.1', 52089]
+HTTP response chunk for ['127.0.0.1', 52089]
+HTTP response chunk for ['127.0.0.1', 52089]
+HTTP close for ['127.0.0.1', 52089]
+HTTP response complete for ['127.0.0.1', 52089]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.01, 127.0.0.1:52089][0m
+HTTP b'GET' request for ['127.0.0.1', 52089]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52089]
+HTTP close for ['127.0.0.1', 52089]
+HTTP response complete for ['127.0.0.1', 52089]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:52089][0m
+HTTP b'GET' request for ['127.0.0.1', 52104]
+HTTP 200 response started for ['127.0.0.1', 52104]
+HTTP close for ['127.0.0.1', 52104]
+HTTP response complete for ['127.0.0.1', 52104]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52104][0m
+HTTP b'GET' request for ['127.0.0.1', 52104]
+HTTP b'GET' request for ['127.0.0.1', 52106]
+HTTP 304 response started for ['127.0.0.1', 52104]
+HTTP close for ['127.0.0.1', 52104]
+HTTP response complete for ['127.0.0.1', 52104]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 304 [0.01, 127.0.0.1:52104][0m
+HTTP 200 response started for ['127.0.0.1', 52106]
+HTTP response chunk for ['127.0.0.1', 52106]
+HTTP response chunk for ['127.0.0.1', 52106]
+HTTP close for ['127.0.0.1', 52106]
+HTTP response complete for ['127.0.0.1', 52106]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.01, 127.0.0.1:52106][0m
+HTTP b'GET' request for ['127.0.0.1', 52106]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52106]
+HTTP close for ['127.0.0.1', 52106]
+HTTP response complete for ['127.0.0.1', 52106]
+[33mHTTP GET /serviceworker.js 404 [0.02, 127.0.0.1:52106][0m
+HTTP b'GET' request for ['127.0.0.1', 52178]
+HTTP 200 response started for ['127.0.0.1', 52178]
+HTTP close for ['127.0.0.1', 52178]
+HTTP response complete for ['127.0.0.1', 52178]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52178][0m
+HTTP b'GET' request for ['127.0.0.1', 52178]
+HTTP b'GET' request for ['127.0.0.1', 52179]
+HTTP 304 response started for ['127.0.0.1', 52178]
+HTTP close for ['127.0.0.1', 52178]
+HTTP response complete for ['127.0.0.1', 52178]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 304 [0.01, 127.0.0.1:52178][0m
+HTTP 200 response started for ['127.0.0.1', 52179]
+HTTP response chunk for ['127.0.0.1', 52179]
+HTTP response chunk for ['127.0.0.1', 52179]
+HTTP close for ['127.0.0.1', 52179]
+HTTP response complete for ['127.0.0.1', 52179]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.01, 127.0.0.1:52179][0m
+HTTP b'GET' request for ['127.0.0.1', 52179]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52179]
+HTTP close for ['127.0.0.1', 52179]
+HTTP response complete for ['127.0.0.1', 52179]
+[33mHTTP GET /serviceworker.js 404 [0.02, 127.0.0.1:52179][0m
+HTTP b'GET' request for ['127.0.0.1', 52205]
+HTTP 200 response started for ['127.0.0.1', 52205]
+HTTP close for ['127.0.0.1', 52205]
+HTTP response complete for ['127.0.0.1', 52205]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52205][0m
+HTTP b'GET' request for ['127.0.0.1', 52205]
+HTTP 304 response started for ['127.0.0.1', 52205]
+HTTP close for ['127.0.0.1', 52205]
+HTTP response complete for ['127.0.0.1', 52205]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 304 [0.00, 127.0.0.1:52205][0m
+HTTP b'GET' request for ['127.0.0.1', 52205]
+HTTP 200 response started for ['127.0.0.1', 52205]
+HTTP response chunk for ['127.0.0.1', 52205]
+HTTP response chunk for ['127.0.0.1', 52205]
+HTTP close for ['127.0.0.1', 52205]
+HTTP response complete for ['127.0.0.1', 52205]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.01, 127.0.0.1:52205][0m
+HTTP b'GET' request for ['127.0.0.1', 52205]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52205]
+HTTP close for ['127.0.0.1', 52205]
+HTTP response complete for ['127.0.0.1', 52205]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:52205][0m
+HTTP b'GET' request for ['127.0.0.1', 52205]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52205]
+HTTP close for ['127.0.0.1', 52205]
+HTTP response complete for ['127.0.0.1', 52205]
+[33mHTTP GET /serviceworker.js 404 [0.02, 127.0.0.1:52205][0m
+HTTP b'GET' request for ['127.0.0.1', 52205]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52205]
+HTTP close for ['127.0.0.1', 52205]
+HTTP response complete for ['127.0.0.1', 52205]
+[33mHTTP GET /serviceworker.js 404 [0.02, 127.0.0.1:52205][0m
+HTTP b'GET' request for ['127.0.0.1', 52205]
+HTTP 200 response started for ['127.0.0.1', 52205]
+HTTP close for ['127.0.0.1', 52205]
+HTTP response complete for ['127.0.0.1', 52205]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52205][0m
+HTTP b'GET' request for ['127.0.0.1', 52205]
+HTTP 200 response started for ['127.0.0.1', 52205]
+HTTP response chunk for ['127.0.0.1', 52205]
+HTTP response chunk for ['127.0.0.1', 52205]
+HTTP close for ['127.0.0.1', 52205]
+HTTP response complete for ['127.0.0.1', 52205]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.00, 127.0.0.1:52205][0m
+HTTP b'GET' request for ['127.0.0.1', 52205]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52205]
+HTTP close for ['127.0.0.1', 52205]
+HTTP response complete for ['127.0.0.1', 52205]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:52205][0m
+HTTP b'GET' request for ['127.0.0.1', 52205]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52205]
+HTTP close for ['127.0.0.1', 52205]
+HTTP response complete for ['127.0.0.1', 52205]
+[33mHTTP GET /serviceworker.js 404 [0.02, 127.0.0.1:52205][0m
+HTTP b'GET' request for ['127.0.0.1', 52205]
+HTTP 200 response started for ['127.0.0.1', 52205]
+HTTP close for ['127.0.0.1', 52205]
+HTTP response complete for ['127.0.0.1', 52205]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52205][0m
+HTTP b'GET' request for ['127.0.0.1', 52205]
+HTTP 200 response started for ['127.0.0.1', 52205]
+HTTP response chunk for ['127.0.0.1', 52205]
+HTTP response chunk for ['127.0.0.1', 52205]
+HTTP close for ['127.0.0.1', 52205]
+HTTP response complete for ['127.0.0.1', 52205]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.01, 127.0.0.1:52205][0m
+HTTP b'GET' request for ['127.0.0.1', 52205]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52205]
+HTTP close for ['127.0.0.1', 52205]
+HTTP response complete for ['127.0.0.1', 52205]
+[33mHTTP GET /serviceworker.js 404 [0.02, 127.0.0.1:52205][0m
+HTTP b'GET' request for ['127.0.0.1', 52224]
+HTTP 200 response started for ['127.0.0.1', 52224]
+HTTP close for ['127.0.0.1', 52224]
+HTTP response complete for ['127.0.0.1', 52224]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52224][0m
+HTTP b'GET' request for ['127.0.0.1', 52224]
+HTTP 200 response started for ['127.0.0.1', 52224]
+HTTP response chunk for ['127.0.0.1', 52224]
+HTTP response chunk for ['127.0.0.1', 52224]
+HTTP close for ['127.0.0.1', 52224]
+HTTP response complete for ['127.0.0.1', 52224]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.01, 127.0.0.1:52224][0m
+HTTP b'GET' request for ['127.0.0.1', 52224]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52224]
+HTTP close for ['127.0.0.1', 52224]
+HTTP response complete for ['127.0.0.1', 52224]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:52224][0m
+HTTP b'GET' request for ['127.0.0.1', 52232]
+HTTP 200 response started for ['127.0.0.1', 52232]
+HTTP close for ['127.0.0.1', 52232]
+HTTP response complete for ['127.0.0.1', 52232]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52232][0m
+HTTP b'GET' request for ['127.0.0.1', 52232]
+HTTP b'GET' request for ['127.0.0.1', 52234]
+HTTP 304 response started for ['127.0.0.1', 52232]
+HTTP close for ['127.0.0.1', 52232]
+HTTP response complete for ['127.0.0.1', 52232]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 304 [0.01, 127.0.0.1:52232][0m
+HTTP 200 response started for ['127.0.0.1', 52234]
+HTTP response chunk for ['127.0.0.1', 52234]
+HTTP response chunk for ['127.0.0.1', 52234]
+HTTP close for ['127.0.0.1', 52234]
+HTTP response complete for ['127.0.0.1', 52234]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.01, 127.0.0.1:52234][0m
+HTTP b'GET' request for ['127.0.0.1', 52234]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52234]
+HTTP close for ['127.0.0.1', 52234]
+HTTP response complete for ['127.0.0.1', 52234]
+[33mHTTP GET /serviceworker.js 404 [0.02, 127.0.0.1:52234][0m
+HTTP b'GET' request for ['127.0.0.1', 52242]
+HTTP 200 response started for ['127.0.0.1', 52242]
+HTTP close for ['127.0.0.1', 52242]
+HTTP response complete for ['127.0.0.1', 52242]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52242][0m
+HTTP b'GET' request for ['127.0.0.1', 52242]
+HTTP 200 response started for ['127.0.0.1', 52242]
+HTTP response chunk for ['127.0.0.1', 52242]
+HTTP response chunk for ['127.0.0.1', 52242]
+HTTP close for ['127.0.0.1', 52242]
+HTTP response complete for ['127.0.0.1', 52242]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.01, 127.0.0.1:52242][0m
+HTTP b'GET' request for ['127.0.0.1', 52242]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52242]
+HTTP close for ['127.0.0.1', 52242]
+HTTP response complete for ['127.0.0.1', 52242]
+[33mHTTP GET /serviceworker.js 404 [0.02, 127.0.0.1:52242][0m
+HTTP b'GET' request for ['127.0.0.1', 60130]
+HTTP 200 response started for ['127.0.0.1', 60130]
+HTTP close for ['127.0.0.1', 60130]
+HTTP response complete for ['127.0.0.1', 60130]
+[mHTTP GET / 200 [0.01, 127.0.0.1:60130][0m
+HTTP b'GET' request for ['127.0.0.1', 60130]
+HTTP b'GET' request for ['127.0.0.1', 60131]
+HTTP 304 response started for ['127.0.0.1', 60130]
+HTTP close for ['127.0.0.1', 60130]
+HTTP response complete for ['127.0.0.1', 60130]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 304 [0.00, 127.0.0.1:60130][0m
+HTTP 200 response started for ['127.0.0.1', 60131]
+HTTP response chunk for ['127.0.0.1', 60131]
+HTTP response chunk for ['127.0.0.1', 60131]
+HTTP close for ['127.0.0.1', 60131]
+HTTP response complete for ['127.0.0.1', 60131]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.01, 127.0.0.1:60131][0m
+HTTP b'GET' request for ['127.0.0.1', 60131]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 60131]
+HTTP close for ['127.0.0.1', 60131]
+HTTP response complete for ['127.0.0.1', 60131]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:60131][0m
+HTTP b'GET' request for ['127.0.0.1', 60140]
+HTTP 200 response started for ['127.0.0.1', 60140]
+HTTP close for ['127.0.0.1', 60140]
+HTTP response complete for ['127.0.0.1', 60140]
+[mHTTP GET / 200 [0.01, 127.0.0.1:60140][0m
+HTTP b'GET' request for ['127.0.0.1', 60140]
+HTTP 200 response started for ['127.0.0.1', 60140]
+HTTP response chunk for ['127.0.0.1', 60140]
+HTTP response chunk for ['127.0.0.1', 60140]
+HTTP close for ['127.0.0.1', 60140]
+HTTP response complete for ['127.0.0.1', 60140]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.01, 127.0.0.1:60140][0m
+HTTP b'GET' request for ['127.0.0.1', 60140]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 60140]
+HTTP close for ['127.0.0.1', 60140]
+HTTP response complete for ['127.0.0.1', 60140]
+[33mHTTP GET /serviceworker.js 404 [0.02, 127.0.0.1:60140][0m
+HTTP b'GET' request for ['127.0.0.1', 60140]
+HTTP 200 response started for ['127.0.0.1', 60140]
+HTTP close for ['127.0.0.1', 60140]
+HTTP response complete for ['127.0.0.1', 60140]
+[mHTTP GET / 200 [0.01, 127.0.0.1:60140][0m
+HTTP b'GET' request for ['127.0.0.1', 60140]
+HTTP 200 response started for ['127.0.0.1', 60140]
+HTTP response chunk for ['127.0.0.1', 60140]
+HTTP response chunk for ['127.0.0.1', 60140]
+HTTP close for ['127.0.0.1', 60140]
+HTTP response complete for ['127.0.0.1', 60140]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.00, 127.0.0.1:60140][0m
+HTTP b'GET' request for ['127.0.0.1', 60140]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 60140]
+HTTP close for ['127.0.0.1', 60140]
+HTTP response complete for ['127.0.0.1', 60140]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:60140][0m
+HTTP b'GET' request for ['127.0.0.1', 60140]
+HTTP 200 response started for ['127.0.0.1', 60140]
+HTTP close for ['127.0.0.1', 60140]
+HTTP response complete for ['127.0.0.1', 60140]
+[mHTTP GET / 200 [0.01, 127.0.0.1:60140][0m
+HTTP b'GET' request for ['127.0.0.1', 60140]
+HTTP 200 response started for ['127.0.0.1', 60140]
+HTTP response chunk for ['127.0.0.1', 60140]
+HTTP response chunk for ['127.0.0.1', 60140]
+HTTP close for ['127.0.0.1', 60140]
+HTTP response complete for ['127.0.0.1', 60140]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.01, 127.0.0.1:60140][0m
+HTTP b'GET' request for ['127.0.0.1', 60140]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 60140]
+HTTP close for ['127.0.0.1', 60140]
+HTTP response complete for ['127.0.0.1', 60140]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:60140][0m
+HTTP b'GET' request for ['127.0.0.1', 60164]
+HTTP 200 response started for ['127.0.0.1', 60164]
+HTTP close for ['127.0.0.1', 60164]
+HTTP response complete for ['127.0.0.1', 60164]
+[mHTTP GET / 200 [0.01, 127.0.0.1:60164][0m
+HTTP b'GET' request for ['127.0.0.1', 60164]
+HTTP b'GET' request for ['127.0.0.1', 60165]
+HTTP 304 response started for ['127.0.0.1', 60164]
+HTTP close for ['127.0.0.1', 60164]
+HTTP response complete for ['127.0.0.1', 60164]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 304 [0.00, 127.0.0.1:60164][0m
+HTTP 200 response started for ['127.0.0.1', 60165]
+HTTP response chunk for ['127.0.0.1', 60165]
+HTTP response chunk for ['127.0.0.1', 60165]
+HTTP close for ['127.0.0.1', 60165]
+HTTP response complete for ['127.0.0.1', 60165]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.01, 127.0.0.1:60165][0m
+HTTP b'GET' request for ['127.0.0.1', 60165]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 60165]
+HTTP close for ['127.0.0.1', 60165]
+HTTP response complete for ['127.0.0.1', 60165]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:60165][0m
+Using selector: SelectSelector
+Using selector: SelectSelector
+Watching for file changes with StatReloader
+This is a test error log.
+HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+Configuring endpoint tcp:port=8000:interface=127.0.0.1
+Listening on TCP address 127.0.0.1:8000
+Using selector: SelectSelector
+HTTP b'GET' request for ['127.0.0.1', 52157]
+HTTP 200 response started for ['127.0.0.1', 52157]
+HTTP close for ['127.0.0.1', 52157]
+HTTP response complete for ['127.0.0.1', 52157]
+[mHTTP GET / 200 [0.12, 127.0.0.1:52157][0m
+HTTP b'GET' request for ['127.0.0.1', 52157]
+HTTP b'GET' request for ['127.0.0.1', 52159]
+HTTP 200 response started for ['127.0.0.1', 52159]
+HTTP 200 response started for ['127.0.0.1', 52157]
+HTTP response chunk for ['127.0.0.1', 52157]
+HTTP response chunk for ['127.0.0.1', 52157]
+HTTP close for ['127.0.0.1', 52157]
+HTTP response complete for ['127.0.0.1', 52157]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.38, 127.0.0.1:52157][0m
+HTTP response chunk for ['127.0.0.1', 52159]
+HTTP response chunk for ['127.0.0.1', 52159]
+HTTP response chunk for ['127.0.0.1', 52159]
+HTTP response chunk for ['127.0.0.1', 52159]
+HTTP response chunk for ['127.0.0.1', 52159]
+HTTP response chunk for ['127.0.0.1', 52159]
+HTTP response chunk for ['127.0.0.1', 52159]
+HTTP response chunk for ['127.0.0.1', 52159]
+HTTP response chunk for ['127.0.0.1', 52159]
+HTTP response chunk for ['127.0.0.1', 52159]
+HTTP response chunk for ['127.0.0.1', 52159]
+HTTP response chunk for ['127.0.0.1', 52159]
+HTTP response chunk for ['127.0.0.1', 52159]
+HTTP response chunk for ['127.0.0.1', 52159]
+HTTP response chunk for ['127.0.0.1', 52159]
+HTTP response chunk for ['127.0.0.1', 52159]
+HTTP response chunk for ['127.0.0.1', 52159]
+HTTP response chunk for ['127.0.0.1', 52159]
+HTTP response chunk for ['127.0.0.1', 52159]
+HTTP response chunk for ['127.0.0.1', 52159]
+HTTP response chunk for ['127.0.0.1', 52159]
+HTTP response chunk for ['127.0.0.1', 52159]
+HTTP response chunk for ['127.0.0.1', 52159]
+HTTP response chunk for ['127.0.0.1', 52159]
+HTTP response chunk for ['127.0.0.1', 52159]
+HTTP response chunk for ['127.0.0.1', 52159]
+HTTP response chunk for ['127.0.0.1', 52159]
+HTTP response chunk for ['127.0.0.1', 52159]
+HTTP response chunk for ['127.0.0.1', 52159]
+HTTP response chunk for ['127.0.0.1', 52159]
+HTTP response chunk for ['127.0.0.1', 52159]
+HTTP response chunk for ['127.0.0.1', 52159]
+HTTP response chunk for ['127.0.0.1', 52159]
+HTTP response chunk for ['127.0.0.1', 52159]
+HTTP response chunk for ['127.0.0.1', 52159]
+HTTP close for ['127.0.0.1', 52159]
+HTTP response complete for ['127.0.0.1', 52159]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 200 [0.39, 127.0.0.1:52159][0m
+HTTP b'GET' request for ['127.0.0.1', 52159]
+HTTP disconnect for ['127.0.0.1', 52159]
+HTTP b'GET' request for ['127.0.0.1', 52157]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52157]
+HTTP close for ['127.0.0.1', 52157]
+HTTP response complete for ['127.0.0.1', 52157]
+[33mHTTP GET /serviceworker.js 404 [0.12, 127.0.0.1:52157][0m
+HTTP b'GET' request for ['127.0.0.1', 52170]
+HTTP 200 response started for ['127.0.0.1', 52170]
+HTTP close for ['127.0.0.1', 52170]
+HTTP response complete for ['127.0.0.1', 52170]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52170][0m
+HTTP b'GET' request for ['127.0.0.1', 52170]
+HTTP b'GET' request for ['127.0.0.1', 52173]
+HTTP 304 response started for ['127.0.0.1', 52170]
+HTTP close for ['127.0.0.1', 52170]
+HTTP response complete for ['127.0.0.1', 52170]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 304 [0.01, 127.0.0.1:52170][0m
+HTTP 200 response started for ['127.0.0.1', 52173]
+HTTP response chunk for ['127.0.0.1', 52173]
+HTTP response chunk for ['127.0.0.1', 52173]
+HTTP close for ['127.0.0.1', 52173]
+HTTP response complete for ['127.0.0.1', 52173]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.01, 127.0.0.1:52173][0m
+HTTP b'GET' request for ['127.0.0.1', 52173]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52173]
+HTTP close for ['127.0.0.1', 52173]
+HTTP response complete for ['127.0.0.1', 52173]
+[33mHTTP GET /serviceworker.js 404 [0.02, 127.0.0.1:52173][0m
+HTTP b'GET' request for ['127.0.0.1', 52187]
+HTTP 200 response started for ['127.0.0.1', 52187]
+HTTP close for ['127.0.0.1', 52187]
+HTTP response complete for ['127.0.0.1', 52187]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52187][0m
+HTTP b'GET' request for ['127.0.0.1', 52187]
+HTTP b'GET' request for ['127.0.0.1', 52188]
+HTTP 304 response started for ['127.0.0.1', 52187]
+HTTP close for ['127.0.0.1', 52187]
+HTTP response complete for ['127.0.0.1', 52187]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 304 [0.01, 127.0.0.1:52187][0m
+HTTP 200 response started for ['127.0.0.1', 52188]
+HTTP response chunk for ['127.0.0.1', 52188]
+HTTP response chunk for ['127.0.0.1', 52188]
+HTTP close for ['127.0.0.1', 52188]
+HTTP response complete for ['127.0.0.1', 52188]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.01, 127.0.0.1:52188][0m
+HTTP b'GET' request for ['127.0.0.1', 52188]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52188]
+HTTP close for ['127.0.0.1', 52188]
+HTTP response complete for ['127.0.0.1', 52188]
+[33mHTTP GET /serviceworker.js 404 [0.02, 127.0.0.1:52188][0m
+HTTP b'GET' request for ['127.0.0.1', 52192]
+HTTP 200 response started for ['127.0.0.1', 52192]
+HTTP close for ['127.0.0.1', 52192]
+HTTP response complete for ['127.0.0.1', 52192]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52192][0m
+HTTP b'GET' request for ['127.0.0.1', 52192]
+HTTP b'GET' request for ['127.0.0.1', 52193]
+HTTP b'GET' request for ['127.0.0.1', 52194]
+HTTP 200 response started for ['127.0.0.1', 52192]
+HTTP response chunk for ['127.0.0.1', 52192]
+HTTP close for ['127.0.0.1', 52192]
+HTTP response complete for ['127.0.0.1', 52192]
+[mHTTP GET /static/css/style.css 200 [0.01, 127.0.0.1:52192][0m
+HTTP 200 response started for ['127.0.0.1', 52193]
+HTTP 200 response started for ['127.0.0.1', 52194]
+HTTP response chunk for ['127.0.0.1', 52194]
+HTTP response chunk for ['127.0.0.1', 52194]
+HTTP close for ['127.0.0.1', 52194]
+HTTP response complete for ['127.0.0.1', 52194]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.01, 127.0.0.1:52194][0m
+HTTP response chunk for ['127.0.0.1', 52193]
+HTTP response chunk for ['127.0.0.1', 52193]
+HTTP response chunk for ['127.0.0.1', 52193]
+HTTP response chunk for ['127.0.0.1', 52193]
+HTTP response chunk for ['127.0.0.1', 52193]
+HTTP response chunk for ['127.0.0.1', 52193]
+HTTP response chunk for ['127.0.0.1', 52193]
+HTTP response chunk for ['127.0.0.1', 52193]
+HTTP response chunk for ['127.0.0.1', 52193]
+HTTP response chunk for ['127.0.0.1', 52193]
+HTTP response chunk for ['127.0.0.1', 52193]
+HTTP response chunk for ['127.0.0.1', 52193]
+HTTP response chunk for ['127.0.0.1', 52193]
+HTTP response chunk for ['127.0.0.1', 52193]
+HTTP response chunk for ['127.0.0.1', 52193]
+HTTP response chunk for ['127.0.0.1', 52193]
+HTTP response chunk for ['127.0.0.1', 52193]
+HTTP response chunk for ['127.0.0.1', 52193]
+HTTP response chunk for ['127.0.0.1', 52193]
+HTTP response chunk for ['127.0.0.1', 52193]
+HTTP response chunk for ['127.0.0.1', 52193]
+HTTP response chunk for ['127.0.0.1', 52193]
+HTTP response chunk for ['127.0.0.1', 52193]
+HTTP response chunk for ['127.0.0.1', 52193]
+HTTP response chunk for ['127.0.0.1', 52193]
+HTTP response chunk for ['127.0.0.1', 52193]
+HTTP response chunk for ['127.0.0.1', 52193]
+HTTP response chunk for ['127.0.0.1', 52193]
+HTTP response chunk for ['127.0.0.1', 52193]
+HTTP response chunk for ['127.0.0.1', 52193]
+HTTP response chunk for ['127.0.0.1', 52193]
+HTTP response chunk for ['127.0.0.1', 52193]
+HTTP response chunk for ['127.0.0.1', 52193]
+HTTP response chunk for ['127.0.0.1', 52193]
+HTTP response chunk for ['127.0.0.1', 52193]
+HTTP close for ['127.0.0.1', 52193]
+HTTP response complete for ['127.0.0.1', 52193]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 200 [0.02, 127.0.0.1:52193][0m
+HTTP b'GET' request for ['127.0.0.1', 52193]
+HTTP 200 response started for ['127.0.0.1', 52193]
+HTTP response chunk for ['127.0.0.1', 52193]
+HTTP close for ['127.0.0.1', 52193]
+HTTP response complete for ['127.0.0.1', 52193]
+[mHTTP GET /static/favicon.ico 200 [0.01, 127.0.0.1:52193][0m
+HTTP b'GET' request for ['127.0.0.1', 52211]
+HTTP 200 response started for ['127.0.0.1', 52211]
+HTTP close for ['127.0.0.1', 52211]
+HTTP response complete for ['127.0.0.1', 52211]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52211][0m
+HTTP b'GET' request for ['127.0.0.1', 52211]
+HTTP b'GET' request for ['127.0.0.1', 52214]
+HTTP 304 response started for ['127.0.0.1', 52211]
+HTTP close for ['127.0.0.1', 52211]
+HTTP response complete for ['127.0.0.1', 52211]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 304 [0.01, 127.0.0.1:52211][0m
+HTTP 200 response started for ['127.0.0.1', 52214]
+HTTP response chunk for ['127.0.0.1', 52214]
+HTTP response chunk for ['127.0.0.1', 52214]
+HTTP close for ['127.0.0.1', 52214]
+HTTP response complete for ['127.0.0.1', 52214]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.01, 127.0.0.1:52214][0m
+HTTP b'GET' request for ['127.0.0.1', 52214]
+HTTP disconnect for ['127.0.0.1', 52214]
+HTTP b'GET' request for ['127.0.0.1', 52211]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52211]
+HTTP close for ['127.0.0.1', 52211]
+HTTP response complete for ['127.0.0.1', 52211]
+[33mHTTP GET /serviceworker.js 404 [0.02, 127.0.0.1:52211][0m
+HTTP b'GET' request for ['127.0.0.1', 52211]
+HTTP 200 response started for ['127.0.0.1', 52211]
+HTTP close for ['127.0.0.1', 52211]
+HTTP response complete for ['127.0.0.1', 52211]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52211][0m
+HTTP b'GET' request for ['127.0.0.1', 52211]
+HTTP 200 response started for ['127.0.0.1', 52211]
+HTTP response chunk for ['127.0.0.1', 52211]
+HTTP response chunk for ['127.0.0.1', 52211]
+HTTP close for ['127.0.0.1', 52211]
+HTTP response complete for ['127.0.0.1', 52211]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.01, 127.0.0.1:52211][0m
+HTTP b'GET' request for ['127.0.0.1', 52211]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52211]
+HTTP close for ['127.0.0.1', 52211]
+HTTP response complete for ['127.0.0.1', 52211]
+[33mHTTP GET /serviceworker.js 404 [0.02, 127.0.0.1:52211][0m
+HTTP b'GET' request for ['127.0.0.1', 52236]
+HTTP 200 response started for ['127.0.0.1', 52236]
+HTTP close for ['127.0.0.1', 52236]
+HTTP response complete for ['127.0.0.1', 52236]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52236][0m
+HTTP b'GET' request for ['127.0.0.1', 52236]
+HTTP b'GET' request for ['127.0.0.1', 52237]
+HTTP 304 response started for ['127.0.0.1', 52236]
+HTTP close for ['127.0.0.1', 52236]
+HTTP response complete for ['127.0.0.1', 52236]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 304 [0.01, 127.0.0.1:52236][0m
+HTTP 200 response started for ['127.0.0.1', 52237]
+HTTP response chunk for ['127.0.0.1', 52237]
+HTTP response chunk for ['127.0.0.1', 52237]
+HTTP close for ['127.0.0.1', 52237]
+HTTP response complete for ['127.0.0.1', 52237]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.01, 127.0.0.1:52237][0m
+HTTP b'GET' request for ['127.0.0.1', 52237]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52237]
+HTTP close for ['127.0.0.1', 52237]
+HTTP response complete for ['127.0.0.1', 52237]
+[33mHTTP GET /serviceworker.js 404 [0.02, 127.0.0.1:52237][0m
+HTTP b'GET' request for ['127.0.0.1', 52237]
+HTTP 200 response started for ['127.0.0.1', 52237]
+HTTP close for ['127.0.0.1', 52237]
+HTTP response complete for ['127.0.0.1', 52237]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52237][0m
+HTTP b'GET' request for ['127.0.0.1', 52237]
+HTTP 304 response started for ['127.0.0.1', 52237]
+HTTP close for ['127.0.0.1', 52237]
+HTTP response complete for ['127.0.0.1', 52237]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 304 [0.00, 127.0.0.1:52237][0m
+HTTP b'GET' request for ['127.0.0.1', 52237]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52237]
+HTTP close for ['127.0.0.1', 52237]
+HTTP response complete for ['127.0.0.1', 52237]
+[33mHTTP GET /serviceworker.js 404 [0.02, 127.0.0.1:52237][0m
+HTTP b'GET' request for ['127.0.0.1', 52237]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52237]
+HTTP close for ['127.0.0.1', 52237]
+HTTP response complete for ['127.0.0.1', 52237]
+[33mHTTP GET /serviceworker.js 404 [0.02, 127.0.0.1:52237][0m
+HTTP b'GET' request for ['127.0.0.1', 52237]
+HTTP 200 response started for ['127.0.0.1', 52237]
+HTTP close for ['127.0.0.1', 52237]
+HTTP response complete for ['127.0.0.1', 52237]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52237][0m
+HTTP b'GET' request for ['127.0.0.1', 52237]
+HTTP 200 response started for ['127.0.0.1', 52237]
+HTTP response chunk for ['127.0.0.1', 52237]
+HTTP response chunk for ['127.0.0.1', 52237]
+HTTP close for ['127.0.0.1', 52237]
+HTTP response complete for ['127.0.0.1', 52237]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.01, 127.0.0.1:52237][0m
+HTTP b'GET' request for ['127.0.0.1', 52237]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52237]
+HTTP close for ['127.0.0.1', 52237]
+HTTP response complete for ['127.0.0.1', 52237]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:52237][0m
+HTTP b'GET' request for ['127.0.0.1', 52237]
+HTTP 200 response started for ['127.0.0.1', 52237]
+HTTP close for ['127.0.0.1', 52237]
+HTTP response complete for ['127.0.0.1', 52237]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52237][0m
+HTTP b'GET' request for ['127.0.0.1', 52237]
+HTTP 304 response started for ['127.0.0.1', 52237]
+HTTP close for ['127.0.0.1', 52237]
+HTTP response complete for ['127.0.0.1', 52237]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 304 [0.00, 127.0.0.1:52237][0m
+HTTP b'GET' request for ['127.0.0.1', 52237]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52237]
+HTTP close for ['127.0.0.1', 52237]
+HTTP response complete for ['127.0.0.1', 52237]
+[33mHTTP GET /serviceworker.js 404 [0.02, 127.0.0.1:52237][0m
+HTTP b'GET' request for ['127.0.0.1', 52274]
+HTTP 200 response started for ['127.0.0.1', 52274]
+HTTP close for ['127.0.0.1', 52274]
+HTTP response complete for ['127.0.0.1', 52274]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52274][0m
+HTTP b'GET' request for ['127.0.0.1', 52274]
+HTTP b'GET' request for ['127.0.0.1', 52276]
+HTTP 304 response started for ['127.0.0.1', 52274]
+HTTP close for ['127.0.0.1', 52274]
+HTTP response complete for ['127.0.0.1', 52274]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 304 [0.01, 127.0.0.1:52274][0m
+HTTP 200 response started for ['127.0.0.1', 52276]
+HTTP response chunk for ['127.0.0.1', 52276]
+HTTP response chunk for ['127.0.0.1', 52276]
+HTTP close for ['127.0.0.1', 52276]
+HTTP response complete for ['127.0.0.1', 52276]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.01, 127.0.0.1:52276][0m
+HTTP b'GET' request for ['127.0.0.1', 52276]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52276]
+HTTP close for ['127.0.0.1', 52276]
+HTTP response complete for ['127.0.0.1', 52276]
+[33mHTTP GET /serviceworker.js 404 [0.02, 127.0.0.1:52276][0m
+HTTP b'GET' request for ['127.0.0.1', 52295]
+HTTP 200 response started for ['127.0.0.1', 52295]
+HTTP close for ['127.0.0.1', 52295]
+HTTP response complete for ['127.0.0.1', 52295]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52295][0m
+HTTP b'GET' request for ['127.0.0.1', 52295]
+HTTP 200 response started for ['127.0.0.1', 52295]
+HTTP response chunk for ['127.0.0.1', 52295]
+HTTP response chunk for ['127.0.0.1', 52295]
+HTTP close for ['127.0.0.1', 52295]
+HTTP response complete for ['127.0.0.1', 52295]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.00, 127.0.0.1:52295][0m
+HTTP b'GET' request for ['127.0.0.1', 52295]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52295]
+HTTP close for ['127.0.0.1', 52295]
+HTTP response complete for ['127.0.0.1', 52295]
+[33mHTTP GET /serviceworker.js 404 [0.02, 127.0.0.1:52295][0m
+HTTP b'GET' request for ['127.0.0.1', 52320]
+HTTP 200 response started for ['127.0.0.1', 52320]
+HTTP close for ['127.0.0.1', 52320]
+HTTP response complete for ['127.0.0.1', 52320]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52320][0m
+HTTP b'GET' request for ['127.0.0.1', 52320]
+HTTP b'GET' request for ['127.0.0.1', 52322]
+HTTP 304 response started for ['127.0.0.1', 52320]
+HTTP close for ['127.0.0.1', 52320]
+HTTP response complete for ['127.0.0.1', 52320]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 304 [0.01, 127.0.0.1:52320][0m
+HTTP 200 response started for ['127.0.0.1', 52322]
+HTTP response chunk for ['127.0.0.1', 52322]
+HTTP response chunk for ['127.0.0.1', 52322]
+HTTP close for ['127.0.0.1', 52322]
+HTTP response complete for ['127.0.0.1', 52322]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.01, 127.0.0.1:52322][0m
+HTTP b'GET' request for ['127.0.0.1', 52322]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52322]
+HTTP close for ['127.0.0.1', 52322]
+HTTP response complete for ['127.0.0.1', 52322]
+[33mHTTP GET /serviceworker.js 404 [0.02, 127.0.0.1:52322][0m
+HTTP b'GET' request for ['127.0.0.1', 52335]
+HTTP 200 response started for ['127.0.0.1', 52335]
+HTTP close for ['127.0.0.1', 52335]
+HTTP response complete for ['127.0.0.1', 52335]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52335][0m
+HTTP b'GET' request for ['127.0.0.1', 52335]
+HTTP b'GET' request for ['127.0.0.1', 52337]
+HTTP 304 response started for ['127.0.0.1', 52335]
+HTTP close for ['127.0.0.1', 52335]
+HTTP response complete for ['127.0.0.1', 52335]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 304 [0.00, 127.0.0.1:52335][0m
+HTTP 200 response started for ['127.0.0.1', 52337]
+HTTP response chunk for ['127.0.0.1', 52337]
+HTTP response chunk for ['127.0.0.1', 52337]
+HTTP close for ['127.0.0.1', 52337]
+HTTP response complete for ['127.0.0.1', 52337]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.01, 127.0.0.1:52337][0m
+HTTP b'GET' request for ['127.0.0.1', 52337]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52337]
+HTTP close for ['127.0.0.1', 52337]
+HTTP response complete for ['127.0.0.1', 52337]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:52337][0m
+HTTP b'GET' request for ['127.0.0.1', 52347]
+HTTP 200 response started for ['127.0.0.1', 52347]
+HTTP close for ['127.0.0.1', 52347]
+HTTP response complete for ['127.0.0.1', 52347]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52347][0m
+HTTP b'GET' request for ['127.0.0.1', 52347]
+HTTP 200 response started for ['127.0.0.1', 52347]
+HTTP response chunk for ['127.0.0.1', 52347]
+HTTP response chunk for ['127.0.0.1', 52347]
+HTTP close for ['127.0.0.1', 52347]
+HTTP response complete for ['127.0.0.1', 52347]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.00, 127.0.0.1:52347][0m
+HTTP b'GET' request for ['127.0.0.1', 52347]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52347]
+HTTP close for ['127.0.0.1', 52347]
+HTTP response complete for ['127.0.0.1', 52347]
+[33mHTTP GET /serviceworker.js 404 [0.02, 127.0.0.1:52347][0m
+HTTP b'GET' request for ['127.0.0.1', 52383]
+HTTP 200 response started for ['127.0.0.1', 52383]
+HTTP close for ['127.0.0.1', 52383]
+HTTP response complete for ['127.0.0.1', 52383]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52383][0m
+HTTP b'GET' request for ['127.0.0.1', 52383]
+HTTP b'GET' request for ['127.0.0.1', 52385]
+HTTP 304 response started for ['127.0.0.1', 52383]
+HTTP close for ['127.0.0.1', 52383]
+HTTP response complete for ['127.0.0.1', 52383]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 304 [0.00, 127.0.0.1:52383][0m
+HTTP 200 response started for ['127.0.0.1', 52385]
+HTTP response chunk for ['127.0.0.1', 52385]
+HTTP response chunk for ['127.0.0.1', 52385]
+HTTP close for ['127.0.0.1', 52385]
+HTTP response complete for ['127.0.0.1', 52385]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.01, 127.0.0.1:52385][0m
+HTTP b'GET' request for ['127.0.0.1', 52385]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52385]
+HTTP close for ['127.0.0.1', 52385]
+HTTP response complete for ['127.0.0.1', 52385]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:52385][0m
+HTTP b'GET' request for ['127.0.0.1', 52410]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52410]
+HTTP close for ['127.0.0.1', 52410]
+HTTP response complete for ['127.0.0.1', 52410]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:52410][0m
+HTTP b'GET' request for ['127.0.0.1', 52410]
+HTTP 200 response started for ['127.0.0.1', 52410]
+HTTP close for ['127.0.0.1', 52410]
+HTTP response complete for ['127.0.0.1', 52410]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52410][0m
+HTTP b'GET' request for ['127.0.0.1', 52410]
+HTTP b'GET' request for ['127.0.0.1', 52412]
+HTTP 200 response started for ['127.0.0.1', 52412]
+HTTP 200 response started for ['127.0.0.1', 52410]
+HTTP response chunk for ['127.0.0.1', 52412]
+HTTP response chunk for ['127.0.0.1', 52412]
+HTTP close for ['127.0.0.1', 52412]
+HTTP response complete for ['127.0.0.1', 52412]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.01, 127.0.0.1:52412][0m
+HTTP response chunk for ['127.0.0.1', 52410]
+HTTP response chunk for ['127.0.0.1', 52410]
+HTTP response chunk for ['127.0.0.1', 52410]
+HTTP response chunk for ['127.0.0.1', 52410]
+HTTP response chunk for ['127.0.0.1', 52410]
+HTTP response chunk for ['127.0.0.1', 52410]
+HTTP response chunk for ['127.0.0.1', 52410]
+HTTP response chunk for ['127.0.0.1', 52410]
+HTTP response chunk for ['127.0.0.1', 52410]
+HTTP response chunk for ['127.0.0.1', 52410]
+HTTP response chunk for ['127.0.0.1', 52410]
+HTTP response chunk for ['127.0.0.1', 52410]
+HTTP response chunk for ['127.0.0.1', 52410]
+HTTP response chunk for ['127.0.0.1', 52410]
+HTTP response chunk for ['127.0.0.1', 52410]
+HTTP response chunk for ['127.0.0.1', 52410]
+HTTP response chunk for ['127.0.0.1', 52410]
+HTTP response chunk for ['127.0.0.1', 52410]
+HTTP response chunk for ['127.0.0.1', 52410]
+HTTP response chunk for ['127.0.0.1', 52410]
+HTTP response chunk for ['127.0.0.1', 52410]
+HTTP response chunk for ['127.0.0.1', 52410]
+HTTP response chunk for ['127.0.0.1', 52410]
+HTTP response chunk for ['127.0.0.1', 52410]
+HTTP response chunk for ['127.0.0.1', 52410]
+HTTP response chunk for ['127.0.0.1', 52410]
+HTTP response chunk for ['127.0.0.1', 52410]
+HTTP response chunk for ['127.0.0.1', 52410]
+HTTP response chunk for ['127.0.0.1', 52410]
+HTTP response chunk for ['127.0.0.1', 52410]
+HTTP response chunk for ['127.0.0.1', 52410]
+HTTP response chunk for ['127.0.0.1', 52410]
+HTTP response chunk for ['127.0.0.1', 52410]
+HTTP response chunk for ['127.0.0.1', 52410]
+HTTP response chunk for ['127.0.0.1', 52410]
+HTTP close for ['127.0.0.1', 52410]
+HTTP response complete for ['127.0.0.1', 52410]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 200 [0.01, 127.0.0.1:52410][0m
+HTTP b'GET' request for ['127.0.0.1', 52410]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52410]
+HTTP close for ['127.0.0.1', 52410]
+HTTP response complete for ['127.0.0.1', 52410]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:52410][0m
+HTTP b'GET' request for ['127.0.0.1', 52410]
+HTTP 200 response started for ['127.0.0.1', 52410]
+HTTP close for ['127.0.0.1', 52410]
+HTTP response complete for ['127.0.0.1', 52410]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52410][0m
+HTTP b'GET' request for ['127.0.0.1', 52410]
+HTTP b'GET' request for ['127.0.0.1', 52412]
+HTTP 304 response started for ['127.0.0.1', 52410]
+HTTP close for ['127.0.0.1', 52410]
+HTTP response complete for ['127.0.0.1', 52410]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 304 [0.00, 127.0.0.1:52410][0m
+HTTP 304 response started for ['127.0.0.1', 52412]
+HTTP close for ['127.0.0.1', 52412]
+HTTP response complete for ['127.0.0.1', 52412]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 304 [0.00, 127.0.0.1:52412][0m
+HTTP b'GET' request for ['127.0.0.1', 52410]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52410]
+HTTP close for ['127.0.0.1', 52410]
+HTTP response complete for ['127.0.0.1', 52410]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:52410][0m
+HTTP b'GET' request for ['127.0.0.1', 52410]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52410]
+HTTP close for ['127.0.0.1', 52410]
+HTTP response complete for ['127.0.0.1', 52410]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:52410][0m
+HTTP b'GET' request for ['127.0.0.1', 52410]
+HTTP 200 response started for ['127.0.0.1', 52410]
+HTTP close for ['127.0.0.1', 52410]
+HTTP response complete for ['127.0.0.1', 52410]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52410][0m
+HTTP b'GET' request for ['127.0.0.1', 52410]
+HTTP b'GET' request for ['127.0.0.1', 52412]
+HTTP 304 response started for ['127.0.0.1', 52410]
+HTTP close for ['127.0.0.1', 52410]
+HTTP response complete for ['127.0.0.1', 52410]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 304 [0.00, 127.0.0.1:52410][0m
+HTTP 200 response started for ['127.0.0.1', 52412]
+HTTP response chunk for ['127.0.0.1', 52412]
+HTTP response chunk for ['127.0.0.1', 52412]
+HTTP close for ['127.0.0.1', 52412]
+HTTP response complete for ['127.0.0.1', 52412]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.01, 127.0.0.1:52412][0m
+HTTP b'GET' request for ['127.0.0.1', 52410]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52410]
+HTTP close for ['127.0.0.1', 52410]
+HTTP response complete for ['127.0.0.1', 52410]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:52410][0m
+HTTP b'GET' request for ['127.0.0.1', 52410]
+HTTP 200 response started for ['127.0.0.1', 52410]
+HTTP close for ['127.0.0.1', 52410]
+HTTP response complete for ['127.0.0.1', 52410]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52410][0m
+HTTP b'GET' request for ['127.0.0.1', 52410]
+HTTP b'GET' request for ['127.0.0.1', 52412]
+HTTP 304 response started for ['127.0.0.1', 52410]
+HTTP close for ['127.0.0.1', 52410]
+HTTP response complete for ['127.0.0.1', 52410]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 304 [0.00, 127.0.0.1:52410][0m
+HTTP 200 response started for ['127.0.0.1', 52412]
+HTTP response chunk for ['127.0.0.1', 52412]
+HTTP response chunk for ['127.0.0.1', 52412]
+HTTP close for ['127.0.0.1', 52412]
+HTTP response complete for ['127.0.0.1', 52412]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.01, 127.0.0.1:52412][0m
+HTTP b'GET' request for ['127.0.0.1', 52410]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52410]
+HTTP close for ['127.0.0.1', 52410]
+HTTP response complete for ['127.0.0.1', 52410]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:52410][0m
+HTTP b'GET' request for ['127.0.0.1', 52410]
+HTTP 200 response started for ['127.0.0.1', 52410]
+HTTP close for ['127.0.0.1', 52410]
+HTTP response complete for ['127.0.0.1', 52410]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52410][0m
+HTTP b'GET' request for ['127.0.0.1', 52410]
+HTTP b'GET' request for ['127.0.0.1', 52412]
+HTTP 304 response started for ['127.0.0.1', 52410]
+HTTP close for ['127.0.0.1', 52410]
+HTTP response complete for ['127.0.0.1', 52410]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 304 [0.00, 127.0.0.1:52410][0m
+HTTP 200 response started for ['127.0.0.1', 52412]
+HTTP response chunk for ['127.0.0.1', 52412]
+HTTP response chunk for ['127.0.0.1', 52412]
+HTTP close for ['127.0.0.1', 52412]
+HTTP response complete for ['127.0.0.1', 52412]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.01, 127.0.0.1:52412][0m
+HTTP b'GET' request for ['127.0.0.1', 52410]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52410]
+HTTP close for ['127.0.0.1', 52410]
+HTTP response complete for ['127.0.0.1', 52410]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:52410][0m
+HTTP b'GET' request for ['127.0.0.1', 52461]
+HTTP 200 response started for ['127.0.0.1', 52461]
+HTTP close for ['127.0.0.1', 52461]
+HTTP response complete for ['127.0.0.1', 52461]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52461][0m
+HTTP b'GET' request for ['127.0.0.1', 52461]
+HTTP b'GET' request for ['127.0.0.1', 52463]
+HTTP 304 response started for ['127.0.0.1', 52461]
+HTTP close for ['127.0.0.1', 52461]
+HTTP response complete for ['127.0.0.1', 52461]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 304 [0.01, 127.0.0.1:52461][0m
+HTTP 200 response started for ['127.0.0.1', 52463]
+HTTP response chunk for ['127.0.0.1', 52463]
+HTTP response chunk for ['127.0.0.1', 52463]
+HTTP close for ['127.0.0.1', 52463]
+HTTP response complete for ['127.0.0.1', 52463]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.01, 127.0.0.1:52463][0m
+HTTP b'GET' request for ['127.0.0.1', 52463]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52463]
+HTTP close for ['127.0.0.1', 52463]
+HTTP response complete for ['127.0.0.1', 52463]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:52463][0m
+HTTP b'GET' request for ['127.0.0.1', 52463]
+HTTP 200 response started for ['127.0.0.1', 52463]
+HTTP close for ['127.0.0.1', 52463]
+HTTP response complete for ['127.0.0.1', 52463]
+[mHTTP GET / 200 [0.00, 127.0.0.1:52463][0m
+HTTP b'GET' request for ['127.0.0.1', 52463]
+HTTP 304 response started for ['127.0.0.1', 52463]
+HTTP close for ['127.0.0.1', 52463]
+HTTP response complete for ['127.0.0.1', 52463]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 304 [0.00, 127.0.0.1:52463][0m
+HTTP b'GET' request for ['127.0.0.1', 52463]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52463]
+HTTP close for ['127.0.0.1', 52463]
+HTTP response complete for ['127.0.0.1', 52463]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:52463][0m
+HTTP b'GET' request for ['127.0.0.1', 52481]
+HTTP 200 response started for ['127.0.0.1', 52481]
+HTTP close for ['127.0.0.1', 52481]
+HTTP response complete for ['127.0.0.1', 52481]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52481][0m
+HTTP b'GET' request for ['127.0.0.1', 52481]
+HTTP b'GET' request for ['127.0.0.1', 52482]
+HTTP 304 response started for ['127.0.0.1', 52481]
+HTTP close for ['127.0.0.1', 52481]
+HTTP response complete for ['127.0.0.1', 52481]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 304 [0.00, 127.0.0.1:52481][0m
+HTTP 200 response started for ['127.0.0.1', 52482]
+HTTP response chunk for ['127.0.0.1', 52482]
+HTTP response chunk for ['127.0.0.1', 52482]
+HTTP close for ['127.0.0.1', 52482]
+HTTP response complete for ['127.0.0.1', 52482]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.01, 127.0.0.1:52482][0m
+HTTP b'GET' request for ['127.0.0.1', 52482]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52482]
+HTTP close for ['127.0.0.1', 52482]
+HTTP response complete for ['127.0.0.1', 52482]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:52482][0m
+HTTP b'GET' request for ['127.0.0.1', 52482]
+HTTP 200 response started for ['127.0.0.1', 52482]
+HTTP close for ['127.0.0.1', 52482]
+HTTP response complete for ['127.0.0.1', 52482]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52482][0m
+HTTP b'GET' request for ['127.0.0.1', 52482]
+HTTP 200 response started for ['127.0.0.1', 52482]
+HTTP response chunk for ['127.0.0.1', 52482]
+HTTP response chunk for ['127.0.0.1', 52482]
+HTTP close for ['127.0.0.1', 52482]
+HTTP response complete for ['127.0.0.1', 52482]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.00, 127.0.0.1:52482][0m
+HTTP b'GET' request for ['127.0.0.1', 52482]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52482]
+HTTP close for ['127.0.0.1', 52482]
+HTTP response complete for ['127.0.0.1', 52482]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:52482][0m
+HTTP b'GET' request for ['127.0.0.1', 52482]
+HTTP 200 response started for ['127.0.0.1', 52482]
+HTTP close for ['127.0.0.1', 52482]
+HTTP response complete for ['127.0.0.1', 52482]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52482][0m
+HTTP b'GET' request for ['127.0.0.1', 52482]
+HTTP 304 response started for ['127.0.0.1', 52482]
+HTTP close for ['127.0.0.1', 52482]
+HTTP response complete for ['127.0.0.1', 52482]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 304 [0.00, 127.0.0.1:52482][0m
+HTTP b'GET' request for ['127.0.0.1', 52482]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52482]
+HTTP close for ['127.0.0.1', 52482]
+HTTP response complete for ['127.0.0.1', 52482]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:52482][0m
+HTTP b'GET' request for ['127.0.0.1', 52482]
+HTTP 200 response started for ['127.0.0.1', 52482]
+HTTP close for ['127.0.0.1', 52482]
+HTTP response complete for ['127.0.0.1', 52482]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52482][0m
+HTTP b'GET' request for ['127.0.0.1', 52482]
+HTTP b'GET' request for ['127.0.0.1', 52498]
+HTTP 304 response started for ['127.0.0.1', 52482]
+HTTP close for ['127.0.0.1', 52482]
+HTTP response complete for ['127.0.0.1', 52482]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 304 [0.00, 127.0.0.1:52482][0m
+HTTP 200 response started for ['127.0.0.1', 52498]
+HTTP response chunk for ['127.0.0.1', 52498]
+HTTP response chunk for ['127.0.0.1', 52498]
+HTTP close for ['127.0.0.1', 52498]
+HTTP response complete for ['127.0.0.1', 52498]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.01, 127.0.0.1:52498][0m
+HTTP b'GET' request for ['127.0.0.1', 52482]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52482]
+HTTP close for ['127.0.0.1', 52482]
+HTTP response complete for ['127.0.0.1', 52482]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:52482][0m
+HTTP b'GET' request for ['127.0.0.1', 52498]
+HTTP 200 response started for ['127.0.0.1', 52498]
+HTTP close for ['127.0.0.1', 52498]
+HTTP response complete for ['127.0.0.1', 52498]
+[mHTTP GET / 200 [0.00, 127.0.0.1:52498][0m
+HTTP b'GET' request for ['127.0.0.1', 52482]
+HTTP 200 response started for ['127.0.0.1', 52482]
+HTTP response chunk for ['127.0.0.1', 52482]
+HTTP response chunk for ['127.0.0.1', 52482]
+HTTP close for ['127.0.0.1', 52482]
+HTTP response complete for ['127.0.0.1', 52482]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.01, 127.0.0.1:52482][0m
+HTTP b'GET' request for ['127.0.0.1', 52482]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52482]
+HTTP close for ['127.0.0.1', 52482]
+HTTP response complete for ['127.0.0.1', 52482]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:52482][0m
+HTTP b'GET' request for ['127.0.0.1', 52482]
+HTTP 200 response started for ['127.0.0.1', 52482]
+HTTP close for ['127.0.0.1', 52482]
+HTTP response complete for ['127.0.0.1', 52482]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52482][0m
+HTTP b'GET' request for ['127.0.0.1', 52482]
+HTTP 304 response started for ['127.0.0.1', 52482]
+HTTP close for ['127.0.0.1', 52482]
+HTTP response complete for ['127.0.0.1', 52482]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 304 [0.00, 127.0.0.1:52482][0m
+HTTP b'GET' request for ['127.0.0.1', 52482]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52482]
+HTTP close for ['127.0.0.1', 52482]
+HTTP response complete for ['127.0.0.1', 52482]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:52482][0m
+HTTP b'GET' request for ['127.0.0.1', 52509]
+HTTP 200 response started for ['127.0.0.1', 52509]
+HTTP close for ['127.0.0.1', 52509]
+HTTP response complete for ['127.0.0.1', 52509]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52509][0m
+HTTP b'GET' request for ['127.0.0.1', 52509]
+HTTP b'GET' request for ['127.0.0.1', 52510]
+HTTP 304 response started for ['127.0.0.1', 52509]
+HTTP close for ['127.0.0.1', 52509]
+HTTP response complete for ['127.0.0.1', 52509]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 304 [0.01, 127.0.0.1:52509][0m
+HTTP 200 response started for ['127.0.0.1', 52510]
+HTTP response chunk for ['127.0.0.1', 52510]
+HTTP response chunk for ['127.0.0.1', 52510]
+HTTP close for ['127.0.0.1', 52510]
+HTTP response complete for ['127.0.0.1', 52510]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.01, 127.0.0.1:52510][0m
+HTTP b'GET' request for ['127.0.0.1', 52510]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52510]
+HTTP close for ['127.0.0.1', 52510]
+HTTP response complete for ['127.0.0.1', 52510]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:52510][0m
+HTTP b'GET' request for ['127.0.0.1', 52510]
+HTTP 200 response started for ['127.0.0.1', 52510]
+HTTP close for ['127.0.0.1', 52510]
+HTTP response complete for ['127.0.0.1', 52510]
+[mHTTP GET / 200 [0.00, 127.0.0.1:52510][0m
+HTTP b'GET' request for ['127.0.0.1', 52510]
+HTTP 200 response started for ['127.0.0.1', 52510]
+HTTP response chunk for ['127.0.0.1', 52510]
+HTTP response chunk for ['127.0.0.1', 52510]
+HTTP close for ['127.0.0.1', 52510]
+HTTP response complete for ['127.0.0.1', 52510]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.00, 127.0.0.1:52510][0m
+HTTP b'GET' request for ['127.0.0.1', 52510]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52510]
+HTTP close for ['127.0.0.1', 52510]
+HTTP response complete for ['127.0.0.1', 52510]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:52510][0m
+HTTP b'GET' request for ['127.0.0.1', 52510]
+HTTP 200 response started for ['127.0.0.1', 52510]
+HTTP close for ['127.0.0.1', 52510]
+HTTP response complete for ['127.0.0.1', 52510]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52510][0m
+HTTP b'GET' request for ['127.0.0.1', 52510]
+HTTP 200 response started for ['127.0.0.1', 52510]
+HTTP response chunk for ['127.0.0.1', 52510]
+HTTP response chunk for ['127.0.0.1', 52510]
+HTTP close for ['127.0.0.1', 52510]
+HTTP response complete for ['127.0.0.1', 52510]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.01, 127.0.0.1:52510][0m
+HTTP b'GET' request for ['127.0.0.1', 52510]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52510]
+HTTP close for ['127.0.0.1', 52510]
+HTTP response complete for ['127.0.0.1', 52510]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:52510][0m
+HTTP b'GET' request for ['127.0.0.1', 52528]
+HTTP 200 response started for ['127.0.0.1', 52528]
+HTTP close for ['127.0.0.1', 52528]
+HTTP response complete for ['127.0.0.1', 52528]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52528][0m
+HTTP b'GET' request for ['127.0.0.1', 52528]
+HTTP b'GET' request for ['127.0.0.1', 52530]
+HTTP 304 response started for ['127.0.0.1', 52528]
+HTTP close for ['127.0.0.1', 52528]
+HTTP response complete for ['127.0.0.1', 52528]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 304 [0.00, 127.0.0.1:52528][0m
+HTTP 200 response started for ['127.0.0.1', 52530]
+HTTP response chunk for ['127.0.0.1', 52530]
+HTTP response chunk for ['127.0.0.1', 52530]
+HTTP close for ['127.0.0.1', 52530]
+HTTP response complete for ['127.0.0.1', 52530]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.01, 127.0.0.1:52530][0m
+HTTP b'GET' request for ['127.0.0.1', 52530]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52530]
+HTTP close for ['127.0.0.1', 52530]
+HTTP response complete for ['127.0.0.1', 52530]
+[33mHTTP GET /serviceworker.js 404 [0.02, 127.0.0.1:52530][0m
+HTTP b'GET' request for ['127.0.0.1', 52539]
+HTTP 200 response started for ['127.0.0.1', 52539]
+HTTP close for ['127.0.0.1', 52539]
+HTTP response complete for ['127.0.0.1', 52539]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52539][0m
+HTTP b'GET' request for ['127.0.0.1', 52539]
+HTTP b'GET' request for ['127.0.0.1', 52541]
+HTTP 304 response started for ['127.0.0.1', 52539]
+HTTP close for ['127.0.0.1', 52539]
+HTTP response complete for ['127.0.0.1', 52539]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 304 [0.00, 127.0.0.1:52539][0m
+HTTP 200 response started for ['127.0.0.1', 52541]
+HTTP response chunk for ['127.0.0.1', 52541]
+HTTP response chunk for ['127.0.0.1', 52541]
+HTTP close for ['127.0.0.1', 52541]
+HTTP response complete for ['127.0.0.1', 52541]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.01, 127.0.0.1:52541][0m
+HTTP b'GET' request for ['127.0.0.1', 52541]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52541]
+HTTP close for ['127.0.0.1', 52541]
+HTTP response complete for ['127.0.0.1', 52541]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:52541][0m
+HTTP b'GET' request for ['127.0.0.1', 52541]
+HTTP 200 response started for ['127.0.0.1', 52541]
+HTTP close for ['127.0.0.1', 52541]
+HTTP response complete for ['127.0.0.1', 52541]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52541][0m
+HTTP b'GET' request for ['127.0.0.1', 52541]
+HTTP 304 response started for ['127.0.0.1', 52541]
+HTTP close for ['127.0.0.1', 52541]
+HTTP response complete for ['127.0.0.1', 52541]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 304 [0.00, 127.0.0.1:52541][0m
+HTTP b'GET' request for ['127.0.0.1', 52541]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52541]
+HTTP close for ['127.0.0.1', 52541]
+HTTP response complete for ['127.0.0.1', 52541]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:52541][0m
+HTTP b'GET' request for ['127.0.0.1', 52541]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52541]
+HTTP close for ['127.0.0.1', 52541]
+HTTP response complete for ['127.0.0.1', 52541]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:52541][0m
+HTTP b'GET' request for ['127.0.0.1', 52541]
+HTTP 200 response started for ['127.0.0.1', 52541]
+HTTP close for ['127.0.0.1', 52541]
+HTTP response complete for ['127.0.0.1', 52541]
+[mHTTP GET / 200 [0.00, 127.0.0.1:52541][0m
+HTTP b'GET' request for ['127.0.0.1', 52541]
+HTTP 200 response started for ['127.0.0.1', 52541]
+HTTP response chunk for ['127.0.0.1', 52541]
+HTTP response chunk for ['127.0.0.1', 52541]
+HTTP close for ['127.0.0.1', 52541]
+HTTP response complete for ['127.0.0.1', 52541]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.00, 127.0.0.1:52541][0m
+HTTP b'GET' request for ['127.0.0.1', 52541]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52541]
+HTTP close for ['127.0.0.1', 52541]
+HTTP response complete for ['127.0.0.1', 52541]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:52541][0m
+HTTP b'GET' request for ['127.0.0.1', 52541]
+HTTP 200 response started for ['127.0.0.1', 52541]
+HTTP close for ['127.0.0.1', 52541]
+HTTP response complete for ['127.0.0.1', 52541]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52541][0m
+HTTP b'GET' request for ['127.0.0.1', 52541]
+HTTP 304 response started for ['127.0.0.1', 52541]
+HTTP close for ['127.0.0.1', 52541]
+HTTP response complete for ['127.0.0.1', 52541]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 304 [0.00, 127.0.0.1:52541][0m
+HTTP b'GET' request for ['127.0.0.1', 52541]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52541]
+HTTP close for ['127.0.0.1', 52541]
+HTTP response complete for ['127.0.0.1', 52541]
+[33mHTTP GET /serviceworker.js 404 [0.02, 127.0.0.1:52541][0m
+HTTP b'GET' request for ['127.0.0.1', 52541]
+HTTP 200 response started for ['127.0.0.1', 52541]
+HTTP close for ['127.0.0.1', 52541]
+HTTP response complete for ['127.0.0.1', 52541]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52541][0m
+HTTP b'GET' request for ['127.0.0.1', 52541]
+HTTP 200 response started for ['127.0.0.1', 52541]
+HTTP response chunk for ['127.0.0.1', 52541]
+HTTP response chunk for ['127.0.0.1', 52541]
+HTTP close for ['127.0.0.1', 52541]
+HTTP response complete for ['127.0.0.1', 52541]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.01, 127.0.0.1:52541][0m
+HTTP b'GET' request for ['127.0.0.1', 52541]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52541]
+HTTP close for ['127.0.0.1', 52541]
+HTTP response complete for ['127.0.0.1', 52541]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:52541][0m
+HTTP b'GET' request for ['127.0.0.1', 52564]
+HTTP 200 response started for ['127.0.0.1', 52564]
+HTTP close for ['127.0.0.1', 52564]
+HTTP response complete for ['127.0.0.1', 52564]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52564][0m
+HTTP b'GET' request for ['127.0.0.1', 52564]
+HTTP b'GET' request for ['127.0.0.1', 52566]
+HTTP 304 response started for ['127.0.0.1', 52564]
+HTTP close for ['127.0.0.1', 52564]
+HTTP response complete for ['127.0.0.1', 52564]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 304 [0.00, 127.0.0.1:52564][0m
+HTTP 200 response started for ['127.0.0.1', 52566]
+HTTP response chunk for ['127.0.0.1', 52566]
+HTTP response chunk for ['127.0.0.1', 52566]
+HTTP close for ['127.0.0.1', 52566]
+HTTP response complete for ['127.0.0.1', 52566]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.01, 127.0.0.1:52566][0m
+HTTP b'GET' request for ['127.0.0.1', 52566]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52566]
+HTTP close for ['127.0.0.1', 52566]
+HTTP response complete for ['127.0.0.1', 52566]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:52566][0m
+HTTP b'GET' request for ['127.0.0.1', 52584]
+HTTP 200 response started for ['127.0.0.1', 52584]
+HTTP close for ['127.0.0.1', 52584]
+HTTP response complete for ['127.0.0.1', 52584]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52584][0m
+HTTP b'GET' request for ['127.0.0.1', 52584]
+HTTP b'GET' request for ['127.0.0.1', 52586]
+HTTP 304 response started for ['127.0.0.1', 52584]
+HTTP close for ['127.0.0.1', 52584]
+HTTP response complete for ['127.0.0.1', 52584]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 304 [0.01, 127.0.0.1:52584][0m
+HTTP 200 response started for ['127.0.0.1', 52586]
+HTTP response chunk for ['127.0.0.1', 52586]
+HTTP response chunk for ['127.0.0.1', 52586]
+HTTP close for ['127.0.0.1', 52586]
+HTTP response complete for ['127.0.0.1', 52586]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.00, 127.0.0.1:52586][0m
+HTTP b'GET' request for ['127.0.0.1', 52586]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52586]
+HTTP close for ['127.0.0.1', 52586]
+HTTP response complete for ['127.0.0.1', 52586]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:52586][0m
+HTTP b'GET' request for ['127.0.0.1', 52586]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52586]
+HTTP close for ['127.0.0.1', 52586]
+HTTP response complete for ['127.0.0.1', 52586]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:52586][0m
+HTTP b'GET' request for ['127.0.0.1', 52597]
+HTTP 200 response started for ['127.0.0.1', 52597]
+HTTP close for ['127.0.0.1', 52597]
+HTTP response complete for ['127.0.0.1', 52597]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52597][0m
+HTTP b'GET' request for ['127.0.0.1', 52597]
+HTTP 200 response started for ['127.0.0.1', 52597]
+HTTP response chunk for ['127.0.0.1', 52597]
+HTTP response chunk for ['127.0.0.1', 52597]
+HTTP close for ['127.0.0.1', 52597]
+HTTP response complete for ['127.0.0.1', 52597]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.00, 127.0.0.1:52597][0m
+HTTP b'GET' request for ['127.0.0.1', 52597]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52597]
+HTTP close for ['127.0.0.1', 52597]
+HTTP response complete for ['127.0.0.1', 52597]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:52597][0m
+HTTP b'GET' request for ['127.0.0.1', 52597]
+HTTP 200 response started for ['127.0.0.1', 52597]
+HTTP close for ['127.0.0.1', 52597]
+HTTP response complete for ['127.0.0.1', 52597]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52597][0m
+HTTP b'GET' request for ['127.0.0.1', 52597]
+HTTP 200 response started for ['127.0.0.1', 52597]
+HTTP response chunk for ['127.0.0.1', 52597]
+HTTP response chunk for ['127.0.0.1', 52597]
+HTTP close for ['127.0.0.1', 52597]
+HTTP response complete for ['127.0.0.1', 52597]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.01, 127.0.0.1:52597][0m
+HTTP b'GET' request for ['127.0.0.1', 52597]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52597]
+HTTP close for ['127.0.0.1', 52597]
+HTTP response complete for ['127.0.0.1', 52597]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:52597][0m
+HTTP b'GET' request for ['127.0.0.1', 52611]
+HTTP 200 response started for ['127.0.0.1', 52611]
+HTTP close for ['127.0.0.1', 52611]
+HTTP response complete for ['127.0.0.1', 52611]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52611][0m
+HTTP b'GET' request for ['127.0.0.1', 52611]
+HTTP b'GET' request for ['127.0.0.1', 52613]
+HTTP 304 response started for ['127.0.0.1', 52611]
+HTTP close for ['127.0.0.1', 52611]
+HTTP response complete for ['127.0.0.1', 52611]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 304 [0.00, 127.0.0.1:52611][0m
+HTTP 200 response started for ['127.0.0.1', 52613]
+HTTP response chunk for ['127.0.0.1', 52613]
+HTTP response chunk for ['127.0.0.1', 52613]
+HTTP close for ['127.0.0.1', 52613]
+HTTP response complete for ['127.0.0.1', 52613]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.01, 127.0.0.1:52613][0m
+HTTP b'GET' request for ['127.0.0.1', 52613]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52613]
+HTTP close for ['127.0.0.1', 52613]
+HTTP response complete for ['127.0.0.1', 52613]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:52613][0m
+HTTP b'GET' request for ['127.0.0.1', 52613]
+HTTP 200 response started for ['127.0.0.1', 52613]
+HTTP close for ['127.0.0.1', 52613]
+HTTP response complete for ['127.0.0.1', 52613]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52613][0m
+HTTP b'GET' request for ['127.0.0.1', 52613]
+HTTP 200 response started for ['127.0.0.1', 52613]
+HTTP response chunk for ['127.0.0.1', 52613]
+HTTP response chunk for ['127.0.0.1', 52613]
+HTTP close for ['127.0.0.1', 52613]
+HTTP response complete for ['127.0.0.1', 52613]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.00, 127.0.0.1:52613][0m
+HTTP b'GET' request for ['127.0.0.1', 52613]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52613]
+HTTP close for ['127.0.0.1', 52613]
+HTTP response complete for ['127.0.0.1', 52613]
+[33mHTTP GET /serviceworker.js 404 [0.05, 127.0.0.1:52613][0m
+HTTP b'GET' request for ['127.0.0.1', 52613]
+HTTP 200 response started for ['127.0.0.1', 52613]
+HTTP close for ['127.0.0.1', 52613]
+HTTP response complete for ['127.0.0.1', 52613]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52613][0m
+HTTP b'GET' request for ['127.0.0.1', 52613]
+HTTP 304 response started for ['127.0.0.1', 52613]
+HTTP close for ['127.0.0.1', 52613]
+HTTP response complete for ['127.0.0.1', 52613]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 304 [0.00, 127.0.0.1:52613][0m
+HTTP b'GET' request for ['127.0.0.1', 52613]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52613]
+HTTP close for ['127.0.0.1', 52613]
+HTTP response complete for ['127.0.0.1', 52613]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:52613][0m
+HTTP b'GET' request for ['127.0.0.1', 52626]
+HTTP 200 response started for ['127.0.0.1', 52626]
+HTTP close for ['127.0.0.1', 52626]
+HTTP response complete for ['127.0.0.1', 52626]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52626][0m
+HTTP b'GET' request for ['127.0.0.1', 52626]
+HTTP 200 response started for ['127.0.0.1', 52626]
+HTTP response chunk for ['127.0.0.1', 52626]
+HTTP response chunk for ['127.0.0.1', 52626]
+HTTP close for ['127.0.0.1', 52626]
+HTTP response complete for ['127.0.0.1', 52626]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.01, 127.0.0.1:52626][0m
+HTTP b'GET' request for ['127.0.0.1', 52626]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52626]
+HTTP close for ['127.0.0.1', 52626]
+HTTP response complete for ['127.0.0.1', 52626]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:52626][0m
+HTTP b'GET' request for ['127.0.0.1', 52626]
+HTTP 200 response started for ['127.0.0.1', 52626]
+HTTP close for ['127.0.0.1', 52626]
+HTTP response complete for ['127.0.0.1', 52626]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52626][0m
+HTTP b'GET' request for ['127.0.0.1', 52626]
+HTTP 200 response started for ['127.0.0.1', 52626]
+HTTP response chunk for ['127.0.0.1', 52626]
+HTTP response chunk for ['127.0.0.1', 52626]
+HTTP close for ['127.0.0.1', 52626]
+HTTP response complete for ['127.0.0.1', 52626]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.00, 127.0.0.1:52626][0m
+HTTP b'GET' request for ['127.0.0.1', 52626]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52626]
+HTTP close for ['127.0.0.1', 52626]
+HTTP response complete for ['127.0.0.1', 52626]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:52626][0m
+HTTP b'GET' request for ['127.0.0.1', 52644]
+HTTP 200 response started for ['127.0.0.1', 52644]
+HTTP close for ['127.0.0.1', 52644]
+HTTP response complete for ['127.0.0.1', 52644]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52644][0m
+HTTP b'GET' request for ['127.0.0.1', 52644]
+HTTP b'GET' request for ['127.0.0.1', 52645]
+HTTP 304 response started for ['127.0.0.1', 52644]
+HTTP close for ['127.0.0.1', 52644]
+HTTP response complete for ['127.0.0.1', 52644]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 304 [0.00, 127.0.0.1:52644][0m
+HTTP 200 response started for ['127.0.0.1', 52645]
+HTTP response chunk for ['127.0.0.1', 52645]
+HTTP response chunk for ['127.0.0.1', 52645]
+HTTP close for ['127.0.0.1', 52645]
+HTTP response complete for ['127.0.0.1', 52645]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.01, 127.0.0.1:52645][0m
+HTTP b'GET' request for ['127.0.0.1', 52645]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52645]
+HTTP close for ['127.0.0.1', 52645]
+HTTP response complete for ['127.0.0.1', 52645]
+[33mHTTP GET /serviceworker.js 404 [0.03, 127.0.0.1:52645][0m
+HTTP b'GET' request for ['127.0.0.1', 52651]
+HTTP 200 response started for ['127.0.0.1', 52651]
+HTTP close for ['127.0.0.1', 52651]
+HTTP response complete for ['127.0.0.1', 52651]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52651][0m
+HTTP b'GET' request for ['127.0.0.1', 52651]
+HTTP 200 response started for ['127.0.0.1', 52651]
+HTTP response chunk for ['127.0.0.1', 52651]
+HTTP response chunk for ['127.0.0.1', 52651]
+HTTP close for ['127.0.0.1', 52651]
+HTTP response complete for ['127.0.0.1', 52651]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.00, 127.0.0.1:52651][0m
+HTTP b'GET' request for ['127.0.0.1', 52651]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52651]
+HTTP close for ['127.0.0.1', 52651]
+HTTP response complete for ['127.0.0.1', 52651]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:52651][0m
+HTTP b'GET' request for ['127.0.0.1', 52651]
+HTTP 200 response started for ['127.0.0.1', 52651]
+HTTP close for ['127.0.0.1', 52651]
+HTTP response complete for ['127.0.0.1', 52651]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52651][0m
+HTTP b'GET' request for ['127.0.0.1', 52651]
+HTTP 304 response started for ['127.0.0.1', 52651]
+HTTP close for ['127.0.0.1', 52651]
+HTTP response complete for ['127.0.0.1', 52651]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 304 [0.00, 127.0.0.1:52651][0m
+HTTP b'GET' request for ['127.0.0.1', 52651]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52651]
+HTTP close for ['127.0.0.1', 52651]
+HTTP response complete for ['127.0.0.1', 52651]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:52651][0m
+HTTP b'GET' request for ['127.0.0.1', 52651]
+HTTP 200 response started for ['127.0.0.1', 52651]
+HTTP close for ['127.0.0.1', 52651]
+HTTP response complete for ['127.0.0.1', 52651]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52651][0m
+HTTP b'GET' request for ['127.0.0.1', 52651]
+HTTP 200 response started for ['127.0.0.1', 52651]
+HTTP response chunk for ['127.0.0.1', 52651]
+HTTP response chunk for ['127.0.0.1', 52651]
+HTTP close for ['127.0.0.1', 52651]
+HTTP response complete for ['127.0.0.1', 52651]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.00, 127.0.0.1:52651][0m
+HTTP b'GET' request for ['127.0.0.1', 52651]
+HTTP 200 response started for ['127.0.0.1', 52651]
+HTTP close for ['127.0.0.1', 52651]
+HTTP response complete for ['127.0.0.1', 52651]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52651][0m
+HTTP b'GET' request for ['127.0.0.1', 52651]
+HTTP 304 response started for ['127.0.0.1', 52651]
+HTTP close for ['127.0.0.1', 52651]
+HTTP response complete for ['127.0.0.1', 52651]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 304 [0.00, 127.0.0.1:52651][0m
+HTTP b'GET' request for ['127.0.0.1', 52651]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52651]
+HTTP close for ['127.0.0.1', 52651]
+HTTP response complete for ['127.0.0.1', 52651]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:52651][0m
+HTTP b'GET' request for ['127.0.0.1', 52651]
+HTTP 200 response started for ['127.0.0.1', 52651]
+HTTP close for ['127.0.0.1', 52651]
+HTTP response complete for ['127.0.0.1', 52651]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52651][0m
+HTTP b'GET' request for ['127.0.0.1', 52651]
+HTTP 200 response started for ['127.0.0.1', 52651]
+HTTP response chunk for ['127.0.0.1', 52651]
+HTTP response chunk for ['127.0.0.1', 52651]
+HTTP close for ['127.0.0.1', 52651]
+HTTP response complete for ['127.0.0.1', 52651]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.00, 127.0.0.1:52651][0m
+HTTP b'GET' request for ['127.0.0.1', 52651]
+HTTP 200 response started for ['127.0.0.1', 52651]
+HTTP close for ['127.0.0.1', 52651]
+HTTP response complete for ['127.0.0.1', 52651]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52651][0m
+HTTP b'GET' request for ['127.0.0.1', 52651]
+HTTP 304 response started for ['127.0.0.1', 52651]
+HTTP close for ['127.0.0.1', 52651]
+HTTP response complete for ['127.0.0.1', 52651]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 304 [0.00, 127.0.0.1:52651][0m
+HTTP b'GET' request for ['127.0.0.1', 52651]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52651]
+HTTP close for ['127.0.0.1', 52651]
+HTTP response complete for ['127.0.0.1', 52651]
+[33mHTTP GET /serviceworker.js 404 [0.02, 127.0.0.1:52651][0m
+HTTP b'GET' request for ['127.0.0.1', 52651]
+HTTP 200 response started for ['127.0.0.1', 52651]
+HTTP close for ['127.0.0.1', 52651]
+HTTP response complete for ['127.0.0.1', 52651]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52651][0m
+HTTP b'GET' request for ['127.0.0.1', 52651]
+HTTP 200 response started for ['127.0.0.1', 52651]
+HTTP response chunk for ['127.0.0.1', 52651]
+HTTP response chunk for ['127.0.0.1', 52651]
+HTTP close for ['127.0.0.1', 52651]
+HTTP response complete for ['127.0.0.1', 52651]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.00, 127.0.0.1:52651][0m
+HTTP b'GET' request for ['127.0.0.1', 52651]
+HTTP 200 response started for ['127.0.0.1', 52651]
+HTTP close for ['127.0.0.1', 52651]
+HTTP response complete for ['127.0.0.1', 52651]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52651][0m
+HTTP b'GET' request for ['127.0.0.1', 52651]
+HTTP 304 response started for ['127.0.0.1', 52651]
+HTTP close for ['127.0.0.1', 52651]
+HTTP response complete for ['127.0.0.1', 52651]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 304 [0.00, 127.0.0.1:52651][0m
+HTTP b'GET' request for ['127.0.0.1', 52651]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52651]
+HTTP close for ['127.0.0.1', 52651]
+HTTP response complete for ['127.0.0.1', 52651]
+[33mHTTP GET /serviceworker.js 404 [0.02, 127.0.0.1:52651][0m
+HTTP b'GET' request for ['127.0.0.1', 52651]
+HTTP 200 response started for ['127.0.0.1', 52651]
+HTTP close for ['127.0.0.1', 52651]
+HTTP response complete for ['127.0.0.1', 52651]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52651][0m
+HTTP b'GET' request for ['127.0.0.1', 52651]
+HTTP 200 response started for ['127.0.0.1', 52651]
+HTTP response chunk for ['127.0.0.1', 52651]
+HTTP response chunk for ['127.0.0.1', 52651]
+HTTP close for ['127.0.0.1', 52651]
+HTTP response complete for ['127.0.0.1', 52651]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.00, 127.0.0.1:52651][0m
+HTTP b'GET' request for ['127.0.0.1', 52651]
+HTTP 200 response started for ['127.0.0.1', 52651]
+HTTP close for ['127.0.0.1', 52651]
+HTTP response complete for ['127.0.0.1', 52651]
+[mHTTP GET / 200 [0.00, 127.0.0.1:52651][0m
+HTTP b'GET' request for ['127.0.0.1', 52651]
+HTTP 304 response started for ['127.0.0.1', 52651]
+HTTP close for ['127.0.0.1', 52651]
+HTTP response complete for ['127.0.0.1', 52651]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 304 [0.00, 127.0.0.1:52651][0m
+HTTP b'GET' request for ['127.0.0.1', 52651]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52651]
+HTTP close for ['127.0.0.1', 52651]
+HTTP response complete for ['127.0.0.1', 52651]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:52651][0m
+HTTP b'GET' request for ['127.0.0.1', 52651]
+HTTP 200 response started for ['127.0.0.1', 52651]
+HTTP close for ['127.0.0.1', 52651]
+HTTP response complete for ['127.0.0.1', 52651]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52651][0m
+HTTP b'GET' request for ['127.0.0.1', 52651]
+HTTP 200 response started for ['127.0.0.1', 52651]
+HTTP response chunk for ['127.0.0.1', 52651]
+HTTP response chunk for ['127.0.0.1', 52651]
+HTTP close for ['127.0.0.1', 52651]
+HTTP response complete for ['127.0.0.1', 52651]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.00, 127.0.0.1:52651][0m
+HTTP b'GET' request for ['127.0.0.1', 52651]
+HTTP 200 response started for ['127.0.0.1', 52651]
+HTTP close for ['127.0.0.1', 52651]
+HTTP response complete for ['127.0.0.1', 52651]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52651][0m
+HTTP b'GET' request for ['127.0.0.1', 52651]
+HTTP 304 response started for ['127.0.0.1', 52651]
+HTTP close for ['127.0.0.1', 52651]
+HTTP response complete for ['127.0.0.1', 52651]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 304 [0.00, 127.0.0.1:52651][0m
+HTTP b'GET' request for ['127.0.0.1', 52651]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52651]
+HTTP close for ['127.0.0.1', 52651]
+HTTP response complete for ['127.0.0.1', 52651]
+[33mHTTP GET /serviceworker.js 404 [0.02, 127.0.0.1:52651][0m
+HTTP b'GET' request for ['127.0.0.1', 52651]
+HTTP 200 response started for ['127.0.0.1', 52651]
+HTTP close for ['127.0.0.1', 52651]
+HTTP response complete for ['127.0.0.1', 52651]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52651][0m
+HTTP b'GET' request for ['127.0.0.1', 52651]
+HTTP 200 response started for ['127.0.0.1', 52651]
+HTTP response chunk for ['127.0.0.1', 52651]
+HTTP response chunk for ['127.0.0.1', 52651]
+HTTP close for ['127.0.0.1', 52651]
+HTTP response complete for ['127.0.0.1', 52651]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.00, 127.0.0.1:52651][0m
+HTTP b'GET' request for ['127.0.0.1', 52651]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52651]
+HTTP close for ['127.0.0.1', 52651]
+HTTP response complete for ['127.0.0.1', 52651]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:52651][0m
+HTTP b'GET' request for ['127.0.0.1', 52651]
+HTTP 200 response started for ['127.0.0.1', 52651]
+HTTP close for ['127.0.0.1', 52651]
+HTTP response complete for ['127.0.0.1', 52651]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52651][0m
+HTTP b'GET' request for ['127.0.0.1', 52651]
+HTTP 200 response started for ['127.0.0.1', 52651]
+HTTP response chunk for ['127.0.0.1', 52651]
+HTTP response chunk for ['127.0.0.1', 52651]
+HTTP close for ['127.0.0.1', 52651]
+HTTP response complete for ['127.0.0.1', 52651]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.00, 127.0.0.1:52651][0m
+HTTP b'GET' request for ['127.0.0.1', 52651]
+HTTP 200 response started for ['127.0.0.1', 52651]
+HTTP close for ['127.0.0.1', 52651]
+HTTP response complete for ['127.0.0.1', 52651]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52651][0m
+HTTP b'GET' request for ['127.0.0.1', 52651]
+HTTP 304 response started for ['127.0.0.1', 52651]
+HTTP close for ['127.0.0.1', 52651]
+HTTP response complete for ['127.0.0.1', 52651]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 304 [0.00, 127.0.0.1:52651][0m
+HTTP b'GET' request for ['127.0.0.1', 52651]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52651]
+HTTP close for ['127.0.0.1', 52651]
+HTTP response complete for ['127.0.0.1', 52651]
+[33mHTTP GET /serviceworker.js 404 [0.02, 127.0.0.1:52651][0m
+HTTP b'GET' request for ['127.0.0.1', 52651]
+HTTP 200 response started for ['127.0.0.1', 52651]
+HTTP close for ['127.0.0.1', 52651]
+HTTP response complete for ['127.0.0.1', 52651]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52651][0m
+HTTP b'GET' request for ['127.0.0.1', 52651]
+HTTP 200 response started for ['127.0.0.1', 52651]
+HTTP response chunk for ['127.0.0.1', 52651]
+HTTP response chunk for ['127.0.0.1', 52651]
+HTTP close for ['127.0.0.1', 52651]
+HTTP response complete for ['127.0.0.1', 52651]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.01, 127.0.0.1:52651][0m
+HTTP b'GET' request for ['127.0.0.1', 52651]
+HTTP 200 response started for ['127.0.0.1', 52651]
+HTTP close for ['127.0.0.1', 52651]
+HTTP response complete for ['127.0.0.1', 52651]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52651][0m
+HTTP b'GET' request for ['127.0.0.1', 52651]
+HTTP 304 response started for ['127.0.0.1', 52651]
+HTTP close for ['127.0.0.1', 52651]
+HTTP response complete for ['127.0.0.1', 52651]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 304 [0.00, 127.0.0.1:52651][0m
+HTTP b'GET' request for ['127.0.0.1', 52651]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52651]
+HTTP close for ['127.0.0.1', 52651]
+HTTP response complete for ['127.0.0.1', 52651]
+[33mHTTP GET /serviceworker.js 404 [0.02, 127.0.0.1:52651][0m
+HTTP b'GET' request for ['127.0.0.1', 52651]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52651]
+HTTP close for ['127.0.0.1', 52651]
+HTTP response complete for ['127.0.0.1', 52651]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:52651][0m
+HTTP b'GET' request for ['127.0.0.1', 52651]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52651]
+HTTP close for ['127.0.0.1', 52651]
+HTTP response complete for ['127.0.0.1', 52651]
+[33mHTTP GET /serviceworker.js 404 [0.02, 127.0.0.1:52651][0m
+HTTP b'GET' request for ['127.0.0.1', 52651]
+HTTP 200 response started for ['127.0.0.1', 52651]
+HTTP close for ['127.0.0.1', 52651]
+HTTP response complete for ['127.0.0.1', 52651]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52651][0m
+HTTP b'GET' request for ['127.0.0.1', 52651]
+HTTP b'GET' request for ['127.0.0.1', 52709]
+HTTP 304 response started for ['127.0.0.1', 52651]
+HTTP close for ['127.0.0.1', 52651]
+HTTP response complete for ['127.0.0.1', 52651]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 304 [0.00, 127.0.0.1:52651][0m
+HTTP 200 response started for ['127.0.0.1', 52709]
+HTTP response chunk for ['127.0.0.1', 52709]
+HTTP response chunk for ['127.0.0.1', 52709]
+HTTP close for ['127.0.0.1', 52709]
+HTTP response complete for ['127.0.0.1', 52709]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.01, 127.0.0.1:52709][0m
+HTTP b'GET' request for ['127.0.0.1', 52651]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52651]
+HTTP close for ['127.0.0.1', 52651]
+HTTP response complete for ['127.0.0.1', 52651]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:52651][0m
+HTTP b'GET' request for ['127.0.0.1', 52651]
+HTTP 200 response started for ['127.0.0.1', 52651]
+HTTP close for ['127.0.0.1', 52651]
+HTTP response complete for ['127.0.0.1', 52651]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52651][0m
+HTTP b'GET' request for ['127.0.0.1', 52651]
+HTTP 200 response started for ['127.0.0.1', 52651]
+HTTP response chunk for ['127.0.0.1', 52651]
+HTTP response chunk for ['127.0.0.1', 52651]
+HTTP close for ['127.0.0.1', 52651]
+HTTP response complete for ['127.0.0.1', 52651]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.01, 127.0.0.1:52651][0m
+HTTP b'GET' request for ['127.0.0.1', 52651]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52651]
+HTTP close for ['127.0.0.1', 52651]
+HTTP response complete for ['127.0.0.1', 52651]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:52651][0m
+HTTP b'GET' request for ['127.0.0.1', 52734]
+HTTP 200 response started for ['127.0.0.1', 52734]
+HTTP close for ['127.0.0.1', 52734]
+HTTP response complete for ['127.0.0.1', 52734]
+[mHTTP GET / 200 [0.00, 127.0.0.1:52734][0m
+HTTP b'GET' request for ['127.0.0.1', 52734]
+HTTP 200 response started for ['127.0.0.1', 52734]
+HTTP response chunk for ['127.0.0.1', 52734]
+HTTP response chunk for ['127.0.0.1', 52734]
+HTTP close for ['127.0.0.1', 52734]
+HTTP response complete for ['127.0.0.1', 52734]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.00, 127.0.0.1:52734][0m
+HTTP b'GET' request for ['127.0.0.1', 52734]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52734]
+HTTP close for ['127.0.0.1', 52734]
+HTTP response complete for ['127.0.0.1', 52734]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:52734][0m
+HTTP b'GET' request for ['127.0.0.1', 52734]
+HTTP 200 response started for ['127.0.0.1', 52734]
+HTTP close for ['127.0.0.1', 52734]
+HTTP response complete for ['127.0.0.1', 52734]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52734][0m
+HTTP b'GET' request for ['127.0.0.1', 52734]
+HTTP 200 response started for ['127.0.0.1', 52734]
+HTTP response chunk for ['127.0.0.1', 52734]
+HTTP response chunk for ['127.0.0.1', 52734]
+HTTP close for ['127.0.0.1', 52734]
+HTTP response complete for ['127.0.0.1', 52734]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.01, 127.0.0.1:52734][0m
+HTTP b'GET' request for ['127.0.0.1', 52734]
+HTTP 200 response started for ['127.0.0.1', 52734]
+HTTP close for ['127.0.0.1', 52734]
+HTTP response complete for ['127.0.0.1', 52734]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52734][0m
+HTTP b'GET' request for ['127.0.0.1', 52734]
+HTTP 304 response started for ['127.0.0.1', 52734]
+HTTP close for ['127.0.0.1', 52734]
+HTTP response complete for ['127.0.0.1', 52734]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 304 [0.00, 127.0.0.1:52734][0m
+HTTP b'GET' request for ['127.0.0.1', 52734]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52734]
+HTTP close for ['127.0.0.1', 52734]
+HTTP response complete for ['127.0.0.1', 52734]
+[33mHTTP GET /serviceworker.js 404 [0.02, 127.0.0.1:52734][0m
+HTTP b'GET' request for ['127.0.0.1', 52748]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52748]
+HTTP close for ['127.0.0.1', 52748]
+HTTP response complete for ['127.0.0.1', 52748]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:52748][0m
+HTTP b'GET' request for ['127.0.0.1', 52748]
+HTTP 200 response started for ['127.0.0.1', 52748]
+HTTP close for ['127.0.0.1', 52748]
+HTTP response complete for ['127.0.0.1', 52748]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52748][0m
+HTTP b'GET' request for ['127.0.0.1', 52748]
+HTTP b'GET' request for ['127.0.0.1', 52749]
+HTTP 304 response started for ['127.0.0.1', 52748]
+HTTP close for ['127.0.0.1', 52748]
+HTTP response complete for ['127.0.0.1', 52748]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 304 [0.00, 127.0.0.1:52748][0m
+HTTP 200 response started for ['127.0.0.1', 52749]
+HTTP response chunk for ['127.0.0.1', 52749]
+HTTP response chunk for ['127.0.0.1', 52749]
+HTTP close for ['127.0.0.1', 52749]
+HTTP response complete for ['127.0.0.1', 52749]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.01, 127.0.0.1:52749][0m
+HTTP b'GET' request for ['127.0.0.1', 52749]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52749]
+HTTP close for ['127.0.0.1', 52749]
+HTTP response complete for ['127.0.0.1', 52749]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:52749][0m
+HTTP b'GET' request for ['127.0.0.1', 52749]
+HTTP 200 response started for ['127.0.0.1', 52749]
+HTTP close for ['127.0.0.1', 52749]
+HTTP response complete for ['127.0.0.1', 52749]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52749][0m
+HTTP b'GET' request for ['127.0.0.1', 52749]
+HTTP 304 response started for ['127.0.0.1', 52749]
+HTTP close for ['127.0.0.1', 52749]
+HTTP response complete for ['127.0.0.1', 52749]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 304 [0.00, 127.0.0.1:52749][0m
+HTTP b'GET' request for ['127.0.0.1', 52749]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52749]
+HTTP close for ['127.0.0.1', 52749]
+HTTP response complete for ['127.0.0.1', 52749]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:52749][0m
+HTTP b'GET' request for ['127.0.0.1', 52764]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52764]
+HTTP close for ['127.0.0.1', 52764]
+HTTP response complete for ['127.0.0.1', 52764]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:52764][0m
+HTTP b'GET' request for ['127.0.0.1', 52764]
+HTTP disconnect for ['127.0.0.1', 52764]
+HTTP b'GET' request for ['127.0.0.1', 52766]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52766]
+HTTP close for ['127.0.0.1', 52766]
+HTTP response complete for ['127.0.0.1', 52766]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:52766][0m
+HTTP b'GET' request for ['127.0.0.1', 52777]
+HTTP 200 response started for ['127.0.0.1', 52777]
+HTTP close for ['127.0.0.1', 52777]
+HTTP response complete for ['127.0.0.1', 52777]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52777][0m
+HTTP b'GET' request for ['127.0.0.1', 52777]
+HTTP b'GET' request for ['127.0.0.1', 52779]
+HTTP 304 response started for ['127.0.0.1', 52777]
+HTTP close for ['127.0.0.1', 52777]
+HTTP response complete for ['127.0.0.1', 52777]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 304 [0.01, 127.0.0.1:52777][0m
+HTTP 304 response started for ['127.0.0.1', 52779]
+HTTP close for ['127.0.0.1', 52779]
+HTTP response complete for ['127.0.0.1', 52779]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 304 [0.00, 127.0.0.1:52779][0m
+HTTP b'GET' request for ['127.0.0.1', 52777]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52777]
+HTTP close for ['127.0.0.1', 52777]
+HTTP response complete for ['127.0.0.1', 52777]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:52777][0m
+HTTP b'GET' request for ['127.0.0.1', 52786]
+HTTP 200 response started for ['127.0.0.1', 52786]
+HTTP close for ['127.0.0.1', 52786]
+HTTP response complete for ['127.0.0.1', 52786]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52786][0m
+HTTP b'GET' request for ['127.0.0.1', 52786]
+HTTP b'GET' request for ['127.0.0.1', 52787]
+HTTP b'GET' request for ['127.0.0.1', 52788]
+HTTP 200 response started for ['127.0.0.1', 52786]
+HTTP response chunk for ['127.0.0.1', 52786]
+HTTP close for ['127.0.0.1', 52786]
+HTTP response complete for ['127.0.0.1', 52786]
+[mHTTP GET /static/css/style.css 200 [0.01, 127.0.0.1:52786][0m
+HTTP 200 response started for ['127.0.0.1', 52787]
+HTTP 200 response started for ['127.0.0.1', 52788]
+HTTP response chunk for ['127.0.0.1', 52788]
+HTTP response chunk for ['127.0.0.1', 52788]
+HTTP close for ['127.0.0.1', 52788]
+HTTP response complete for ['127.0.0.1', 52788]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.01, 127.0.0.1:52788][0m
+HTTP response chunk for ['127.0.0.1', 52787]
+HTTP response chunk for ['127.0.0.1', 52787]
+HTTP response chunk for ['127.0.0.1', 52787]
+HTTP response chunk for ['127.0.0.1', 52787]
+HTTP response chunk for ['127.0.0.1', 52787]
+HTTP response chunk for ['127.0.0.1', 52787]
+HTTP response chunk for ['127.0.0.1', 52787]
+HTTP response chunk for ['127.0.0.1', 52787]
+HTTP response chunk for ['127.0.0.1', 52787]
+HTTP response chunk for ['127.0.0.1', 52787]
+HTTP response chunk for ['127.0.0.1', 52787]
+HTTP response chunk for ['127.0.0.1', 52787]
+HTTP response chunk for ['127.0.0.1', 52787]
+HTTP response chunk for ['127.0.0.1', 52787]
+HTTP response chunk for ['127.0.0.1', 52787]
+HTTP response chunk for ['127.0.0.1', 52787]
+HTTP response chunk for ['127.0.0.1', 52787]
+HTTP response chunk for ['127.0.0.1', 52787]
+HTTP response chunk for ['127.0.0.1', 52787]
+HTTP response chunk for ['127.0.0.1', 52787]
+HTTP response chunk for ['127.0.0.1', 52787]
+HTTP response chunk for ['127.0.0.1', 52787]
+HTTP response chunk for ['127.0.0.1', 52787]
+HTTP response chunk for ['127.0.0.1', 52787]
+HTTP response chunk for ['127.0.0.1', 52787]
+HTTP response chunk for ['127.0.0.1', 52787]
+HTTP response chunk for ['127.0.0.1', 52787]
+HTTP response chunk for ['127.0.0.1', 52787]
+HTTP response chunk for ['127.0.0.1', 52787]
+HTTP response chunk for ['127.0.0.1', 52787]
+HTTP response chunk for ['127.0.0.1', 52787]
+HTTP response chunk for ['127.0.0.1', 52787]
+HTTP response chunk for ['127.0.0.1', 52787]
+HTTP response chunk for ['127.0.0.1', 52787]
+HTTP response chunk for ['127.0.0.1', 52787]
+HTTP close for ['127.0.0.1', 52787]
+HTTP response complete for ['127.0.0.1', 52787]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 200 [0.01, 127.0.0.1:52787][0m
+HTTP b'GET' request for ['127.0.0.1', 52787]
+HTTP 200 response started for ['127.0.0.1', 52787]
+HTTP response chunk for ['127.0.0.1', 52787]
+HTTP close for ['127.0.0.1', 52787]
+HTTP response complete for ['127.0.0.1', 52787]
+[mHTTP GET /static/favicon.ico 200 [0.00, 127.0.0.1:52787][0m
+HTTP b'GET' request for ['127.0.0.1', 52799]
+HTTP 200 response started for ['127.0.0.1', 52799]
+HTTP close for ['127.0.0.1', 52799]
+HTTP response complete for ['127.0.0.1', 52799]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52799][0m
+HTTP b'GET' request for ['127.0.0.1', 52799]
+HTTP 200 response started for ['127.0.0.1', 52799]
+HTTP b'GET' request for ['127.0.0.1', 52801]
+HTTP response chunk for ['127.0.0.1', 52799]
+HTTP close for ['127.0.0.1', 52799]
+HTTP response complete for ['127.0.0.1', 52799]
+[mHTTP GET /static/css/style.css 200 [0.01, 127.0.0.1:52799][0m
+HTTP 304 response started for ['127.0.0.1', 52801]
+HTTP close for ['127.0.0.1', 52801]
+HTTP response complete for ['127.0.0.1', 52801]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 304 [0.00, 127.0.0.1:52801][0m
+HTTP b'GET' request for ['127.0.0.1', 52799]
+HTTP 304 response started for ['127.0.0.1', 52799]
+HTTP close for ['127.0.0.1', 52799]
+HTTP response complete for ['127.0.0.1', 52799]
+[36mHTTP GET /static/css/style.css 304 [0.00, 127.0.0.1:52799][0m
+HTTP b'GET' request for ['127.0.0.1', 52799]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52799]
+HTTP close for ['127.0.0.1', 52799]
+HTTP response complete for ['127.0.0.1', 52799]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:52799][0m
+HTTP b'GET' request for ['127.0.0.1', 52806]
+HTTP 200 response started for ['127.0.0.1', 52806]
+HTTP close for ['127.0.0.1', 52806]
+HTTP response complete for ['127.0.0.1', 52806]
+[mHTTP GET / 200 [0.00, 127.0.0.1:52806][0m
+HTTP b'GET' request for ['127.0.0.1', 52806]
+HTTP b'GET' request for ['127.0.0.1', 52807]
+HTTP b'GET' request for ['127.0.0.1', 52808]
+HTTP 200 response started for ['127.0.0.1', 52806]
+HTTP response chunk for ['127.0.0.1', 52806]
+HTTP close for ['127.0.0.1', 52806]
+HTTP response complete for ['127.0.0.1', 52806]
+[mHTTP GET /static/css/style.css 200 [0.01, 127.0.0.1:52806][0m
+HTTP 200 response started for ['127.0.0.1', 52808]
+HTTP 200 response started for ['127.0.0.1', 52807]
+HTTP response chunk for ['127.0.0.1', 52808]
+HTTP response chunk for ['127.0.0.1', 52808]
+HTTP close for ['127.0.0.1', 52808]
+HTTP response complete for ['127.0.0.1', 52808]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.01, 127.0.0.1:52808][0m
+HTTP response chunk for ['127.0.0.1', 52807]
+HTTP response chunk for ['127.0.0.1', 52807]
+HTTP response chunk for ['127.0.0.1', 52807]
+HTTP response chunk for ['127.0.0.1', 52807]
+HTTP response chunk for ['127.0.0.1', 52807]
+HTTP response chunk for ['127.0.0.1', 52807]
+HTTP response chunk for ['127.0.0.1', 52807]
+HTTP response chunk for ['127.0.0.1', 52807]
+HTTP response chunk for ['127.0.0.1', 52807]
+HTTP response chunk for ['127.0.0.1', 52807]
+HTTP response chunk for ['127.0.0.1', 52807]
+HTTP response chunk for ['127.0.0.1', 52807]
+HTTP response chunk for ['127.0.0.1', 52807]
+HTTP response chunk for ['127.0.0.1', 52807]
+HTTP response chunk for ['127.0.0.1', 52807]
+HTTP response chunk for ['127.0.0.1', 52807]
+HTTP response chunk for ['127.0.0.1', 52807]
+HTTP response chunk for ['127.0.0.1', 52807]
+HTTP response chunk for ['127.0.0.1', 52807]
+HTTP response chunk for ['127.0.0.1', 52807]
+HTTP response chunk for ['127.0.0.1', 52807]
+HTTP response chunk for ['127.0.0.1', 52807]
+HTTP response chunk for ['127.0.0.1', 52807]
+HTTP response chunk for ['127.0.0.1', 52807]
+HTTP response chunk for ['127.0.0.1', 52807]
+HTTP response chunk for ['127.0.0.1', 52807]
+HTTP response chunk for ['127.0.0.1', 52807]
+HTTP response chunk for ['127.0.0.1', 52807]
+HTTP response chunk for ['127.0.0.1', 52807]
+HTTP response chunk for ['127.0.0.1', 52807]
+HTTP response chunk for ['127.0.0.1', 52807]
+HTTP response chunk for ['127.0.0.1', 52807]
+HTTP response chunk for ['127.0.0.1', 52807]
+HTTP response chunk for ['127.0.0.1', 52807]
+HTTP response chunk for ['127.0.0.1', 52807]
+HTTP close for ['127.0.0.1', 52807]
+HTTP response complete for ['127.0.0.1', 52807]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 200 [0.02, 127.0.0.1:52807][0m
+HTTP b'GET' request for ['127.0.0.1', 52807]
+HTTP 200 response started for ['127.0.0.1', 52807]
+HTTP response chunk for ['127.0.0.1', 52807]
+HTTP close for ['127.0.0.1', 52807]
+HTTP response complete for ['127.0.0.1', 52807]
+[mHTTP GET /static/favicon.ico 200 [0.00, 127.0.0.1:52807][0m
+HTTP b'GET' request for ['127.0.0.1', 52807]
+HTTP 200 response started for ['127.0.0.1', 52807]
+HTTP close for ['127.0.0.1', 52807]
+HTTP response complete for ['127.0.0.1', 52807]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52807][0m
+HTTP b'GET' request for ['127.0.0.1', 52807]
+HTTP 200 response started for ['127.0.0.1', 52807]
+HTTP response chunk for ['127.0.0.1', 52807]
+HTTP close for ['127.0.0.1', 52807]
+HTTP response complete for ['127.0.0.1', 52807]
+[mHTTP GET /static/css/style.css 200 [0.00, 127.0.0.1:52807][0m
+HTTP b'GET' request for ['127.0.0.1', 52807]
+HTTP 304 response started for ['127.0.0.1', 52807]
+HTTP close for ['127.0.0.1', 52807]
+HTTP response complete for ['127.0.0.1', 52807]
+[36mHTTP GET /static/css/style.css 304 [0.00, 127.0.0.1:52807][0m
+HTTP b'GET' request for ['127.0.0.1', 52807]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52807]
+HTTP close for ['127.0.0.1', 52807]
+HTTP response complete for ['127.0.0.1', 52807]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:52807][0m
+HTTP b'GET' request for ['127.0.0.1', 52807]
+HTTP 200 response started for ['127.0.0.1', 52807]
+HTTP close for ['127.0.0.1', 52807]
+HTTP response complete for ['127.0.0.1', 52807]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52807][0m
+HTTP b'GET' request for ['127.0.0.1', 52807]
+HTTP b'GET' request for ['127.0.0.1', 52808]
+HTTP 304 response started for ['127.0.0.1', 52807]
+HTTP close for ['127.0.0.1', 52807]
+HTTP response complete for ['127.0.0.1', 52807]
+[36mHTTP GET /static/css/style.css 304 [0.00, 127.0.0.1:52807][0m
+HTTP 200 response started for ['127.0.0.1', 52808]
+HTTP response chunk for ['127.0.0.1', 52808]
+HTTP response chunk for ['127.0.0.1', 52808]
+HTTP close for ['127.0.0.1', 52808]
+HTTP response complete for ['127.0.0.1', 52808]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.01, 127.0.0.1:52808][0m
+HTTP b'GET' request for ['127.0.0.1', 52807]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52807]
+HTTP close for ['127.0.0.1', 52807]
+HTTP response complete for ['127.0.0.1', 52807]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:52807][0m
+HTTP b'GET' request for ['127.0.0.1', 52807]
+HTTP 200 response started for ['127.0.0.1', 52807]
+HTTP close for ['127.0.0.1', 52807]
+HTTP response complete for ['127.0.0.1', 52807]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52807][0m
+HTTP b'GET' request for ['127.0.0.1', 52807]
+HTTP 200 response started for ['127.0.0.1', 52807]
+HTTP response chunk for ['127.0.0.1', 52807]
+HTTP response chunk for ['127.0.0.1', 52807]
+HTTP close for ['127.0.0.1', 52807]
+HTTP response complete for ['127.0.0.1', 52807]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.00, 127.0.0.1:52807][0m
+HTTP b'GET' request for ['127.0.0.1', 52807]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52807]
+HTTP close for ['127.0.0.1', 52807]
+HTTP response complete for ['127.0.0.1', 52807]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:52807][0m
+HTTP b'GET' request for ['127.0.0.1', 52807]
+HTTP 200 response started for ['127.0.0.1', 52807]
+HTTP close for ['127.0.0.1', 52807]
+HTTP response complete for ['127.0.0.1', 52807]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52807][0m
+HTTP b'GET' request for ['127.0.0.1', 52807]
+HTTP b'GET' request for ['127.0.0.1', 52808]
+HTTP 304 response started for ['127.0.0.1', 52808]
+HTTP close for ['127.0.0.1', 52808]
+HTTP response complete for ['127.0.0.1', 52808]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 304 [0.00, 127.0.0.1:52808][0m
+HTTP 304 response started for ['127.0.0.1', 52807]
+HTTP close for ['127.0.0.1', 52807]
+HTTP response complete for ['127.0.0.1', 52807]
+[36mHTTP GET /static/css/style.css 304 [0.01, 127.0.0.1:52807][0m
+HTTP b'GET' request for ['127.0.0.1', 52807]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52807]
+HTTP close for ['127.0.0.1', 52807]
+HTTP response complete for ['127.0.0.1', 52807]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:52807][0m
+HTTP b'GET' request for ['127.0.0.1', 52839]
+HTTP 200 response started for ['127.0.0.1', 52839]
+HTTP close for ['127.0.0.1', 52839]
+HTTP response complete for ['127.0.0.1', 52839]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52839][0m
+HTTP b'GET' request for ['127.0.0.1', 52839]
+HTTP 304 response started for ['127.0.0.1', 52839]
+HTTP close for ['127.0.0.1', 52839]
+HTTP response complete for ['127.0.0.1', 52839]
+[36mHTTP GET /static/css/style.css 304 [0.00, 127.0.0.1:52839][0m
+HTTP b'GET' request for ['127.0.0.1', 52841]
+HTTP 200 response started for ['127.0.0.1', 52841]
+HTTP response chunk for ['127.0.0.1', 52841]
+HTTP response chunk for ['127.0.0.1', 52841]
+HTTP close for ['127.0.0.1', 52841]
+HTTP response complete for ['127.0.0.1', 52841]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.01, 127.0.0.1:52841][0m
+HTTP b'GET' request for ['127.0.0.1', 52841]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52841]
+HTTP close for ['127.0.0.1', 52841]
+HTTP response complete for ['127.0.0.1', 52841]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:52841][0m
+HTTP b'GET' request for ['127.0.0.1', 52850]
+HTTP 200 response started for ['127.0.0.1', 52850]
+HTTP close for ['127.0.0.1', 52850]
+HTTP response complete for ['127.0.0.1', 52850]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52850][0m
+HTTP b'GET' request for ['127.0.0.1', 52850]
+HTTP b'GET' request for ['127.0.0.1', 52851]
+HTTP b'GET' request for ['127.0.0.1', 52852]
+HTTP 304 response started for ['127.0.0.1', 52850]
+HTTP close for ['127.0.0.1', 52850]
+HTTP response complete for ['127.0.0.1', 52850]
+[36mHTTP GET /static/css/style.css 304 [0.01, 127.0.0.1:52850][0m
+HTTP 304 response started for ['127.0.0.1', 52851]
+HTTP close for ['127.0.0.1', 52851]
+HTTP response complete for ['127.0.0.1', 52851]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 304 [0.01, 127.0.0.1:52851][0m
+HTTP 200 response started for ['127.0.0.1', 52852]
+HTTP response chunk for ['127.0.0.1', 52852]
+HTTP response chunk for ['127.0.0.1', 52852]
+HTTP close for ['127.0.0.1', 52852]
+HTTP response complete for ['127.0.0.1', 52852]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.01, 127.0.0.1:52852][0m
+HTTP b'GET' request for ['127.0.0.1', 52852]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52852]
+HTTP close for ['127.0.0.1', 52852]
+HTTP response complete for ['127.0.0.1', 52852]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:52852][0m
+HTTP b'GET' request for ['127.0.0.1', 52884]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52884]
+HTTP close for ['127.0.0.1', 52884]
+HTTP response complete for ['127.0.0.1', 52884]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:52884][0m
+HTTP b'GET' request for ['127.0.0.1', 52884]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52884]
+HTTP close for ['127.0.0.1', 52884]
+HTTP response complete for ['127.0.0.1', 52884]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:52884][0m
+HTTP b'GET' request for ['127.0.0.1', 52884]
+HTTP 200 response started for ['127.0.0.1', 52884]
+HTTP close for ['127.0.0.1', 52884]
+HTTP response complete for ['127.0.0.1', 52884]
+[mHTTP GET / 200 [0.00, 127.0.0.1:52884][0m
+HTTP b'GET' request for ['127.0.0.1', 52884]
+HTTP b'GET' request for ['127.0.0.1', 52885]
+HTTP b'GET' request for ['127.0.0.1', 52886]
+HTTP 304 response started for ['127.0.0.1', 52884]
+HTTP close for ['127.0.0.1', 52884]
+HTTP response complete for ['127.0.0.1', 52884]
+[36mHTTP GET /static/css/style.css 304 [0.01, 127.0.0.1:52884][0m
+HTTP 200 response started for ['127.0.0.1', 52885]
+HTTP 200 response started for ['127.0.0.1', 52886]
+HTTP response chunk for ['127.0.0.1', 52886]
+HTTP response chunk for ['127.0.0.1', 52886]
+HTTP close for ['127.0.0.1', 52886]
+HTTP response complete for ['127.0.0.1', 52886]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.01, 127.0.0.1:52886][0m
+HTTP response chunk for ['127.0.0.1', 52885]
+HTTP response chunk for ['127.0.0.1', 52885]
+HTTP response chunk for ['127.0.0.1', 52885]
+HTTP response chunk for ['127.0.0.1', 52885]
+HTTP response chunk for ['127.0.0.1', 52885]
+HTTP response chunk for ['127.0.0.1', 52885]
+HTTP response chunk for ['127.0.0.1', 52885]
+HTTP response chunk for ['127.0.0.1', 52885]
+HTTP response chunk for ['127.0.0.1', 52885]
+HTTP response chunk for ['127.0.0.1', 52885]
+HTTP response chunk for ['127.0.0.1', 52885]
+HTTP response chunk for ['127.0.0.1', 52885]
+HTTP response chunk for ['127.0.0.1', 52885]
+HTTP response chunk for ['127.0.0.1', 52885]
+HTTP response chunk for ['127.0.0.1', 52885]
+HTTP response chunk for ['127.0.0.1', 52885]
+HTTP response chunk for ['127.0.0.1', 52885]
+HTTP response chunk for ['127.0.0.1', 52885]
+HTTP response chunk for ['127.0.0.1', 52885]
+HTTP response chunk for ['127.0.0.1', 52885]
+HTTP response chunk for ['127.0.0.1', 52885]
+HTTP response chunk for ['127.0.0.1', 52885]
+HTTP response chunk for ['127.0.0.1', 52885]
+HTTP response chunk for ['127.0.0.1', 52885]
+HTTP response chunk for ['127.0.0.1', 52885]
+HTTP response chunk for ['127.0.0.1', 52885]
+HTTP response chunk for ['127.0.0.1', 52885]
+HTTP response chunk for ['127.0.0.1', 52885]
+HTTP response chunk for ['127.0.0.1', 52885]
+HTTP response chunk for ['127.0.0.1', 52885]
+HTTP response chunk for ['127.0.0.1', 52885]
+HTTP response chunk for ['127.0.0.1', 52885]
+HTTP response chunk for ['127.0.0.1', 52885]
+HTTP response chunk for ['127.0.0.1', 52885]
+HTTP response chunk for ['127.0.0.1', 52885]
+HTTP close for ['127.0.0.1', 52885]
+HTTP response complete for ['127.0.0.1', 52885]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 200 [0.01, 127.0.0.1:52885][0m
+HTTP b'GET' request for ['127.0.0.1', 52885]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52885]
+HTTP close for ['127.0.0.1', 52885]
+HTTP response complete for ['127.0.0.1', 52885]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:52885][0m
+HTTP b'GET' request for ['127.0.0.1', 52885]
+HTTP 200 response started for ['127.0.0.1', 52885]
+HTTP close for ['127.0.0.1', 52885]
+HTTP response complete for ['127.0.0.1', 52885]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52885][0m
+HTTP b'GET' request for ['127.0.0.1', 52885]
+HTTP b'GET' request for ['127.0.0.1', 52886]
+HTTP 304 response started for ['127.0.0.1', 52885]
+HTTP close for ['127.0.0.1', 52885]
+HTTP response complete for ['127.0.0.1', 52885]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 304 [0.00, 127.0.0.1:52885][0m
+HTTP 200 response started for ['127.0.0.1', 52886]
+HTTP response chunk for ['127.0.0.1', 52886]
+HTTP response chunk for ['127.0.0.1', 52886]
+HTTP close for ['127.0.0.1', 52886]
+HTTP response complete for ['127.0.0.1', 52886]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.01, 127.0.0.1:52886][0m
+HTTP b'GET' request for ['127.0.0.1', 52885]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52885]
+HTTP close for ['127.0.0.1', 52885]
+HTTP response complete for ['127.0.0.1', 52885]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:52885][0m
+HTTP b'GET' request for ['127.0.0.1', 52885]
+HTTP 200 response started for ['127.0.0.1', 52885]
+HTTP close for ['127.0.0.1', 52885]
+HTTP response complete for ['127.0.0.1', 52885]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52885][0m
+HTTP b'GET' request for ['127.0.0.1', 52885]
+HTTP b'GET' request for ['127.0.0.1', 52886]
+HTTP 304 response started for ['127.0.0.1', 52885]
+HTTP close for ['127.0.0.1', 52885]
+HTTP response complete for ['127.0.0.1', 52885]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 304 [0.01, 127.0.0.1:52885][0m
+HTTP 200 response started for ['127.0.0.1', 52886]
+HTTP response chunk for ['127.0.0.1', 52886]
+HTTP response chunk for ['127.0.0.1', 52886]
+HTTP close for ['127.0.0.1', 52886]
+HTTP response complete for ['127.0.0.1', 52886]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.01, 127.0.0.1:52886][0m
+HTTP b'GET' request for ['127.0.0.1', 52885]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52885]
+HTTP close for ['127.0.0.1', 52885]
+HTTP response complete for ['127.0.0.1', 52885]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:52885][0m
+HTTP b'GET' request for ['127.0.0.1', 52885]
+HTTP 200 response started for ['127.0.0.1', 52885]
+HTTP close for ['127.0.0.1', 52885]
+HTTP response complete for ['127.0.0.1', 52885]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52885][0m
+HTTP b'GET' request for ['127.0.0.1', 52885]
+HTTP b'GET' request for ['127.0.0.1', 52886]
+HTTP 304 response started for ['127.0.0.1', 52885]
+HTTP close for ['127.0.0.1', 52885]
+HTTP response complete for ['127.0.0.1', 52885]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 304 [0.00, 127.0.0.1:52885][0m
+HTTP 200 response started for ['127.0.0.1', 52886]
+HTTP response chunk for ['127.0.0.1', 52886]
+HTTP response chunk for ['127.0.0.1', 52886]
+HTTP close for ['127.0.0.1', 52886]
+HTTP response complete for ['127.0.0.1', 52886]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.01, 127.0.0.1:52886][0m
+HTTP b'GET' request for ['127.0.0.1', 52885]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52885]
+HTTP close for ['127.0.0.1', 52885]
+HTTP response complete for ['127.0.0.1', 52885]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:52885][0m
+HTTP b'GET' request for ['127.0.0.1', 52908]
+HTTP 200 response started for ['127.0.0.1', 52908]
+HTTP close for ['127.0.0.1', 52908]
+HTTP response complete for ['127.0.0.1', 52908]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52908][0m
+HTTP b'GET' request for ['127.0.0.1', 52908]
+HTTP b'GET' request for ['127.0.0.1', 52910]
+HTTP b'GET' request for ['127.0.0.1', 52911]
+HTTP 304 response started for ['127.0.0.1', 52908]
+HTTP close for ['127.0.0.1', 52908]
+HTTP response complete for ['127.0.0.1', 52908]
+[36mHTTP GET /static/css/style.css 304 [0.01, 127.0.0.1:52908][0m
+HTTP 304 response started for ['127.0.0.1', 52910]
+HTTP close for ['127.0.0.1', 52910]
+HTTP response complete for ['127.0.0.1', 52910]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 304 [0.01, 127.0.0.1:52910][0m
+HTTP 200 response started for ['127.0.0.1', 52911]
+HTTP response chunk for ['127.0.0.1', 52911]
+HTTP response chunk for ['127.0.0.1', 52911]
+HTTP close for ['127.0.0.1', 52911]
+HTTP response complete for ['127.0.0.1', 52911]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.01, 127.0.0.1:52911][0m
+HTTP b'GET' request for ['127.0.0.1', 52911]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52911]
+HTTP close for ['127.0.0.1', 52911]
+HTTP response complete for ['127.0.0.1', 52911]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:52911][0m
+HTTP b'GET' request for ['127.0.0.1', 52917]
+HTTP 200 response started for ['127.0.0.1', 52917]
+HTTP close for ['127.0.0.1', 52917]
+HTTP response complete for ['127.0.0.1', 52917]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52917][0m
+HTTP b'GET' request for ['127.0.0.1', 52917]
+HTTP b'GET' request for ['127.0.0.1', 52918]
+HTTP b'GET' request for ['127.0.0.1', 52919]
+HTTP 304 response started for ['127.0.0.1', 52917]
+HTTP close for ['127.0.0.1', 52917]
+HTTP response complete for ['127.0.0.1', 52917]
+[36mHTTP GET /static/css/style.css 304 [0.01, 127.0.0.1:52917][0m
+HTTP 304 response started for ['127.0.0.1', 52918]
+HTTP close for ['127.0.0.1', 52918]
+HTTP response complete for ['127.0.0.1', 52918]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 304 [0.01, 127.0.0.1:52918][0m
+HTTP 200 response started for ['127.0.0.1', 52919]
+HTTP response chunk for ['127.0.0.1', 52919]
+HTTP response chunk for ['127.0.0.1', 52919]
+HTTP close for ['127.0.0.1', 52919]
+HTTP response complete for ['127.0.0.1', 52919]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.01, 127.0.0.1:52919][0m
+HTTP b'GET' request for ['127.0.0.1', 52919]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52919]
+HTTP close for ['127.0.0.1', 52919]
+HTTP response complete for ['127.0.0.1', 52919]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:52919][0m
+HTTP b'GET' request for ['127.0.0.1', 52919]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52919]
+HTTP close for ['127.0.0.1', 52919]
+HTTP response complete for ['127.0.0.1', 52919]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:52919][0m
+HTTP b'GET' request for ['127.0.0.1', 52931]
+HTTP 200 response started for ['127.0.0.1', 52931]
+HTTP close for ['127.0.0.1', 52931]
+HTTP response complete for ['127.0.0.1', 52931]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52931][0m
+HTTP b'GET' request for ['127.0.0.1', 52931]
+HTTP b'GET' request for ['127.0.0.1', 52933]
+HTTP 200 response started for ['127.0.0.1', 52931]
+HTTP 200 response started for ['127.0.0.1', 52933]
+HTTP response chunk for ['127.0.0.1', 52933]
+HTTP response chunk for ['127.0.0.1', 52933]
+HTTP close for ['127.0.0.1', 52933]
+HTTP response complete for ['127.0.0.1', 52933]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.01, 127.0.0.1:52933][0m
+HTTP response chunk for ['127.0.0.1', 52931]
+HTTP response chunk for ['127.0.0.1', 52931]
+HTTP response chunk for ['127.0.0.1', 52931]
+HTTP response chunk for ['127.0.0.1', 52931]
+HTTP response chunk for ['127.0.0.1', 52931]
+HTTP response chunk for ['127.0.0.1', 52931]
+HTTP response chunk for ['127.0.0.1', 52931]
+HTTP response chunk for ['127.0.0.1', 52931]
+HTTP response chunk for ['127.0.0.1', 52931]
+HTTP response chunk for ['127.0.0.1', 52931]
+HTTP response chunk for ['127.0.0.1', 52931]
+HTTP response chunk for ['127.0.0.1', 52931]
+HTTP response chunk for ['127.0.0.1', 52931]
+HTTP response chunk for ['127.0.0.1', 52931]
+HTTP response chunk for ['127.0.0.1', 52931]
+HTTP response chunk for ['127.0.0.1', 52931]
+HTTP response chunk for ['127.0.0.1', 52931]
+HTTP response chunk for ['127.0.0.1', 52931]
+HTTP response chunk for ['127.0.0.1', 52931]
+HTTP response chunk for ['127.0.0.1', 52931]
+HTTP response chunk for ['127.0.0.1', 52931]
+HTTP response chunk for ['127.0.0.1', 52931]
+HTTP response chunk for ['127.0.0.1', 52931]
+HTTP response chunk for ['127.0.0.1', 52931]
+HTTP response chunk for ['127.0.0.1', 52931]
+HTTP response chunk for ['127.0.0.1', 52931]
+HTTP response chunk for ['127.0.0.1', 52931]
+HTTP response chunk for ['127.0.0.1', 52931]
+HTTP response chunk for ['127.0.0.1', 52931]
+HTTP response chunk for ['127.0.0.1', 52931]
+HTTP response chunk for ['127.0.0.1', 52931]
+HTTP response chunk for ['127.0.0.1', 52931]
+HTTP response chunk for ['127.0.0.1', 52931]
+HTTP response chunk for ['127.0.0.1', 52931]
+HTTP response chunk for ['127.0.0.1', 52931]
+HTTP close for ['127.0.0.1', 52931]
+HTTP response complete for ['127.0.0.1', 52931]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 200 [0.01, 127.0.0.1:52931][0m
+HTTP b'GET' request for ['127.0.0.1', 52931]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52931]
+HTTP close for ['127.0.0.1', 52931]
+HTTP response complete for ['127.0.0.1', 52931]
+[33mHTTP GET /serviceworker.js 404 [0.02, 127.0.0.1:52931][0m
+HTTP b'GET' request for ['127.0.0.1', 52957]
+HTTP 200 response started for ['127.0.0.1', 52957]
+HTTP close for ['127.0.0.1', 52957]
+HTTP response complete for ['127.0.0.1', 52957]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52957][0m
+HTTP b'GET' request for ['127.0.0.1', 52957]
+HTTP b'GET' request for ['127.0.0.1', 52959]
+HTTP b'GET' request for ['127.0.0.1', 52960]
+HTTP 304 response started for ['127.0.0.1', 52957]
+HTTP close for ['127.0.0.1', 52957]
+HTTP response complete for ['127.0.0.1', 52957]
+[36mHTTP GET /static/css/style.css 304 [0.00, 127.0.0.1:52957][0m
+HTTP 304 response started for ['127.0.0.1', 52959]
+HTTP close for ['127.0.0.1', 52959]
+HTTP response complete for ['127.0.0.1', 52959]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 304 [0.01, 127.0.0.1:52959][0m
+HTTP 200 response started for ['127.0.0.1', 52960]
+HTTP response chunk for ['127.0.0.1', 52960]
+HTTP response chunk for ['127.0.0.1', 52960]
+HTTP close for ['127.0.0.1', 52960]
+HTTP response complete for ['127.0.0.1', 52960]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.01, 127.0.0.1:52960][0m
+HTTP b'GET' request for ['127.0.0.1', 52960]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52960]
+HTTP close for ['127.0.0.1', 52960]
+HTTP response complete for ['127.0.0.1', 52960]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:52960][0m
+HTTP b'GET' request for ['127.0.0.1', 52960]
+HTTP 200 response started for ['127.0.0.1', 52960]
+HTTP close for ['127.0.0.1', 52960]
+HTTP response complete for ['127.0.0.1', 52960]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52960][0m
+HTTP b'GET' request for ['127.0.0.1', 52960]
+HTTP 304 response started for ['127.0.0.1', 52960]
+HTTP close for ['127.0.0.1', 52960]
+HTTP response complete for ['127.0.0.1', 52960]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 304 [0.00, 127.0.0.1:52960][0m
+HTTP b'GET' request for ['127.0.0.1', 52960]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52960]
+HTTP close for ['127.0.0.1', 52960]
+HTTP response complete for ['127.0.0.1', 52960]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:52960][0m
+HTTP b'GET' request for ['127.0.0.1', 52960]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52960]
+HTTP close for ['127.0.0.1', 52960]
+HTTP response complete for ['127.0.0.1', 52960]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:52960][0m
+HTTP b'GET' request for ['127.0.0.1', 52974]
+HTTP 200 response started for ['127.0.0.1', 52974]
+HTTP close for ['127.0.0.1', 52974]
+HTTP response complete for ['127.0.0.1', 52974]
+[mHTTP GET / 200 [0.00, 127.0.0.1:52974][0m
+HTTP b'GET' request for ['127.0.0.1', 52974]
+HTTP b'GET' request for ['127.0.0.1', 52975]
+HTTP 304 response started for ['127.0.0.1', 52974]
+HTTP close for ['127.0.0.1', 52974]
+HTTP response complete for ['127.0.0.1', 52974]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 304 [0.00, 127.0.0.1:52974][0m
+HTTP 200 response started for ['127.0.0.1', 52975]
+HTTP response chunk for ['127.0.0.1', 52975]
+HTTP response chunk for ['127.0.0.1', 52975]
+HTTP close for ['127.0.0.1', 52975]
+HTTP response complete for ['127.0.0.1', 52975]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.01, 127.0.0.1:52975][0m
+HTTP b'GET' request for ['127.0.0.1', 52975]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52975]
+HTTP close for ['127.0.0.1', 52975]
+HTTP response complete for ['127.0.0.1', 52975]
+[33mHTTP GET /serviceworker.js 404 [0.02, 127.0.0.1:52975][0m
+HTTP b'GET' request for ['127.0.0.1', 52975]
+HTTP 200 response started for ['127.0.0.1', 52975]
+HTTP close for ['127.0.0.1', 52975]
+HTTP response complete for ['127.0.0.1', 52975]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52975][0m
+HTTP b'GET' request for ['127.0.0.1', 52975]
+HTTP 304 response started for ['127.0.0.1', 52975]
+HTTP close for ['127.0.0.1', 52975]
+HTTP response complete for ['127.0.0.1', 52975]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 304 [0.00, 127.0.0.1:52975][0m
+HTTP b'GET' request for ['127.0.0.1', 52975]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52975]
+HTTP close for ['127.0.0.1', 52975]
+HTTP response complete for ['127.0.0.1', 52975]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:52975][0m
+HTTP b'GET' request for ['127.0.0.1', 52990]
+HTTP 200 response started for ['127.0.0.1', 52990]
+HTTP close for ['127.0.0.1', 52990]
+HTTP response complete for ['127.0.0.1', 52990]
+[mHTTP GET / 200 [0.01, 127.0.0.1:52990][0m
+HTTP b'GET' request for ['127.0.0.1', 52990]
+HTTP b'GET' request for ['127.0.0.1', 52992]
+HTTP b'GET' request for ['127.0.0.1', 52993]
+HTTP 304 response started for ['127.0.0.1', 52990]
+HTTP close for ['127.0.0.1', 52990]
+HTTP response complete for ['127.0.0.1', 52990]
+[36mHTTP GET /static/css/style.css 304 [0.01, 127.0.0.1:52990][0m
+HTTP 304 response started for ['127.0.0.1', 52992]
+HTTP close for ['127.0.0.1', 52992]
+HTTP response complete for ['127.0.0.1', 52992]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 304 [0.01, 127.0.0.1:52992][0m
+HTTP 200 response started for ['127.0.0.1', 52993]
+HTTP response chunk for ['127.0.0.1', 52993]
+HTTP response chunk for ['127.0.0.1', 52993]
+HTTP close for ['127.0.0.1', 52993]
+HTTP response complete for ['127.0.0.1', 52993]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.01, 127.0.0.1:52993][0m
+HTTP b'GET' request for ['127.0.0.1', 52993]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 52993]
+HTTP close for ['127.0.0.1', 52993]
+HTTP response complete for ['127.0.0.1', 52993]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:52993][0m
+HTTP b'GET' request for ['127.0.0.1', 53014]
+HTTP 200 response started for ['127.0.0.1', 53014]
+HTTP close for ['127.0.0.1', 53014]
+HTTP response complete for ['127.0.0.1', 53014]
+[mHTTP GET / 200 [0.01, 127.0.0.1:53014][0m
+HTTP b'GET' request for ['127.0.0.1', 53014]
+HTTP b'GET' request for ['127.0.0.1', 53015]
+HTTP 304 response started for ['127.0.0.1', 53014]
+HTTP close for ['127.0.0.1', 53014]
+HTTP response complete for ['127.0.0.1', 53014]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 304 [0.01, 127.0.0.1:53014][0m
+HTTP 200 response started for ['127.0.0.1', 53015]
+HTTP response chunk for ['127.0.0.1', 53015]
+HTTP response chunk for ['127.0.0.1', 53015]
+HTTP close for ['127.0.0.1', 53015]
+HTTP response complete for ['127.0.0.1', 53015]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.01, 127.0.0.1:53015][0m
+HTTP b'GET' request for ['127.0.0.1', 53015]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 53015]
+HTTP close for ['127.0.0.1', 53015]
+HTTP response complete for ['127.0.0.1', 53015]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:53015][0m
+HTTP b'GET' request for ['127.0.0.1', 53027]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 53027]
+HTTP close for ['127.0.0.1', 53027]
+HTTP response complete for ['127.0.0.1', 53027]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:53027][0m
+HTTP b'GET' request for ['127.0.0.1', 53027]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 53027]
+HTTP close for ['127.0.0.1', 53027]
+HTTP response complete for ['127.0.0.1', 53027]
+[33mHTTP GET /serviceworker.js 404 [0.02, 127.0.0.1:53027][0m
+HTTP b'GET' request for ['127.0.0.1', 53027]
+HTTP 200 response started for ['127.0.0.1', 53027]
+HTTP close for ['127.0.0.1', 53027]
+HTTP response complete for ['127.0.0.1', 53027]
+[mHTTP GET / 200 [0.01, 127.0.0.1:53027][0m
+HTTP b'GET' request for ['127.0.0.1', 53027]
+HTTP b'GET' request for ['127.0.0.1', 53029]
+HTTP b'GET' request for ['127.0.0.1', 53030]
+HTTP 304 response started for ['127.0.0.1', 53027]
+HTTP close for ['127.0.0.1', 53027]
+HTTP response complete for ['127.0.0.1', 53027]
+[36mHTTP GET /static/css/style.css 304 [0.01, 127.0.0.1:53027][0m
+HTTP 304 response started for ['127.0.0.1', 53029]
+HTTP close for ['127.0.0.1', 53029]
+HTTP response complete for ['127.0.0.1', 53029]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 304 [0.01, 127.0.0.1:53029][0m
+HTTP 200 response started for ['127.0.0.1', 53030]
+HTTP response chunk for ['127.0.0.1', 53030]
+HTTP response chunk for ['127.0.0.1', 53030]
+HTTP close for ['127.0.0.1', 53030]
+HTTP response complete for ['127.0.0.1', 53030]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.01, 127.0.0.1:53030][0m
+HTTP b'GET' request for ['127.0.0.1', 53030]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 53030]
+HTTP close for ['127.0.0.1', 53030]
+HTTP response complete for ['127.0.0.1', 53030]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:53030][0m
+HTTP b'GET' request for ['127.0.0.1', 53030]
+HTTP 200 response started for ['127.0.0.1', 53030]
+HTTP close for ['127.0.0.1', 53030]
+HTTP response complete for ['127.0.0.1', 53030]
+[mHTTP GET / 200 [0.01, 127.0.0.1:53030][0m
+HTTP b'GET' request for ['127.0.0.1', 53030]
+HTTP 200 response started for ['127.0.0.1', 53030]
+HTTP response chunk for ['127.0.0.1', 53030]
+HTTP response chunk for ['127.0.0.1', 53030]
+HTTP close for ['127.0.0.1', 53030]
+HTTP response complete for ['127.0.0.1', 53030]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.00, 127.0.0.1:53030][0m
+HTTP b'GET' request for ['127.0.0.1', 53030]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 53030]
+HTTP close for ['127.0.0.1', 53030]
+HTTP response complete for ['127.0.0.1', 53030]
+[33mHTTP GET /serviceworker.js 404 [0.02, 127.0.0.1:53030][0m
+HTTP b'GET' request for ['127.0.0.1', 53055]
+HTTP 302 response started for ['127.0.0.1', 53055]
+HTTP close for ['127.0.0.1', 53055]
+HTTP response complete for ['127.0.0.1', 53055]
+[32mHTTP GET /admin/ 302 [0.33, 127.0.0.1:53055][0m
+HTTP b'GET' request for ['127.0.0.1', 53055]
+HTTP 200 response started for ['127.0.0.1', 53055]
+HTTP close for ['127.0.0.1', 53055]
+HTTP response complete for ['127.0.0.1', 53055]
+[mHTTP GET /admin/login/?next=/admin/ 200 [0.18, 127.0.0.1:53055][0m
+HTTP b'GET' request for ['127.0.0.1', 53055]
+HTTP b'GET' request for ['127.0.0.1', 53057]
+HTTP b'GET' request for ['127.0.0.1', 53058]
+HTTP b'GET' request for ['127.0.0.1', 53059]
+HTTP 200 response started for ['127.0.0.1', 53055]
+HTTP b'GET' request for ['127.0.0.1', 53060]
+HTTP b'GET' request for ['127.0.0.1', 53061]
+HTTP 200 response started for ['127.0.0.1', 53058]
+HTTP 200 response started for ['127.0.0.1', 53057]
+HTTP 200 response started for ['127.0.0.1', 53059]
+HTTP 200 response started for ['127.0.0.1', 53060]
+HTTP 200 response started for ['127.0.0.1', 53061]
+HTTP response chunk for ['127.0.0.1', 53058]
+HTTP close for ['127.0.0.1', 53058]
+HTTP response complete for ['127.0.0.1', 53058]
+[mHTTP GET /static/admin/js/theme.js 200 [0.03, 127.0.0.1:53058][0m
+HTTP b'GET' request for ['127.0.0.1', 53058]
+HTTP 200 response started for ['127.0.0.1', 53058]
+HTTP response chunk for ['127.0.0.1', 53055]
+HTTP close for ['127.0.0.1', 53055]
+HTTP response complete for ['127.0.0.1', 53055]
+[mHTTP GET /static/admin/css/base.css 200 [0.04, 127.0.0.1:53055][0m
+HTTP response chunk for ['127.0.0.1', 53057]
+HTTP close for ['127.0.0.1', 53057]
+HTTP response complete for ['127.0.0.1', 53057]
+[mHTTP GET /static/admin/css/dark_mode.css 200 [0.04, 127.0.0.1:53057][0m
+HTTP response chunk for ['127.0.0.1', 53058]
+HTTP close for ['127.0.0.1', 53058]
+HTTP response complete for ['127.0.0.1', 53058]
+[mHTTP GET /static/admin/css/responsive.css 200 [0.02, 127.0.0.1:53058][0m
+HTTP response chunk for ['127.0.0.1', 53061]
+HTTP close for ['127.0.0.1', 53061]
+HTTP response complete for ['127.0.0.1', 53061]
+[mHTTP GET /static/admin/css/login.css 200 [0.05, 127.0.0.1:53061][0m
+HTTP response chunk for ['127.0.0.1', 53059]
+HTTP close for ['127.0.0.1', 53059]
+HTTP response complete for ['127.0.0.1', 53059]
+[mHTTP GET /static/admin/css/nav_sidebar.css 200 [0.05, 127.0.0.1:53059][0m
+HTTP response chunk for ['127.0.0.1', 53060]
+HTTP close for ['127.0.0.1', 53060]
+HTTP response complete for ['127.0.0.1', 53060]
+[mHTTP GET /static/admin/js/nav_sidebar.js 200 [0.07, 127.0.0.1:53060][0m
+HTTP b'GET' request for ['127.0.0.1', 53055]
+Not Found: /favicon.ico
+HTTP 404 response started for ['127.0.0.1', 53055]
+HTTP close for ['127.0.0.1', 53055]
+HTTP response complete for ['127.0.0.1', 53055]
+[33mHTTP GET /favicon.ico 404 [0.02, 127.0.0.1:53055][0m
+HTTP b'GET' request for ['127.0.0.1', 53055]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 53055]
+HTTP close for ['127.0.0.1', 53055]
+HTTP response complete for ['127.0.0.1', 53055]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:53055][0m
+HTTP b'POST' request for ['127.0.0.1', 53055]
+HTTP 302 response started for ['127.0.0.1', 53055]
+HTTP close for ['127.0.0.1', 53055]
+HTTP response complete for ['127.0.0.1', 53055]
+[32mHTTP POST /admin/login/?next=/admin/ 302 [0.32, 127.0.0.1:53055][0m
+HTTP b'GET' request for ['127.0.0.1', 53055]
+HTTP 200 response started for ['127.0.0.1', 53055]
+HTTP close for ['127.0.0.1', 53055]
+HTTP response complete for ['127.0.0.1', 53055]
+[mHTTP GET /admin/ 200 [0.07, 127.0.0.1:53055][0m
+HTTP b'GET' request for ['127.0.0.1', 53055]
+HTTP 200 response started for ['127.0.0.1', 53055]
+HTTP response chunk for ['127.0.0.1', 53055]
+HTTP close for ['127.0.0.1', 53055]
+HTTP response complete for ['127.0.0.1', 53055]
+[mHTTP GET /static/admin/css/dashboard.css 200 [0.00, 127.0.0.1:53055][0m
+HTTP b'GET' request for ['127.0.0.1', 53055]
+HTTP b'GET' request for ['127.0.0.1', 53058]
+HTTP 200 response started for ['127.0.0.1', 53055]
+HTTP 200 response started for ['127.0.0.1', 53058]
+HTTP response chunk for ['127.0.0.1', 53055]
+HTTP close for ['127.0.0.1', 53055]
+HTTP response complete for ['127.0.0.1', 53055]
+[mHTTP GET /static/admin/img/icon-addlink.svg 200 [0.02, 127.0.0.1:53055][0m
+HTTP response chunk for ['127.0.0.1', 53058]
+HTTP close for ['127.0.0.1', 53058]
+HTTP response complete for ['127.0.0.1', 53058]
+[mHTTP GET /static/admin/img/icon-changelink.svg 200 [0.02, 127.0.0.1:53058][0m
+HTTP b'GET' request for ['127.0.0.1', 53055]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 53055]
+HTTP close for ['127.0.0.1', 53055]
+HTTP response complete for ['127.0.0.1', 53055]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:53055][0m
+HTTP b'GET' request for ['127.0.0.1', 53055]
+HTTP 200 response started for ['127.0.0.1', 53055]
+HTTP close for ['127.0.0.1', 53055]
+HTTP response complete for ['127.0.0.1', 53055]
+[mHTTP GET /admin/notifapi/notifymodel/ 200 [0.17, 127.0.0.1:53055][0m
+HTTP b'GET' request for ['127.0.0.1', 53055]
+HTTP b'GET' request for ['127.0.0.1', 53058]
+HTTP b'GET' request for ['127.0.0.1', 53057]
+HTTP b'GET' request for ['127.0.0.1', 53060]
+HTTP b'GET' request for ['127.0.0.1', 53059]
+HTTP b'GET' request for ['127.0.0.1', 53061]
+HTTP 200 response started for ['127.0.0.1', 53055]
+HTTP 200 response started for ['127.0.0.1', 53057]
+HTTP 200 response started for ['127.0.0.1', 53060]
+HTTP response chunk for ['127.0.0.1', 53057]
+HTTP close for ['127.0.0.1', 53057]
+HTTP response complete for ['127.0.0.1', 53057]
+[mHTTP GET /static/admin/js/jquery.init.js 200 [0.01, 127.0.0.1:53057][0m
+HTTP 200 response started for ['127.0.0.1', 53061]
+HTTP 200 response started for ['127.0.0.1', 53059]
+HTTP b'GET' request for ['127.0.0.1', 53057]
+HTTP 200 response started for ['127.0.0.1', 53057]
+HTTP response chunk for ['127.0.0.1', 53055]
+HTTP close for ['127.0.0.1', 53055]
+HTTP response complete for ['127.0.0.1', 53055]
+[mHTTP GET /static/admin/css/changelists.css 200 [0.02, 127.0.0.1:53055][0m
+HTTP b'GET' request for ['127.0.0.1', 53055]
+HTTP response chunk for ['127.0.0.1', 53057]
+HTTP close for ['127.0.0.1', 53057]
+HTTP response complete for ['127.0.0.1', 53057]
+[mHTTP GET /static/admin/js/actions.js 200 [0.01, 127.0.0.1:53057][0m
+HTTP 200 response started for ['127.0.0.1', 53055]
+HTTP 200 response started for ['127.0.0.1', 53058]
+HTTP close for ['127.0.0.1', 53058]
+HTTP response complete for ['127.0.0.1', 53058]
+[mHTTP GET /admin/jsi18n/ 200 [0.03, 127.0.0.1:53058][0m
+HTTP b'GET' request for ['127.0.0.1', 53057]
+HTTP b'GET' request for ['127.0.0.1', 53058]
+HTTP response chunk for ['127.0.0.1', 53059]
+HTTP close for ['127.0.0.1', 53059]
+HTTP response complete for ['127.0.0.1', 53059]
+[mHTTP GET /static/admin/js/core.js 200 [0.03, 127.0.0.1:53059][0m
+HTTP 200 response started for ['127.0.0.1', 53057]
+HTTP 200 response started for ['127.0.0.1', 53058]
+HTTP b'GET' request for ['127.0.0.1', 53059]
+HTTP response chunk for ['127.0.0.1', 53057]
+HTTP close for ['127.0.0.1', 53057]
+HTTP response complete for ['127.0.0.1', 53057]
+[mHTTP GET /static/admin/js/prepopulate.js 200 [0.01, 127.0.0.1:53057][0m
+HTTP 200 response started for ['127.0.0.1', 53059]
+HTTP response chunk for ['127.0.0.1', 53059]
+HTTP close for ['127.0.0.1', 53059]
+HTTP response complete for ['127.0.0.1', 53059]
+[mHTTP GET /static/admin/js/filters.js 200 [0.01, 127.0.0.1:53059][0m
+HTTP response chunk for ['127.0.0.1', 53055]
+HTTP close for ['127.0.0.1', 53055]
+HTTP response complete for ['127.0.0.1', 53055]
+[mHTTP GET /static/admin/js/urlify.js 200 [0.02, 127.0.0.1:53055][0m
+HTTP response chunk for ['127.0.0.1', 53060]
+HTTP response chunk for ['127.0.0.1', 53060]
+HTTP response chunk for ['127.0.0.1', 53060]
+HTTP response chunk for ['127.0.0.1', 53060]
+HTTP response chunk for ['127.0.0.1', 53060]
+HTTP close for ['127.0.0.1', 53060]
+HTTP response complete for ['127.0.0.1', 53060]
+[mHTTP GET /static/admin/js/vendor/jquery/jquery.js 200 [0.06, 127.0.0.1:53060][0m
+HTTP response chunk for ['127.0.0.1', 53061]
+HTTP close for ['127.0.0.1', 53061]
+HTTP response complete for ['127.0.0.1', 53061]
+[mHTTP GET /static/admin/js/admin/RelatedObjectLookups.js 200 [0.06, 127.0.0.1:53061][0m
+HTTP response chunk for ['127.0.0.1', 53058]
+HTTP response chunk for ['127.0.0.1', 53058]
+HTTP response chunk for ['127.0.0.1', 53058]
+HTTP response chunk for ['127.0.0.1', 53058]
+HTTP close for ['127.0.0.1', 53058]
+HTTP response complete for ['127.0.0.1', 53058]
+[mHTTP GET /static/admin/js/vendor/xregexp/xregexp.js 200 [0.05, 127.0.0.1:53058][0m
+HTTP b'GET' request for ['127.0.0.1', 53060]
+HTTP 200 response started for ['127.0.0.1', 53060]
+HTTP response chunk for ['127.0.0.1', 53060]
+HTTP close for ['127.0.0.1', 53060]
+HTTP response complete for ['127.0.0.1', 53060]
+[mHTTP GET /static/admin/img/tooltag-add.svg 200 [0.00, 127.0.0.1:53060][0m
+HTTP b'GET' request for ['127.0.0.1', 53060]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 53060]
+HTTP close for ['127.0.0.1', 53060]
+HTTP response complete for ['127.0.0.1', 53060]
+[33mHTTP GET /serviceworker.js 404 [0.02, 127.0.0.1:53060][0m
+HTTP b'GET' request for ['127.0.0.1', 53060]
+HTTP 200 response started for ['127.0.0.1', 53060]
+HTTP close for ['127.0.0.1', 53060]
+HTTP response complete for ['127.0.0.1', 53060]
+[mHTTP GET /admin/notifapi/notifymodel/add/ 200 [0.07, 127.0.0.1:53060][0m
+HTTP b'GET' request for ['127.0.0.1', 53060]
+HTTP b'GET' request for ['127.0.0.1', 53058]
+HTTP b'GET' request for ['127.0.0.1', 53055]
+HTTP b'GET' request for ['127.0.0.1', 53061]
+HTTP b'GET' request for ['127.0.0.1', 53057]
+HTTP 200 response started for ['127.0.0.1', 53060]
+HTTP 200 response started for ['127.0.0.1', 53061]
+HTTP 200 response started for ['127.0.0.1', 53055]
+HTTP 200 response started for ['127.0.0.1', 53057]
+HTTP response chunk for ['127.0.0.1', 53057]
+HTTP close for ['127.0.0.1', 53057]
+HTTP response complete for ['127.0.0.1', 53057]
+[mHTTP GET /static/admin/js/prepopulate_init.js 200 [0.01, 127.0.0.1:53057][0m
+HTTP response chunk for ['127.0.0.1', 53061]
+HTTP close for ['127.0.0.1', 53061]
+HTTP response complete for ['127.0.0.1', 53061]
+[mHTTP GET /static/admin/js/change_form.js 200 [0.01, 127.0.0.1:53061][0m
+HTTP response chunk for ['127.0.0.1', 53055]
+HTTP close for ['127.0.0.1', 53055]
+HTTP response complete for ['127.0.0.1', 53055]
+[mHTTP GET /static/admin/img/icon-viewlink.svg 200 [0.02, 127.0.0.1:53055][0m
+HTTP response chunk for ['127.0.0.1', 53060]
+HTTP close for ['127.0.0.1', 53060]
+HTTP response complete for ['127.0.0.1', 53060]
+[mHTTP GET /static/admin/css/forms.css 200 [0.03, 127.0.0.1:53060][0m
+HTTP 200 response started for ['127.0.0.1', 53058]
+HTTP close for ['127.0.0.1', 53058]
+HTTP response complete for ['127.0.0.1', 53058]
+[mHTTP GET /admin/jsi18n/ 200 [0.03, 127.0.0.1:53058][0m
+HTTP b'GET' request for ['127.0.0.1', 53060]
+HTTP 200 response started for ['127.0.0.1', 53060]
+HTTP response chunk for ['127.0.0.1', 53060]
+HTTP close for ['127.0.0.1', 53060]
+HTTP response complete for ['127.0.0.1', 53060]
+[mHTTP GET /static/admin/css/widgets.css 200 [0.01, 127.0.0.1:53060][0m
+HTTP b'GET' request for ['127.0.0.1', 53060]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 53060]
+HTTP close for ['127.0.0.1', 53060]
+HTTP response complete for ['127.0.0.1', 53060]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:53060][0m
+HTTP b'POST' request for ['127.0.0.1', 53060]
+Using selector: SelectSelector
+HTTP 302 response started for ['127.0.0.1', 53060]
+HTTP close for ['127.0.0.1', 53060]
+HTTP response complete for ['127.0.0.1', 53060]
+[32mHTTP POST /admin/notifapi/notifymodel/add/ 302 [0.15, 127.0.0.1:53060][0m
+HTTP b'GET' request for ['127.0.0.1', 53060]
+HTTP 200 response started for ['127.0.0.1', 53060]
+HTTP close for ['127.0.0.1', 53060]
+HTTP response complete for ['127.0.0.1', 53060]
+[mHTTP GET /admin/notifapi/notifymodel/add/ 200 [0.03, 127.0.0.1:53060][0m
+HTTP b'GET' request for ['127.0.0.1', 53060]
+HTTP 200 response started for ['127.0.0.1', 53060]
+HTTP close for ['127.0.0.1', 53060]
+HTTP response complete for ['127.0.0.1', 53060]
+[mHTTP GET /admin/jsi18n/ 200 [0.02, 127.0.0.1:53060][0m
+HTTP b'GET' request for ['127.0.0.1', 53060]
+HTTP 200 response started for ['127.0.0.1', 53060]
+HTTP response chunk for ['127.0.0.1', 53060]
+HTTP close for ['127.0.0.1', 53060]
+HTTP response complete for ['127.0.0.1', 53060]
+[mHTTP GET /static/admin/img/icon-yes.svg 200 [0.01, 127.0.0.1:53060][0m
+HTTP b'GET' request for ['127.0.0.1', 53060]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 53060]
+HTTP close for ['127.0.0.1', 53060]
+HTTP response complete for ['127.0.0.1', 53060]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:53060][0m
+HTTP b'GET' request for ['127.0.0.1', 53060]
+HTTP 200 response started for ['127.0.0.1', 53060]
+HTTP close for ['127.0.0.1', 53060]
+HTTP response complete for ['127.0.0.1', 53060]
+[mHTTP GET / 200 [0.01, 127.0.0.1:53060][0m
+HTTP b'GET' request for ['127.0.0.1', 53060]
+HTTP b'GET' request for ['127.0.0.1', 53055]
+HTTP b'GET' request for ['127.0.0.1', 53058]
+HTTP 304 response started for ['127.0.0.1', 53060]
+HTTP close for ['127.0.0.1', 53060]
+HTTP response complete for ['127.0.0.1', 53060]
+[36mHTTP GET /static/css/style.css 304 [0.01, 127.0.0.1:53060][0m
+HTTP 304 response started for ['127.0.0.1', 53055]
+HTTP close for ['127.0.0.1', 53055]
+HTTP response complete for ['127.0.0.1', 53055]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 304 [0.01, 127.0.0.1:53055][0m
+HTTP 304 response started for ['127.0.0.1', 53058]
+HTTP close for ['127.0.0.1', 53058]
+HTTP response complete for ['127.0.0.1', 53058]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 304 [0.01, 127.0.0.1:53058][0m
+HTTP b'GET' request for ['127.0.0.1', 53060]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 53060]
+HTTP close for ['127.0.0.1', 53060]
+HTTP response complete for ['127.0.0.1', 53060]
+[33mHTTP GET /serviceworker.js 404 [0.02, 127.0.0.1:53060][0m
+HTTP b'GET' request for ['127.0.0.1', 53078]
+HTTP 200 response started for ['127.0.0.1', 53078]
+HTTP close for ['127.0.0.1', 53078]
+HTTP response complete for ['127.0.0.1', 53078]
+[mHTTP GET / 200 [0.01, 127.0.0.1:53078][0m
+HTTP b'GET' request for ['127.0.0.1', 53060]
+HTTP 200 response started for ['127.0.0.1', 53060]
+HTTP close for ['127.0.0.1', 53060]
+HTTP response complete for ['127.0.0.1', 53060]
+[mHTTP GET / 200 [0.00, 127.0.0.1:53060][0m
+HTTP b'GET' request for ['127.0.0.1', 53060]
+HTTP 200 response started for ['127.0.0.1', 53060]
+HTTP response chunk for ['127.0.0.1', 53060]
+HTTP response chunk for ['127.0.0.1', 53060]
+HTTP close for ['127.0.0.1', 53060]
+HTTP response complete for ['127.0.0.1', 53060]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.01, 127.0.0.1:53060][0m
+HTTP b'GET' request for ['127.0.0.1', 53060]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 53060]
+HTTP close for ['127.0.0.1', 53060]
+HTTP response complete for ['127.0.0.1', 53060]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:53060][0m
+HTTP b'GET' request for ['127.0.0.1', 53060]
+HTTP 200 response started for ['127.0.0.1', 53060]
+HTTP close for ['127.0.0.1', 53060]
+HTTP response complete for ['127.0.0.1', 53060]
+[mHTTP GET / 200 [0.01, 127.0.0.1:53060][0m
+HTTP b'GET' request for ['127.0.0.1', 53060]
+HTTP 200 response started for ['127.0.0.1', 53060]
+HTTP response chunk for ['127.0.0.1', 53060]
+HTTP response chunk for ['127.0.0.1', 53060]
+HTTP close for ['127.0.0.1', 53060]
+HTTP response complete for ['127.0.0.1', 53060]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.00, 127.0.0.1:53060][0m
+HTTP b'GET' request for ['127.0.0.1', 53060]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 53060]
+HTTP close for ['127.0.0.1', 53060]
+HTTP response complete for ['127.0.0.1', 53060]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:53060][0m
+HTTP b'GET' request for ['127.0.0.1', 53060]
+HTTP 200 response started for ['127.0.0.1', 53060]
+HTTP close for ['127.0.0.1', 53060]
+HTTP response complete for ['127.0.0.1', 53060]
+[mHTTP GET / 200 [0.01, 127.0.0.1:53060][0m
+HTTP b'GET' request for ['127.0.0.1', 53060]
+HTTP 304 response started for ['127.0.0.1', 53060]
+HTTP close for ['127.0.0.1', 53060]
+HTTP response complete for ['127.0.0.1', 53060]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 304 [0.00, 127.0.0.1:53060][0m
+HTTP b'GET' request for ['127.0.0.1', 53060]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 53060]
+HTTP close for ['127.0.0.1', 53060]
+HTTP response complete for ['127.0.0.1', 53060]
+[33mHTTP GET /serviceworker.js 404 [0.02, 127.0.0.1:53060][0m
+HTTP b'GET' request for ['127.0.0.1', 53089]
+HTTP 200 response started for ['127.0.0.1', 53089]
+HTTP close for ['127.0.0.1', 53089]
+HTTP response complete for ['127.0.0.1', 53089]
+[mHTTP GET / 200 [0.01, 127.0.0.1:53089][0m
+HTTP b'GET' request for ['127.0.0.1', 53089]
+HTTP b'GET' request for ['127.0.0.1', 53090]
+HTTP b'GET' request for ['127.0.0.1', 53091]
+HTTP 200 response started for ['127.0.0.1', 53089]
+HTTP 200 response started for ['127.0.0.1', 53090]
+HTTP response chunk for ['127.0.0.1', 53089]
+HTTP close for ['127.0.0.1', 53089]
+HTTP response complete for ['127.0.0.1', 53089]
+[mHTTP GET /static/css/style.css 200 [0.01, 127.0.0.1:53089][0m
+HTTP 200 response started for ['127.0.0.1', 53091]
+HTTP response chunk for ['127.0.0.1', 53091]
+HTTP response chunk for ['127.0.0.1', 53091]
+HTTP close for ['127.0.0.1', 53091]
+HTTP response complete for ['127.0.0.1', 53091]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.01, 127.0.0.1:53091][0m
+HTTP response chunk for ['127.0.0.1', 53090]
+HTTP response chunk for ['127.0.0.1', 53090]
+HTTP response chunk for ['127.0.0.1', 53090]
+HTTP response chunk for ['127.0.0.1', 53090]
+HTTP response chunk for ['127.0.0.1', 53090]
+HTTP response chunk for ['127.0.0.1', 53090]
+HTTP response chunk for ['127.0.0.1', 53090]
+HTTP response chunk for ['127.0.0.1', 53090]
+HTTP response chunk for ['127.0.0.1', 53090]
+HTTP response chunk for ['127.0.0.1', 53090]
+HTTP response chunk for ['127.0.0.1', 53090]
+HTTP response chunk for ['127.0.0.1', 53090]
+HTTP response chunk for ['127.0.0.1', 53090]
+HTTP response chunk for ['127.0.0.1', 53090]
+HTTP response chunk for ['127.0.0.1', 53090]
+HTTP response chunk for ['127.0.0.1', 53090]
+HTTP response chunk for ['127.0.0.1', 53090]
+HTTP response chunk for ['127.0.0.1', 53090]
+HTTP response chunk for ['127.0.0.1', 53090]
+HTTP response chunk for ['127.0.0.1', 53090]
+HTTP response chunk for ['127.0.0.1', 53090]
+HTTP response chunk for ['127.0.0.1', 53090]
+HTTP response chunk for ['127.0.0.1', 53090]
+HTTP response chunk for ['127.0.0.1', 53090]
+HTTP response chunk for ['127.0.0.1', 53090]
+HTTP response chunk for ['127.0.0.1', 53090]
+HTTP response chunk for ['127.0.0.1', 53090]
+HTTP response chunk for ['127.0.0.1', 53090]
+HTTP response chunk for ['127.0.0.1', 53090]
+HTTP response chunk for ['127.0.0.1', 53090]
+HTTP response chunk for ['127.0.0.1', 53090]
+HTTP response chunk for ['127.0.0.1', 53090]
+HTTP response chunk for ['127.0.0.1', 53090]
+HTTP response chunk for ['127.0.0.1', 53090]
+HTTP response chunk for ['127.0.0.1', 53090]
+HTTP close for ['127.0.0.1', 53090]
+HTTP response complete for ['127.0.0.1', 53090]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 200 [0.02, 127.0.0.1:53090][0m
+HTTP b'GET' request for ['127.0.0.1', 53090]
+HTTP 200 response started for ['127.0.0.1', 53090]
+HTTP response chunk for ['127.0.0.1', 53090]
+HTTP close for ['127.0.0.1', 53090]
+HTTP response complete for ['127.0.0.1', 53090]
+[mHTTP GET /static/favicon.ico 200 [0.00, 127.0.0.1:53090][0m
+HTTP b'GET' request for ['127.0.0.1', 55793]
+HTTP 200 response started for ['127.0.0.1', 55793]
+HTTP close for ['127.0.0.1', 55793]
+HTTP response complete for ['127.0.0.1', 55793]
+[mHTTP GET / 200 [0.01, 127.0.0.1:55793][0m
+HTTP b'GET' request for ['127.0.0.1', 55793]
+HTTP b'GET' request for ['127.0.0.1', 55795]
+HTTP b'GET' request for ['127.0.0.1', 55796]
+HTTP 200 response started for ['127.0.0.1', 55793]
+HTTP 304 response started for ['127.0.0.1', 55795]
+HTTP close for ['127.0.0.1', 55795]
+HTTP response complete for ['127.0.0.1', 55795]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 304 [0.01, 127.0.0.1:55795][0m
+HTTP response chunk for ['127.0.0.1', 55793]
+HTTP close for ['127.0.0.1', 55793]
+HTTP response complete for ['127.0.0.1', 55793]
+[mHTTP GET /static/css/style.css 200 [0.01, 127.0.0.1:55793][0m
+HTTP 200 response started for ['127.0.0.1', 55796]
+HTTP response chunk for ['127.0.0.1', 55796]
+HTTP response chunk for ['127.0.0.1', 55796]
+HTTP close for ['127.0.0.1', 55796]
+HTTP response complete for ['127.0.0.1', 55796]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.01, 127.0.0.1:55796][0m
+HTTP b'GET' request for ['127.0.0.1', 55796]
+HTTP disconnect for ['127.0.0.1', 55796]
+HTTP b'GET' request for ['127.0.0.1', 55793]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 55793]
+HTTP close for ['127.0.0.1', 55793]
+HTTP response complete for ['127.0.0.1', 55793]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:55793][0m
+HTTP b'GET' request for ['127.0.0.1', 55793]
+HTTP 200 response started for ['127.0.0.1', 55793]
+HTTP close for ['127.0.0.1', 55793]
+HTTP response complete for ['127.0.0.1', 55793]
+[mHTTP GET / 200 [0.00, 127.0.0.1:55793][0m
+HTTP b'GET' request for ['127.0.0.1', 55793]
+HTTP 200 response started for ['127.0.0.1', 55793]
+HTTP response chunk for ['127.0.0.1', 55793]
+HTTP response chunk for ['127.0.0.1', 55793]
+HTTP close for ['127.0.0.1', 55793]
+HTTP response complete for ['127.0.0.1', 55793]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.01, 127.0.0.1:55793][0m
+HTTP b'GET' request for ['127.0.0.1', 55793]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 55793]
+HTTP close for ['127.0.0.1', 55793]
+HTTP response complete for ['127.0.0.1', 55793]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:55793][0m
+HTTP b'GET' request for ['127.0.0.1', 55793]
+HTTP 200 response started for ['127.0.0.1', 55793]
+HTTP close for ['127.0.0.1', 55793]
+HTTP response complete for ['127.0.0.1', 55793]
+[mHTTP GET / 200 [0.00, 127.0.0.1:55793][0m
+HTTP b'GET' request for ['127.0.0.1', 55793]
+HTTP 200 response started for ['127.0.0.1', 55793]
+HTTP response chunk for ['127.0.0.1', 55793]
+HTTP response chunk for ['127.0.0.1', 55793]
+HTTP close for ['127.0.0.1', 55793]
+HTTP response complete for ['127.0.0.1', 55793]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.01, 127.0.0.1:55793][0m
+HTTP b'GET' request for ['127.0.0.1', 55793]
+Not Found: /serviceworker.js
+HTTP 404 response started for ['127.0.0.1', 55793]
+HTTP close for ['127.0.0.1', 55793]
+HTTP response complete for ['127.0.0.1', 55793]
+[33mHTTP GET /serviceworker.js 404 [0.01, 127.0.0.1:55793][0m
+D:\pages_perso\Websites\Practices\python\django\notifications-badge\myproj\notifapi\models.py changed, reloading.
+Using selector: SelectSelector
+Watching for file changes with StatReloader
+This is a test error log.
+HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+Configuring endpoint tcp:port=8000:interface=127.0.0.1
+Listening on TCP address 127.0.0.1:8000
+Using selector: SelectSelector
+Using selector: SelectSelector
+This is a test error log.
+Using selector: SelectSelector
+This is a test error log.

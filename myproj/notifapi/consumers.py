@@ -38,6 +38,7 @@ class NotificationConsumer(AsyncWebsocketConsumer):
                 "type": "notification.update",
                 "count": count,
                 "is_read_values": is_read_values,
+                "messages_values": messages_values
             })
         )
         
