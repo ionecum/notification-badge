@@ -6796,3 +6796,1004 @@ Using selector: SelectSelector
 This is a test error log.
 Using selector: SelectSelector
 This is a test error log.
+Using selector: SelectSelector
+Using selector: SelectSelector
+Watching for file changes with StatReloader
+This is a test error log.
+HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+Configuring endpoint tcp:port=8000:interface=127.0.0.1
+Listening on TCP address 127.0.0.1:8000
+Using selector: SelectSelector
+HTTP b'GET' request for ['127.0.0.1', 57787]
+HTTP 200 response started for ['127.0.0.1', 57787]
+HTTP close for ['127.0.0.1', 57787]
+HTTP response complete for ['127.0.0.1', 57787]
+[mHTTP GET / 200 [0.02, 127.0.0.1:57787][0m
+HTTP b'GET' request for ['127.0.0.1', 57787]
+HTTP b'GET' request for ['127.0.0.1', 57788]
+HTTP 200 response started for ['127.0.0.1', 57788]
+HTTP response chunk for ['127.0.0.1', 57788]
+HTTP response chunk for ['127.0.0.1', 57788]
+HTTP close for ['127.0.0.1', 57788]
+HTTP response complete for ['127.0.0.1', 57788]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.34, 127.0.0.1:57788][0m
+HTTP 200 response started for ['127.0.0.1', 57787]
+HTTP response chunk for ['127.0.0.1', 57787]
+HTTP response chunk for ['127.0.0.1', 57787]
+HTTP response chunk for ['127.0.0.1', 57787]
+HTTP response chunk for ['127.0.0.1', 57787]
+HTTP response chunk for ['127.0.0.1', 57787]
+HTTP response chunk for ['127.0.0.1', 57787]
+HTTP response chunk for ['127.0.0.1', 57787]
+HTTP response chunk for ['127.0.0.1', 57787]
+HTTP response chunk for ['127.0.0.1', 57787]
+HTTP response chunk for ['127.0.0.1', 57787]
+HTTP response chunk for ['127.0.0.1', 57787]
+HTTP response chunk for ['127.0.0.1', 57787]
+HTTP response chunk for ['127.0.0.1', 57787]
+HTTP response chunk for ['127.0.0.1', 57787]
+HTTP response chunk for ['127.0.0.1', 57787]
+HTTP response chunk for ['127.0.0.1', 57787]
+HTTP response chunk for ['127.0.0.1', 57787]
+HTTP response chunk for ['127.0.0.1', 57787]
+HTTP response chunk for ['127.0.0.1', 57787]
+HTTP response chunk for ['127.0.0.1', 57787]
+HTTP response chunk for ['127.0.0.1', 57787]
+HTTP response chunk for ['127.0.0.1', 57787]
+HTTP response chunk for ['127.0.0.1', 57787]
+HTTP response chunk for ['127.0.0.1', 57787]
+HTTP response chunk for ['127.0.0.1', 57787]
+HTTP response chunk for ['127.0.0.1', 57787]
+HTTP response chunk for ['127.0.0.1', 57787]
+HTTP response chunk for ['127.0.0.1', 57787]
+HTTP response chunk for ['127.0.0.1', 57787]
+HTTP response chunk for ['127.0.0.1', 57787]
+HTTP response chunk for ['127.0.0.1', 57787]
+HTTP response chunk for ['127.0.0.1', 57787]
+HTTP response chunk for ['127.0.0.1', 57787]
+HTTP response chunk for ['127.0.0.1', 57787]
+HTTP response chunk for ['127.0.0.1', 57787]
+HTTP close for ['127.0.0.1', 57787]
+HTTP response complete for ['127.0.0.1', 57787]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 200 [0.35, 127.0.0.1:57787][0m
+HTTP b'POST' request for ['127.0.0.1', 57799]
+HTTP 302 response started for ['127.0.0.1', 57799]
+HTTP close for ['127.0.0.1', 57799]
+HTTP response complete for ['127.0.0.1', 57799]
+[32mHTTP POST /admin/notifapi/notifymodel/add/ 302 [0.03, 127.0.0.1:57799][0m
+HTTP b'GET' request for ['127.0.0.1', 57799]
+HTTP 200 response started for ['127.0.0.1', 57799]
+HTTP close for ['127.0.0.1', 57799]
+HTTP response complete for ['127.0.0.1', 57799]
+[mHTTP GET /admin/login/?next=/admin/notifapi/notifymodel/add/ 200 [0.04, 127.0.0.1:57799][0m
+HTTP b'POST' request for ['127.0.0.1', 57799]
+HTTP 302 response started for ['127.0.0.1', 57799]
+HTTP close for ['127.0.0.1', 57799]
+HTTP response complete for ['127.0.0.1', 57799]
+[32mHTTP POST /admin/login/?next=/admin/notifapi/notifymodel/add/ 302 [0.31, 127.0.0.1:57799][0m
+HTTP b'GET' request for ['127.0.0.1', 57799]
+HTTP 200 response started for ['127.0.0.1', 57799]
+HTTP close for ['127.0.0.1', 57799]
+HTTP response complete for ['127.0.0.1', 57799]
+[mHTTP GET /admin/notifapi/notifymodel/add/ 200 [0.03, 127.0.0.1:57799][0m
+HTTP b'GET' request for ['127.0.0.1', 57799]
+HTTP 200 response started for ['127.0.0.1', 57799]
+HTTP close for ['127.0.0.1', 57799]
+HTTP response complete for ['127.0.0.1', 57799]
+[mHTTP GET /admin/jsi18n/ 200 [0.02, 127.0.0.1:57799][0m
+HTTP b'GET' request for ['127.0.0.1', 57799]
+HTTP 200 response started for ['127.0.0.1', 57799]
+HTTP close for ['127.0.0.1', 57799]
+HTTP response complete for ['127.0.0.1', 57799]
+[mHTTP GET / 200 [0.01, 127.0.0.1:57799][0m
+HTTP b'GET' request for ['127.0.0.1', 57802]
+HTTP b'GET' request for ['127.0.0.1', 57803]
+HTTP 304 response started for ['127.0.0.1', 57803]
+HTTP close for ['127.0.0.1', 57803]
+HTTP response complete for ['127.0.0.1', 57803]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 304 [0.00, 127.0.0.1:57803][0m
+HTTP 304 response started for ['127.0.0.1', 57802]
+HTTP close for ['127.0.0.1', 57802]
+HTTP response complete for ['127.0.0.1', 57802]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 304 [0.01, 127.0.0.1:57802][0m
+HTTP b'POST' request for ['127.0.0.1', 57799]
+Using selector: SelectSelector
+HTTP 302 response started for ['127.0.0.1', 57799]
+HTTP close for ['127.0.0.1', 57799]
+HTTP response complete for ['127.0.0.1', 57799]
+[32mHTTP POST /admin/notifapi/notifymodel/add/ 302 [0.18, 127.0.0.1:57799][0m
+HTTP b'GET' request for ['127.0.0.1', 57799]
+HTTP 200 response started for ['127.0.0.1', 57799]
+HTTP close for ['127.0.0.1', 57799]
+HTTP response complete for ['127.0.0.1', 57799]
+[mHTTP GET /admin/notifapi/notifymodel/add/ 200 [0.03, 127.0.0.1:57799][0m
+HTTP b'GET' request for ['127.0.0.1', 57803]
+HTTP 200 response started for ['127.0.0.1', 57803]
+HTTP close for ['127.0.0.1', 57803]
+HTTP response complete for ['127.0.0.1', 57803]
+[mHTTP GET /admin/jsi18n/ 200 [0.01, 127.0.0.1:57803][0m
+HTTP b'GET' request for ['127.0.0.1', 57799]
+HTTP 200 response started for ['127.0.0.1', 57799]
+HTTP close for ['127.0.0.1', 57799]
+HTTP response complete for ['127.0.0.1', 57799]
+[mHTTP GET / 200 [0.01, 127.0.0.1:57799][0m
+HTTP b'GET' request for ['127.0.0.1', 57803]
+HTTP b'GET' request for ['127.0.0.1', 57802]
+HTTP 304 response started for ['127.0.0.1', 57803]
+HTTP close for ['127.0.0.1', 57803]
+HTTP response complete for ['127.0.0.1', 57803]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 304 [0.00, 127.0.0.1:57803][0m
+HTTP 304 response started for ['127.0.0.1', 57802]
+HTTP close for ['127.0.0.1', 57802]
+HTTP response complete for ['127.0.0.1', 57802]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 304 [0.00, 127.0.0.1:57802][0m
+HTTP b'POST' request for ['127.0.0.1', 57799]
+Using selector: SelectSelector
+HTTP 302 response started for ['127.0.0.1', 57799]
+HTTP close for ['127.0.0.1', 57799]
+HTTP response complete for ['127.0.0.1', 57799]
+[32mHTTP POST /admin/notifapi/notifymodel/add/ 302 [0.11, 127.0.0.1:57799][0m
+HTTP b'GET' request for ['127.0.0.1', 57799]
+HTTP 200 response started for ['127.0.0.1', 57799]
+HTTP close for ['127.0.0.1', 57799]
+HTTP response complete for ['127.0.0.1', 57799]
+[mHTTP GET /admin/notifapi/notifymodel/add/ 200 [0.03, 127.0.0.1:57799][0m
+HTTP b'GET' request for ['127.0.0.1', 57803]
+HTTP 200 response started for ['127.0.0.1', 57803]
+HTTP close for ['127.0.0.1', 57803]
+HTTP response complete for ['127.0.0.1', 57803]
+[mHTTP GET /admin/jsi18n/ 200 [0.01, 127.0.0.1:57803][0m
+HTTP b'GET' request for ['127.0.0.1', 57799]
+HTTP 200 response started for ['127.0.0.1', 57799]
+HTTP close for ['127.0.0.1', 57799]
+HTTP response complete for ['127.0.0.1', 57799]
+[mHTTP GET / 200 [0.01, 127.0.0.1:57799][0m
+HTTP b'POST' request for ['127.0.0.1', 57799]
+Using selector: SelectSelector
+HTTP 302 response started for ['127.0.0.1', 57799]
+HTTP close for ['127.0.0.1', 57799]
+HTTP response complete for ['127.0.0.1', 57799]
+[32mHTTP POST /admin/notifapi/notifymodel/add/ 302 [0.10, 127.0.0.1:57799][0m
+HTTP b'GET' request for ['127.0.0.1', 57799]
+HTTP 200 response started for ['127.0.0.1', 57799]
+HTTP close for ['127.0.0.1', 57799]
+HTTP response complete for ['127.0.0.1', 57799]
+[mHTTP GET /admin/notifapi/notifymodel/add/ 200 [0.04, 127.0.0.1:57799][0m
+HTTP b'GET' request for ['127.0.0.1', 57803]
+HTTP 200 response started for ['127.0.0.1', 57803]
+HTTP close for ['127.0.0.1', 57803]
+HTTP response complete for ['127.0.0.1', 57803]
+[mHTTP GET /admin/jsi18n/ 200 [0.01, 127.0.0.1:57803][0m
+HTTP b'GET' request for ['127.0.0.1', 57844]
+HTTP 200 response started for ['127.0.0.1', 57844]
+HTTP close for ['127.0.0.1', 57844]
+HTTP response complete for ['127.0.0.1', 57844]
+[mHTTP GET / 200 [0.00, 127.0.0.1:57844][0m
+HTTP b'GET' request for ['127.0.0.1', 57844]
+HTTP b'GET' request for ['127.0.0.1', 57845]
+HTTP 304 response started for ['127.0.0.1', 57844]
+HTTP close for ['127.0.0.1', 57844]
+HTTP response complete for ['127.0.0.1', 57844]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 304 [0.01, 127.0.0.1:57844][0m
+HTTP 200 response started for ['127.0.0.1', 57845]
+HTTP response chunk for ['127.0.0.1', 57845]
+HTTP response chunk for ['127.0.0.1', 57845]
+HTTP close for ['127.0.0.1', 57845]
+HTTP response complete for ['127.0.0.1', 57845]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.01, 127.0.0.1:57845][0m
+D:\pages_perso\Websites\Practices\python\django\notifications-badge\myproj\notifapi\consumers.py changed, reloading.
+Using selector: SelectSelector
+Watching for file changes with StatReloader
+This is a test error log.
+HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+Configuring endpoint tcp:port=8000:interface=127.0.0.1
+Listening on TCP address 127.0.0.1:8000
+D:\pages_perso\Websites\Practices\python\django\notifications-badge\myproj\notifapi\consumers.py changed, reloading.
+Using selector: SelectSelector
+Watching for file changes with StatReloader
+This is a test error log.
+HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+Configuring endpoint tcp:port=8000:interface=127.0.0.1
+Listening on TCP address 127.0.0.1:8000
+D:\pages_perso\Websites\Practices\python\django\notifications-badge\myproj\notifapi\consumers.py changed, reloading.
+Using selector: SelectSelector
+Watching for file changes with StatReloader
+This is a test error log.
+HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+Configuring endpoint tcp:port=8000:interface=127.0.0.1
+Listening on TCP address 127.0.0.1:8000
+D:\pages_perso\Websites\Practices\python\django\notifications-badge\myproj\notifapi\consumers.py changed, reloading.
+Using selector: SelectSelector
+Watching for file changes with StatReloader
+This is a test error log.
+HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+Configuring endpoint tcp:port=8000:interface=127.0.0.1
+Listening on TCP address 127.0.0.1:8000
+D:\pages_perso\Websites\Practices\python\django\notifications-badge\myproj\notifapi\consumers.py changed, reloading.
+Using selector: SelectSelector
+Watching for file changes with StatReloader
+This is a test error log.
+HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+Configuring endpoint tcp:port=8000:interface=127.0.0.1
+Listening on TCP address 127.0.0.1:8000
+Using selector: SelectSelector
+HTTP b'GET' request for ['127.0.0.1', 57909]
+HTTP 200 response started for ['127.0.0.1', 57909]
+HTTP close for ['127.0.0.1', 57909]
+HTTP response complete for ['127.0.0.1', 57909]
+[mHTTP GET / 200 [0.02, 127.0.0.1:57909][0m
+HTTP b'GET' request for ['127.0.0.1', 57909]
+HTTP b'GET' request for ['127.0.0.1', 57910]
+HTTP 304 response started for ['127.0.0.1', 57909]
+HTTP close for ['127.0.0.1', 57909]
+HTTP response complete for ['127.0.0.1', 57909]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 304 [0.00, 127.0.0.1:57909][0m
+HTTP 304 response started for ['127.0.0.1', 57910]
+HTTP close for ['127.0.0.1', 57910]
+HTTP response complete for ['127.0.0.1', 57910]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 304 [0.01, 127.0.0.1:57910][0m
+D:\pages_perso\Websites\Practices\python\django\notifications-badge\myproj\notifapi\consumers.py changed, reloading.
+Using selector: SelectSelector
+Watching for file changes with StatReloader
+This is a test error log.
+HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+Configuring endpoint tcp:port=8000:interface=127.0.0.1
+Listening on TCP address 127.0.0.1:8000
+Using selector: SelectSelector
+HTTP b'GET' request for ['127.0.0.1', 57930]
+HTTP 200 response started for ['127.0.0.1', 57930]
+HTTP close for ['127.0.0.1', 57930]
+HTTP response complete for ['127.0.0.1', 57930]
+[mHTTP GET / 200 [0.02, 127.0.0.1:57930][0m
+HTTP b'GET' request for ['127.0.0.1', 57930]
+HTTP 304 response started for ['127.0.0.1', 57930]
+HTTP close for ['127.0.0.1', 57930]
+HTTP response complete for ['127.0.0.1', 57930]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 304 [0.00, 127.0.0.1:57930][0m
+Using selector: SelectSelector
+Using selector: SelectSelector
+Watching for file changes with StatReloader
+This is a test error log.
+HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+Configuring endpoint tcp:port=8000:interface=127.0.0.1
+Listening on TCP address 127.0.0.1:8000
+Using selector: SelectSelector
+HTTP b'GET' request for ['127.0.0.1', 52751]
+HTTP 200 response started for ['127.0.0.1', 52751]
+HTTP close for ['127.0.0.1', 52751]
+HTTP response complete for ['127.0.0.1', 52751]
+[mHTTP GET / 200 [0.13, 127.0.0.1:52751][0m
+HTTP b'GET' request for ['127.0.0.1', 52751]
+HTTP b'GET' request for ['127.0.0.1', 52752]
+HTTP b'GET' request for ['127.0.0.1', 52753]
+HTTP 200 response started for ['127.0.0.1', 52752]
+HTTP 200 response started for ['127.0.0.1', 52751]
+HTTP response chunk for ['127.0.0.1', 52751]
+HTTP close for ['127.0.0.1', 52751]
+HTTP response complete for ['127.0.0.1', 52751]
+[mHTTP GET /static/css/style.css 200 [0.46, 127.0.0.1:52751][0m
+HTTP 200 response started for ['127.0.0.1', 52753]
+HTTP response chunk for ['127.0.0.1', 52753]
+HTTP response chunk for ['127.0.0.1', 52753]
+HTTP close for ['127.0.0.1', 52753]
+HTTP response complete for ['127.0.0.1', 52753]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.46, 127.0.0.1:52753][0m
+HTTP response chunk for ['127.0.0.1', 52752]
+HTTP response chunk for ['127.0.0.1', 52752]
+HTTP response chunk for ['127.0.0.1', 52752]
+HTTP response chunk for ['127.0.0.1', 52752]
+HTTP response chunk for ['127.0.0.1', 52752]
+HTTP response chunk for ['127.0.0.1', 52752]
+HTTP response chunk for ['127.0.0.1', 52752]
+HTTP response chunk for ['127.0.0.1', 52752]
+HTTP response chunk for ['127.0.0.1', 52752]
+HTTP response chunk for ['127.0.0.1', 52752]
+HTTP response chunk for ['127.0.0.1', 52752]
+HTTP response chunk for ['127.0.0.1', 52752]
+HTTP response chunk for ['127.0.0.1', 52752]
+HTTP response chunk for ['127.0.0.1', 52752]
+HTTP response chunk for ['127.0.0.1', 52752]
+HTTP response chunk for ['127.0.0.1', 52752]
+HTTP response chunk for ['127.0.0.1', 52752]
+HTTP response chunk for ['127.0.0.1', 52752]
+HTTP response chunk for ['127.0.0.1', 52752]
+HTTP response chunk for ['127.0.0.1', 52752]
+HTTP response chunk for ['127.0.0.1', 52752]
+HTTP response chunk for ['127.0.0.1', 52752]
+HTTP response chunk for ['127.0.0.1', 52752]
+HTTP response chunk for ['127.0.0.1', 52752]
+HTTP response chunk for ['127.0.0.1', 52752]
+HTTP response chunk for ['127.0.0.1', 52752]
+HTTP response chunk for ['127.0.0.1', 52752]
+HTTP response chunk for ['127.0.0.1', 52752]
+HTTP response chunk for ['127.0.0.1', 52752]
+HTTP response chunk for ['127.0.0.1', 52752]
+HTTP response chunk for ['127.0.0.1', 52752]
+HTTP response chunk for ['127.0.0.1', 52752]
+HTTP response chunk for ['127.0.0.1', 52752]
+HTTP response chunk for ['127.0.0.1', 52752]
+HTTP response chunk for ['127.0.0.1', 52752]
+HTTP close for ['127.0.0.1', 52752]
+HTTP response complete for ['127.0.0.1', 52752]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 200 [0.47, 127.0.0.1:52752][0m
+HTTP b'GET' request for ['127.0.0.1', 52752]
+HTTP disconnect for ['127.0.0.1', 52752]
+HTTP b'GET' request for ['127.0.0.1', 59430]
+HTTP 200 response started for ['127.0.0.1', 59430]
+HTTP close for ['127.0.0.1', 59430]
+HTTP response complete for ['127.0.0.1', 59430]
+[mHTTP GET / 200 [0.01, 127.0.0.1:59430][0m
+HTTP b'GET' request for ['127.0.0.1', 59430]
+HTTP b'GET' request for ['127.0.0.1', 59431]
+HTTP 304 response started for ['127.0.0.1', 59430]
+HTTP close for ['127.0.0.1', 59430]
+HTTP response complete for ['127.0.0.1', 59430]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 304 [0.00, 127.0.0.1:59430][0m
+HTTP 200 response started for ['127.0.0.1', 59431]
+HTTP response chunk for ['127.0.0.1', 59431]
+HTTP response chunk for ['127.0.0.1', 59431]
+HTTP close for ['127.0.0.1', 59431]
+HTTP response complete for ['127.0.0.1', 59431]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.01, 127.0.0.1:59431][0m
+HTTP b'GET' request for ['127.0.0.1', 59431]
+HTTP 200 response started for ['127.0.0.1', 59431]
+HTTP close for ['127.0.0.1', 59431]
+HTTP response complete for ['127.0.0.1', 59431]
+[mHTTP GET / 200 [0.01, 127.0.0.1:59431][0m
+HTTP b'GET' request for ['127.0.0.1', 59431]
+HTTP 304 response started for ['127.0.0.1', 59431]
+HTTP close for ['127.0.0.1', 59431]
+HTTP response complete for ['127.0.0.1', 59431]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 304 [0.00, 127.0.0.1:59431][0m
+HTTP b'GET' request for ['127.0.0.1', 59446]
+HTTP 200 response started for ['127.0.0.1', 59446]
+HTTP close for ['127.0.0.1', 59446]
+HTTP response complete for ['127.0.0.1', 59446]
+[mHTTP GET / 200 [0.01, 127.0.0.1:59446][0m
+HTTP b'GET' request for ['127.0.0.1', 59446]
+HTTP b'GET' request for ['127.0.0.1', 59447]
+HTTP 304 response started for ['127.0.0.1', 59446]
+HTTP close for ['127.0.0.1', 59446]
+HTTP response complete for ['127.0.0.1', 59446]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 304 [0.00, 127.0.0.1:59446][0m
+HTTP 200 response started for ['127.0.0.1', 59447]
+HTTP response chunk for ['127.0.0.1', 59447]
+HTTP response chunk for ['127.0.0.1', 59447]
+HTTP close for ['127.0.0.1', 59447]
+HTTP response complete for ['127.0.0.1', 59447]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.01, 127.0.0.1:59447][0m
+D:\pages_perso\Websites\Practices\python\django\notifications-badge\myproj\notifapi\consumers.py changed, reloading.
+Using selector: SelectSelector
+Watching for file changes with StatReloader
+This is a test error log.
+HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+Configuring endpoint tcp:port=8000:interface=127.0.0.1
+Listening on TCP address 127.0.0.1:8000
+Using selector: SelectSelector
+D:\pages_perso\Websites\Practices\python\django\notifications-badge\myproj\notifapi\consumers.py changed, reloading.
+Using selector: SelectSelector
+Watching for file changes with StatReloader
+This is a test error log.
+HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+Configuring endpoint tcp:port=8000:interface=127.0.0.1
+Listening on TCP address 127.0.0.1:8000
+Using selector: SelectSelector
+HTTP b'GET' request for ['127.0.0.1', 59508]
+HTTP 200 response started for ['127.0.0.1', 59508]
+HTTP close for ['127.0.0.1', 59508]
+HTTP response complete for ['127.0.0.1', 59508]
+[mHTTP GET / 200 [0.01, 127.0.0.1:59508][0m
+HTTP b'GET' request for ['127.0.0.1', 59508]
+HTTP b'GET' request for ['127.0.0.1', 59509]
+HTTP 304 response started for ['127.0.0.1', 59508]
+HTTP close for ['127.0.0.1', 59508]
+HTTP response complete for ['127.0.0.1', 59508]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 304 [0.01, 127.0.0.1:59508][0m
+HTTP 304 response started for ['127.0.0.1', 59509]
+HTTP close for ['127.0.0.1', 59509]
+HTTP response complete for ['127.0.0.1', 59509]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 304 [0.01, 127.0.0.1:59509][0m
+D:\pages_perso\Websites\Practices\python\django\notifications-badge\myproj\notifapi\consumers.py changed, reloading.
+Using selector: SelectSelector
+Watching for file changes with StatReloader
+This is a test error log.
+HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+Configuring endpoint tcp:port=8000:interface=127.0.0.1
+Listening on TCP address 127.0.0.1:8000
+D:\pages_perso\Websites\Practices\python\django\notifications-badge\myproj\notifapi\consumers.py changed, reloading.
+Using selector: SelectSelector
+Watching for file changes with StatReloader
+This is a test error log.
+HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+Configuring endpoint tcp:port=8000:interface=127.0.0.1
+Listening on TCP address 127.0.0.1:8000
+D:\pages_perso\Websites\Practices\python\django\notifications-badge\myproj\notifapi\consumers.py changed, reloading.
+Using selector: SelectSelector
+Watching for file changes with StatReloader
+This is a test error log.
+HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+Configuring endpoint tcp:port=8000:interface=127.0.0.1
+Listening on TCP address 127.0.0.1:8000
+D:\pages_perso\Websites\Practices\python\django\notifications-badge\myproj\notifapi\consumers.py changed, reloading.
+Using selector: SelectSelector
+Watching for file changes with StatReloader
+This is a test error log.
+HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+Configuring endpoint tcp:port=8000:interface=127.0.0.1
+Listening on TCP address 127.0.0.1:8000
+Using selector: SelectSelector
+HTTP b'GET' request for ['127.0.0.1', 59664]
+HTTP 200 response started for ['127.0.0.1', 59664]
+HTTP close for ['127.0.0.1', 59664]
+HTTP response complete for ['127.0.0.1', 59664]
+[mHTTP GET / 200 [0.01, 127.0.0.1:59664][0m
+HTTP b'GET' request for ['127.0.0.1', 59664]
+HTTP b'GET' request for ['127.0.0.1', 59665]
+HTTP 304 response started for ['127.0.0.1', 59664]
+HTTP close for ['127.0.0.1', 59664]
+HTTP response complete for ['127.0.0.1', 59664]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 304 [0.01, 127.0.0.1:59664][0m
+HTTP 304 response started for ['127.0.0.1', 59665]
+HTTP close for ['127.0.0.1', 59665]
+HTTP response complete for ['127.0.0.1', 59665]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 304 [0.01, 127.0.0.1:59665][0m
+D:\pages_perso\Websites\Practices\python\django\notifications-badge\myproj\notifapi\consumers.py changed, reloading.
+Using selector: SelectSelector
+Watching for file changes with StatReloader
+This is a test error log.
+HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+Configuring endpoint tcp:port=8000:interface=127.0.0.1
+Listening on TCP address 127.0.0.1:8000
+Using selector: SelectSelector
+HTTP b'GET' request for ['127.0.0.1', 59716]
+HTTP 200 response started for ['127.0.0.1', 59716]
+HTTP close for ['127.0.0.1', 59716]
+HTTP response complete for ['127.0.0.1', 59716]
+[mHTTP GET / 200 [0.01, 127.0.0.1:59716][0m
+HTTP b'GET' request for ['127.0.0.1', 59716]
+HTTP b'GET' request for ['127.0.0.1', 59717]
+HTTP 304 response started for ['127.0.0.1', 59716]
+HTTP close for ['127.0.0.1', 59716]
+HTTP response complete for ['127.0.0.1', 59716]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 304 [0.01, 127.0.0.1:59716][0m
+HTTP 304 response started for ['127.0.0.1', 59717]
+HTTP close for ['127.0.0.1', 59717]
+HTTP response complete for ['127.0.0.1', 59717]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 304 [0.00, 127.0.0.1:59717][0m
+D:\pages_perso\Websites\Practices\python\django\notifications-badge\myproj\notifapi\consumers.py changed, reloading.
+Using selector: SelectSelector
+Watching for file changes with StatReloader
+This is a test error log.
+HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+Configuring endpoint tcp:port=8000:interface=127.0.0.1
+Listening on TCP address 127.0.0.1:8000
+Using selector: SelectSelector
+HTTP b'GET' request for ['127.0.0.1', 59735]
+HTTP 200 response started for ['127.0.0.1', 59735]
+HTTP close for ['127.0.0.1', 59735]
+HTTP response complete for ['127.0.0.1', 59735]
+[mHTTP GET / 200 [0.01, 127.0.0.1:59735][0m
+D:\pages_perso\Websites\Practices\python\django\notifications-badge\myproj\notifapi\consumers.py changed, reloading.
+Using selector: SelectSelector
+Watching for file changes with StatReloader
+This is a test error log.
+HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+Configuring endpoint tcp:port=8000:interface=127.0.0.1
+Listening on TCP address 127.0.0.1:8000
+Using selector: SelectSelector
+HTTP b'GET' request for ['127.0.0.1', 59755]
+HTTP 200 response started for ['127.0.0.1', 59755]
+HTTP close for ['127.0.0.1', 59755]
+HTTP response complete for ['127.0.0.1', 59755]
+[mHTTP GET / 200 [0.01, 127.0.0.1:59755][0m
+HTTP b'GET' request for ['127.0.0.1', 59755]
+HTTP 304 response started for ['127.0.0.1', 59755]
+HTTP close for ['127.0.0.1', 59755]
+HTTP response complete for ['127.0.0.1', 59755]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 304 [0.00, 127.0.0.1:59755][0m
+HTTP b'GET' request for ['127.0.0.1', 59755]
+HTTP 200 response started for ['127.0.0.1', 59755]
+HTTP close for ['127.0.0.1', 59755]
+HTTP response complete for ['127.0.0.1', 59755]
+[mHTTP GET / 200 [0.01, 127.0.0.1:59755][0m
+HTTP b'GET' request for ['127.0.0.1', 59755]
+HTTP 304 response started for ['127.0.0.1', 59755]
+HTTP close for ['127.0.0.1', 59755]
+HTTP response complete for ['127.0.0.1', 59755]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 304 [0.00, 127.0.0.1:59755][0m
+D:\pages_perso\Websites\Practices\python\django\notifications-badge\myproj\notifapi\consumers.py changed, reloading.
+Using selector: SelectSelector
+Watching for file changes with StatReloader
+This is a test error log.
+HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+Configuring endpoint tcp:port=8000:interface=127.0.0.1
+Listening on TCP address 127.0.0.1:8000
+Using selector: SelectSelector
+HTTP b'GET' request for ['127.0.0.1', 59781]
+HTTP 200 response started for ['127.0.0.1', 59781]
+HTTP close for ['127.0.0.1', 59781]
+HTTP response complete for ['127.0.0.1', 59781]
+[mHTTP GET / 200 [0.02, 127.0.0.1:59781][0m
+D:\pages_perso\Websites\Practices\python\django\notifications-badge\myproj\notifapi\consumers.py changed, reloading.
+Using selector: SelectSelector
+Watching for file changes with StatReloader
+This is a test error log.
+HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+Configuring endpoint tcp:port=8000:interface=127.0.0.1
+Listening on TCP address 127.0.0.1:8000
+D:\pages_perso\Websites\Practices\python\django\notifications-badge\myproj\notifapi\consumers.py changed, reloading.
+Using selector: SelectSelector
+Watching for file changes with StatReloader
+This is a test error log.
+HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+Configuring endpoint tcp:port=8000:interface=127.0.0.1
+Listening on TCP address 127.0.0.1:8000
+D:\pages_perso\Websites\Practices\python\django\notifications-badge\myproj\notifapi\consumers.py changed, reloading.
+Using selector: SelectSelector
+Watching for file changes with StatReloader
+This is a test error log.
+HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+Configuring endpoint tcp:port=8000:interface=127.0.0.1
+Listening on TCP address 127.0.0.1:8000
+D:\pages_perso\Websites\Practices\python\django\notifications-badge\myproj\notifapi\consumers.py changed, reloading.
+Using selector: SelectSelector
+Watching for file changes with StatReloader
+This is a test error log.
+HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+Configuring endpoint tcp:port=8000:interface=127.0.0.1
+Listening on TCP address 127.0.0.1:8000
+HTTP b'GET' request for ['127.0.0.1', 59825]
+HTTP 200 response started for ['127.0.0.1', 59825]
+HTTP close for ['127.0.0.1', 59825]
+HTTP response complete for ['127.0.0.1', 59825]
+[mHTTP GET / 200 [0.02, 127.0.0.1:59825][0m
+HTTP b'GET' request for ['127.0.0.1', 59825]
+HTTP b'GET' request for ['127.0.0.1', 59826]
+HTTP 304 response started for ['127.0.0.1', 59825]
+HTTP close for ['127.0.0.1', 59825]
+HTTP response complete for ['127.0.0.1', 59825]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 304 [0.01, 127.0.0.1:59825][0m
+HTTP 200 response started for ['127.0.0.1', 59826]
+HTTP response chunk for ['127.0.0.1', 59826]
+HTTP response chunk for ['127.0.0.1', 59826]
+HTTP close for ['127.0.0.1', 59826]
+HTTP response complete for ['127.0.0.1', 59826]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.24, 127.0.0.1:59826][0m
+Using selector: SelectSelector
+HTTP b'GET' request for ['127.0.0.1', 59826]
+HTTP 200 response started for ['127.0.0.1', 59826]
+HTTP close for ['127.0.0.1', 59826]
+HTTP response complete for ['127.0.0.1', 59826]
+[mHTTP GET / 200 [0.01, 127.0.0.1:59826][0m
+HTTP b'GET' request for ['127.0.0.1', 59826]
+HTTP 304 response started for ['127.0.0.1', 59826]
+HTTP close for ['127.0.0.1', 59826]
+HTTP response complete for ['127.0.0.1', 59826]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 304 [0.00, 127.0.0.1:59826][0m
+HTTP b'GET' request for ['127.0.0.1', 59826]
+HTTP 200 response started for ['127.0.0.1', 59826]
+HTTP close for ['127.0.0.1', 59826]
+HTTP response complete for ['127.0.0.1', 59826]
+[mHTTP GET / 200 [0.01, 127.0.0.1:59826][0m
+HTTP b'GET' request for ['127.0.0.1', 59826]
+HTTP 304 response started for ['127.0.0.1', 59826]
+HTTP close for ['127.0.0.1', 59826]
+HTTP response complete for ['127.0.0.1', 59826]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 304 [0.00, 127.0.0.1:59826][0m
+HTTP b'GET' request for ['127.0.0.1', 59826]
+HTTP 200 response started for ['127.0.0.1', 59826]
+HTTP close for ['127.0.0.1', 59826]
+HTTP response complete for ['127.0.0.1', 59826]
+[mHTTP GET / 200 [0.01, 127.0.0.1:59826][0m
+HTTP b'GET' request for ['127.0.0.1', 59826]
+HTTP 304 response started for ['127.0.0.1', 59826]
+HTTP close for ['127.0.0.1', 59826]
+HTTP response complete for ['127.0.0.1', 59826]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 304 [0.00, 127.0.0.1:59826][0m
+HTTP b'GET' request for ['127.0.0.1', 59854]
+HTTP 200 response started for ['127.0.0.1', 59854]
+HTTP close for ['127.0.0.1', 59854]
+HTTP response complete for ['127.0.0.1', 59854]
+[mHTTP GET / 200 [0.01, 127.0.0.1:59854][0m
+D:\pages_perso\Websites\Practices\python\django\notifications-badge\myproj\notifapi\consumers.py changed, reloading.
+Using selector: SelectSelector
+Watching for file changes with StatReloader
+This is a test error log.
+HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+Configuring endpoint tcp:port=8000:interface=127.0.0.1
+Listening on TCP address 127.0.0.1:8000
+Using selector: SelectSelector
+HTTP b'GET' request for ['127.0.0.1', 59911]
+HTTP 200 response started for ['127.0.0.1', 59911]
+HTTP close for ['127.0.0.1', 59911]
+HTTP response complete for ['127.0.0.1', 59911]
+[mHTTP GET / 200 [0.01, 127.0.0.1:59911][0m
+HTTP b'GET' request for ['127.0.0.1', 59911]
+HTTP b'GET' request for ['127.0.0.1', 59912]
+HTTP 304 response started for ['127.0.0.1', 59911]
+HTTP close for ['127.0.0.1', 59911]
+HTTP response complete for ['127.0.0.1', 59911]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 304 [0.01, 127.0.0.1:59911][0m
+HTTP 304 response started for ['127.0.0.1', 59912]
+HTTP close for ['127.0.0.1', 59912]
+HTTP response complete for ['127.0.0.1', 59912]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 304 [0.01, 127.0.0.1:59912][0m
+D:\pages_perso\Websites\Practices\python\django\notifications-badge\myproj\notifapi\consumers.py changed, reloading.
+Using selector: SelectSelector
+Watching for file changes with StatReloader
+This is a test error log.
+HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+Configuring endpoint tcp:port=8000:interface=127.0.0.1
+Listening on TCP address 127.0.0.1:8000
+HTTP b'GET' request for ['127.0.0.1', 59954]
+HTTP 200 response started for ['127.0.0.1', 59954]
+HTTP close for ['127.0.0.1', 59954]
+HTTP response complete for ['127.0.0.1', 59954]
+[mHTTP GET / 200 [0.01, 127.0.0.1:59954][0m
+HTTP b'GET' request for ['127.0.0.1', 59954]
+HTTP 304 response started for ['127.0.0.1', 59954]
+HTTP close for ['127.0.0.1', 59954]
+HTTP response complete for ['127.0.0.1', 59954]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 304 [0.00, 127.0.0.1:59954][0m
+Using selector: SelectSelector
+HTTP b'GET' request for ['127.0.0.1', 59954]
+HTTP 200 response started for ['127.0.0.1', 59954]
+HTTP close for ['127.0.0.1', 59954]
+HTTP response complete for ['127.0.0.1', 59954]
+[mHTTP GET / 200 [0.01, 127.0.0.1:59954][0m
+HTTP b'GET' request for ['127.0.0.1', 59980]
+HTTP 200 response started for ['127.0.0.1', 59980]
+HTTP close for ['127.0.0.1', 59980]
+HTTP response complete for ['127.0.0.1', 59980]
+[mHTTP GET / 200 [0.01, 127.0.0.1:59980][0m
+HTTP b'GET' request for ['127.0.0.1', 59980]
+HTTP b'GET' request for ['127.0.0.1', 59981]
+HTTP 304 response started for ['127.0.0.1', 59980]
+HTTP close for ['127.0.0.1', 59980]
+HTTP response complete for ['127.0.0.1', 59980]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 304 [0.00, 127.0.0.1:59980][0m
+HTTP 200 response started for ['127.0.0.1', 59981]
+HTTP response chunk for ['127.0.0.1', 59981]
+HTTP response chunk for ['127.0.0.1', 59981]
+HTTP close for ['127.0.0.1', 59981]
+HTTP response complete for ['127.0.0.1', 59981]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.20, 127.0.0.1:59981][0m
+D:\pages_perso\Websites\Practices\python\django\notifications-badge\myproj\notifapi\consumers.py changed, reloading.
+Using selector: SelectSelector
+Watching for file changes with StatReloader
+This is a test error log.
+HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+Configuring endpoint tcp:port=8000:interface=127.0.0.1
+Listening on TCP address 127.0.0.1:8000
+Using selector: SelectSelector
+HTTP b'GET' request for ['127.0.0.1', 60014]
+HTTP 200 response started for ['127.0.0.1', 60014]
+HTTP close for ['127.0.0.1', 60014]
+HTTP response complete for ['127.0.0.1', 60014]
+[mHTTP GET / 200 [0.01, 127.0.0.1:60014][0m
+HTTP b'GET' request for ['127.0.0.1', 60014]
+HTTP 304 response started for ['127.0.0.1', 60014]
+HTTP close for ['127.0.0.1', 60014]
+HTTP response complete for ['127.0.0.1', 60014]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 304 [0.00, 127.0.0.1:60014][0m
+D:\pages_perso\Websites\Practices\python\django\notifications-badge\myproj\notifapi\consumers.py changed, reloading.
+Using selector: SelectSelector
+Watching for file changes with StatReloader
+This is a test error log.
+HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+Configuring endpoint tcp:port=8000:interface=127.0.0.1
+Listening on TCP address 127.0.0.1:8000
+Using selector: SelectSelector
+HTTP b'GET' request for ['127.0.0.1', 60037]
+HTTP 200 response started for ['127.0.0.1', 60037]
+HTTP close for ['127.0.0.1', 60037]
+HTTP response complete for ['127.0.0.1', 60037]
+[mHTTP GET / 200 [0.02, 127.0.0.1:60037][0m
+HTTP b'GET' request for ['127.0.0.1', 60037]
+HTTP 304 response started for ['127.0.0.1', 60037]
+HTTP close for ['127.0.0.1', 60037]
+HTTP response complete for ['127.0.0.1', 60037]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 304 [0.00, 127.0.0.1:60037][0m
+HTTP b'GET' request for ['127.0.0.1', 60037]
+HTTP 200 response started for ['127.0.0.1', 60037]
+HTTP close for ['127.0.0.1', 60037]
+HTTP response complete for ['127.0.0.1', 60037]
+[mHTTP GET / 200 [0.01, 127.0.0.1:60037][0m
+HTTP b'GET' request for ['127.0.0.1', 60037]
+HTTP 200 response started for ['127.0.0.1', 60037]
+HTTP response chunk for ['127.0.0.1', 60037]
+HTTP response chunk for ['127.0.0.1', 60037]
+HTTP close for ['127.0.0.1', 60037]
+HTTP response complete for ['127.0.0.1', 60037]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.20, 127.0.0.1:60037][0m
+HTTP b'GET' request for ['127.0.0.1', 60037]
+HTTP 200 response started for ['127.0.0.1', 60037]
+HTTP close for ['127.0.0.1', 60037]
+HTTP response complete for ['127.0.0.1', 60037]
+[mHTTP GET / 200 [0.00, 127.0.0.1:60037][0m
+HTTP b'GET' request for ['127.0.0.1', 60037]
+HTTP 304 response started for ['127.0.0.1', 60037]
+HTTP close for ['127.0.0.1', 60037]
+HTTP response complete for ['127.0.0.1', 60037]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 304 [0.00, 127.0.0.1:60037][0m
+HTTP b'GET' request for ['127.0.0.1', 60037]
+HTTP 200 response started for ['127.0.0.1', 60037]
+HTTP close for ['127.0.0.1', 60037]
+HTTP response complete for ['127.0.0.1', 60037]
+[mHTTP GET / 200 [0.01, 127.0.0.1:60037][0m
+HTTP b'GET' request for ['127.0.0.1', 60037]
+HTTP 304 response started for ['127.0.0.1', 60037]
+HTTP close for ['127.0.0.1', 60037]
+HTTP response complete for ['127.0.0.1', 60037]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 304 [0.00, 127.0.0.1:60037][0m
+HTTP b'GET' request for ['127.0.0.1', 60056]
+HTTP 200 response started for ['127.0.0.1', 60056]
+HTTP close for ['127.0.0.1', 60056]
+HTTP response complete for ['127.0.0.1', 60056]
+[mHTTP GET / 200 [0.01, 127.0.0.1:60056][0m
+HTTP b'GET' request for ['127.0.0.1', 60056]
+HTTP 304 response started for ['127.0.0.1', 60056]
+HTTP close for ['127.0.0.1', 60056]
+HTTP response complete for ['127.0.0.1', 60056]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 304 [0.00, 127.0.0.1:60056][0m
+HTTP b'GET' request for ['127.0.0.1', 60056]
+HTTP 200 response started for ['127.0.0.1', 60056]
+HTTP close for ['127.0.0.1', 60056]
+HTTP response complete for ['127.0.0.1', 60056]
+[mHTTP GET /admin/ 200 [0.16, 127.0.0.1:60056][0m
+HTTP b'GET' request for ['127.0.0.1', 60056]
+HTTP disconnect for ['127.0.0.1', 60056]
+HTTP b'GET' request for ['127.0.0.1', 60059]
+HTTP b'GET' request for ['127.0.0.1', 60060]
+HTTP b'GET' request for ['127.0.0.1', 60061]
+HTTP 200 response started for ['127.0.0.1', 60059]
+HTTP disconnect for ['127.0.0.1', 60061]
+HTTP response chunk for ['127.0.0.1', 60059]
+HTTP close for ['127.0.0.1', 60059]
+HTTP response complete for ['127.0.0.1', 60059]
+[mHTTP GET /static/admin/img/icon-addlink.svg 200 [0.01, 127.0.0.1:60059][0m
+HTTP 200 response started for ['127.0.0.1', 60060]
+HTTP b'GET' request for ['127.0.0.1', 60062]
+HTTP disconnect for ['127.0.0.1', 60062]
+HTTP response chunk for ['127.0.0.1', 60060]
+HTTP close for ['127.0.0.1', 60060]
+HTTP response complete for ['127.0.0.1', 60060]
+[mHTTP GET /static/admin/img/icon-changelink.svg 200 [0.02, 127.0.0.1:60060][0m
+HTTP b'GET' request for ['127.0.0.1', 60060]
+HTTP 200 response started for ['127.0.0.1', 60060]
+HTTP close for ['127.0.0.1', 60060]
+HTTP response complete for ['127.0.0.1', 60060]
+[mHTTP GET /admin/notifapi/notifymodel/ 200 [0.12, 127.0.0.1:60060][0m
+HTTP b'GET' request for ['127.0.0.1', 60060]
+HTTP b'GET' request for ['127.0.0.1', 60059]
+HTTP 200 response started for ['127.0.0.1', 60059]
+HTTP disconnect for ['127.0.0.1', 60059]
+HTTP 200 response started for ['127.0.0.1', 60060]
+HTTP close for ['127.0.0.1', 60060]
+HTTP response complete for ['127.0.0.1', 60060]
+[mHTTP GET /admin/jsi18n/ 200 [0.02, 127.0.0.1:60060][0m
+HTTP b'GET' request for ['127.0.0.1', 60060]
+HTTP 200 response started for ['127.0.0.1', 60060]
+HTTP response chunk for ['127.0.0.1', 60060]
+HTTP close for ['127.0.0.1', 60060]
+HTTP response complete for ['127.0.0.1', 60060]
+[mHTTP GET /static/admin/img/tooltag-add.svg 200 [0.00, 127.0.0.1:60060][0m
+HTTP b'GET' request for ['127.0.0.1', 60060]
+HTTP 200 response started for ['127.0.0.1', 60060]
+HTTP close for ['127.0.0.1', 60060]
+HTTP response complete for ['127.0.0.1', 60060]
+[mHTTP GET /admin/notifapi/notifymodel/86/change/ 200 [0.08, 127.0.0.1:60060][0m
+HTTP b'GET' request for ['127.0.0.1', 60060]
+HTTP 200 response started for ['127.0.0.1', 60060]
+HTTP close for ['127.0.0.1', 60060]
+HTTP response complete for ['127.0.0.1', 60060]
+[mHTTP GET /admin/jsi18n/ 200 [0.01, 127.0.0.1:60060][0m
+HTTP b'GET' request for ['127.0.0.1', 60063]
+HTTP 200 response started for ['127.0.0.1', 60063]
+HTTP response chunk for ['127.0.0.1', 60063]
+HTTP close for ['127.0.0.1', 60063]
+HTTP response complete for ['127.0.0.1', 60063]
+[mHTTP GET /static/admin/img/icon-viewlink.svg 200 [0.00, 127.0.0.1:60063][0m
+HTTP b'GET' request for ['127.0.0.1', 60060]
+HTTP 200 response started for ['127.0.0.1', 60060]
+HTTP close for ['127.0.0.1', 60060]
+HTTP response complete for ['127.0.0.1', 60060]
+[mHTTP GET /admin/notifapi/notifymodel/add/ 200 [0.03, 127.0.0.1:60060][0m
+HTTP b'GET' request for ['127.0.0.1', 60060]
+HTTP 200 response started for ['127.0.0.1', 60060]
+HTTP close for ['127.0.0.1', 60060]
+HTTP response complete for ['127.0.0.1', 60060]
+[mHTTP GET /admin/jsi18n/ 200 [0.01, 127.0.0.1:60060][0m
+HTTP b'POST' request for ['127.0.0.1', 60060]
+Using selector: SelectSelector
+HTTP 302 response started for ['127.0.0.1', 60060]
+HTTP close for ['127.0.0.1', 60060]
+HTTP response complete for ['127.0.0.1', 60060]
+[32mHTTP POST /admin/notifapi/notifymodel/add/ 302 [0.18, 127.0.0.1:60060][0m
+HTTP b'GET' request for ['127.0.0.1', 60060]
+HTTP 200 response started for ['127.0.0.1', 60060]
+HTTP close for ['127.0.0.1', 60060]
+HTTP response complete for ['127.0.0.1', 60060]
+[mHTTP GET /admin/notifapi/notifymodel/add/ 200 [0.03, 127.0.0.1:60060][0m
+HTTP b'GET' request for ['127.0.0.1', 60060]
+HTTP 200 response started for ['127.0.0.1', 60060]
+HTTP close for ['127.0.0.1', 60060]
+HTTP response complete for ['127.0.0.1', 60060]
+[mHTTP GET /admin/jsi18n/ 200 [0.01, 127.0.0.1:60060][0m
+HTTP b'GET' request for ['127.0.0.1', 60060]
+HTTP 200 response started for ['127.0.0.1', 60060]
+HTTP response chunk for ['127.0.0.1', 60060]
+HTTP close for ['127.0.0.1', 60060]
+HTTP response complete for ['127.0.0.1', 60060]
+[mHTTP GET /static/admin/img/icon-yes.svg 200 [0.00, 127.0.0.1:60060][0m
+HTTP b'GET' request for ['127.0.0.1', 60060]
+HTTP 200 response started for ['127.0.0.1', 60060]
+HTTP close for ['127.0.0.1', 60060]
+HTTP response complete for ['127.0.0.1', 60060]
+[mHTTP GET / 200 [0.01, 127.0.0.1:60060][0m
+HTTP b'GET' request for ['127.0.0.1', 60060]
+HTTP b'GET' request for ['127.0.0.1', 60073]
+HTTP 304 response started for ['127.0.0.1', 60060]
+HTTP close for ['127.0.0.1', 60060]
+HTTP response complete for ['127.0.0.1', 60060]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 304 [0.00, 127.0.0.1:60060][0m
+HTTP 304 response started for ['127.0.0.1', 60073]
+HTTP close for ['127.0.0.1', 60073]
+HTTP response complete for ['127.0.0.1', 60073]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 304 [0.00, 127.0.0.1:60073][0m
+Using selector: SelectSelector
+HTTP b'GET' request for ['127.0.0.1', 60060]
+HTTP 200 response started for ['127.0.0.1', 60060]
+HTTP close for ['127.0.0.1', 60060]
+HTTP response complete for ['127.0.0.1', 60060]
+[mHTTP GET / 200 [0.01, 127.0.0.1:60060][0m
+HTTP b'GET' request for ['127.0.0.1', 60060]
+HTTP 304 response started for ['127.0.0.1', 60060]
+HTTP close for ['127.0.0.1', 60060]
+HTTP response complete for ['127.0.0.1', 60060]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 304 [0.00, 127.0.0.1:60060][0m
+D:\pages_perso\Websites\Practices\python\django\notifications-badge\myproj\notifapi\consumers.py changed, reloading.
+Using selector: SelectSelector
+Watching for file changes with StatReloader
+This is a test error log.
+HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+Configuring endpoint tcp:port=8000:interface=127.0.0.1
+Listening on TCP address 127.0.0.1:8000
+Using selector: SelectSelector
+HTTP b'GET' request for ['127.0.0.1', 60106]
+HTTP 200 response started for ['127.0.0.1', 60106]
+HTTP close for ['127.0.0.1', 60106]
+HTTP response complete for ['127.0.0.1', 60106]
+[mHTTP GET / 200 [0.01, 127.0.0.1:60106][0m
+HTTP b'GET' request for ['127.0.0.1', 60106]
+HTTP 304 response started for ['127.0.0.1', 60106]
+HTTP close for ['127.0.0.1', 60106]
+HTTP response complete for ['127.0.0.1', 60106]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 304 [0.00, 127.0.0.1:60106][0m
+HTTP b'GET' request for ['127.0.0.1', 60106]
+HTTP 200 response started for ['127.0.0.1', 60106]
+HTTP close for ['127.0.0.1', 60106]
+HTTP response complete for ['127.0.0.1', 60106]
+[mHTTP GET / 200 [0.01, 127.0.0.1:60106][0m
+HTTP b'GET' request for ['127.0.0.1', 60106]
+HTTP 200 response started for ['127.0.0.1', 60106]
+HTTP response chunk for ['127.0.0.1', 60106]
+HTTP response chunk for ['127.0.0.1', 60106]
+HTTP close for ['127.0.0.1', 60106]
+HTTP response complete for ['127.0.0.1', 60106]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.26, 127.0.0.1:60106][0m
+HTTP b'GET' request for ['127.0.0.1', 60106]
+HTTP 200 response started for ['127.0.0.1', 60106]
+HTTP close for ['127.0.0.1', 60106]
+HTTP response complete for ['127.0.0.1', 60106]
+[mHTTP GET / 200 [0.01, 127.0.0.1:60106][0m
+HTTP b'GET' request for ['127.0.0.1', 60106]
+HTTP 200 response started for ['127.0.0.1', 60106]
+HTTP response chunk for ['127.0.0.1', 60106]
+HTTP response chunk for ['127.0.0.1', 60106]
+HTTP close for ['127.0.0.1', 60106]
+HTTP response complete for ['127.0.0.1', 60106]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.01, 127.0.0.1:60106][0m
+HTTP b'GET' request for ['127.0.0.1', 60106]
+HTTP 200 response started for ['127.0.0.1', 60106]
+HTTP close for ['127.0.0.1', 60106]
+HTTP response complete for ['127.0.0.1', 60106]
+[mHTTP GET / 200 [0.01, 127.0.0.1:60106][0m
+HTTP b'GET' request for ['127.0.0.1', 60106]
+HTTP 304 response started for ['127.0.0.1', 60106]
+HTTP close for ['127.0.0.1', 60106]
+HTTP response complete for ['127.0.0.1', 60106]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 304 [0.00, 127.0.0.1:60106][0m
+HTTP b'GET' request for ['127.0.0.1', 60106]
+HTTP 200 response started for ['127.0.0.1', 60106]
+HTTP close for ['127.0.0.1', 60106]
+HTTP response complete for ['127.0.0.1', 60106]
+[mHTTP GET / 200 [0.01, 127.0.0.1:60106][0m
+HTTP b'GET' request for ['127.0.0.1', 60106]
+HTTP 200 response started for ['127.0.0.1', 60106]
+HTTP response chunk for ['127.0.0.1', 60106]
+HTTP response chunk for ['127.0.0.1', 60106]
+HTTP close for ['127.0.0.1', 60106]
+HTTP response complete for ['127.0.0.1', 60106]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.00, 127.0.0.1:60106][0m
+HTTP b'GET' request for ['127.0.0.1', 60106]
+HTTP 200 response started for ['127.0.0.1', 60106]
+HTTP close for ['127.0.0.1', 60106]
+HTTP response complete for ['127.0.0.1', 60106]
+[mHTTP GET / 200 [0.01, 127.0.0.1:60106][0m
+HTTP b'GET' request for ['127.0.0.1', 60106]
+HTTP 304 response started for ['127.0.0.1', 60106]
+HTTP close for ['127.0.0.1', 60106]
+HTTP response complete for ['127.0.0.1', 60106]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 304 [0.01, 127.0.0.1:60106][0m
+HTTP b'GET' request for ['127.0.0.1', 60106]
+HTTP 200 response started for ['127.0.0.1', 60106]
+HTTP close for ['127.0.0.1', 60106]
+HTTP response complete for ['127.0.0.1', 60106]
+[mHTTP GET / 200 [0.01, 127.0.0.1:60106][0m
+HTTP b'GET' request for ['127.0.0.1', 60106]
+HTTP 200 response started for ['127.0.0.1', 60106]
+HTTP response chunk for ['127.0.0.1', 60106]
+HTTP response chunk for ['127.0.0.1', 60106]
+HTTP close for ['127.0.0.1', 60106]
+HTTP response complete for ['127.0.0.1', 60106]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.00, 127.0.0.1:60106][0m
+HTTP b'GET' request for ['127.0.0.1', 60106]
+HTTP 200 response started for ['127.0.0.1', 60106]
+HTTP close for ['127.0.0.1', 60106]
+HTTP response complete for ['127.0.0.1', 60106]
+[mHTTP GET / 200 [0.01, 127.0.0.1:60106][0m
+HTTP b'GET' request for ['127.0.0.1', 60106]
+HTTP 304 response started for ['127.0.0.1', 60106]
+HTTP close for ['127.0.0.1', 60106]
+HTTP response complete for ['127.0.0.1', 60106]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 304 [0.00, 127.0.0.1:60106][0m
+HTTP b'POST' request for ['127.0.0.1', 60106]
+Using selector: SelectSelector
+HTTP 302 response started for ['127.0.0.1', 60106]
+HTTP close for ['127.0.0.1', 60106]
+HTTP response complete for ['127.0.0.1', 60106]
+[32mHTTP POST /admin/notifapi/notifymodel/add/ 302 [0.14, 127.0.0.1:60106][0m
+HTTP b'GET' request for ['127.0.0.1', 60106]
+HTTP 200 response started for ['127.0.0.1', 60106]
+HTTP close for ['127.0.0.1', 60106]
+HTTP response complete for ['127.0.0.1', 60106]
+[mHTTP GET /admin/notifapi/notifymodel/add/ 200 [0.08, 127.0.0.1:60106][0m
+HTTP b'GET' request for ['127.0.0.1', 60106]
+HTTP 200 response started for ['127.0.0.1', 60106]
+HTTP close for ['127.0.0.1', 60106]
+HTTP response complete for ['127.0.0.1', 60106]
+[mHTTP GET /admin/jsi18n/ 200 [0.01, 127.0.0.1:60106][0m
+HTTP b'GET' request for ['127.0.0.1', 60106]
+HTTP 200 response started for ['127.0.0.1', 60106]
+HTTP close for ['127.0.0.1', 60106]
+HTTP response complete for ['127.0.0.1', 60106]
+[mHTTP GET / 200 [0.00, 127.0.0.1:60106][0m
+HTTP b'GET' request for ['127.0.0.1', 60106]
+HTTP 304 response started for ['127.0.0.1', 60106]
+HTTP close for ['127.0.0.1', 60106]
+HTTP response complete for ['127.0.0.1', 60106]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 304 [0.00, 127.0.0.1:60106][0m
+HTTP b'POST' request for ['127.0.0.1', 60106]
+Using selector: SelectSelector
+HTTP 302 response started for ['127.0.0.1', 60106]
+HTTP close for ['127.0.0.1', 60106]
+HTTP response complete for ['127.0.0.1', 60106]
+[32mHTTP POST /admin/notifapi/notifymodel/add/ 302 [0.13, 127.0.0.1:60106][0m
+HTTP b'GET' request for ['127.0.0.1', 60106]
+HTTP 200 response started for ['127.0.0.1', 60106]
+HTTP close for ['127.0.0.1', 60106]
+HTTP response complete for ['127.0.0.1', 60106]
+[mHTTP GET /admin/notifapi/notifymodel/add/ 200 [0.03, 127.0.0.1:60106][0m
+HTTP b'GET' request for ['127.0.0.1', 60106]
+HTTP 200 response started for ['127.0.0.1', 60106]
+HTTP close for ['127.0.0.1', 60106]
+HTTP response complete for ['127.0.0.1', 60106]
+[mHTTP GET /admin/jsi18n/ 200 [0.01, 127.0.0.1:60106][0m
+D:\pages_perso\Websites\Practices\python\django\notifications-badge\myproj\notifapi\consumers.py changed, reloading.
+Using selector: SelectSelector
+Watching for file changes with StatReloader
+This is a test error log.
+HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+Configuring endpoint tcp:port=8000:interface=127.0.0.1
+Listening on TCP address 127.0.0.1:8000

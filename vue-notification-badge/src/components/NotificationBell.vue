@@ -37,7 +37,7 @@ export default {
     computed: {
         notificationCount() {
         // Calculate the notification count based on the current state of notifications
-        return this.notifications.filter(notification => !notification.fields.is_read).length;
+        return this.notifications.filter(notification => !notification.fields.is_seen).length;
         }
     },
     mounted() {
@@ -52,6 +52,13 @@ export default {
     methods: {
         toggleNotificationMenu() {
             this.showNotifications = !this.showNotifications;
+            //console.log("Notification count:" + this.notificationCount)
+            if(this.notificationCount > 0){
+                this.webSocket.send(JSON.stringify({
+                    "type": "mark.all.unseen"
+                }));
+            }
+
         },
         closeNotificationMenu() {
             this.showNotifications = false; // Hide the notifications list
@@ -86,7 +93,7 @@ export default {
                 if(message.type === 'notification.update'){
                     this.notifications = message.is_read_values.map(
                         (is_read, index) => ({ 
-                            fields: { is_read },
+                            fields: { is_read, is_seen },
                             message: message.messages_values[index]
                             
                         }))
