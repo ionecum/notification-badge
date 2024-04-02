@@ -9,6 +9,7 @@ import asyncio
 def notification_created(sender, instance, created, **kwargs):
     if created:
         print(f"A new notification was created: {instance.message}")
+        
         channel_layer = get_channel_layer()
         try:
             async def send_notification():

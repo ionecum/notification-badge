@@ -6,6 +6,7 @@
         <li v-for="(notification, index) in notifications.slice(0, 10)" :key="index">
           <div :class="{ 'notification': true, 'bold': !notification.is_read }">
             {{ notification.message }}
+            
           </div>
         </li>
       </ul>
