@@ -23,49 +23,47 @@ class NotificationConsumer(AsyncWebsocketConsumer):
     @database_sync_to_async
     def get_notifications(self):
         NotifyModel = apps.get_model('notifapi', 'NotifyModel')
-        return list(NotifyModel.objects.all().values('id','is_read','is_seen','message'))
+        return list(NotifyModel.objects.all().order_by('-created_at').values('id','is_read','is_seen','message'))
     
     @database_sync_to_async
     def mark_all_db(self, kind):
         NotifyModel = apps.get_model('notifapi', 'NotifyModel')
         notifications = NotifyModel.objects.all()
         for notification in notifications:
-            if kind is "unseen":
+            if kind == "unseen":
                 notification.is_seen = True
-                #print(f"notificaiton {notification.id}  will be marked as seen")
-            if kind is "seen": # debug only
-                print(f"notificaiton {notification.id} supposed to be marked as unread")
-                notification.is_seen = False # debug only
-            if kind is "unread":
+                print(f"notificaiton {notification.id}  will be marked as seen")
+            if kind == "unread":
                 print(f"notificaiton {notification.id}  will be marked as read")
             notification.save()
             print(f"notification is seen is {notification.is_seen}")
-
+        
 
     async def mark_all_unseen(self):
         print("Mark all unseen was called!")
-        await self.mark_all_db("seen")
+        await self.mark_all_db("unseen")
+        await self.update_notification_count()
         
     
     async def update_notification_count(self, event=None):
         notifications = await self.get_notifications()
         print(notifications)
-        is_seen_values = [notification for notification in notifications if not notification['is_seen']]
-        notification_count = len(is_seen_values)
+        # get notifications where is_seen is set to false
+        unseen_values = [notification for notification in notifications if not notification['is_seen']]
+        notification_count = len(unseen_values)
         print(f"Unseen notification count is {notification_count}")
         is_read_values = [notification['is_read'] for notification in notifications]
         messages_values = [notification['message'] for notification in notifications]
         
-        await self.send_notification_update(notification_count, is_seen_values, is_read_values, messages_values)
+        await self.send_notification_update(notification_count, is_read_values, messages_values)
     
     
-    async def send_notification_update(self, count, is_seen_values, is_read_values, messages_values):
+    async def send_notification_update(self, count, is_read_values, messages_values):
         await self.send(
             text_data=json.dumps({
                 "type": "notification.update",
                 "count": count,
                 "is_read_values": is_read_values,
-                "is_seen_values": is_seen_values,
                 "messages_values": messages_values
             })
         )

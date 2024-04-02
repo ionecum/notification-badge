@@ -38,6 +38,10 @@ class NotifyManager(models.Manager):
 
 
 class NotifyModel(models.Model):
+    def __str__(self):
+        return f"Notification {self.id}"
+    
+
     class Meta:
         db_table = 'notifications'
     
@@ -65,12 +69,12 @@ class NotifyModel(models.Model):
     sender = models.ForeignKey(User, related_name='sent_notifications', on_delete=models.CASCADE, null=True)
     receiver = models.ForeignKey(User, related_name='received_notifications', on_delete=models.CASCADE, null=True)
     created_at = models.DateTimeField(auto_now_add=True)
-    type = models.PositiveSmallIntegerField(choices=TYPE_CHOICES)
+    type = models.PositiveSmallIntegerField(choices=TYPE_CHOICES, default=VISIT)
     # is_seen: the notification was displayed
     is_seen = models.BooleanField(null=False, default=False)
     # is_read: the notification was clicked
     is_read = models.BooleanField(null=False, default=False)
-    redirect_url = models.CharField(max_length=120, null=True)
+    redirect_url = models.CharField(max_length=120, null=False, default='/')
     message = models.CharField(max_length=250, null=True)
 
     objects = NotifyManager()
