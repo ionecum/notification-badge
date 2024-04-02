@@ -34,12 +34,12 @@ export default {
             showNotifications: false, // Flag to toggle showing notifications list
         };
     },
-    computed: {
+    /*computed: {
         notificationCount() {
         // Calculate the notification count based on the current state of notifications
         return this.notifications.filter(notification => !notification.fields.is_seen).length;
         }
-    },
+    },*/
     mounted() {
         document.addEventListener('click', this.handleClickOutside);
         this.$el.querySelector('.notification-container').addEventListener('click', this.handleMenuClick);
@@ -89,14 +89,17 @@ export default {
                 //console.log("Message received:", event.data);
                 
                 const message = JSON.parse(event.data);
+                console.log(message);
                 //console.log("Event is:", event);  // Log the type field to identify the message type
                 if(message.type === 'notification.update'){
+                    this.notificationCount = message.count;
                     this.notifications = message.is_read_values.map(
                         (is_read, index) => ({ 
-                            fields: { is_read, is_seen },
+                            fields: { is_read },
                             message: message.messages_values[index]
                             
                         }))
+                    //console.log(this.notifications);
                 }else{
                     console.log("Notification count was not updated!")
                 }
