@@ -8,23 +8,18 @@
                     {{ notificationCount }}
                 </span>
             </a>
-        
-        <!-- Dynamic component to display notifications list -->
-        <component 
-            :is="showNotifications ? 'NotificationsList' : 'div'" 
-            :notifications="notifications" 
-            v-if="notifications.length > 0" 
-            @close="closeNotificationMenu" 
-        />
-        <!-- <a v-if="notifications.length > 20 && showNotifications" @click="showAllNotifications" style="cursor: pointer; color: blue; text-decoration: underline;">See More</a> -->
-    </div>
+            <!-- In Vue.js, the @ symbol is a shorthand for the v-on directive, which is used to listen to events emitted by child components. Whti @mark-as-read="handleMarkAsRead", we are listening for an event named mark-as-read emitted by the child component and then call the handleMarkAsRead method defined in the parent component when that event is triggered. -->
+            <component 
+                :is="showNotifications ? 'NotificationsList' : 'div'" 
+                :notifications="notifications" 
+                v-if="notifications.length > 0" 
+                @close="closeNotificationMenu" 
+                @mark-as-read="handleMarkAsRead"
+            />
+        </div>
     </div>
 </template>
-<style>
-
-</style>
 <script>
-//import Axios from 'axios';
 import NotificationsList from './NotificationList.vue';
 export default {
     data() {
@@ -34,12 +29,6 @@ export default {
             showNotifications: false, // Flag to toggle showing notifications list
         };
     },
-    /*computed: {
-        notificationCount() {
-        // Calculate the notification count based on the current state of notifications
-        return this.notifications.filter(notification => !notification.fields.is_seen).length;
-        }
-    },*/
     mounted() {
         document.addEventListener('click', this.handleClickOutside);
         this.$el.querySelector('.notification-container').addEventListener('click', this.handleMenuClick);
@@ -58,7 +47,6 @@ export default {
                     "type": "mark.all.unseen"
                 }));
             }
-
         },
         closeNotificationMenu() {
             this.showNotifications = false; // Hide the notifications list
@@ -71,10 +59,8 @@ export default {
         handleMenuClick(event) {
             event.stopPropagation(); // Prevent the click event from bubbling up
         },
-        handleNotificationClick(notification) {
-            notification.is_read = true; // Mark the notification as read
-            // Emit an event to notify the parent component about the notification being read
-            this.$emit('notification-read', notification);
+        handleMarkAsRead(event){
+            console.log("Event mark-as-read triggered: " + event);
         },
 
         async establishWebSocketConnection() {

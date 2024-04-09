@@ -5,8 +5,7 @@
       <ul>
         <li v-for="(notification, index) in notifications.slice(0, 10)" :key="index">
           <div :class="{ 'notification': true, 'bold': !notification.is_read }">
-            {{ notification.message }}
-            
+            <div @mouseover="handleMouseOver" @mouseleave="handleMouseLeave" @click="markAsRead">{{ notification.message }}</div>
           </div>
         </li>
       </ul>
@@ -43,7 +42,7 @@
             event.stopPropagation(); // Prevent the click event from bubbling up
         },
         markAsRead(notification) {
-            notification.is_read = true;
+          this.$emit('mark-as-read', notification); // Emit an event to notify the parent component
         },
         handleClickOutside(event) {
           if (!this.$el.contains(event.target)) {
@@ -51,6 +50,14 @@
             this.showMoreLink = false;
           }
         },
+        handleMouseOver(event) {
+          event.target.closest('li').querySelector('.notification').classList.add('hovered');
+          event.target.closest('li').querySelector('.notification').style.cursor = 'pointer';
+        },
+        handleMouseLeave(event) {
+          event.target.closest('li').querySelector('.notification').classList.remove('hovered');
+          event.target.closest('li').querySelector('.notification').style.cursor = 'default';
+        }
     },
   };
   </script>
@@ -71,7 +78,7 @@
       border: 1px solid #ccc;
       border-radius: 5px;
       margin:0;padding:0;
-      background-color: #f9f9f9;
+      background-color: #FBFBFB;
   }
 
   .see-more-link {
@@ -85,12 +92,18 @@
   }
 
   .notifications-list li {
-      margin-bottom: 5px;
+      margin: 5px 5px 5px 5px;
       padding: 5px;
       background-color: #fff;
-      border: 1px solid #e1e1e1;
+      border: 1px solid #e5e5e5;
       border-radius: 3px;
   }
+
+  .notification.hovered {
+    /*background-color: */
+    background-color:#f5f5f5;
+  }
+
   .bold {
     font-weight: bold;
   }

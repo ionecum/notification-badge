@@ -10751,3 +10751,10 @@ HTTP 200 response started for ['127.0.0.1', 57537]
 HTTP close for ['127.0.0.1', 57537]
 HTTP response complete for ['127.0.0.1', 57537]
 [mHTTP GET /admin/jsi18n/ 200 [0.01, 127.0.0.1:57537][0m
+Using selector: SelectSelector
+Using selector: SelectSelector
+Watching for file changes with StatReloader
+This is a test error log.
+HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+Configuring endpoint tcp:port=8000:interface=127.0.0.1
+Listening on TCP address 127.0.0.1:8000
