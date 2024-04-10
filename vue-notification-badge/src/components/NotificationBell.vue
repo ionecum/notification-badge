@@ -48,9 +48,18 @@ export default {
                 }));
             }
         },
+        /* This method is called when the user clicks on a single notification to mark it as read */
+        handleMarkAsRead(id){
+            //console.log("The notification id is "+id);
+            this.webSocket.send(JSON.stringify({
+                "type": "mark.one.read",
+                "id":id
+            }));
+        },
         closeNotificationMenu() {
             this.showNotifications = false; // Hide the notifications list
         },
+        /* The notification list must close when the user clicks outside it */
         handleClickOutside(event) {
             if (!this.$el.contains(event.target)) {
                 this.showNotifications = false;
@@ -58,9 +67,6 @@ export default {
         },
         handleMenuClick(event) {
             event.stopPropagation(); // Prevent the click event from bubbling up
-        },
-        handleMarkAsRead(event){
-            console.log("Event mark-as-read triggered: " + event);
         },
 
         async establishWebSocketConnection() {
@@ -76,15 +82,14 @@ export default {
                 
                 const message = JSON.parse(event.data);
                 console.log(message);
-                //console.log("Event is:", event);  // Log the type field to identify the message type
+                
                 if(message.type === 'notification.update'){
                     this.notificationCount = message.count;
-                    this.notifications = message.is_read_values.map(
-                        (is_read, index) => ({ 
-                            fields: { is_read },
-                            message: message.messages_values[index]
-                            
-                        }))
+                    this.notifications = message.notifications.map(notification => ({
+                        id: notification.id,
+                        is_read: notification.is_read,
+                        message: notification.message
+                    }));
                     //console.log(this.notifications);
                 }else{
                     console.log("Notification count was not updated!")

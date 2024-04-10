@@ -5,14 +5,13 @@
       <ul>
         <li v-for="(notification, index) in notifications.slice(0, 10)" :key="index">
           <div :class="{ 'notification': true, 'bold': !notification.is_read }">
-            <div @mouseover="handleMouseOver" @mouseleave="handleMouseLeave" @click="markAsRead">{{ notification.message }}</div>
+            <div @mouseover="handleMouseOver" @mouseleave="handleMouseLeave" @click="markAsRead(notification.id)">{{ notification.message }}</div>
           </div>
         </li>
       </ul>
       <div v-if="notifications.length > 10" class="see-more-link">
             <a href="#" @click="showAllNotifications">See More</a>
       </div>
-      
     </div>
   </div>
   </template>
@@ -41,8 +40,9 @@
         handleMenuClick(event) {
             event.stopPropagation(); // Prevent the click event from bubbling up
         },
-        markAsRead(notification) {
-          this.$emit('mark-as-read', notification); // Emit an event to notify the parent component
+        markAsRead(notification_id) {
+          //console.log("The notification id from the child is "+notification_id)
+          this.$emit('mark-as-read', notification_id); // Emit an event to notify the parent component
         },
         handleClickOutside(event) {
           if (!this.$el.contains(event.target)) {
