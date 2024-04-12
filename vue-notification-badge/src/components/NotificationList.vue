@@ -1,11 +1,11 @@
 <template>
   <div class="notifications-wrapper" @click="handleMenuClick">
     <div class="notifications-list">
-      <a href="#">Mark All as Read</a>
+      <a href="#" @click="markAllRead">Mark All as Read</a>
       <ul>
         <li v-for="(notification, index) in notifications.slice(0, 10)" :key="index">
           <div :class="{ 'notification': true, 'bold': !notification.is_read }">
-            <div @mouseover="handleMouseOver" @mouseleave="handleMouseLeave" @click="markAsRead(notification.id)">{{ notification.message }}</div>
+            <div @mouseover="handleMouseOver" @mouseleave="handleMouseLeave" @click="markAsRead(notification)">{{ notification.message }}</div>
           </div>
         </li>
       </ul>
@@ -33,16 +33,30 @@
     },
     methods: {
         showAllNotifications() {
-            // Show all notifications when 'See More' is clicked
-            this.visibleNotifications = this.notifications;
-            this.showMoreLink = false; // Hide 'See More' link after displaying all notifications
+            // To be implemented
         },
         handleMenuClick(event) {
             event.stopPropagation(); // Prevent the click event from bubbling up
         },
-        markAsRead(notification_id) {
-          //console.log("The notification id from the child is "+notification_id)
-          this.$emit('mark-as-read', notification_id); // Emit an event to notify the parent component
+        markAllRead(){
+          if(this.areAnyUnread()){
+            console.log("There are unread notifications.")
+            this.$emit('mark-all-read');
+          }else{
+            console.log("All the notifications are already read.")
+          }
+        },
+        areAnyUnread(){
+          // Check if there is at least one notification with is_read = false
+          /*It returns true if at least one notification has is_read set to false, indicating that there are unread notifications.*/
+          return this.notifications.some(notification => !notification.is_read);
+        },
+        markAsRead(notification) {
+          /* Only send the action if the notification is set to unread */
+          if (!notification.is_read) {
+            //console.log("The notification id from the child is "+notification.id)
+            this.$emit('mark-as-read', notification.id); // Emit an event to notify the parent component
+          }
         },
         handleClickOutside(event) {
           if (!this.$el.contains(event.target)) {

@@ -30,18 +30,29 @@ class NotificationConsumer(AsyncWebsocketConsumer):
                 notification.is_seen = True
                 #print(f"notificaiton {notification.id}  will be marked as seen")
             if kind == "unread":
-                print(f"notificaiton {notification.id}  will be marked as read")
+                #print(f"notificaiton {notification.id}  will be marked as read")
+                notification.is_read = True
             notification.save()
             #print(f"notification is seen is {notification.is_seen}")
-        
+
 
     """
     This will mark just one notification as a read. The seen status is not supported in this case because
     it is not needed. 
     """
     @database_sync_to_async
-    def mark_one_db(self):
+    def mark_one_db(self, notification_id):
         NotifyModel = apps.get_model('notifapi', 'NotifyModel')
+        try:
+            notification_to_set = NotifyModel.objects.get(pk=notification_id)
+            notification_to_set.is_read = True
+            notification_to_set.save()
+        except NotifyModel.DoesNotExist:
+            # debug only
+            print("This notification does not exist")
+            return False
+        return True
+        
 
 
     """ 
@@ -55,21 +66,26 @@ class NotificationConsumer(AsyncWebsocketConsumer):
         await self.update_notification_count()
         
     
+    """
+    This will mark all the notifications as read when the user click the link "Mark all as read"
+    """
+    async def mark_all_read(self):
+        await self.mark_all_db("unread")
+        await self.update_notification_count()
+    
+
     async def mark_one_read(self, notification_id):
         print(f"Mark the notification id as read, the id is {notification_id}")
+        await self.mark_one_db(notification_id)
+        await self.update_notification_count()
+        
 
-    
     async def update_notification_count(self, event=None):
         notifications = await self.get_notifications()
         #print(notifications)
         # get notifications where is_seen is set to false
         unseen_values = [notification for notification in notifications if not notification['is_seen']]
-        notification_count = len(unseen_values)
-        #print(f"Unseen notification count is {notification_count}")
-        #is_read_values = [notification['is_read'] for notification in notifications]
-        #messages_values = [notification['message'] for notification in notifications]
-        #ids = [notification['id'] for notification in notifications]
-        
+        notification_count = len(unseen_values)        
         await self.send_notification_update(notification_count, notifications)
     
     
@@ -107,6 +123,8 @@ class NotificationConsumer(AsyncWebsocketConsumer):
                 await self.mark_all_unseen()
             if message_type == 'mark.one.read':
                 await self.mark_one_read(data.get('id'))
+            if message_type == 'mark.all.read':
+                await self.mark_all_read()
             
             await self.update_notification_count()
 

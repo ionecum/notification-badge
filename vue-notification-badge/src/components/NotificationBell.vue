@@ -4,7 +4,7 @@
             <a href="#" class="position-relative" >
                 <i class="fa fa-bell _gray" style="font-size:24px"></i>
                 <span class="my-text btnLnk">Visits</span>
-                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger _reduced">
+                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger _reduced" :class="{ 'hidden': !notificationCount }">
                     {{ notificationCount }}
                 </span>
             </a>
@@ -15,10 +15,23 @@
                 v-if="notifications.length > 0" 
                 @close="closeNotificationMenu" 
                 @mark-as-read="handleMarkAsRead"
+                @mark-all-read="handleMarkAllRead"
             />
         </div>
     </div>
 </template>
+<style>
+    .notification-container {
+        position: relative;
+        display: inline-block;
+    }
+    .my-text {
+        margin-left: 5px; /* Adjust as needed */
+    }
+    .hidden {
+        display: none;
+    }
+</style>
 <script>
 import NotificationsList from './NotificationList.vue';
 export default {
@@ -54,6 +67,13 @@ export default {
             this.webSocket.send(JSON.stringify({
                 "type": "mark.one.read",
                 "id":id
+            }));
+        },
+        handleMarkAllRead(){
+            console.log("time to call the server!");
+            
+            this.webSocket.send(JSON.stringify({
+                "type": "mark.all.read"
             }));
         },
         closeNotificationMenu() {
