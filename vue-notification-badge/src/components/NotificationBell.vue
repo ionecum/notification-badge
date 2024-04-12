@@ -4,27 +4,35 @@
             <a href="#" class="position-relative" >
                 <i class="fa fa-bell _gray" style="font-size:24px"></i>
                 <span class="my-text btnLnk">Visits</span>
-                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger _reduced">
+                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger _reduced" :class="{ 'hidden': !notificationCount }">
                     {{ notificationCount }}
                 </span>
             </a>
-        
-        <!-- Dynamic component to display notifications list -->
-        <component 
-            :is="showNotifications ? 'NotificationsList' : 'div'" 
-            :notifications="notifications" 
-            v-if="notifications.length > 0" 
-            @close="closeNotificationMenu" 
-        />
-        <!-- <a v-if="notifications.length > 20 && showNotifications" @click="showAllNotifications" style="cursor: pointer; color: blue; text-decoration: underline;">See More</a> -->
-    </div>
+            <!-- In Vue.js, the @ symbol is a shorthand for the v-on directive, which is used to listen to events emitted by child components. Whti @mark-as-read="handleMarkAsRead", we are listening for an event named mark-as-read emitted by the child component and then call the handleMarkAsRead method defined in the parent component when that event is triggered. -->
+            <component 
+                :is="showNotifications ? 'NotificationsList' : 'div'" 
+                :notifications="notifications" 
+                v-if="notifications.length > 0" 
+                @close="closeNotificationMenu" 
+                @mark-as-read="handleMarkAsRead"
+                @mark-all-read="handleMarkAllRead"
+            />
+        </div>
     </div>
 </template>
 <style>
-
+    .notification-container {
+        position: relative;
+        display: inline-block;
+    }
+    .my-text {
+        margin-left: 5px; /* Adjust as needed */
+    }
+    .hidden {
+        display: none;
+    }
 </style>
 <script>
-//import Axios from 'axios';
 import NotificationsList from './NotificationList.vue';
 export default {
     data() {
@@ -34,12 +42,6 @@ export default {
             showNotifications: false, // Flag to toggle showing notifications list
         };
     },
-    /*computed: {
-        notificationCount() {
-        // Calculate the notification count based on the current state of notifications
-        return this.notifications.filter(notification => !notification.fields.is_seen).length;
-        }
-    },*/
     mounted() {
         document.addEventListener('click', this.handleClickOutside);
         this.$el.querySelector('.notification-container').addEventListener('click', this.handleMenuClick);
@@ -58,11 +60,26 @@ export default {
                     "type": "mark.all.unseen"
                 }));
             }
-
+        },
+        /* This method is called when the user clicks on a single notification to mark it as read */
+        handleMarkAsRead(id){
+            //console.log("The notification id is "+id);
+            this.webSocket.send(JSON.stringify({
+                "type": "mark.one.read",
+                "id":id
+            }));
+        },
+        handleMarkAllRead(){
+            console.log("time to call the server!");
+            
+            this.webSocket.send(JSON.stringify({
+                "type": "mark.all.read"
+            }));
         },
         closeNotificationMenu() {
             this.showNotifications = false; // Hide the notifications list
         },
+        /* The notification list must close when the user clicks outside it */
         handleClickOutside(event) {
             if (!this.$el.contains(event.target)) {
                 this.showNotifications = false;
@@ -70,11 +87,6 @@ export default {
         },
         handleMenuClick(event) {
             event.stopPropagation(); // Prevent the click event from bubbling up
-        },
-        handleNotificationClick(notification) {
-            notification.is_read = true; // Mark the notification as read
-            // Emit an event to notify the parent component about the notification being read
-            this.$emit('notification-read', notification);
         },
 
         async establishWebSocketConnection() {
@@ -90,15 +102,14 @@ export default {
                 
                 const message = JSON.parse(event.data);
                 console.log(message);
-                //console.log("Event is:", event);  // Log the type field to identify the message type
+                
                 if(message.type === 'notification.update'){
                     this.notificationCount = message.count;
-                    this.notifications = message.is_read_values.map(
-                        (is_read, index) => ({ 
-                            fields: { is_read },
-                            message: message.messages_values[index]
-                            
-                        }))
+                    this.notifications = message.notifications.map(notification => ({
+                        id: notification.id,
+                        is_read: notification.is_read,
+                        message: notification.message
+                    }));
                     //console.log(this.notifications);
                 }else{
                     console.log("Notification count was not updated!")
