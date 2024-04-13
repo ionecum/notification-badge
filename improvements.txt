@@ -1,0 +1,2 @@
+- Modify send_notification_update to receive notifications_data as a parameter and make it re-usable
+- Create a new function, update_notification_list to only deal with the list and not with the counter

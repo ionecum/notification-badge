@@ -14,22 +14,39 @@ class NotificationConsumer(AsyncWebsocketConsumer):
         await self.update_notification_count()
 
     """
-    Unique source to update notifications from database
+    Get a list of notifications from database. kind is a filter allowing to restrict the query
+    to certain type of notification only, for example only visits. So, to get only notifications
+    about visits, just pass 'VISIT' to it, to get only notifications about teases, just pass
+    'TEASE' to it.
     """
     @database_sync_to_async
-    def get_notifications(self):
+    def get_notifications(self,kind=None):
         NotifyModel = apps.get_model('notifapi', 'NotifyModel')
-        return list(NotifyModel.objects.all().order_by('-created_at').values('id','is_read','is_seen','message'))
-    
+        queryset = NotifyModel.objects.all().order_by('-created_at')
+        if kind is not None:
+            queryset = queryset.filter(type=getattr(NotifyModel, kind, None))
+        
+        return list(queryset.values('id','is_read','is_seen','message','type'))
+
+
+    """
+    This functions will mark all the notifications to read or seen, depending of the what
+    parameter. Like the previous function, it also accept a kind to restrict the span of 
+    the action to only one type of notification. For example, pass 'VISIT' to it if you
+    want to mark all the notifications about visits as unread or unseen.
+    """
     @database_sync_to_async
-    def mark_all_db(self, kind):
+    def mark_all_db(self, what, kind=None):
         NotifyModel = apps.get_model('notifapi', 'NotifyModel')
-        notifications = NotifyModel.objects.all()
-        for notification in notifications:
-            if kind == "unseen":
+        queryset = NotifyModel.objects.all()
+        if kind is not None:
+            queryset = queryset.filter(type=getattr(NotifyModel, kind, None))
+
+        for notification in queryset:
+            if what == "unseen":
                 notification.is_seen = True
                 #print(f"notificaiton {notification.id}  will be marked as seen")
-            if kind == "unread":
+            if what == "unread":
                 #print(f"notificaiton {notification.id}  will be marked as read")
                 notification.is_read = True
             notification.save()
@@ -56,12 +73,10 @@ class NotificationConsumer(AsyncWebsocketConsumer):
 
 
     """ 
-    Despite the confusing name, this method marks all the notification as seen, rather than unseen, which is
-    correct. The incorrect name, it's because, at the beginning, this method was toggling the is_seen status
-    for debugging purposes. 
+    Mark all the notifications as seen.
     """
-    async def mark_all_unseen(self):
-        #print("Mark all unseen was called!")
+    async def mark_all_seen(self):
+        # pass an extra parameter, for example 'VISIT' to reduce the action to visits only
         await self.mark_all_db("unseen")
         await self.update_notification_count()
         
@@ -70,37 +85,60 @@ class NotificationConsumer(AsyncWebsocketConsumer):
     This will mark all the notifications as read when the user click the link "Mark all as read"
     """
     async def mark_all_read(self):
+        # pass an extra parameter, for example 'VISIT' to reduce the action to visits only
         await self.mark_all_db("unread")
-        await self.update_notification_count()
+        await self.update_notification_list()
     
 
     async def mark_one_read(self, notification_id):
         print(f"Mark the notification id as read, the id is {notification_id}")
         await self.mark_one_db(notification_id)
-        await self.update_notification_count()
+        await self.update_notification_list()
         
 
+    """
+    This function only updates the list of notification without updating the unseen notifications counter.
+    """
+    async def update_notification_list(self, event=None):
+        notifications = await self.get_notifications()
+        notification_data = [{
+            "id": notification['id'],
+            "is_read": notification['is_read'],
+            "message": notification['message']
+        } for notification in notifications]
+        
+        await self.send(
+            text_data=json.dumps({
+                "type": "notification.update",
+                "notifications": notification_data
+            })
+        )
+
+    """
+    This function updates the notification list and also updates the unseen counter.
+    """
     async def update_notification_count(self, event=None):
+        # pass 'VISIT' to delimit the notifications to visits only for example
         notifications = await self.get_notifications()
         #print(notifications)
         # get notifications where is_seen is set to false
         unseen_values = [notification for notification in notifications if not notification['is_seen']]
-        notification_count = len(unseen_values)        
-        await self.send_notification_update(notification_count, notifications)
-    
-    
-    async def send_notification_update(self, count, notifications):
-        notifications_data = [{
+        notification_count = len(unseen_values)
+        notification_data = [{
             "id": notification['id'],
             "is_read": notification['is_read'],
             "message": notification['message']
         } for notification in notifications]
 
+        await self.send_notification_update(notification_count, notification_data)
+    
+    
+    async def send_notification_update(self, count, notification_data):
         await self.send(
             text_data=json.dumps({
                 "type": "notification.update",
                 "count": count,
-                "notifications": notifications_data
+                "notifications": notification_data
             })
         )
         
@@ -119,8 +157,8 @@ class NotificationConsumer(AsyncWebsocketConsumer):
         except json.JSONDecodeError as e:
             await self.send_error_message("Error decoding JSON: {}".format(e))
         else:
-            if message_type == 'mark.all.unseen':
-                await self.mark_all_unseen()
+            if message_type == 'mark.all.seen':
+                await self.mark_all_seen()
             if message_type == 'mark.one.read':
                 await self.mark_one_read(data.get('id'))
             if message_type == 'mark.all.read':

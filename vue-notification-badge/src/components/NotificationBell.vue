@@ -57,7 +57,7 @@ export default {
             //console.log("Notification count:" + this.notificationCount)
             if(this.notificationCount > 0){
                 this.webSocket.send(JSON.stringify({
-                    "type": "mark.all.unseen"
+                    "type": "mark.all.seen"
                 }));
             }
         },
