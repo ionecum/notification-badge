@@ -26,3 +26,5 @@ This command will display the list of running tasks and services containing "mem
    SET testkey testvalue
    GET testkey
    
+I have run redis-6.0.16 on Turing server for you.
+You can connect it by standard port 127.0.0.1:6379
