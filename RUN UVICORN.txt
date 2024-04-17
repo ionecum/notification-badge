@@ -28,3 +28,10 @@ This command will display the list of running tasks and services containing "mem
    
 I have run redis-6.0.16 on Turing server for you.
 You can connect it by standard port 127.0.0.1:6379
+
+Redis are run and listening default port 127.0.0.1:6379
+CLI located on
+/opt/rh/rh-redis6/root/usr/bin/redis-cli
+
+Best regards,
+Tech support volunteer Volodymyr Petrov
