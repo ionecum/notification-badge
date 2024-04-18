@@ -18265,3 +18265,477 @@ This is a test error log.
 HTTP/2 support not enabled (install the http2 and tls Twisted extras)
 Configuring endpoint tcp:port=8000:interface=127.0.0.1
 Listening on TCP address 127.0.0.1:8000
+Using selector: SelectSelector
+Using selector: SelectSelector
+Watching for file changes with StatReloader
+This is a test error log.
+HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+Configuring endpoint tcp:port=8000:interface=127.0.0.1
+Listening on TCP address 127.0.0.1:8000
+Using selector: SelectSelector
+HTTP b'GET' request for ['127.0.0.1', 58105]
+HTTP 200 response started for ['127.0.0.1', 58105]
+HTTP close for ['127.0.0.1', 58105]
+HTTP response complete for ['127.0.0.1', 58105]
+[mHTTP GET / 200 [0.02, 127.0.0.1:58105][0m
+HTTP b'GET' request for ['127.0.0.1', 58105]
+HTTP 200 response started for ['127.0.0.1', 58105]
+HTTP response chunk for ['127.0.0.1', 58105]
+HTTP response chunk for ['127.0.0.1', 58105]
+HTTP close for ['127.0.0.1', 58105]
+HTTP response complete for ['127.0.0.1', 58105]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.18, 127.0.0.1:58105][0m
+HTTP b'POST' request for ['127.0.0.1', 58116]
+Using selector: SelectSelector
+HTTP 302 response started for ['127.0.0.1', 58116]
+HTTP close for ['127.0.0.1', 58116]
+HTTP response complete for ['127.0.0.1', 58116]
+[32mHTTP POST /admin/notifapi/notifymodel/add/ 302 [0.47, 127.0.0.1:58116][0m
+HTTP b'GET' request for ['127.0.0.1', 58116]
+HTTP 200 response started for ['127.0.0.1', 58116]
+HTTP close for ['127.0.0.1', 58116]
+HTTP response complete for ['127.0.0.1', 58116]
+[mHTTP GET /admin/notifapi/notifymodel/add/ 200 [0.05, 127.0.0.1:58116][0m
+HTTP b'GET' request for ['127.0.0.1', 58116]
+HTTP 200 response started for ['127.0.0.1', 58116]
+HTTP close for ['127.0.0.1', 58116]
+HTTP response complete for ['127.0.0.1', 58116]
+[mHTTP GET /admin/jsi18n/ 200 [0.02, 127.0.0.1:58116][0m
+HTTP b'GET' request for ['127.0.0.1', 58116]
+HTTP 200 response started for ['127.0.0.1', 58116]
+HTTP close for ['127.0.0.1', 58116]
+HTTP response complete for ['127.0.0.1', 58116]
+[mHTTP GET / 200 [0.01, 127.0.0.1:58116][0m
+HTTP b'GET' request for ['127.0.0.1', 58116]
+HTTP 304 response started for ['127.0.0.1', 58116]
+HTTP close for ['127.0.0.1', 58116]
+HTTP response complete for ['127.0.0.1', 58116]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 304 [0.00, 127.0.0.1:58116][0m
+HTTP b'POST' request for ['127.0.0.1', 58116]
+Using selector: SelectSelector
+HTTP 302 response started for ['127.0.0.1', 58116]
+HTTP close for ['127.0.0.1', 58116]
+HTTP response complete for ['127.0.0.1', 58116]
+[32mHTTP POST /admin/notifapi/notifymodel/add/ 302 [0.10, 127.0.0.1:58116][0m
+HTTP b'GET' request for ['127.0.0.1', 58116]
+HTTP 200 response started for ['127.0.0.1', 58116]
+HTTP close for ['127.0.0.1', 58116]
+HTTP response complete for ['127.0.0.1', 58116]
+[mHTTP GET /admin/notifapi/notifymodel/add/ 200 [0.02, 127.0.0.1:58116][0m
+HTTP b'GET' request for ['127.0.0.1', 58116]
+HTTP 200 response started for ['127.0.0.1', 58116]
+HTTP close for ['127.0.0.1', 58116]
+HTTP response complete for ['127.0.0.1', 58116]
+[mHTTP GET /admin/jsi18n/ 200 [0.01, 127.0.0.1:58116][0m
+HTTP b'GET' request for ['127.0.0.1', 58116]
+HTTP 200 response started for ['127.0.0.1', 58116]
+HTTP close for ['127.0.0.1', 58116]
+HTTP response complete for ['127.0.0.1', 58116]
+[mHTTP GET / 200 [0.01, 127.0.0.1:58116][0m
+HTTP b'GET' request for ['127.0.0.1', 58116]
+HTTP 304 response started for ['127.0.0.1', 58116]
+HTTP close for ['127.0.0.1', 58116]
+HTTP response complete for ['127.0.0.1', 58116]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 304 [0.00, 127.0.0.1:58116][0m
+HTTP b'POST' request for ['127.0.0.1', 58116]
+Using selector: SelectSelector
+HTTP 302 response started for ['127.0.0.1', 58116]
+HTTP close for ['127.0.0.1', 58116]
+HTTP response complete for ['127.0.0.1', 58116]
+[32mHTTP POST /admin/notifapi/notifymodel/add/ 302 [0.10, 127.0.0.1:58116][0m
+HTTP b'GET' request for ['127.0.0.1', 58116]
+HTTP 200 response started for ['127.0.0.1', 58116]
+HTTP close for ['127.0.0.1', 58116]
+HTTP response complete for ['127.0.0.1', 58116]
+[mHTTP GET /admin/notifapi/notifymodel/add/ 200 [0.02, 127.0.0.1:58116][0m
+HTTP b'GET' request for ['127.0.0.1', 58116]
+HTTP 200 response started for ['127.0.0.1', 58116]
+HTTP close for ['127.0.0.1', 58116]
+HTTP response complete for ['127.0.0.1', 58116]
+[mHTTP GET /admin/jsi18n/ 200 [0.01, 127.0.0.1:58116][0m
+HTTP b'GET' request for ['127.0.0.1', 58116]
+HTTP 200 response started for ['127.0.0.1', 58116]
+HTTP close for ['127.0.0.1', 58116]
+HTTP response complete for ['127.0.0.1', 58116]
+[mHTTP GET / 200 [0.01, 127.0.0.1:58116][0m
+HTTP b'GET' request for ['127.0.0.1', 58116]
+HTTP 304 response started for ['127.0.0.1', 58116]
+HTTP close for ['127.0.0.1', 58116]
+HTTP response complete for ['127.0.0.1', 58116]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 304 [0.00, 127.0.0.1:58116][0m
+D:\pages_perso\Websites\Practices\python\django\notifications-badge\myproj\notifapi\consumers.py changed, reloading.
+Using selector: SelectSelector
+Watching for file changes with StatReloader
+This is a test error log.
+HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+Configuring endpoint tcp:port=8000:interface=127.0.0.1
+Listening on TCP address 127.0.0.1:8000
+Using selector: SelectSelector
+HTTP b'GET' request for ['127.0.0.1', 58184]
+HTTP 200 response started for ['127.0.0.1', 58184]
+HTTP close for ['127.0.0.1', 58184]
+HTTP response complete for ['127.0.0.1', 58184]
+[mHTTP GET / 200 [0.01, 127.0.0.1:58184][0m
+HTTP b'GET' request for ['127.0.0.1', 58184]
+HTTP 304 response started for ['127.0.0.1', 58184]
+HTTP close for ['127.0.0.1', 58184]
+HTTP response complete for ['127.0.0.1', 58184]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 304 [0.01, 127.0.0.1:58184][0m
+D:\pages_perso\Websites\Practices\python\django\notifications-badge\myproj\notifapi\consumers.py changed, reloading.
+Using selector: SelectSelector
+Watching for file changes with StatReloader
+This is a test error log.
+HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+Configuring endpoint tcp:port=8000:interface=127.0.0.1
+Listening on TCP address 127.0.0.1:8000
+Using selector: SelectSelector
+HTTP b'GET' request for ['127.0.0.1', 58213]
+HTTP 200 response started for ['127.0.0.1', 58213]
+HTTP close for ['127.0.0.1', 58213]
+HTTP response complete for ['127.0.0.1', 58213]
+[mHTTP GET / 200 [0.01, 127.0.0.1:58213][0m
+HTTP b'GET' request for ['127.0.0.1', 58213]
+HTTP 304 response started for ['127.0.0.1', 58213]
+HTTP close for ['127.0.0.1', 58213]
+HTTP response complete for ['127.0.0.1', 58213]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 304 [0.01, 127.0.0.1:58213][0m
+HTTP b'POST' request for ['127.0.0.1', 58213]
+Using selector: SelectSelector
+HTTP 302 response started for ['127.0.0.1', 58213]
+HTTP close for ['127.0.0.1', 58213]
+HTTP response complete for ['127.0.0.1', 58213]
+[32mHTTP POST /admin/notifapi/notifymodel/add/ 302 [0.14, 127.0.0.1:58213][0m
+HTTP b'GET' request for ['127.0.0.1', 58213]
+HTTP 200 response started for ['127.0.0.1', 58213]
+HTTP close for ['127.0.0.1', 58213]
+HTTP response complete for ['127.0.0.1', 58213]
+[mHTTP GET /admin/notifapi/notifymodel/add/ 200 [0.07, 127.0.0.1:58213][0m
+HTTP b'GET' request for ['127.0.0.1', 58213]
+HTTP 200 response started for ['127.0.0.1', 58213]
+HTTP close for ['127.0.0.1', 58213]
+HTTP response complete for ['127.0.0.1', 58213]
+[mHTTP GET /admin/jsi18n/ 200 [0.02, 127.0.0.1:58213][0m
+D:\pages_perso\Websites\Practices\python\django\notifications-badge\myproj\notifapi\consumers.py changed, reloading.
+Using selector: SelectSelector
+Watching for file changes with StatReloader
+This is a test error log.
+HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+Configuring endpoint tcp:port=8000:interface=127.0.0.1
+Listening on TCP address 127.0.0.1:8000
+Using selector: SelectSelector
+HTTP b'GET' request for ['127.0.0.1', 58253]
+HTTP 200 response started for ['127.0.0.1', 58253]
+HTTP close for ['127.0.0.1', 58253]
+HTTP response complete for ['127.0.0.1', 58253]
+[mHTTP GET / 200 [0.01, 127.0.0.1:58253][0m
+HTTP b'GET' request for ['127.0.0.1', 58253]
+HTTP 304 response started for ['127.0.0.1', 58253]
+HTTP close for ['127.0.0.1', 58253]
+HTTP response complete for ['127.0.0.1', 58253]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 304 [0.00, 127.0.0.1:58253][0m
+HTTP b'POST' request for ['127.0.0.1', 58253]
+Using selector: SelectSelector
+HTTP 302 response started for ['127.0.0.1', 58253]
+HTTP close for ['127.0.0.1', 58253]
+HTTP response complete for ['127.0.0.1', 58253]
+[32mHTTP POST /admin/notifapi/notifymodel/add/ 302 [0.14, 127.0.0.1:58253][0m
+HTTP b'GET' request for ['127.0.0.1', 58253]
+HTTP 200 response started for ['127.0.0.1', 58253]
+HTTP close for ['127.0.0.1', 58253]
+HTTP response complete for ['127.0.0.1', 58253]
+[mHTTP GET /admin/notifapi/notifymodel/add/ 200 [0.07, 127.0.0.1:58253][0m
+HTTP b'GET' request for ['127.0.0.1', 58253]
+HTTP 200 response started for ['127.0.0.1', 58253]
+HTTP close for ['127.0.0.1', 58253]
+HTTP response complete for ['127.0.0.1', 58253]
+[mHTTP GET /admin/jsi18n/ 200 [0.01, 127.0.0.1:58253][0m
+HTTP b'GET' request for ['127.0.0.1', 58268]
+HTTP 200 response started for ['127.0.0.1', 58268]
+HTTP close for ['127.0.0.1', 58268]
+HTTP response complete for ['127.0.0.1', 58268]
+[mHTTP GET / 200 [0.01, 127.0.0.1:58268][0m
+HTTP b'GET' request for ['127.0.0.1', 58268]
+HTTP b'GET' request for ['127.0.0.1', 58272]
+HTTP 304 response started for ['127.0.0.1', 58272]
+HTTP close for ['127.0.0.1', 58272]
+HTTP response complete for ['127.0.0.1', 58272]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 304 [0.00, 127.0.0.1:58272][0m
+HTTP 200 response started for ['127.0.0.1', 58268]
+HTTP response chunk for ['127.0.0.1', 58268]
+HTTP response chunk for ['127.0.0.1', 58268]
+HTTP response chunk for ['127.0.0.1', 58268]
+HTTP response chunk for ['127.0.0.1', 58268]
+HTTP response chunk for ['127.0.0.1', 58268]
+HTTP response chunk for ['127.0.0.1', 58268]
+HTTP response chunk for ['127.0.0.1', 58268]
+HTTP response chunk for ['127.0.0.1', 58268]
+HTTP response chunk for ['127.0.0.1', 58268]
+HTTP response chunk for ['127.0.0.1', 58268]
+HTTP response chunk for ['127.0.0.1', 58268]
+HTTP response chunk for ['127.0.0.1', 58268]
+HTTP response chunk for ['127.0.0.1', 58268]
+HTTP response chunk for ['127.0.0.1', 58268]
+HTTP response chunk for ['127.0.0.1', 58268]
+HTTP response chunk for ['127.0.0.1', 58268]
+HTTP response chunk for ['127.0.0.1', 58268]
+HTTP response chunk for ['127.0.0.1', 58268]
+HTTP response chunk for ['127.0.0.1', 58268]
+HTTP response chunk for ['127.0.0.1', 58268]
+HTTP response chunk for ['127.0.0.1', 58268]
+HTTP response chunk for ['127.0.0.1', 58268]
+HTTP response chunk for ['127.0.0.1', 58268]
+HTTP response chunk for ['127.0.0.1', 58268]
+HTTP response chunk for ['127.0.0.1', 58268]
+HTTP response chunk for ['127.0.0.1', 58268]
+HTTP response chunk for ['127.0.0.1', 58268]
+HTTP response chunk for ['127.0.0.1', 58268]
+HTTP response chunk for ['127.0.0.1', 58268]
+HTTP response chunk for ['127.0.0.1', 58268]
+HTTP response chunk for ['127.0.0.1', 58268]
+HTTP response chunk for ['127.0.0.1', 58268]
+HTTP response chunk for ['127.0.0.1', 58268]
+HTTP response chunk for ['127.0.0.1', 58268]
+HTTP response chunk for ['127.0.0.1', 58268]
+HTTP close for ['127.0.0.1', 58268]
+HTTP response complete for ['127.0.0.1', 58268]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 200 [0.18, 127.0.0.1:58268][0m
+HTTP b'GET' request for ['127.0.0.1', 58268]
+HTTP 200 response started for ['127.0.0.1', 58268]
+HTTP close for ['127.0.0.1', 58268]
+HTTP response complete for ['127.0.0.1', 58268]
+[mHTTP GET / 200 [0.01, 127.0.0.1:58268][0m
+HTTP b'POST' request for ['127.0.0.1', 58268]
+Using selector: SelectSelector
+HTTP 302 response started for ['127.0.0.1', 58268]
+HTTP close for ['127.0.0.1', 58268]
+HTTP response complete for ['127.0.0.1', 58268]
+[32mHTTP POST /admin/notifapi/notifymodel/add/ 302 [0.09, 127.0.0.1:58268][0m
+HTTP b'GET' request for ['127.0.0.1', 58268]
+HTTP 200 response started for ['127.0.0.1', 58268]
+HTTP close for ['127.0.0.1', 58268]
+HTTP response complete for ['127.0.0.1', 58268]
+[mHTTP GET /admin/notifapi/notifymodel/add/ 200 [0.02, 127.0.0.1:58268][0m
+HTTP b'GET' request for ['127.0.0.1', 58272]
+HTTP 200 response started for ['127.0.0.1', 58272]
+HTTP close for ['127.0.0.1', 58272]
+HTTP response complete for ['127.0.0.1', 58272]
+[mHTTP GET /admin/jsi18n/ 200 [0.01, 127.0.0.1:58272][0m
+HTTP b'GET' request for ['127.0.0.1', 58268]
+HTTP 200 response started for ['127.0.0.1', 58268]
+HTTP close for ['127.0.0.1', 58268]
+HTTP response complete for ['127.0.0.1', 58268]
+[mHTTP GET / 200 [0.01, 127.0.0.1:58268][0m
+HTTP b'GET' request for ['127.0.0.1', 58300]
+HTTP 200 response started for ['127.0.0.1', 58300]
+HTTP close for ['127.0.0.1', 58300]
+HTTP response complete for ['127.0.0.1', 58300]
+[mHTTP GET / 200 [0.01, 127.0.0.1:58300][0m
+HTTP b'GET' request for ['127.0.0.1', 58300]
+HTTP b'GET' request for ['127.0.0.1', 58301]
+HTTP 304 response started for ['127.0.0.1', 58300]
+HTTP close for ['127.0.0.1', 58300]
+HTTP response complete for ['127.0.0.1', 58300]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 304 [0.01, 127.0.0.1:58300][0m
+HTTP 304 response started for ['127.0.0.1', 58301]
+HTTP close for ['127.0.0.1', 58301]
+HTTP response complete for ['127.0.0.1', 58301]
+[36mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 304 [0.01, 127.0.0.1:58301][0m
+HTTP b'GET' request for ['127.0.0.1', 58311]
+HTTP 200 response started for ['127.0.0.1', 58311]
+HTTP close for ['127.0.0.1', 58311]
+HTTP response complete for ['127.0.0.1', 58311]
+[mHTTP GET / 200 [0.01, 127.0.0.1:58311][0m
+HTTP b'GET' request for ['127.0.0.1', 58311]
+HTTP 200 response started for ['127.0.0.1', 58311]
+HTTP close for ['127.0.0.1', 58311]
+HTTP response complete for ['127.0.0.1', 58311]
+[mHTTP GET / 200 [0.01, 127.0.0.1:58311][0m
+HTTP b'GET' request for ['127.0.0.1', 58311]
+HTTP 200 response started for ['127.0.0.1', 58311]
+HTTP close for ['127.0.0.1', 58311]
+HTTP response complete for ['127.0.0.1', 58311]
+[mHTTP GET / 200 [0.01, 127.0.0.1:58311][0m
+HTTP b'GET' request for ['127.0.0.1', 58311]
+HTTP 200 response started for ['127.0.0.1', 58311]
+HTTP close for ['127.0.0.1', 58311]
+HTTP response complete for ['127.0.0.1', 58311]
+[mHTTP GET / 200 [0.01, 127.0.0.1:58311][0m
+HTTP b'GET' request for ['127.0.0.1', 58311]
+HTTP 200 response started for ['127.0.0.1', 58311]
+HTTP close for ['127.0.0.1', 58311]
+HTTP response complete for ['127.0.0.1', 58311]
+[mHTTP GET / 200 [0.01, 127.0.0.1:58311][0m
+HTTP b'GET' request for ['127.0.0.1', 58311]
+HTTP 200 response started for ['127.0.0.1', 58311]
+HTTP close for ['127.0.0.1', 58311]
+HTTP response complete for ['127.0.0.1', 58311]
+[mHTTP GET / 200 [0.01, 127.0.0.1:58311][0m
+HTTP b'GET' request for ['127.0.0.1', 58311]
+HTTP 200 response started for ['127.0.0.1', 58311]
+HTTP close for ['127.0.0.1', 58311]
+HTTP response complete for ['127.0.0.1', 58311]
+[mHTTP GET / 200 [0.01, 127.0.0.1:58311][0m
+HTTP b'GET' request for ['127.0.0.1', 58311]
+HTTP 200 response started for ['127.0.0.1', 58311]
+HTTP close for ['127.0.0.1', 58311]
+HTTP response complete for ['127.0.0.1', 58311]
+[mHTTP GET / 200 [0.01, 127.0.0.1:58311][0m
+HTTP b'GET' request for ['127.0.0.1', 58311]
+HTTP 200 response started for ['127.0.0.1', 58311]
+HTTP close for ['127.0.0.1', 58311]
+HTTP response complete for ['127.0.0.1', 58311]
+[mHTTP GET / 200 [0.01, 127.0.0.1:58311][0m
+HTTP b'GET' request for ['127.0.0.1', 58311]
+HTTP 200 response started for ['127.0.0.1', 58311]
+HTTP close for ['127.0.0.1', 58311]
+HTTP response complete for ['127.0.0.1', 58311]
+[mHTTP GET / 200 [0.01, 127.0.0.1:58311][0m
+HTTP b'GET' request for ['127.0.0.1', 58311]
+HTTP 200 response started for ['127.0.0.1', 58311]
+HTTP close for ['127.0.0.1', 58311]
+HTTP response complete for ['127.0.0.1', 58311]
+[mHTTP GET / 200 [0.01, 127.0.0.1:58311][0m
+HTTP b'GET' request for ['127.0.0.1', 58311]
+HTTP 200 response started for ['127.0.0.1', 58311]
+HTTP close for ['127.0.0.1', 58311]
+HTTP response complete for ['127.0.0.1', 58311]
+[mHTTP GET / 200 [0.01, 127.0.0.1:58311][0m
+HTTP b'GET' request for ['127.0.0.1', 58311]
+HTTP 200 response started for ['127.0.0.1', 58311]
+HTTP close for ['127.0.0.1', 58311]
+HTTP response complete for ['127.0.0.1', 58311]
+[mHTTP GET / 200 [0.01, 127.0.0.1:58311][0m
+HTTP b'GET' request for ['127.0.0.1', 58311]
+HTTP 200 response started for ['127.0.0.1', 58311]
+HTTP close for ['127.0.0.1', 58311]
+HTTP response complete for ['127.0.0.1', 58311]
+[mHTTP GET / 200 [0.01, 127.0.0.1:58311][0m
+HTTP b'GET' request for ['127.0.0.1', 58311]
+HTTP 200 response started for ['127.0.0.1', 58311]
+HTTP close for ['127.0.0.1', 58311]
+HTTP response complete for ['127.0.0.1', 58311]
+[mHTTP GET / 200 [0.01, 127.0.0.1:58311][0m
+HTTP b'GET' request for ['127.0.0.1', 58311]
+HTTP 200 response started for ['127.0.0.1', 58311]
+HTTP close for ['127.0.0.1', 58311]
+HTTP response complete for ['127.0.0.1', 58311]
+[mHTTP GET / 200 [0.01, 127.0.0.1:58311][0m
+HTTP b'GET' request for ['127.0.0.1', 58311]
+HTTP 200 response started for ['127.0.0.1', 58311]
+HTTP close for ['127.0.0.1', 58311]
+HTTP response complete for ['127.0.0.1', 58311]
+[mHTTP GET / 200 [0.01, 127.0.0.1:58311][0m
+HTTP b'GET' request for ['127.0.0.1', 58311]
+HTTP 200 response started for ['127.0.0.1', 58311]
+HTTP close for ['127.0.0.1', 58311]
+HTTP response complete for ['127.0.0.1', 58311]
+[mHTTP GET / 200 [0.01, 127.0.0.1:58311][0m
+HTTP b'GET' request for ['127.0.0.1', 58311]
+HTTP 200 response started for ['127.0.0.1', 58311]
+HTTP close for ['127.0.0.1', 58311]
+HTTP response complete for ['127.0.0.1', 58311]
+[mHTTP GET / 200 [0.01, 127.0.0.1:58311][0m
+HTTP b'GET' request for ['127.0.0.1', 58311]
+HTTP 200 response started for ['127.0.0.1', 58311]
+HTTP close for ['127.0.0.1', 58311]
+HTTP response complete for ['127.0.0.1', 58311]
+[mHTTP GET / 200 [0.01, 127.0.0.1:58311][0m
+HTTP b'GET' request for ['127.0.0.1', 58311]
+HTTP 200 response started for ['127.0.0.1', 58311]
+HTTP close for ['127.0.0.1', 58311]
+HTTP response complete for ['127.0.0.1', 58311]
+[mHTTP GET / 200 [0.01, 127.0.0.1:58311][0m
+HTTP b'GET' request for ['127.0.0.1', 58311]
+HTTP 200 response started for ['127.0.0.1', 58311]
+HTTP close for ['127.0.0.1', 58311]
+HTTP response complete for ['127.0.0.1', 58311]
+[mHTTP GET / 200 [0.01, 127.0.0.1:58311][0m
+HTTP b'GET' request for ['127.0.0.1', 58311]
+HTTP 200 response started for ['127.0.0.1', 58311]
+HTTP close for ['127.0.0.1', 58311]
+HTTP response complete for ['127.0.0.1', 58311]
+[mHTTP GET / 200 [0.01, 127.0.0.1:58311][0m
+HTTP b'GET' request for ['127.0.0.1', 58311]
+HTTP 200 response started for ['127.0.0.1', 58311]
+HTTP close for ['127.0.0.1', 58311]
+HTTP response complete for ['127.0.0.1', 58311]
+[mHTTP GET / 200 [0.01, 127.0.0.1:58311][0m
+HTTP b'GET' request for ['127.0.0.1', 58311]
+HTTP 200 response started for ['127.0.0.1', 58311]
+HTTP close for ['127.0.0.1', 58311]
+HTTP response complete for ['127.0.0.1', 58311]
+[mHTTP GET / 200 [0.01, 127.0.0.1:58311][0m
+HTTP b'GET' request for ['127.0.0.1', 58311]
+HTTP 200 response started for ['127.0.0.1', 58311]
+HTTP close for ['127.0.0.1', 58311]
+HTTP response complete for ['127.0.0.1', 58311]
+[mHTTP GET / 200 [0.01, 127.0.0.1:58311][0m
+HTTP b'GET' request for ['127.0.0.1', 58311]
+HTTP 200 response started for ['127.0.0.1', 58311]
+HTTP close for ['127.0.0.1', 58311]
+HTTP response complete for ['127.0.0.1', 58311]
+[mHTTP GET / 200 [0.01, 127.0.0.1:58311][0m
+HTTP b'GET' request for ['127.0.0.1', 58395]
+HTTP 200 response started for ['127.0.0.1', 58395]
+HTTP close for ['127.0.0.1', 58395]
+HTTP response complete for ['127.0.0.1', 58395]
+[mHTTP GET / 200 [0.01, 127.0.0.1:58395][0m
+HTTP b'GET' request for ['127.0.0.1', 58395]
+HTTP b'GET' request for ['127.0.0.1', 58396]
+HTTP b'GET' request for ['127.0.0.1', 58397]
+HTTP 200 response started for ['127.0.0.1', 58395]
+HTTP response chunk for ['127.0.0.1', 58395]
+HTTP close for ['127.0.0.1', 58395]
+HTTP response complete for ['127.0.0.1', 58395]
+[mHTTP GET /static/css/style.css 200 [0.01, 127.0.0.1:58395][0m
+HTTP 200 response started for ['127.0.0.1', 58396]
+HTTP 200 response started for ['127.0.0.1', 58397]
+HTTP response chunk for ['127.0.0.1', 58397]
+HTTP response chunk for ['127.0.0.1', 58397]
+HTTP close for ['127.0.0.1', 58397]
+HTTP response complete for ['127.0.0.1', 58397]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/app.js 200 [0.01, 127.0.0.1:58397][0m
+HTTP response chunk for ['127.0.0.1', 58396]
+HTTP response chunk for ['127.0.0.1', 58396]
+HTTP response chunk for ['127.0.0.1', 58396]
+HTTP response chunk for ['127.0.0.1', 58396]
+HTTP response chunk for ['127.0.0.1', 58396]
+HTTP response chunk for ['127.0.0.1', 58396]
+HTTP response chunk for ['127.0.0.1', 58396]
+HTTP response chunk for ['127.0.0.1', 58396]
+HTTP response chunk for ['127.0.0.1', 58396]
+HTTP response chunk for ['127.0.0.1', 58396]
+HTTP response chunk for ['127.0.0.1', 58396]
+HTTP response chunk for ['127.0.0.1', 58396]
+HTTP response chunk for ['127.0.0.1', 58396]
+HTTP response chunk for ['127.0.0.1', 58396]
+HTTP response chunk for ['127.0.0.1', 58396]
+HTTP response chunk for ['127.0.0.1', 58396]
+HTTP response chunk for ['127.0.0.1', 58396]
+HTTP response chunk for ['127.0.0.1', 58396]
+HTTP response chunk for ['127.0.0.1', 58396]
+HTTP response chunk for ['127.0.0.1', 58396]
+HTTP response chunk for ['127.0.0.1', 58396]
+HTTP response chunk for ['127.0.0.1', 58396]
+HTTP response chunk for ['127.0.0.1', 58396]
+HTTP response chunk for ['127.0.0.1', 58396]
+HTTP response chunk for ['127.0.0.1', 58396]
+HTTP response chunk for ['127.0.0.1', 58396]
+HTTP response chunk for ['127.0.0.1', 58396]
+HTTP response chunk for ['127.0.0.1', 58396]
+HTTP response chunk for ['127.0.0.1', 58396]
+HTTP response chunk for ['127.0.0.1', 58396]
+HTTP response chunk for ['127.0.0.1', 58396]
+HTTP response chunk for ['127.0.0.1', 58396]
+HTTP response chunk for ['127.0.0.1', 58396]
+HTTP response chunk for ['127.0.0.1', 58396]
+HTTP response chunk for ['127.0.0.1', 58396]
+HTTP close for ['127.0.0.1', 58396]
+HTTP response complete for ['127.0.0.1', 58396]
+[mHTTP GET /static/notifapi/vue-ui/dist/js/chunk-vendors.js 200 [0.02, 127.0.0.1:58396][0m
+HTTP b'GET' request for ['127.0.0.1', 58396]
+HTTP 200 response started for ['127.0.0.1', 58396]
+HTTP response chunk for ['127.0.0.1', 58396]
+HTTP close for ['127.0.0.1', 58396]
+HTTP response complete for ['127.0.0.1', 58396]
+[mHTTP GET /static/favicon.ico 200 [0.01, 127.0.0.1:58396][0m

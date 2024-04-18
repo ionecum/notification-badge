@@ -4,6 +4,8 @@
             <a href="#" class="position-relative" >
                 <i class="fa fa-bell _gray" style="font-size:24px"></i>
                 <span v-if="notificationType === 'VISIT'" class="my-text btnLnk">Visits</span>
+                <span v-else-if="notificationType === 'TEASE'" class="my-text btnLnk">Teases</span>
+                <span v-else-if="notificationType === 'MESSAGE'" class="my-text btnLnk">Messages</span>
                 <span v-else-if="notificationType === 'general'" class="my-text btnLnk">All Notifications</span>
                 
                 <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger _reduced" :class="{ 'hidden': !notificationCount }">
@@ -36,6 +38,7 @@
     }
     .bell{
         display: inline-block;
+        margin-top:5px;
     }
 </style>
 <script>

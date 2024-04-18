@@ -33,12 +33,7 @@ class NotificationConsumer(AsyncWebsocketConsumer):
                 queryset = queryset.filter(type=kind_value)
             else:
                 queryset = queryset.filter(type=kind)
-        
-        
-        #unseen_queryset = queryset.filter(is_seen=False)
-        #count = unseen_queryset.count()
-        print(f"kind is {kind} and kind_value is {kind_value}")
-        print(f"queryset is {queryset}")
+
         return list(queryset.values('id','is_read','is_seen','message','type'))        
 
 
@@ -82,7 +77,6 @@ class NotificationConsumer(AsyncWebsocketConsumer):
             print("This notification does not exist")
             return False
         return True
-        
 
 
     """ 
@@ -135,8 +129,8 @@ class NotificationConsumer(AsyncWebsocketConsumer):
     This function updates the notification list and also updates the unseen counter.
     """
     async def update_notification_count(self, event=None, notifType=None):
-        if notifType is None and event is not None:
-            notifType = event.get('notifType')
+        """ if notifType is None and event is not None:
+            notifType = event.get('notifType') """
         
         print(f"notifType is {notifType}")
         # pass 'VISIT' to delimit the notifications to visits only for example        
@@ -145,9 +139,6 @@ class NotificationConsumer(AsyncWebsocketConsumer):
         unseen_values = [notification for notification in notifications 
                      if not notification['is_seen']]
 
-
-        print(f"notifType: {notifType}")
-        print(f"unseen values: {unseen_values}")
 
         notification_count = len(unseen_values)
         print(f"notification count: {notification_count}")
