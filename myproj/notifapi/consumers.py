@@ -129,8 +129,8 @@ class NotificationConsumer(AsyncWebsocketConsumer):
     This function updates the notification list and also updates the unseen counter.
     """
     async def update_notification_count(self, event=None, notifType=None):
-        """ if notifType is None and event is not None:
-            notifType = event.get('notifType') """
+        if notifType is None and event is not None:
+            notifType = event.get('notificationType')
         
         print(f"notifType is {notifType}")
         # pass 'VISIT' to delimit the notifications to visits only for example        
