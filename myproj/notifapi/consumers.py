@@ -23,10 +23,23 @@ class NotificationConsumer(AsyncWebsocketConsumer):
     def get_notifications(self,kind=None):
         NotifyModel = apps.get_model('notifapi', 'NotifyModel')
         queryset = NotifyModel.objects.all().order_by('-created_at')
+        # Filter queryset based on is_seen
+        kind_value = None
+        """ if kind is not None it's a specific notification bell """
         if kind is not None:
-            queryset = queryset.filter(type=getattr(NotifyModel, kind, None))
+            
+            if isinstance(kind, str):
+                kind_value = getattr(NotifyModel, kind, None)
+                queryset = queryset.filter(type=kind_value)
+            else:
+                queryset = queryset.filter(type=kind)
         
-        return list(queryset.values('id','is_read','is_seen','message','type'))
+        
+        #unseen_queryset = queryset.filter(is_seen=False)
+        #count = unseen_queryset.count()
+        print(f"kind is {kind} and kind_value is {kind_value}")
+        print(f"queryset is {queryset}")
+        return list(queryset.values('id','is_read','is_seen','message','type'))        
 
 
     """
@@ -75,20 +88,23 @@ class NotificationConsumer(AsyncWebsocketConsumer):
     """ 
     Mark all the notifications as seen.
     """
-    async def mark_all_seen(self):
+    async def mark_all_seen(self, notifType):
+        notificationType = None if notifType == 'general' else notifType
         # pass an extra parameter, for example 'VISIT' to reduce the action to visits only
-        await self.mark_all_db("unseen")
-        await self.update_notification_count()
+        print(f"notificationType is now {notificationType}")
+        await self.mark_all_db("unseen", notificationType)
+        await self.update_notification_count(None, notificationType)
         
     
     """
     This will mark all the notifications as read when the user click the link "Mark all as read"
     """
-    async def mark_all_read(self):
+    async def mark_all_read(self, notifType):
+        notificationType = None if notifType == 'general' else notifType
         # pass an extra parameter, for example 'VISIT' to reduce the action to visits only
-        await self.mark_all_db("unread")
+        await self.mark_all_db("unread", notificationType)
         await self.update_notification_list()
-    
+
 
     async def mark_one_read(self, notification_id):
         print(f"Mark the notification id as read, the id is {notification_id}")
@@ -100,6 +116,7 @@ class NotificationConsumer(AsyncWebsocketConsumer):
     This function only updates the list of notification without updating the unseen notifications counter.
     """
     async def update_notification_list(self, event=None):
+        
         notifications = await self.get_notifications()
         notification_data = [{
             "id": notification['id'],
@@ -117,13 +134,23 @@ class NotificationConsumer(AsyncWebsocketConsumer):
     """
     This function updates the notification list and also updates the unseen counter.
     """
-    async def update_notification_count(self, event=None):
-        # pass 'VISIT' to delimit the notifications to visits only for example
-        notifications = await self.get_notifications()
-        #print(notifications)
-        # get notifications where is_seen is set to false
-        unseen_values = [notification for notification in notifications if not notification['is_seen']]
+    async def update_notification_count(self, event=None, notifType=None):
+        if notifType is None and event is not None:
+            notifType = event.get('notifType')
+        
+        print(f"notifType is {notifType}")
+        # pass 'VISIT' to delimit the notifications to visits only for example        
+        notifications = await self.get_notifications(notifType)
+
+        unseen_values = [notification for notification in notifications 
+                     if not notification['is_seen']]
+
+
+        print(f"notifType: {notifType}")
+        print(f"unseen values: {unseen_values}")
+
         notification_count = len(unseen_values)
+        print(f"notification count: {notification_count}")
         notification_data = [{
             "id": notification['id'],
             "is_read": notification['is_read'],
@@ -152,19 +179,24 @@ class NotificationConsumer(AsyncWebsocketConsumer):
     async def receive(self, text_data):
         try:
             data = json.loads(text_data)
+            notificationType = data.get('notificationType', None)
+            # if the notificationType is marked a general, use the None default value instead
+            #print(f"Notification type is: {notificationType}" )
+            notificationType = None if notificationType == 'general' else notificationType
+            
             message_type = data.get('type')
-            print(f"message type is: {message_type}")
+            # print(f"message type is: {message_type}")
         except json.JSONDecodeError as e:
             await self.send_error_message("Error decoding JSON: {}".format(e))
         else:
             if message_type == 'mark.all.seen':
-                await self.mark_all_seen()
+                await self.mark_all_seen(notificationType)
             if message_type == 'mark.one.read':
                 await self.mark_one_read(data.get('id'))
             if message_type == 'mark.all.read':
-                await self.mark_all_read()
+                await self.mark_all_read(notificationType)
             
-            await self.update_notification_count()
+            await self.update_notification_count(None, notificationType)
 
 
     async def send_error_message(self, error_message):

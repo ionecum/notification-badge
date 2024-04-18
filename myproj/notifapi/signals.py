@@ -17,6 +17,7 @@ def notification_created(sender, instance, created, **kwargs):
                     'public_room',
                     {
                         "type": "update_notification_count",
+                        "notifType": instance.type,
                         "message": instance.message
                     }
                 )
