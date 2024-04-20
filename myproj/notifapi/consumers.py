@@ -10,6 +10,9 @@ class NotificationConsumer(AsyncWebsocketConsumer):
     """
     async def connect(self):
         await self.channel_layer.group_add("public_room", self.channel_name)
+        await self.channel_layer.group_add("visit_room", self.channel_name)
+        await self.channel_layer.group_add("tease_room", self.channel_name)
+        await self.channel_layer.group_add("message_room", self.channel_name)
         await self.accept()
         await self.update_notification_count()
 
@@ -34,7 +37,7 @@ class NotificationConsumer(AsyncWebsocketConsumer):
             else:
                 queryset = queryset.filter(type=kind)
 
-        return list(queryset.values('id','is_read','is_seen','message','type'))        
+        return list(queryset.values('id','is_read','is_seen','message','type'))
 
 
     """
@@ -125,6 +128,21 @@ class NotificationConsumer(AsyncWebsocketConsumer):
             })
         )
 
+    async def update_notification_on_signal(self, event=None):
+
+        print(f"update_notification_on_signal: notification type is {event['notificationType']}")
+        if event['notificationType'] == 2: 
+            notifications = await self.get_notifications('TEASE')
+        elif event['notificationType'] ==  5:
+            notifications = await self.get_notifications('VISIT')
+        elif event['notificationType'] == 6:
+            notifications = await self.get_notifications('MESSAGE')
+        else:
+            notifications = await self.get_notifications()
+        
+        await self.send_notification_update(notifications)
+
+
     """
     This function updates the notification list and also updates the unseen counter.
     """
@@ -136,26 +154,37 @@ class NotificationConsumer(AsyncWebsocketConsumer):
         # pass 'VISIT' to delimit the notifications to visits only for example        
         notifications = await self.get_notifications(notifType)
 
+        await self.send_notification_update(notifications)
+    
+    
+    async def send_notification_update(self, notifications):
+        #print(f"notifications: {notifications}")
         unseen_values = [notification for notification in notifications 
                      if not notification['is_seen']]
-
-
+        
         notification_count = len(unseen_values)
-        print(f"notification count: {notification_count}")
+        types = ['','','','','','','']
+        for notification in notifications:
+
+            if notification['type'] == 2:
+                types[2] = 'TEASE'
+
+            if notification['type'] == 5:
+                types[5] = 'VISIT'
+            if notification['type'] == 6:
+                types[6] = 'MESSAGE'
+            
         notification_data = [{
             "id": notification['id'],
             "is_read": notification['is_read'],
-            "message": notification['message']
+            "message": notification['message'],
+            "type": types[notification['type']]
         } for notification in notifications]
 
-        await self.send_notification_update(notification_count, notification_data)
-    
-    
-    async def send_notification_update(self, count, notification_data):
         await self.send(
             text_data=json.dumps({
                 "type": "notification.update",
-                "count": count,
+                "count": notification_count,
                 "notifications": notification_data
             })
         )
@@ -172,7 +201,6 @@ class NotificationConsumer(AsyncWebsocketConsumer):
             data = json.loads(text_data)
             notificationType = data.get('notificationType', None)
             # if the notificationType is marked a general, use the None default value instead
-            #print(f"Notification type is: {notificationType}" )
             notificationType = None if notificationType == 'general' else notificationType
             
             message_type = data.get('type')

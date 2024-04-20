@@ -7,16 +7,24 @@ import asyncio
 
 @receiver(post_save, sender=Notification)
 def notification_created(sender, instance, created, **kwargs):
-    if created:
-        print(f"A new notification was created: {instance.message}")
-        
+    if created:        
         channel_layer = get_channel_layer()
+        group_name = None
+        if instance.type == 2:
+            group_name = 'tease_room'
+        if instance.type == 5:
+            group_name = 'visit_room'
+        if instance.type == 6:
+            group_name = 'message_room'
+        else:
+            group_name = 'public_room'
+
         try:
             async def send_notification():
                 await channel_layer.group_send(
-                    'public_room',
+                    group_name,
                     {
-                        "type": "update_notification_count",
+                        "type": "update.notification.on.signal",
                         "notificationType": instance.type,
                         "message": instance.message
                     }
