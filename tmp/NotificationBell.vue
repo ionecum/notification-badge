@@ -132,8 +132,7 @@ export default {
             //console.log("The notification id is "+id);
             this.webSocket.send(JSON.stringify({
                 "type": "mark.one.read",
-                "id":id,
-                "notificationType": this.notificationType
+                "id":id
             }));
         },
         // This will mark all the notifications as read
@@ -147,6 +146,7 @@ export default {
         },
         // This will update the notification counter.
         updateNotificationCount() {
+            //console.log('updateNotificationCount called!');
             // Send a message to the WebSocket server to request updated notification count
             this.webSocket.send(JSON.stringify({
                 "type": "update.notification.count",
@@ -159,5 +159,5 @@ export default {
         NotificationsList, // Register the NotificationsList component
     },
 };
-
+//console.log("Notification type is: " + notificationType);
 </script>

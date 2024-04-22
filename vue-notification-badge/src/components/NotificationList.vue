@@ -5,7 +5,7 @@
       <ul>
         <li v-for="(notification, index) in notifications.slice(0, 10)" :key="index">
           <div :class="{ 'notification': true, 'bold': !notification.is_read }">
-            <div @mouseover="handleMouseOver" @mouseleave="handleMouseLeave" @click="markAsRead(notification)">{{ notification.message }}</div>
+            <div @mouseover="handleMouseOver" @mouseleave="handleMouseLeave" @click="markAsRead(notification)">{{ notification.message}}</div>
           </div>
         </li>
       </ul>
@@ -54,7 +54,7 @@
         markAsRead(notification) {
           /* Only send the action if the notification is set to unread */
           if (!notification.is_read) {
-            //console.log("The notification id from the child is "+notification.id)
+            console.log("The notification type is "+notification)
             this.$emit('mark-as-read', notification.id); // Emit an event to notify the parent component
           }
         },
