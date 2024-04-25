@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div id="wrapper">
-      <NotificationBell />
+      <NotificationBell :notificationType="notificationType" />
     </div>
   </div>
 </template>
@@ -10,8 +10,12 @@
 import NotificationBell from './components/NotificationBell.vue';
 
 export default {
+  props: ['notificationType'],
+  mounted(){
+    console.log('Received notificationType in App.js:', this.notificationType);
+  },
   components: {
     NotificationBell,
-  },
+  }
 };
 </script>

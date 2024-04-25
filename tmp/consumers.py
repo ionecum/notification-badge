@@ -88,7 +88,7 @@ class NotificationConsumer(AsyncWebsocketConsumer):
     async def mark_all_seen(self, notifType):
         notificationType = None if notifType == 'general' else notifType
         # pass an extra parameter, for example 'VISIT' to reduce the action to visits only
-        #print(f"notificationType is now {notificationType}")
+        print(f"notificationType is now {notificationType}")
         await self.mark_all_db("unseen", notificationType)
         await self.update_notification_count(None, notificationType)
         
@@ -150,8 +150,8 @@ class NotificationConsumer(AsyncWebsocketConsumer):
         if notifType is None and event is not None:
             notifType = event.get('notificationType')
         
-        #print(f"notifType is {notifType}")
-        # IE pass 'VISIT' to delimit the notifications to visits only for example
+        print(f"notifType is {notifType}")
+        # pass 'VISIT' to delimit the notifications to visits only for example        
         notifications = await self.get_notifications(notifType)
 
         await self.send_notification_update(notifications)
