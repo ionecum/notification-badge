@@ -42,7 +42,7 @@
         },
         markAllRead(){
           if(this.areAnyUnread){
-            console.log("There are unread notifications.")
+            //console.log("There are unread notifications.")
             this.$emit('mark-all-read');
           }else{
             console.log("All the notifications are already read.")
@@ -51,7 +51,7 @@
         markAsRead(notification) {
           /* Only send the action if the notification is set to unread */
           if (!notification.is_read) {
-            console.log("The notification type is "+notification)
+            //console.log("The notification type is "+notification)
             this.$emit('mark-as-read', notification.id); // Emit an event to notify the parent component
           }
         }
@@ -74,6 +74,7 @@
   border: 1px solid #ccc;
   border-radius: 5px;
   margin: 0;
+  margin-top:5px;
   padding: 0;
   background-color: #FBFBFB;
 }

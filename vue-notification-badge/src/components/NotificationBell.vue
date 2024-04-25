@@ -8,10 +8,9 @@
                     {{ notificationCount }}
                 </span>
             </a>
-            <!-- In Vue.js, the @ symbol is a shorthand for the v-on directive, which is used to listen to events emitted
-            by child components. With @mark-as-read="handleMarkAsRead", we are listening for an event named mark-as-read
-            emitted by the child component and then call the handleMarkAsRead method defined in the parent component when
-            that event is triggered. -->
+            <!-- In Vue.js, the @ symbol is a shorthand for the v-on directive, which is used to listen 
+                to events emitted by child components. With @mark-as-read="handleMarkAsRead", we are listening for an event named mark-as-read emitted by the child component and then call the handleMarkAsRead
+                method defined in the parent component when that event is triggered. -->
             <notifications-list
                 v-show="showNotifications"
                 :notifications="notifications"
@@ -50,7 +49,7 @@ export default {
         }
     },
     mounted() {
-        console.log("Notification type in NotificationBell:" + this.notificationType); // This should log the notificationType
+        // console.log("Notification type in NotificationBell:" + this.notificationType);
         document.addEventListener('click', this.handleClickOutside);
         this.establishWebSocketConnection();
     },
@@ -68,12 +67,12 @@ export default {
             this.webSocket = new WebSocket('ws://127.0.0.1:8001/websocket/ws/notifications/');
             
             this.webSocket.onopen = () => {
-                console.log('WebSocket connection established!');
+                console.log('Connection established!');
                 this.updateNotificationCount();
             };
             this.webSocket.onmessage = (event) => {
                 const message = JSON.parse(event.data);
-                console.log(message);
+                //console.log(message);
                 
                 if((message.type === 'notification.update' && this.notificationType === 'general') ||
                     (message.type === 'notification.update.' + this.notificationType)) {
@@ -92,7 +91,7 @@ export default {
             };
 
             this.webSocket.onclose = () => {
-                console.log('WebSocket connection closed.');
+                console.log('Connection closed.');
                 // implement reconnect logic if desired
             };
         },
@@ -135,9 +134,11 @@ export default {
 };
 </script>
 <style>
+
 .notification-container {
   position: relative;
   display: inline-block;
+  vertical-align:middle; /* Prevents the irritating icons vertical moving when opening the menus */
 }
 
 .my-text {
@@ -150,6 +151,6 @@ export default {
 
 .bell {
   display: inline-block;
-  margin-top: 5px;
+  margin-top: 7px;
 }
 </style>
